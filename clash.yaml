@@ -1,0 +1,165 @@
+# 免费优选节点
+# 生成时间: 2026-09-29 13:07:02 UTC
+# 存活节点: 7 / 存活率见日志
+proxies:
+- name: 香港 HYSTERIA2 vpn-hk-004.fastervpn.world 23ms
+  type: hysteria2
+  server: vpn-hk-004.fastervpn.world
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-hk-004.fastervpn.world
+  skip-cert-verify: true
+  udp: true
+- name: 新加坡 HYSTERIA2 138.2.73.238 205ms
+  type: hysteria2
+  server: '138.2.73.238'
+  port: 50160
+  password: f87376e17da040ed04c9665ce8972930
+  udp: true
+  tls: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 瑞士 HYSTERIA2 152.67.75.161 284ms
+  type: hysteria2
+  server: '152.67.75.161'
+  port: 443
+  password: 3a702d4d1de4949005d8431220e040fb
+  udp: true
+  tls: true
+  sni: www.bing.com
+  obfs: salamander
+  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
+  skip-cert-verify: true
+- name: 德国 HYSTERIA2 162.249.127.135 302ms
+  type: hysteria2
+  server: '162.249.127.135'
+  port: 8443
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  sni: hop-germany-september.dynuddns.com
+  skip-cert-verify: true
+  udp: true
+- name: 其他 VLESS 185.112.249.201 308ms
+  type: vless
+  server: '185.112.249.201'
+  port: 2053
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 法国 HYSTERIA2 173.212.201.85 308ms
+  type: hysteria2
+  server: '173.212.201.85'
+  port: 443
+  password: gf1:gfhysteria2024
+  udp: true
+  tls: true
+  sni: www.docker.com
+  skip-cert-verify: true
+- name: 美国 HYSTERIA2 starlink-ft.251313.xyz 510ms
+  type: hysteria2
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.top
+  sni: xship.top
+  skip-cert-verify: true
+  udp: true
+proxy-groups:
+- name: 🚀 自动选择
+  type: url-test
+  url: https://www.youtube.com/generate_204
+  interval: 300
+  tolerance: 30
+  lazy: false
+  max-failed-times: 3
+  proxies:
+  - 香港 HYSTERIA2 vpn-hk-004.fastervpn.world 23ms
+  - 新加坡 HYSTERIA2 138.2.73.238 205ms
+  - 瑞士 HYSTERIA2 152.67.75.161 284ms
+  - 德国 HYSTERIA2 162.249.127.135 302ms
+  - 其他 VLESS 185.112.249.201 308ms
+  - 法国 HYSTERIA2 173.212.201.85 308ms
+  - 美国 HYSTERIA2 starlink-ft.251313.xyz 510ms
+- name: 📍 其他
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 其他 VLESS 185.112.249.201 308ms
+- name: 📍 德国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 德国 HYSTERIA2 162.249.127.135 302ms
+- name: 📍 新加坡
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 新加坡 HYSTERIA2 138.2.73.238 205ms
+- name: 📍 法国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 法国 HYSTERIA2 173.212.201.85 308ms
+- name: 📍 瑞士
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 瑞士 HYSTERIA2 152.67.75.161 284ms
+- name: 📍 美国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 美国 HYSTERIA2 starlink-ft.251313.xyz 510ms
+- name: 📍 香港
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 香港 HYSTERIA2 vpn-hk-004.fastervpn.world 23ms
+- name: 🎯 全节点
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 香港 HYSTERIA2 vpn-hk-004.fastervpn.world 23ms
+  - 新加坡 HYSTERIA2 138.2.73.238 205ms
+  - 瑞士 HYSTERIA2 152.67.75.161 284ms
+  - 德国 HYSTERIA2 162.249.127.135 302ms
+  - 其他 VLESS 185.112.249.201 308ms
+  - 法国 HYSTERIA2 173.212.201.85 308ms
+  - 美国 HYSTERIA2 starlink-ft.251313.xyz 510ms
+- name: 🐟 漏网之鱼
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - DIRECT
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - '*.lan'
+  - +.local
+  - dns.alidns.com
+  - '*.googlevideo.com'
+  default-nameserver:
+  - '223.5.5.5'
+  - '119.29.29.29'
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  fallback:
+  - https://dns.google/dns-query
+  - tls://8.8.8.8:853
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+  geodata-mode: false
+  unified-delay: true
+rules:
+- GEOIP,CN,DIRECT
+- MATCH,🐟 漏网之鱼

@@ -25,7 +25,9 @@ SUPPORTED_TYPES = {
     "ss", "vmess", "vless", "trojan", "hysteria", "hysteria2", "tuic",
     "anytls", "wireguard", "snell", "direct",
 }
-PROBE_URL = "http://www.gstatic.com/generate_204"
+# 探测必须走 HTTPS：同一批节点里明文 HTTP 能过 14/23，换成 HTTPS 只剩 6/23。
+# 免费节点常见故障是隧道能建、TLS 搬运不了，用 http://gstatic 测会把这类节点当成活的。
+PROBE_URL = "https://cp.cloudflare.com/generate_204"
 SPEED_URL = "https://speed.cloudflare.com/__down?bytes=2000000"
 UA = "clash-verge/v2.0"
 
@@ -680,7 +682,9 @@ def test_all(kernel, proxies, rounds, threshold, timeout_ms, concurrency):
 def assign_unique_names(proxies):
     seen = {}
     for p in proxies:
-        base = re.sub(r"\s+", " ", str(p.get("name") or "node")).strip()[:80] or "node"
+        # "/" 会把内核 REST 路径切成两段（/proxies/{name}/delay 直接 404），"%"、"?"、"#" 同理
+        base = re.sub(r"[\r\n/%?#]+", " ", str(p.get("name") or "node"))
+        base = re.sub(r"\s+", " ", base).strip()[:80] or "node"
         if base not in seen:
             seen[base] = 1
             p["name"] = base
@@ -714,7 +718,7 @@ def build_subscription(survivors, title="免费优选节点"):
         speed = p.get("_speed")
         label = f"{region} {p['type'].upper()} {p['server']}"
         if speed:
-            label += f" {speed / 1024 / 1024:.1f}MB/s"
+            label += f" {speed / 1024 / 1024:.1f}MBps"
         elif delay:
             label += f" {delay}ms"
         p["name"] = label
@@ -806,6 +810,9 @@ def main():
         cache.write_text(json.dumps(list(pool.values()), ensure_ascii=False), encoding="utf-8")
     proxies = assign_unique_names(list(pool.values()))
     print(f"[2/5] 去重后节点总数: {len(proxies)}")
+    if not proxies:
+        print("  一个节点都没解析出来，源大概率全部抓取失败，先检查网络/代理再重跑")
+        return 1
     if len(proxies) > args.max_nodes:
         random.seed(42)
         proxies = random.sample(proxies, args.max_nodes)

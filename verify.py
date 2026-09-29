@@ -33,15 +33,19 @@ try:
             pass
         time.sleep(0.5)
     requests.put("http://127.0.0.1:17891/proxies/GLOBAL", json={"name": "🚀 自动选择"}, timeout=5)
-    for _ in range(12):  # 等 url-test 组完成首轮探测
+    hit = None
+    for i in range(40):  # 等 url-test 组跑完首轮全量测速（lazy:false 时会逐个探测）
         try:
             g = requests.get("http://127.0.0.1:17891/proxies", timeout=5).json()["proxies"].get("🚀 自动选择", {})
-            if g.get("now"):
-                print("自动选择命中:", g["now"], (g.get("history") or [{}])[0].get("delay"), "ms")
+            hist = g.get("history") or []
+            if len(hist) >= max(3, len(g.get("all", [])) // 2):
+                hit = (g.get("now"), hist[0].get("delay"), len(hist))
                 break
         except Exception:
             pass
         time.sleep(3)
+    print(f"首轮测速: 已探测 {hit[2] if hit else 0} 个节点，命中 {hit[0] if hit else '（未收敛）'} "
+          f"{hit[1] if hit else ''}ms")
     for target in ("http://www.gstatic.com/generate_204", "https://www.google.com/", "https://api.ip.sb/ipinfo"):
         try:
             r = requests.get(target, proxies=proxies, timeout=20)

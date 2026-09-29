@@ -1,0 +1,7 @@
+output/
+pool.json
+__pycache__/
+*.pyc
+.gh_token
+_diag_members.py
+_ghapi.py

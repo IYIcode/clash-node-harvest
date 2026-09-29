@@ -54,10 +54,13 @@ jobs:
           MIHOMO_BIN: ./mihomo
           THRESHOLD: ${{ github.event.inputs.threshold }}
         run: |
+          # 阈值故意放宽：Actions 在美国，只能证明"全球可达"；
+          # 回国可用性交给订阅里的 url-test 组在用户本机重测，所以这里要多留候选节点。
           python harvest.py \
-            --rounds 3 \
-            --threshold "${THRESHOLD:-800}" \
-            --max-nodes 1500 \
+            --rounds 2 \
+            --threshold "${THRESHOLD:-2500}" \
+            --timeout 6000 \
+            --max-nodes 2500 \
             --concurrency 64
 
       - name: 上传产物

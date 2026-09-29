@@ -726,7 +726,7 @@ def build_subscription(survivors, title="免费优选节点"):
     names = [p["name"] for p in survivors]
     groups = [
         {"name": "🚀 自动选择", "type": "url-test", "url": PROBE_URL, "interval": 300,
-         "tolerance": 30, "lazy": True, "max-failed-times": 3, "proxies": names},
+         "tolerance": 30, "lazy": False, "max-failed-times": 3, "proxies": names},
     ]
     for region in sorted(by_region, key=lambda r: (-len(by_region[r]), r)):
         groups.append({"name": f"📍 {region}", "type": "select",
@@ -736,6 +736,20 @@ def build_subscription(survivors, title="免费优选节点"):
     cfg = {
         "proxies": proxies,
         "proxy-groups": groups,
+        # 必须自带 dns：客户端若设置成"遵循配置里的 DNS"，没有这一段就会退化成本地
+        # 系统 DNS，境内解析不到境外域名，节点再多也连不上。
+        "dns": {
+            "enable": True,
+            "enhanced-mode": "fake-ip",
+            "fake-ip-range": "198.18.0.1/16",
+            "fake-ip-filter": ["*.lan", "+.local", "dns.alidns.com", "*.googlevideo.com"],
+            "default-nameserver": ["223.5.5.5", "119.29.29.29"],
+            "nameserver": ["https://doh.pub/dns-query", "https://dns.alidns.com/dns-query"],
+            "fallback": ["https://dns.google/dns-query", "tls://8.8.8.8:853"],
+            "fallback-filter": {"geoip": True, "geoip-code": "CN"},
+            "geodata-mode": False,
+            "unified-delay": True,
+        },
         "rules": [
             "GEOIP,CN,DIRECT",
             "MATCH,🐟 漏网之鱼",

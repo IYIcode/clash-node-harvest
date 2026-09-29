@@ -54,8 +54,8 @@ jobs:
           MIHOMO_BIN: ./mihomo
           THRESHOLD: ${{ github.event.inputs.threshold }}
         run: |
-          # 阈值故意放宽：Actions 在美国，只能证明"全球可达"；
-          # 回国可用性交给订阅里的 url-test 组在用户本机重测，所以这里要多留候选节点。
+          # 阈值放宽：美国 runner 只能证明"全球可达"。实测这份清单在国内 0/356 过不了 HTTPS
+          # 探测（最低延迟那批直接 RST），所以它只是跨设备备用池，日常订阅用本机 run_local.cmd。
           python harvest.py \
             --rounds 2 \
             --threshold "${THRESHOLD:-2500}" \
@@ -86,4 +86,4 @@ jobs:
           git add clash.yaml stats.json
           git commit -qm "update $(date -u +%Y-%m-%d\ %H:%M\ UTC)"
           git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:sub
-          echo "订阅地址: https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/sub/clash.yaml"
+          echo "备用池地址(仅全球可达，国内请用本机 run_local.cmd): https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/sub/clash.yaml"

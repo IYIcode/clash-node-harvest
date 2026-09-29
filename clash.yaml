@@ -1,47 +1,75 @@
 # 免费优选节点
-# 生成时间: 2026-09-29 17:39:07 UTC
-# 存活节点: 13 / 存活率见日志
+# 生成时间: 2026-09-29 23:36:01 UTC
+# 存活节点: 18 / 存活率见日志
 proxies:
-- name: 其他 HYSTERIA2 b9bccf5a-tmeqo0-0-1jcwu.hk3.hyhuawei.com 37ms
+- name: 其他 HYSTERIA2 138.2.89.249 101ms
   type: hysteria2
-  server: b9bccf5a-tmeqo0-0-1jcwu.hk3.hyhuawei.com
+  server: '138.2.89.249'
   port: 443
-  password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
-  sni: b9bccf5a-tmeqo0-0-1jcwu.hk3.hyhuawei.com
+  password: d042d150716709bb778cc73889cddb02
+  sni: www.bing.com
+  obfs: salamander
+  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
   skip-cert-verify: true
   udp: true
-- name: 其他 HYSTERIA2 hk01.kfc-520.com 82ms
+- name: 日本 HYSTERIA2 138.3.208.26 125ms
   type: hysteria2
-  server: hk01.kfc-520.com
-  port: 60001
-  password: 8cb0c4fb-03ee-35b8-a47b-cd1d7e76dfd3
-  sni: hk01.kfc-520.com
-  skip-cert-verify: true
-  udp: true
-- name: 香港 HYSTERIA2 vpn-hk-004.fastervpn.world 164ms
-  type: hysteria2
-  server: vpn-hk-004.fastervpn.world
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-hk-004.fastervpn.world
-  skip-cert-verify: true
-  udp: true
-- name: 其他 VLESS 38.180.146.40 215ms
-  type: vless
-  server: '38.180.146.40'
-  port: 443
-  uuid: 1e6245c4-fb80-44fd-b354-c6b94a459203
+  server: '138.3.208.26'
+  port: 50160
+  password: 184cdec28da5a09450803c8debcd2cc9
   udp: true
   tls: true
-  servername: www.apple.com
+  sni: '138.3.208.26'
+  skip-cert-verify: true
+- name: 其他 HYSTERIA2 132.226.226.189 191ms
+  type: hysteria2
+  server: '132.226.226.189'
+  port: 50160
+  password: 1671a252e2a97dc2bda4e515475931da
+  sni: www.bing.com
+  skip-cert-verify: true
+  udp: true
+- name: 其他 VLESS 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev 196ms
+  type: vless
+  server: 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev
+  port: 443
+  uuid: 9fa2fae0-141a-b983-ef0e-b3d5633f9592
+  udp: true
+  tls: true
+  servername: 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev
+  alpn:
+  - h2
+  - http/1.1
+  network: xhttp
+  xhttp-opts:
+    path: /xhttp-siz10/stream-up/9fa2fae0-141a-b983-ef0e-b3d5633f9592
+    mode: stream-up
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 德国 VLESS 45.150.33.33 234ms
+  type: vless
+  server: '45.150.33.33'
+  port: 443
+  uuid: eec2f6a7-c10f-43b0-b133-61f9bf9bbc27
+  udp: true
+  tls: true
+  servername: amazon.de
   network: tcp
   reality-opts:
-    public-key: -5fYyQrVTjiSxdsLpf6VzNaawYlZLqeU2_8ezyn3kBg
-    short-id: eb26ce282d7ba399
-  client-fingerprint: chrome
+    public-key: G8SING6Ibc_igZ5vI5578fXCT_mBMRuq_o8_Ymnj2SQ
+    short-id: eba1498e012ef580
+  client-fingerprint: qq
   flow: xtls-rprx-vision
   skip-cert-verify: false
-- name: 俄罗斯 VLESS 62.77.158.1 249ms
+- name: 其他 HYSTERIA2 31.76.104.152 245ms
+  type: hysteria2
+  server: '31.76.104.152'
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  sni: onecloudstream.com
+  skip-cert-verify: false
+  udp: true
+- name: 俄罗斯 VLESS 62.77.158.1 246ms
   type: vless
   server: '62.77.158.1'
   port: 443
@@ -56,91 +84,149 @@ proxies:
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: false
-- name: 英国 SS 51.77.225.200 261ms
-  type: ss
-  server: '51.77.225.200'
-  port: 8388
-  password: zRZNBszYyWo5
-  cipher: chacha20-ietf-poly1305
-  udp: true
-- name: 其他 SS 132.243.255.3 286ms
-  type: ss
-  server: '132.243.255.3'
-  port: 40440
-  password: 78235e7dc55e9ad1
-  cipher: aes-256-gcm
-  udp: false
-  skip-cert-verify: false
-- name: 美国 HYSTERIA2 vpn-us-004.fastervpn.world 294ms
-  type: hysteria2
-  server: vpn-us-004.fastervpn.world
+- name: 其他 VLESS sw-01.vacvps.com 248ms
+  type: vless
+  server: sw-01.vacvps.com
   port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-us-004.fastervpn.world
-  skip-cert-verify: true
+  uuid: 84a3061b-3573-4a3c-a631-f26c31209268
   udp: true
-- name: 其他 HYSTERIA2 132.226.226.189 302ms
-  type: hysteria2
-  server: '132.226.226.189'
-  port: 50160
-  password: 1671a252e2a97dc2bda4e515475931da
-  sni: www.bing.com
-  skip-cert-verify: true
+  tls: true
+  servername: sw-01.vacvps.com
+  network: tcp
+  reality-opts:
+    public-key: bDAry75taTMaPJII9vRrJuXAjQglTJxCOVWraQ5BozY
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 34.95.28.161 254ms
+  type: vless
+  server: '34.95.28.161'
+  port: 443
+  uuid: 448b76ac-c636-4303-bec1-0b2c22afee0c
   udp: true
-- name: 法国 HYSTERIA2 173.212.201.85 329ms
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: l4tGdE5Zn8ABfBQns3pRBcxy6CckHTLSIsw5JaBumTk
+    short-id: c9d4bf8d94ec8dab
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 土耳其 HYSTERIA2 me17.msjia8844.site 264ms
   type: hysteria2
-  server: '173.212.201.85'
+  server: me17.msjia8844.site
+  port: 7443
+  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
+  udp: true
+  tls: true
+  sni: me17.msjia8844.site
+  obfs: salamander
+  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
+- name: 美国 VLESS us-vpnstore.rovilo.ir 265ms
+  type: vless
+  server: us-vpnstore.rovilo.ir
+  port: 20018
+  uuid: 452f869f-7720-47c3-a175-b6673e31d3e8
+  udp: true
+  tls: false
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - connectivitycheck.android.com
+    path:
+    - /
+  skip-cert-verify: false
+- name: 其他 SS 54.208.227.172 291ms
+  type: ss
+  server: '54.208.227.172'
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  udp: true
+  skip-cert-verify: false
+- name: 其他 VLESS fbsv6.guardora.pro 313ms
+  type: vless
+  server: fbsv6.guardora.pro
+  port: 443
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  tls: true
+  servername: fbsv6.guardora.pro
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: fbsv6.guardora.pro
+  client-fingerprint: firefox
+  skip-cert-verify: false
+  udp: true
+- name: 其他 HYSTERIA2 66.94.121.46 349ms
+  type: hysteria2
+  server: '66.94.121.46'
   port: 443
   password: gf1:gfhysteria2024
-  udp: true
-  tls: true
-  sni: www.docker.com
+  sni: www.broadcom.com
   skip-cert-verify: true
-- name: 其他 VLESS china.letsconnectpoint.com 338ms
+  udp: true
+- name: 其他 VLESS 199.232.78.170 431ms
   type: vless
-  server: china.letsconnectpoint.com
+  server: '199.232.78.170'
   port: 443
-  uuid: a368752a-32fc-42f3-980a-6b049218b23f
+  uuid: d6962b1a-4701-4456-ba61-deb28c913a66
   udp: true
   tls: true
-  servername: china.letsconnectpoint.com
-  network: tcp
-  reality-opts:
-    public-key: 4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI
-    short-id: 3b74d85e
-  client-fingerprint: random
-  flow: xtls-rprx-vision
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    headers:
+      Host: pan2e.global.ssl.fastly.net
+    path: /
   skip-cert-verify: false
-- name: 其他 VLESS china.letsconnectpoint.com 360ms
-  type: vless
-  server: china.letsconnectpoint.com
+- name: 其他 TROJAN 199.232.78.101 458ms
+  type: trojan
+  server: '199.232.78.101'
   port: 443
-  uuid: 914f3806-07a1-4158-9624-e183de065a38
-  udp: true
-  tls: true
-  servername: china.letsconnectpoint.com
-  network: tcp
-  reality-opts:
-    public-key: 4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI
-    short-id: 3b74d85e
-  client-fingerprint: random
-  flow: xtls-rprx-vision
+  password: mitivpn
+  sni: ssl.fastly.com
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN/NLSus---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN
+    headers:
+      Host: mitivpn---de--s---mitivpn-11.global.ssl.fastly.net
+  client-fingerprint: chrome
   skip-cert-verify: false
-- name: 其他 VLESS 185.91.126.103 405ms
+  udp: true
+- name: 美国 VMESS v24.hdacd.com 462ms
+  type: vmess
+  server: v24.hdacd.com
+  port: 30824
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  cipher: auto
+  alterId: 2
+  udp: true
+  tls: false
+  network: tcp
+  skip-cert-verify: false
+- name: 其他 VLESS 199.232.78.160 473ms
   type: vless
-  server: '185.91.126.103'
-  port: 8443
-  uuid: 8df7343e-2427-41fb-aad1-6c563296faf6
+  server: '199.232.78.160'
+  port: 443
+  uuid: 6ba68c69-e108-502d-7b1c-e806fbc3cccd
   udp: true
   tls: true
-  servername: github.com
-  network: tcp
-  reality-opts:
-    public-key: 1KY_jqa2yPLBEBa-3TG77zs4ak2zQLGul4eexxCueyI
-    short-id: f087eb07da743e94
-  client-fingerprint: safari
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
+  servername: global.fastly.com
+  alpn:
+  - h2
+  network: xhttp
+  xhttp-opts:
+    host: shshsujsjiiyour-name.global.ssl.fastly.net
+    mode: auto
+  client-fingerprint: firefox
+  skip-cert-verify: false
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -150,73 +236,88 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 其他 HYSTERIA2 b9bccf5a-tmeqo0-0-1jcwu.hk3.hyhuawei.com 37ms
-  - 其他 HYSTERIA2 hk01.kfc-520.com 82ms
-  - 香港 HYSTERIA2 vpn-hk-004.fastervpn.world 164ms
-  - 其他 VLESS 38.180.146.40 215ms
-  - 俄罗斯 VLESS 62.77.158.1 249ms
-  - 英国 SS 51.77.225.200 261ms
-  - 其他 SS 132.243.255.3 286ms
-  - 美国 HYSTERIA2 vpn-us-004.fastervpn.world 294ms
-  - 其他 HYSTERIA2 132.226.226.189 302ms
-  - 法国 HYSTERIA2 173.212.201.85 329ms
-  - 其他 VLESS china.letsconnectpoint.com 338ms
-  - 其他 VLESS china.letsconnectpoint.com 360ms
-  - 其他 VLESS 185.91.126.103 405ms
+  - 其他 HYSTERIA2 138.2.89.249 101ms
+  - 日本 HYSTERIA2 138.3.208.26 125ms
+  - 其他 HYSTERIA2 132.226.226.189 191ms
+  - 其他 VLESS 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev 196ms
+  - 德国 VLESS 45.150.33.33 234ms
+  - 其他 HYSTERIA2 31.76.104.152 245ms
+  - 俄罗斯 VLESS 62.77.158.1 246ms
+  - 其他 VLESS sw-01.vacvps.com 248ms
+  - 其他 VLESS 34.95.28.161 254ms
+  - 土耳其 HYSTERIA2 me17.msjia8844.site 264ms
+  - 美国 VLESS us-vpnstore.rovilo.ir 265ms
+  - 其他 SS 54.208.227.172 291ms
+  - 其他 VLESS fbsv6.guardora.pro 313ms
+  - 其他 HYSTERIA2 66.94.121.46 349ms
+  - 其他 VLESS 199.232.78.170 431ms
+  - 其他 TROJAN 199.232.78.101 458ms
+  - 美国 VMESS v24.hdacd.com 462ms
+  - 其他 VLESS 199.232.78.160 473ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 HYSTERIA2 b9bccf5a-tmeqo0-0-1jcwu.hk3.hyhuawei.com 37ms
-  - 其他 HYSTERIA2 hk01.kfc-520.com 82ms
-  - 其他 VLESS 38.180.146.40 215ms
-  - 其他 SS 132.243.255.3 286ms
-  - 其他 HYSTERIA2 132.226.226.189 302ms
-  - 其他 VLESS china.letsconnectpoint.com 338ms
-  - 其他 VLESS china.letsconnectpoint.com 360ms
-  - 其他 VLESS 185.91.126.103 405ms
-- name: 📍 俄罗斯
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 俄罗斯 VLESS 62.77.158.1 249ms
-- name: 📍 法国
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 法国 HYSTERIA2 173.212.201.85 329ms
+  - 其他 HYSTERIA2 138.2.89.249 101ms
+  - 其他 HYSTERIA2 132.226.226.189 191ms
+  - 其他 VLESS 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev 196ms
+  - 其他 HYSTERIA2 31.76.104.152 245ms
+  - 其他 VLESS sw-01.vacvps.com 248ms
+  - 其他 VLESS 34.95.28.161 254ms
+  - 其他 SS 54.208.227.172 291ms
+  - 其他 VLESS fbsv6.guardora.pro 313ms
+  - 其他 HYSTERIA2 66.94.121.46 349ms
+  - 其他 VLESS 199.232.78.170 431ms
+  - 其他 TROJAN 199.232.78.101 458ms
+  - 其他 VLESS 199.232.78.160 473ms
 - name: 📍 美国
   type: select
   proxies:
   - 🚀 自动选择
-  - 美国 HYSTERIA2 vpn-us-004.fastervpn.world 294ms
-- name: 📍 英国
+  - 美国 VLESS us-vpnstore.rovilo.ir 265ms
+  - 美国 VMESS v24.hdacd.com 462ms
+- name: 📍 俄罗斯
   type: select
   proxies:
   - 🚀 自动选择
-  - 英国 SS 51.77.225.200 261ms
-- name: 📍 香港
+  - 俄罗斯 VLESS 62.77.158.1 246ms
+- name: 📍 土耳其
   type: select
   proxies:
   - 🚀 自动选择
-  - 香港 HYSTERIA2 vpn-hk-004.fastervpn.world 164ms
+  - 土耳其 HYSTERIA2 me17.msjia8844.site 264ms
+- name: 📍 德国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 德国 VLESS 45.150.33.33 234ms
+- name: 📍 日本
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 日本 HYSTERIA2 138.3.208.26 125ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 HYSTERIA2 b9bccf5a-tmeqo0-0-1jcwu.hk3.hyhuawei.com 37ms
-  - 其他 HYSTERIA2 hk01.kfc-520.com 82ms
-  - 香港 HYSTERIA2 vpn-hk-004.fastervpn.world 164ms
-  - 其他 VLESS 38.180.146.40 215ms
-  - 俄罗斯 VLESS 62.77.158.1 249ms
-  - 英国 SS 51.77.225.200 261ms
-  - 其他 SS 132.243.255.3 286ms
-  - 美国 HYSTERIA2 vpn-us-004.fastervpn.world 294ms
-  - 其他 HYSTERIA2 132.226.226.189 302ms
-  - 法国 HYSTERIA2 173.212.201.85 329ms
-  - 其他 VLESS china.letsconnectpoint.com 338ms
-  - 其他 VLESS china.letsconnectpoint.com 360ms
-  - 其他 VLESS 185.91.126.103 405ms
+  - 其他 HYSTERIA2 138.2.89.249 101ms
+  - 日本 HYSTERIA2 138.3.208.26 125ms
+  - 其他 HYSTERIA2 132.226.226.189 191ms
+  - 其他 VLESS 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev 196ms
+  - 德国 VLESS 45.150.33.33 234ms
+  - 其他 HYSTERIA2 31.76.104.152 245ms
+  - 俄罗斯 VLESS 62.77.158.1 246ms
+  - 其他 VLESS sw-01.vacvps.com 248ms
+  - 其他 VLESS 34.95.28.161 254ms
+  - 土耳其 HYSTERIA2 me17.msjia8844.site 264ms
+  - 美国 VLESS us-vpnstore.rovilo.ir 265ms
+  - 其他 SS 54.208.227.172 291ms
+  - 其他 VLESS fbsv6.guardora.pro 313ms
+  - 其他 HYSTERIA2 66.94.121.46 349ms
+  - 其他 VLESS 199.232.78.170 431ms
+  - 其他 TROJAN 199.232.78.101 458ms
+  - 美国 VMESS v24.hdacd.com 462ms
+  - 其他 VLESS 199.232.78.160 473ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

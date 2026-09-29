@@ -379,6 +379,24 @@ def parse_vmess(rest):
     return p
 
 
+class _Dumper(yaml.SafeDumper):
+    """数字样字符串（如 0007682）必须加引号：PyYAML 视作字符串，而内核的 Go YAML
+    会按八进制/浮点解析成 7.682E+03，导致节点名对不上。"""
+
+
+def _quote_numeric(dumper, data):
+    style = "'" if re.fullmatch(r"[0-9][0-9_.eE+\-x]*", str(data)) else None
+    return dumper.represent_scalar("tag:yaml.org,2002:str", data, style=style)
+
+
+_Dumper.add_representer(str, _quote_numeric)
+
+
+def dump_yaml(obj):
+    return yaml.dump(obj, Dumper=_Dumper, allow_unicode=True, sort_keys=False,
+                     default_flow_style=False)
+
+
 def dedupe_key(p):
     cred = p.get("password") or p.get("uuid") or ""
     if p["type"] == "ss":
@@ -511,7 +529,7 @@ class Mihomo:
                     "nameserver": ["223.5.5.5", "https://dns.google/dns-query"]},
         }
         path = self.workdir / "probe.yaml"
-        path.write_text(yaml.safe_dump(cfg, allow_unicode=True, sort_keys=False), encoding="utf-8")
+        path.write_text(dump_yaml(cfg), encoding="utf-8")
         return path
 
     def _test_config(self, path, log):
@@ -726,7 +744,7 @@ def build_subscription(survivors, title="免费优选节点"):
     header = (f"# {title}\n"
               f"# 生成时间: {time.strftime('%Y-%m-%d %H:%M:%S UTC', time.gmtime())}\n"
               f"# 存活节点: {len(survivors)} / 存活率见日志\n")
-    return header + yaml.safe_dump(cfg, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    return header + dump_yaml(cfg)
 
 
 # ---------------------------------------------------------------- main

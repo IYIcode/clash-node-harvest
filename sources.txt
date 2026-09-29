@@ -1,0 +1,21 @@
+# 免费节点来源清单：每行一个 URL，# 开头为注释
+# {date} = 今天(UTC) 的 YYYYMMDD，{date:1} = 昨天，用于每日归档型仓库
+
+# 自动聚合互联网公开节点的仓库（最稳定，量大）
+https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt
+https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.meta.yml
+
+# 节点爬虫仓库
+https://raw.githubusercontent.com/Barabama/FreeNodes/feat/ai-crawler-v2/nodes/clashmeta.txt
+https://raw.githubusercontent.com/Barabama/FreeNodes/feat/ai-crawler-v2/nodes/clashnode.txt
+https://raw.githubusercontent.com/Barabama/FreeNodes/feat/ai-crawler-v2/nodes/freeclashnode.txt
+
+# 每日归档
+https://raw.githubusercontent.com/free-nodes/clashfree/main/clash{date:1}.yml
+
+# 订阅合集仓库
+https://raw.githubusercontent.com/dongchengjie/airport/main/subs/Barabama.yaml
+https://raw.githubusercontent.com/dongchengjie/airport/main/subs/Danialsamadi.yaml
+https://raw.githubusercontent.com/dongchengjie/airport/main/subs/Epodonios.yaml
+https://raw.githubusercontent.com/ovmvo/FreeSub/main/sub/raw/01.yaml
+https://raw.githubusercontent.com/ovmvo/FreeSub/main/sub/permanent/mihomo.yaml

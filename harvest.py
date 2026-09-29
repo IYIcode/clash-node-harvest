@@ -30,6 +30,7 @@ SUPPORTED_TYPES = {
 PROBE_URL = "https://cp.cloudflare.com/generate_204"
 SPEED_URL = "https://speed.cloudflare.com/__down?bytes=2000000"
 UA = "clash-verge/v2.0"
+MIN_POOL = 500  # 低于这个数的节点池缓存视为不可信（多半是抓源被限流），下次运行强制重抓
 
 REGION_RULES = [
     ("美国", r"美国|美服|🇺🇸|\bUS[A-Z]?-\b|America|USA|Los.?Angeles|San.?Jose|Santa.?Clara|Miami|New.?York|Chicago|Oregon|Portland|Seattle|Ashburn|Dallas|Atlanta|St.?Louis"),
@@ -134,6 +135,11 @@ def http_get(url, timeout=25, retries=3):
         try:
             r = requests.get(url, timeout=timeout, headers={"User-Agent": UA, "Accept": "*/*"},
                              allow_redirects=True)
+            # raw.githubusercontent 对同一出口 IP 连打多个大文件会回 403/429 限流，
+            # 本机跑（走客户端代理，源站只有几个 IP）最容易撞上，退避要更久。
+            if r.status_code in (403, 429) and i < retries - 1:
+                time.sleep(8 * (i + 1))
+                continue
             r.raise_for_status()
             if not r.encoding or r.encoding.lower() in ("iso-8859-1", "latin-1"):
                 r.encoding = "utf-8"
@@ -787,15 +793,26 @@ def main():
     urls = [l.strip() for l in Path(args.sources).read_text(encoding="utf-8").splitlines()
             if l.strip() and not l.strip().startswith("#")]
     cache = Path(args.out) / "pool.json"
-    fresh = cache.exists() and (time.time() - cache.stat().st_mtime) < args.cache_ttl * 60
+    cached = []
+    if cache.exists():
+        try:
+            cached = json.loads(cache.read_text(encoding="utf-8"))
+        except Exception:
+            cached = []
+    # 撞上源站限流时缓存会被缩成几十条，这种缓存复用多久都不该省掉重抓
+    fresh = bool(cached) and len(cached) >= MIN_POOL and \
+        (time.time() - cache.stat().st_mtime) < args.cache_ttl * 60
     if fresh and not args.refresh:
-        pool = {dedupe_key(p): p for p in json.loads(cache.read_text(encoding="utf-8"))}
+        pool = {dedupe_key(p): p for p in cached}
         print(f"[1/5] 复用 {args.cache_ttl} 分钟内的节点缓存: {len(pool)} 个（--refresh 可强制重抓）")
     else:
         print(f"[1/5] 抓取 {len(urls)} 个来源")
         pool = {}
-        for u in urls:
+        ok_src = 0
+        for i, u in enumerate(urls):
             got, note = fetch_source(u)
+            if not note.startswith("抓取失败"):
+                ok_src += 1
             ok = 0
             for raw in got:
                 p = clean_proxy(raw)
@@ -806,8 +823,16 @@ def main():
                     pool[k] = p
                     ok += 1
             print(f"  {expand_date(u)}  -> 解析 {len(got)}, 新增 {ok}  {'(' + note + ')' if note else ''}")
+            if i < len(urls) - 1:
+                time.sleep(1.5)  # 同一出口 IP 连打 raw.githubusercontent 会触发限流
         Path(args.out).mkdir(parents=True, exist_ok=True)
-        cache.write_text(json.dumps(list(pool.values()), ensure_ascii=False), encoding="utf-8")
+        old = cached
+        if len(pool) * 3 < len(old):
+            print(f"  本轮只抓到 {len(pool)} 个（成功源 {ok_src}/{len(urls)}），远少于缓存的 {len(old)} 个"
+                  f" → 判断为源站限流或本机网络问题，保留旧节点池不覆盖")
+            pool = {dedupe_key(p): p for p in old}
+        else:
+            cache.write_text(json.dumps(list(pool.values()), ensure_ascii=False), encoding="utf-8")
     proxies = assign_unique_names(list(pool.values()))
     print(f"[2/5] 去重后节点总数: {len(proxies)}")
     if not proxies:

@@ -21,6 +21,8 @@ jobs:
   harvest:
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
 
@@ -34,12 +36,16 @@ jobs:
       - name: 下载 mihomo 内核
         run: |
           set -euo pipefail
-          URL=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
-            https://api.github.com/repos/MetaCubeX/mihomo/releases/latest \
-            | jq -r '.assets[].browser_download_url | select(test("linux-amd64-v[0-9.]+\\.gz$"))' \
-            | head -n1)
+          REL=$(curl -fsSL -H "Authorization: Bearer ${GITHUB_TOKEN}" \
+            https://api.github.com/repos/MetaCubeX/mihomo/releases/latest || echo '{}')
+          URL=$(echo "$REL" | jq -r '[.assets[]?.browser_download_url
+                 | select(test("mihomo-linux-amd64-v[0-9.]+\\.gz$"))][0] // empty')
+          if [ -z "$URL" ]; then
+            echo "release API 未取到，回退到固定版本"
+            URL="https://github.com/MetaCubeX/mihomo/releases/download/v1.19.31/mihomo-linux-amd64-v1.19.31.gz"
+          fi
           echo "kernel: $URL"
-          curl -sL "$URL" | gunzip > mihomo
+          curl -fsSL "$URL" | gunzip > mihomo
           chmod +x mihomo
           ./mihomo -v
 

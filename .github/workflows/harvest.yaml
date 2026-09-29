@@ -1,0 +1,80 @@
+name: harvest-subscription
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+    inputs:
+      threshold:
+        description: 延迟阈值(ms)
+        default: "800"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: harvest
+  cancel-in-progress: false
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 下载 mihomo 内核
+        run: |
+          set -euo pipefail
+          URL=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
+            https://api.github.com/repos/MetaCubeX/mihomo/releases/latest \
+            | jq -r '.assets[].browser_download_url | select(test("linux-amd64-v[0-9.]+\\.gz$"))' \
+            | head -n1)
+          echo "kernel: $URL"
+          curl -sL "$URL" | gunzip > mihomo
+          chmod +x mihomo
+          ./mihomo -v
+
+      - name: 采集 + 测活 + 生成订阅
+        env:
+          MIHOMO_BIN: ./mihomo
+          THRESHOLD: ${{ github.event.inputs.threshold }}
+        run: |
+          python harvest.py \
+            --rounds 3 \
+            --threshold "${THRESHOLD:-800}" \
+            --max-nodes 1500 \
+            --concurrency 64
+
+      - name: 上传产物
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: subscription
+          path: output/
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: 推送到 sub 分支
+        run: |
+          set -euo pipefail
+          if [ ! -s output/clash.yaml ]; then
+            echo "没有生成订阅，保留 sub 分支上的旧版本"; exit 0
+          fi
+          cd output
+          git init -q .
+          git checkout -qb sub
+          git config user.name "github-actions[bot]"
+          git config user.email "41986344+github-actions[bot]@users.noreply.github.com"
+          git add clash.yaml stats.json
+          git commit -qm "update $(date -u +%Y-%m-%d\ %H:%M\ UTC)"
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:sub
+          echo "订阅地址: https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/sub/clash.yaml"

@@ -1,63 +1,46 @@
 # 免费优选节点
-# 生成时间: 2026-09-30 17:40:34 UTC
-# 存活节点: 19 / 存活率见日志
+# 生成时间: 2026-09-30 23:43:28 UTC
+# 存活节点: 5 / 存活率见日志
 proxies:
-- name: 其他 HYSTERIA2 mz.hkychina.com 27ms
-  type: hysteria2
-  server: mz.hkychina.com
-  port: 8443
-  password: HysTeria2026!Proxy
-  sni: mz.hkychina.com
-  skip-cert-verify: false
+- name: 俄罗斯 VMESS 36.133.78.37 134ms
+  type: vmess
+  server: '36.133.78.37'
+  port: 50017
+  uuid: 148e82ae-5014-4a1a-a783-dd63fa9cdc9d
+  cipher: auto
+  alterId: 0
   udp: true
-- name: 其他 VLESS 123.111.169.70 146ms
-  type: vless
-  server: '123.111.169.70'
-  port: 2083
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  network: tcp
+- name: 香港 VMESS 36.133.78.37 146ms
+  type: vmess
+  server: '36.133.78.37'
+  port: 50016
+  uuid: abcb006d-739f-4cec-b13f-12c10d334d92
+  cipher: auto
+  alterId: 0
   udp: true
-  tls: true
-  servername: shephe.dpdns.org
-  network: ws
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /
-  client-fingerprint: chrome
-  skip-cert-verify: false
-- name: 其他 HYSTERIA2 202.146.222.29 198ms
-  type: hysteria2
-  server: '202.146.222.29'
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: whatsapp.com
-  skip-cert-verify: true
+  network: tcp
+- name: 俄罗斯 VMESS 36.133.78.37 219ms
+  type: vmess
+  server: '36.133.78.37'
+  port: 50018
+  uuid: e37149b8-63df-4b4e-bd17-d7fc0b3009db
+  cipher: auto
+  alterId: 0
   udp: true
-- name: 其他 SS 212.192.13.143 233ms
-  type: ss
-  server: '212.192.13.143'
-  port: 20999
-  password: 72553320ae6bcc8f
-  cipher: aes-256-gcm
+  network: tcp
+- name: 其他 VMESS 31.77.8.97 227ms
+  type: vmess
+  server: '31.77.8.97'
+  port: 110
+  uuid: d2d8601b-c14b-42c6-b8ea-33889bce152a
+  cipher: auto
+  alterId: 0
+  tls: false
+  network: tcp
+  client-fingerprint: ''
   udp: true
-  skip-cert-verify: false
-- name: 其他 SS 212.192.12.24 237ms
-  type: ss
-  server: '212.192.12.24'
-  port: 8388
-  password: RpMtrTbA7wdK0Pia
-  cipher: aes-256-gcm
-  udp: true
-  skip-cert-verify: false
-- name: 其他 SS 51.20.96.231 240ms
-  type: ss
-  server: '51.20.96.231'
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-  udp: true
-  skip-cert-verify: false
-- name: 其他 TROJAN 199.232.78.160 253ms
+- name: 其他 TROJAN 199.232.78.160 290ms
   type: trojan
   server: '199.232.78.160'
   port: 443
@@ -73,116 +56,6 @@ proxies:
   client-fingerprint: firefox
   skip-cert-verify: false
   udp: true
-- name: 其他 SS 13.49.76.55 253ms
-  type: ss
-  server: '13.49.76.55'
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-  udp: true
-- name: 其他 HYSTERIA2 srv-17e124.21freedom.net 281ms
-  type: hysteria2
-  server: srv-17e124.21freedom.net
-  port: 11592
-  password: 41edb44c8e
-  sni: srv-17e124.21freedom.net
-  skip-cert-verify: true
-  udp: true
-- name: 其他 HYSTERIA2 152.67.75.161 296ms
-  type: hysteria2
-  server: '152.67.75.161'
-  port: 443
-  password: 3a702d4d1de4949005d8431220e040fb
-  sni: www.bing.com
-  obfs: salamander
-  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
-  skip-cert-verify: true
-  udp: true
-- name: 其他 SS 46.17.41.166 304ms
-  type: ss
-  server: '46.17.41.166'
-  port: 20999
-  password: 895b4b796a357570
-  cipher: aes-256-gcm
-  udp: true
-  skip-cert-verify: false
-- name: 加拿大 SS yyz-ca-01.blncvpn4u.cc 309ms
-  type: ss
-  server: yyz-ca-01.blncvpn4u.cc
-  port: 9443
-  password: eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH
-  cipher: aes-256-gcm
-  udp: true
-- name: 其他 SS 195.133.23.200 312ms
-  type: ss
-  server: '195.133.23.200'
-  port: 20999
-  password: 81a20429165df87e
-  cipher: aes-256-gcm
-  udp: true
-  skip-cert-verify: false
-- name: 其他 SS 194.87.196.13 321ms
-  type: ss
-  server: '194.87.196.13'
-  port: 20999
-  password: 4938e975724d0ed1
-  cipher: aes-256-gcm
-  udp: true
-  skip-cert-verify: false
-- name: 俄罗斯 HYSTERIA2 91.240.86.70 335ms
-  type: hysteria2
-  server: '91.240.86.70'
-  port: 22443
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  sni: itsallproxy.quattro-tech.ru
-  skip-cert-verify: false
-  udp: true
-- name: 美国 VMESS v36.hdacd.com 351ms
-  type: vmess
-  server: v36.hdacd.com
-  port: 30836
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  cipher: auto
-  alterId: 2
-  udp: true
-  tls: false
-  network: tcp
-  skip-cert-verify: false
-- name: 其他 HYSTERIA2 77.74.123.102 353ms
-  type: hysteria2
-  server: '77.74.123.102'
-  port: 8443
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  sni: grape-test-italy.dynuddns.net
-  skip-cert-verify: false
-  udp: true
-- name: 以色列 VLESS platform118.golnamakcert.top 386ms
-  type: vless
-  server: platform118.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  network: ws
-  ws-opts:
-    path: /platform118
-    headers:
-      Host: platform118.halalkhor.info
-- name: 其他 TROJAN 167.82.76.7 453ms
-  type: trojan
-  server: '167.82.76.7'
-  port: 443
-  password: mitivpn
-  sni: ssl.fastly.com
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /@mehrosaboran
-    headers:
-      Host: mitivpn---us--s---mitivpn-11.global.ssl.fastly.net
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  udp: true
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -192,87 +65,37 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 其他 HYSTERIA2 mz.hkychina.com 27ms
-  - 其他 VLESS 123.111.169.70 146ms
-  - 其他 HYSTERIA2 202.146.222.29 198ms
-  - 其他 SS 212.192.13.143 233ms
-  - 其他 SS 212.192.12.24 237ms
-  - 其他 SS 51.20.96.231 240ms
-  - 其他 TROJAN 199.232.78.160 253ms
-  - 其他 SS 13.49.76.55 253ms
-  - 其他 HYSTERIA2 srv-17e124.21freedom.net 281ms
-  - 其他 HYSTERIA2 152.67.75.161 296ms
-  - 其他 SS 46.17.41.166 304ms
-  - 加拿大 SS yyz-ca-01.blncvpn4u.cc 309ms
-  - 其他 SS 195.133.23.200 312ms
-  - 其他 SS 194.87.196.13 321ms
-  - 俄罗斯 HYSTERIA2 91.240.86.70 335ms
-  - 美国 VMESS v36.hdacd.com 351ms
-  - 其他 HYSTERIA2 77.74.123.102 353ms
-  - 以色列 VLESS platform118.golnamakcert.top 386ms
-  - 其他 TROJAN 167.82.76.7 453ms
-- name: 📍 其他
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 其他 HYSTERIA2 mz.hkychina.com 27ms
-  - 其他 VLESS 123.111.169.70 146ms
-  - 其他 HYSTERIA2 202.146.222.29 198ms
-  - 其他 SS 212.192.13.143 233ms
-  - 其他 SS 212.192.12.24 237ms
-  - 其他 SS 51.20.96.231 240ms
-  - 其他 TROJAN 199.232.78.160 253ms
-  - 其他 SS 13.49.76.55 253ms
-  - 其他 HYSTERIA2 srv-17e124.21freedom.net 281ms
-  - 其他 HYSTERIA2 152.67.75.161 296ms
-  - 其他 SS 46.17.41.166 304ms
-  - 其他 SS 195.133.23.200 312ms
-  - 其他 SS 194.87.196.13 321ms
-  - 其他 HYSTERIA2 77.74.123.102 353ms
-  - 其他 TROJAN 167.82.76.7 453ms
-- name: 📍 以色列
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 以色列 VLESS platform118.golnamakcert.top 386ms
+  - 俄罗斯 VMESS 36.133.78.37 134ms
+  - 香港 VMESS 36.133.78.37 146ms
+  - 俄罗斯 VMESS 36.133.78.37 219ms
+  - 其他 VMESS 31.77.8.97 227ms
+  - 其他 TROJAN 199.232.78.160 290ms
 - name: 📍 俄罗斯
   type: select
   proxies:
   - 🚀 自动选择
-  - 俄罗斯 HYSTERIA2 91.240.86.70 335ms
-- name: 📍 加拿大
+  - 俄罗斯 VMESS 36.133.78.37 134ms
+  - 俄罗斯 VMESS 36.133.78.37 219ms
+- name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 加拿大 SS yyz-ca-01.blncvpn4u.cc 309ms
-- name: 📍 美国
+  - 其他 VMESS 31.77.8.97 227ms
+  - 其他 TROJAN 199.232.78.160 290ms
+- name: 📍 香港
   type: select
   proxies:
   - 🚀 自动选择
-  - 美国 VMESS v36.hdacd.com 351ms
+  - 香港 VMESS 36.133.78.37 146ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 HYSTERIA2 mz.hkychina.com 27ms
-  - 其他 VLESS 123.111.169.70 146ms
-  - 其他 HYSTERIA2 202.146.222.29 198ms
-  - 其他 SS 212.192.13.143 233ms
-  - 其他 SS 212.192.12.24 237ms
-  - 其他 SS 51.20.96.231 240ms
-  - 其他 TROJAN 199.232.78.160 253ms
-  - 其他 SS 13.49.76.55 253ms
-  - 其他 HYSTERIA2 srv-17e124.21freedom.net 281ms
-  - 其他 HYSTERIA2 152.67.75.161 296ms
-  - 其他 SS 46.17.41.166 304ms
-  - 加拿大 SS yyz-ca-01.blncvpn4u.cc 309ms
-  - 其他 SS 195.133.23.200 312ms
-  - 其他 SS 194.87.196.13 321ms
-  - 俄罗斯 HYSTERIA2 91.240.86.70 335ms
-  - 美国 VMESS v36.hdacd.com 351ms
-  - 其他 HYSTERIA2 77.74.123.102 353ms
-  - 以色列 VLESS platform118.golnamakcert.top 386ms
-  - 其他 TROJAN 167.82.76.7 453ms
+  - 俄罗斯 VMESS 36.133.78.37 134ms
+  - 香港 VMESS 36.133.78.37 146ms
+  - 俄罗斯 VMESS 36.133.78.37 219ms
+  - 其他 VMESS 31.77.8.97 227ms
+  - 其他 TROJAN 199.232.78.160 290ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

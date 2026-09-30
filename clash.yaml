@@ -1,31 +1,88 @@
 # 免费优选节点
-# 生成时间: 2026-09-30 05:44:43 UTC
-# 存活节点: 2 / 存活率见日志
+# 生成时间: 2026-09-30 11:34:02 UTC
+# 存活节点: 7 / 存活率见日志
 proxies:
-- name: 法国 VLESS 173.245.49.114 193ms
+- name: 其他 VLESS 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev 184ms
   type: vless
-  server: '173.245.49.114'
-  port: 2086
-  uuid: d028eaf5-c5ef-49a0-85c6-4f4816af8053
-  udp: true
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiZUJZR2pXVFByVyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjAuMTU4LjE0OSJdfQ==
-    headers:
-      Host: misty-bread-fd96.salehinezhadali.workers.dev
-- name: 法国 VLESS 162.159.152.4 218ms
-  type: vless
-  server: '162.159.152.4'
+  server: 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev
   port: 443
-  uuid: 8d42d29a-ed53-4684-a9ff-6b33826149de
+  uuid: 9fa2fae0-141a-b983-ef0e-b3d5633f9592
   udp: true
   tls: true
-  servername: aio.eth0.dpdns.org
-  network: ws
-  ws-opts:
-    path: /aioproxybot/94.23.144.99-2053
-    headers:
-      Host: aio.eth0.dpdns.org
+  servername: 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev
+  alpn:
+  - h2
+  - http/1.1
+  network: xhttp
+  xhttp-opts:
+    path: /xhttp-siz10/stream-up/9fa2fae0-141a-b983-ef0e-b3d5633f9592
+    mode: stream-up
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 德国 VLESS 45.150.33.33 223ms
+  type: vless
+  server: '45.150.33.33'
+  port: 443
+  uuid: eec2f6a7-c10f-43b0-b133-61f9bf9bbc27
+  udp: true
+  tls: true
+  servername: amazon.de
+  network: tcp
+  reality-opts:
+    public-key: G8SING6Ibc_igZ5vI5578fXCT_mBMRuq_o8_Ymnj2SQ
+    short-id: eba1498e012ef580
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 HYSTERIA2 2.26.54.174 241ms
+  type: hysteria2
+  server: '2.26.54.174'
+  port: 8443
+  password: HystPass2026!
+  obfs: salamander
+  obfs-password: SalamanderKey1
+  skip-cert-verify: true
+  udp: true
+- name: 俄罗斯 VLESS 62.77.158.1 254ms
+  type: vless
+  server: '62.77.158.1'
+  port: 443
+  uuid: 2eceaf2b-a775-5a9c-9990-dad2b3660fb6
+  udp: true
+  tls: true
+  servername: online.1c.ru
+  network: tcp
+  reality-opts:
+    public-key: sVhkyiMXvpofflCdSszxQmsqOXV1kg1Ldxq1a9mOPjs
+    short-id: 6a
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 美国 HYSTERIA2 starlink-ft.251313.xyz 285ms
+  type: hysteria2
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.top
+  sni: xship.top
+  skip-cert-verify: true
+  udp: true
+- name: 其他 HYSTERIA2 66.94.121.46 400ms
+  type: hysteria2
+  server: '66.94.121.46'
+  port: 443
+  password: gf1:gfhysteria2024
+  sni: www.broadcom.com
+  skip-cert-verify: true
+  udp: true
+- name: 美国 HYSTERIA2 starlink-ft.251313.xyz 595ms
+  type: hysteria2
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.best
+  udp: true
+  tls: true
+  sni: xship.top
+  skip-cert-verify: true
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -35,20 +92,47 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 法国 VLESS 173.245.49.114 193ms
-  - 法国 VLESS 162.159.152.4 218ms
-- name: 📍 法国
+  - 其他 VLESS 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev 184ms
+  - 德国 VLESS 45.150.33.33 223ms
+  - 其他 HYSTERIA2 2.26.54.174 241ms
+  - 俄罗斯 VLESS 62.77.158.1 254ms
+  - 美国 HYSTERIA2 starlink-ft.251313.xyz 285ms
+  - 其他 HYSTERIA2 66.94.121.46 400ms
+  - 美国 HYSTERIA2 starlink-ft.251313.xyz 595ms
+- name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 法国 VLESS 173.245.49.114 193ms
-  - 法国 VLESS 162.159.152.4 218ms
+  - 其他 VLESS 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev 184ms
+  - 其他 HYSTERIA2 2.26.54.174 241ms
+  - 其他 HYSTERIA2 66.94.121.46 400ms
+- name: 📍 美国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 美国 HYSTERIA2 starlink-ft.251313.xyz 285ms
+  - 美国 HYSTERIA2 starlink-ft.251313.xyz 595ms
+- name: 📍 俄罗斯
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 俄罗斯 VLESS 62.77.158.1 254ms
+- name: 📍 德国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 德国 VLESS 45.150.33.33 223ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 法国 VLESS 173.245.49.114 193ms
-  - 法国 VLESS 162.159.152.4 218ms
+  - 其他 VLESS 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev 184ms
+  - 德国 VLESS 45.150.33.33 223ms
+  - 其他 HYSTERIA2 2.26.54.174 241ms
+  - 俄罗斯 VLESS 62.77.158.1 254ms
+  - 美国 HYSTERIA2 starlink-ft.251313.xyz 285ms
+  - 其他 HYSTERIA2 66.94.121.46 400ms
+  - 美国 HYSTERIA2 starlink-ft.251313.xyz 595ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

@@ -1,46 +1,87 @@
 # 免费优选节点
-# 生成时间: 2026-09-30 23:43:28 UTC
-# 存活节点: 5 / 存活率见日志
+# 生成时间: 2026-10-01 05:37:44 UTC
+# 存活节点: 15 / 存活率见日志
 proxies:
-- name: 俄罗斯 VMESS 36.133.78.37 134ms
-  type: vmess
-  server: '36.133.78.37'
-  port: 50017
-  uuid: 148e82ae-5014-4a1a-a783-dd63fa9cdc9d
-  cipher: auto
-  alterId: 0
+- name: 其他 HYSTERIA2 mz.hkychina.com 28ms
+  type: hysteria2
+  server: mz.hkychina.com
+  port: 8443
+  password: HysTeria2026!Proxy
+  sni: mz.hkychina.com
+  skip-cert-verify: false
   udp: true
-  network: tcp
-- name: 香港 VMESS 36.133.78.37 146ms
-  type: vmess
-  server: '36.133.78.37'
-  port: 50016
-  uuid: abcb006d-739f-4cec-b13f-12c10d334d92
-  cipher: auto
-  alterId: 0
+- name: 法国 VLESS cf9.466688.xyz 88ms
+  type: vless
+  server: cf9.466688.xyz
+  port: 8880
+  uuid: 9c772ed7-2843-4554-9a96-4a88f827de58
   udp: true
-  network: tcp
-- name: 俄罗斯 VMESS 36.133.78.37 219ms
-  type: vmess
-  server: '36.133.78.37'
-  port: 50018
-  uuid: e37149b8-63df-4b4e-bd17-d7fc0b3009db
-  cipher: auto
-  alterId: 0
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+    headers:
+      Host: nameless-tree-08b8.352.workers.dev
+- name: 其他 VLESS icn-a-02.auuas.com 129ms
+  type: vless
+  server: icn-a-02.auuas.com
+  port: 1891
+  uuid: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
   udp: true
+  tls: true
+  servername: www.npmjs.com
   network: tcp
-- name: 其他 VMESS 31.77.8.97 227ms
-  type: vmess
-  server: '31.77.8.97'
-  port: 110
-  uuid: d2d8601b-c14b-42c6-b8ea-33889bce152a
-  cipher: auto
-  alterId: 0
-  tls: false
-  network: tcp
-  client-fingerprint: ''
+  reality-opts:
+    public-key: 2olNWILpuviXx_Nr30JZc5tpt3MgtWda7jLGwAOxPxY
+    short-id: 8378f267
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 法国 VLESS 104.17.181.19 155ms
+  type: vless
+  server: '104.17.181.19'
+  port: 8880
+  uuid: 4ae1f5c4-6595-4a20-85c0-0deec1e6ecb9
   udp: true
-- name: 其他 TROJAN 199.232.78.160 290ms
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: misty-dew-009a.484.workers.dev
+- name: 法国 VLESS 104.21.55.229 173ms
+  type: vless
+  server: '104.21.55.229'
+  port: 8880
+  uuid: d6d0ba7b-fa88-4b2c-9915-530ae4a81035
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: aged-mud-9b4c.202-2dc.workers.dev
+- name: 其他 SS 212.192.13.143 177ms
+  type: ss
+  server: '212.192.13.143'
+  port: 20999
+  password: 72553320ae6bcc8f
+  cipher: aes-256-gcm
+  udp: true
+  skip-cert-verify: false
+- name: 其他 SS 51.20.96.231 244ms
+  type: ss
+  server: '51.20.96.231'
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  udp: true
+  skip-cert-verify: false
+- name: 其他 SS 13.49.76.55 249ms
+  type: ss
+  server: '13.49.76.55'
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  udp: true
+- name: 其他 TROJAN 199.232.78.160 284ms
   type: trojan
   server: '199.232.78.160'
   port: 443
@@ -56,6 +97,70 @@ proxies:
   client-fingerprint: firefox
   skip-cert-verify: false
   udp: true
+- name: 其他 HYSTERIA2 152.67.75.161 288ms
+  type: hysteria2
+  server: '152.67.75.161'
+  port: 443
+  password: 3a702d4d1de4949005d8431220e040fb
+  sni: www.bing.com
+  obfs: salamander
+  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
+  skip-cert-verify: true
+  udp: true
+- name: 其他 TROJAN 167.82.76.7 302ms
+  type: trojan
+  server: '167.82.76.7'
+  port: 443
+  password: mitivpn
+  sni: ssl.fastly.com
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /@mehrosaboran
+    headers:
+      Host: mitivpn---us--s---mitivpn-11.global.ssl.fastly.net
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  udp: true
+- name: 法国 VLESS 162.159.156.214 305ms
+  type: vless
+  server: '162.159.156.214'
+  port: 8880
+  uuid: f5c01a38-a92a-46a1-8968-a0582f4e2f2a
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: steep-frost-8b18.350-c77.workers.dev
+- name: 俄罗斯 HYSTERIA2 91.240.86.70 323ms
+  type: hysteria2
+  server: '91.240.86.70'
+  port: 22443
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  sni: itsallproxy.quattro-tech.ru
+  skip-cert-verify: false
+  udp: true
+- name: 俄罗斯 HYSTERIA2 91.240.86.70 324ms
+  type: hysteria2
+  server: '91.240.86.70'
+  port: 24443
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  sni: hy.quattro-tech.ru
+  skip-cert-verify: false
+  udp: true
+- name: 法国 VLESS cf8.466688.xyz 553ms
+  type: vless
+  server: cf8.466688.xyz
+  port: 8880
+  uuid: 9c772ed7-2843-4554-9a96-4a88f827de58
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+    headers:
+      Host: nameless-tree-08b8.352.workers.dev
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -65,37 +170,67 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 俄罗斯 VMESS 36.133.78.37 134ms
-  - 香港 VMESS 36.133.78.37 146ms
-  - 俄罗斯 VMESS 36.133.78.37 219ms
-  - 其他 VMESS 31.77.8.97 227ms
-  - 其他 TROJAN 199.232.78.160 290ms
-- name: 📍 俄罗斯
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 俄罗斯 VMESS 36.133.78.37 134ms
-  - 俄罗斯 VMESS 36.133.78.37 219ms
+  - 其他 HYSTERIA2 mz.hkychina.com 28ms
+  - 法国 VLESS cf9.466688.xyz 88ms
+  - 其他 VLESS icn-a-02.auuas.com 129ms
+  - 法国 VLESS 104.17.181.19 155ms
+  - 法国 VLESS 104.21.55.229 173ms
+  - 其他 SS 212.192.13.143 177ms
+  - 其他 SS 51.20.96.231 244ms
+  - 其他 SS 13.49.76.55 249ms
+  - 其他 TROJAN 199.232.78.160 284ms
+  - 其他 HYSTERIA2 152.67.75.161 288ms
+  - 其他 TROJAN 167.82.76.7 302ms
+  - 法国 VLESS 162.159.156.214 305ms
+  - 俄罗斯 HYSTERIA2 91.240.86.70 323ms
+  - 俄罗斯 HYSTERIA2 91.240.86.70 324ms
+  - 法国 VLESS cf8.466688.xyz 553ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VMESS 31.77.8.97 227ms
-  - 其他 TROJAN 199.232.78.160 290ms
-- name: 📍 香港
+  - 其他 HYSTERIA2 mz.hkychina.com 28ms
+  - 其他 VLESS icn-a-02.auuas.com 129ms
+  - 其他 SS 212.192.13.143 177ms
+  - 其他 SS 51.20.96.231 244ms
+  - 其他 SS 13.49.76.55 249ms
+  - 其他 TROJAN 199.232.78.160 284ms
+  - 其他 HYSTERIA2 152.67.75.161 288ms
+  - 其他 TROJAN 167.82.76.7 302ms
+- name: 📍 法国
   type: select
   proxies:
   - 🚀 自动选择
-  - 香港 VMESS 36.133.78.37 146ms
+  - 法国 VLESS cf9.466688.xyz 88ms
+  - 法国 VLESS 104.17.181.19 155ms
+  - 法国 VLESS 104.21.55.229 173ms
+  - 法国 VLESS 162.159.156.214 305ms
+  - 法国 VLESS cf8.466688.xyz 553ms
+- name: 📍 俄罗斯
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 俄罗斯 HYSTERIA2 91.240.86.70 323ms
+  - 俄罗斯 HYSTERIA2 91.240.86.70 324ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 俄罗斯 VMESS 36.133.78.37 134ms
-  - 香港 VMESS 36.133.78.37 146ms
-  - 俄罗斯 VMESS 36.133.78.37 219ms
-  - 其他 VMESS 31.77.8.97 227ms
-  - 其他 TROJAN 199.232.78.160 290ms
+  - 其他 HYSTERIA2 mz.hkychina.com 28ms
+  - 法国 VLESS cf9.466688.xyz 88ms
+  - 其他 VLESS icn-a-02.auuas.com 129ms
+  - 法国 VLESS 104.17.181.19 155ms
+  - 法国 VLESS 104.21.55.229 173ms
+  - 其他 SS 212.192.13.143 177ms
+  - 其他 SS 51.20.96.231 244ms
+  - 其他 SS 13.49.76.55 249ms
+  - 其他 TROJAN 199.232.78.160 284ms
+  - 其他 HYSTERIA2 152.67.75.161 288ms
+  - 其他 TROJAN 167.82.76.7 302ms
+  - 法国 VLESS 162.159.156.214 305ms
+  - 俄罗斯 HYSTERIA2 91.240.86.70 323ms
+  - 俄罗斯 HYSTERIA2 91.240.86.70 324ms
+  - 法国 VLESS cf8.466688.xyz 553ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

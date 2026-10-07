@@ -1,157 +1,134 @@
 # 免费优选节点
-# 生成时间: 2026-10-05 05:40:23 UTC
-# 存活节点: 15 / 存活率见日志
+# 生成时间: 2026-10-07 16:38:07 UTC
+# 存活节点: 11 / 存活率见日志
 proxies:
-- name: 香港 HYSTERIA2 vpn-hk-004.fastervpn.world 52ms
+- name: 韩国 HYSTERIA2 52.78.59.52 94ms
   type: hysteria2
-  server: vpn-hk-004.fastervpn.world
+  server: '52.78.59.52'
   port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-hk-004.fastervpn.world
-  skip-cert-verify: true
-  udp: true
-- name: 其他 SS u5c9wb.5tencent.asia 106ms
-  type: ss
-  server: u5c9wb.5tencent.asia
-  port: 22033
-  password: ce2205df-f330-4779-a584-13f6bfc6adb6
-  cipher: aes-256-gcm
-  udp: true
-  skip-cert-verify: false
-- name: 其他 TUIC tw3.dexlos.com 118ms
-  type: tuic
-  server: tw3.dexlos.com
-  port: 8080
-  uuid: 8A9905B7-801B-41AF-BFC9-2034212770F6
-  password: 8A9905B7-801B-41AF-BFC9-2034212770F6
-  udp: 'true'
-  sni: tw3.dexlos.com
-  alpn:
-  - h3
-- name: 韩国 VMESS goldcnmltyljgfwgov.vip64.wogcnmnnagfwgov.com 164ms
-  type: vmess
-  server: goldcnmltyljgfwgov.vip64.wogcnmnnagfwgov.com
-  port: 11264
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  cipher: auto
-  alterId: 2
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   tls: false
-  network: tcp
-  udp: true
-- name: 其他 ANYTLS anytls2.864106.xyz 171ms
-  type: anytls
-  server: anytls2.864106.xyz
-  port: 19000
-  password: github.com/Alvin9999-newpac/fanqiang
-  udp: true
-  sni: anytls2.864106.xyz
+  sni: www.bing.com
   skip-cert-verify: true
-- name: 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 200ms
+  udp: true
+- name: 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 197ms
   type: vmess
   server: sbgfgov.vip23.wogacnmnagfwgov.com
   port: 11223
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
   cipher: auto
   alterId: 2
-  udp: true
-  network: tcp
-- name: 其他 HYSTERIA2 de1.xiaoliyu.cyou 203ms
-  type: hysteria2
-  server: de1.xiaoliyu.cyou
-  port: 4433
-  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
-  sni: '127.0.0.1'
-  skip-cert-verify: true
-  udp: true
-- name: 美国 VMESS silversbgfgov.vip41.wogbcnmnagfwgov.com 296ms
-  type: vmess
-  server: silversbgfgov.vip41.wogbcnmnagfwgov.com
-  port: 11241
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  cipher: auto
-  alterId: 2
-  udp: true
-  network: tcp
-- name: 美国 VMESS sbgfgov.vip22.wogacnmnagfwgov.com 315ms
-  type: vmess
-  server: sbgfgov.vip22.wogacnmnagfwgov.com
-  port: 11222
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  cipher: auto
-  alterId: 2
   tls: false
   network: tcp
   udp: true
-- name: 其他 HYSTERIA2 us3.xiaoliyu.cyou 343ms
-  type: hysteria2
-  server: us3.xiaoliyu.cyou
-  port: 18333
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  sni: us3.xiaoliyu.cyou
-  skip-cert-verify: true
-  udp: true
-- name: 美国 VMESS sbgfgov.vip21.wogacnmnagfwgov.com 359ms
-  type: vmess
-  server: sbgfgov.vip21.wogacnmnagfwgov.com
-  port: 11221
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  cipher: auto
-  alterId: 2
-  tls: false
-  network: tcp
-  udp: true
-- name: 其他 VMESS 188.114.96.19 403ms
-  type: vmess
-  server: '188.114.96.19'
-  port: 80
-  uuid: af4be52a-aab3-4db1-a6bb-c23700dcb9c2
-  cipher: auto
-  alterId: 0
-  tls: false
-  network: ws
-  ws-opts:
-    path: /d3d3LmlyYW5ob3N0LmNvbQ==
-    headers:
-      Host: https.http.www.net.com.ramseyv2.ir.
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-  udp: true
-- name: 其他 HYSTERIA2 152.67.115.203 452ms
-  type: hysteria2
-  server: '152.67.115.203'
-  port: 443
-  password: 633bc3be486b646190661ac2387c150a
-  sni: www.bing.com
-  obfs: salamander
-  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-  skip-cert-verify: true
-  udp: true
-- name: 其他 TUIC tw1.dexlos.com 488ms
-  type: tuic
-  server: tw1.dexlos.com
-  port: 8080
-  uuid: D7286728-678E-443B-B76B-B699654C66DD
-  password: D7286728-678E-443B-B76B-B699654C66DD
-  udp: 'true'
-  sni: tw1.dexlos.com
-  alpn:
-  - h3
-- name: 其他 VLESS 78.159.246.110 805ms
+- name: 俄罗斯 VLESS fzjo.fbbv.electrocitymarket.ru 200ms
   type: vless
-  server: '78.159.246.110'
+  server: fzjo.fbbv.electrocitymarket.ru
   port: 443
-  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  uuid: d2519b5e-495e-462e-9703-bbf68011d2f3
   udp: true
   tls: true
-  servername: fbsv6.guardora.pro
+  servername: fzjo.fbbv.electrocitymarket.ru
   alpn:
+  - h2
   - http/1.1
-  network: ws
-  ws-opts:
-    headers:
-      Host: fbsv6.guardora.pro
-    path: /ws
+  network: xhttp
+  xhttp-opts:
+    mode: stream-up
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 其他 VLESS 163.245.52.91 236ms
+  type: vless
+  server: '163.245.52.91'
+  port: 443
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+  udp: true
+  tls: true
+  servername: d3-ee1.cloud-cdn.xyz
+  network: tcp
+  reality-opts:
+    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
+    short-id: ad6e08b22389abd2
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+- name: 法国 ANYTLS ip5.934618.xyz 261ms
+  type: anytls
+  server: ip5.934618.xyz
+  port: 30099
+  password: github.com/Alvin9999-newpac/fanqiang
+  udp: true
+  sni: ip5.934618.xyz
+  skip-cert-verify: true
+- name: 德国 HYSTERIA2 162.249.126.39 283ms
+  type: hysteria2
+  server: '162.249.126.39'
+  port: 8443
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  tls: false
+  sni: hop-germany-september.dynuddns.com
+  skip-cert-verify: true
+  udp: true
+- name: 新加坡 HYSTERIA2 s3.huhiuh.space 289ms
+  type: hysteria2
+  server: s3.huhiuh.space
+  port: 18642
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  sni: www.bing.com
+  skip-cert-verify: true
+  udp: true
+- name: 俄罗斯 VLESS ijug.jffq.electrocitymarket.ru 295ms
+  type: vless
+  server: ijug.jffq.electrocitymarket.ru
+  port: 443
+  uuid: d2519b5e-495e-462e-9703-bbf68011d2f3
+  udp: true
+  tls: true
+  servername: ijug.jffq.electrocitymarket.ru
+  alpn:
+  - h2
+  - http/1.1
+  network: xhttp
+  xhttp-opts:
+    mode: stream-up
   client-fingerprint: firefox
+  skip-cert-verify: false
+- name: 其他 VLESS 216.173.71.43 307ms
+  type: vless
+  server: '216.173.71.43'
+  port: 443
+  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+  udp: true
+  tls: true
+  servername: lv.nztvpn.com
+  network: tcp
+  reality-opts:
+    public-key: miDhSALrcCvSfc38VjCDYlzNh5M61NMR5IkUli7IN08
+    short-id: 0da7e14db353e7d0
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: 瑞士 ANYTLS ksfz1g3r.zf-mix.9999231.xyz 323ms
+  type: anytls
+  server: ksfz1g3r.zf-mix.9999231.xyz
+  port: 1024
+  password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
+  udp: true
+  sni: ch-wy.9999231.xyz
+  skip-cert-verify: true
+- name: 俄罗斯 VLESS 31.59.210.26 616ms
+  type: vless
+  server: '31.59.210.26'
+  port: 2088
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+  udp: true
+  tls: true
+  servername: www.yandex.ru
+  network: grpc
+  grpc-opts:
+    grpc-service-name: astracat
+  reality-opts:
+    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
+    short-id: b1ad165f903c62fe
+  client-fingerprint: safari
   skip-cert-verify: false
 proxy-groups:
 - name: 🚀 自动选择
@@ -162,75 +139,75 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 香港 HYSTERIA2 vpn-hk-004.fastervpn.world 52ms
-  - 其他 SS u5c9wb.5tencent.asia 106ms
-  - 其他 TUIC tw3.dexlos.com 118ms
-  - 韩国 VMESS goldcnmltyljgfwgov.vip64.wogcnmnnagfwgov.com 164ms
-  - 其他 ANYTLS anytls2.864106.xyz 171ms
-  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 200ms
-  - 其他 HYSTERIA2 de1.xiaoliyu.cyou 203ms
-  - 美国 VMESS silversbgfgov.vip41.wogbcnmnagfwgov.com 296ms
-  - 美国 VMESS sbgfgov.vip22.wogacnmnagfwgov.com 315ms
-  - 其他 HYSTERIA2 us3.xiaoliyu.cyou 343ms
-  - 美国 VMESS sbgfgov.vip21.wogacnmnagfwgov.com 359ms
-  - 其他 VMESS 188.114.96.19 403ms
-  - 其他 HYSTERIA2 152.67.115.203 452ms
-  - 其他 TUIC tw1.dexlos.com 488ms
-  - 其他 VLESS 78.159.246.110 805ms
+  - 韩国 HYSTERIA2 52.78.59.52 94ms
+  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 197ms
+  - 俄罗斯 VLESS fzjo.fbbv.electrocitymarket.ru 200ms
+  - 其他 VLESS 163.245.52.91 236ms
+  - 法国 ANYTLS ip5.934618.xyz 261ms
+  - 德国 HYSTERIA2 162.249.126.39 283ms
+  - 新加坡 HYSTERIA2 s3.huhiuh.space 289ms
+  - 俄罗斯 VLESS ijug.jffq.electrocitymarket.ru 295ms
+  - 其他 VLESS 216.173.71.43 307ms
+  - 瑞士 ANYTLS ksfz1g3r.zf-mix.9999231.xyz 323ms
+  - 俄罗斯 VLESS 31.59.210.26 616ms
+- name: 📍 俄罗斯
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 俄罗斯 VLESS fzjo.fbbv.electrocitymarket.ru 200ms
+  - 俄罗斯 VLESS ijug.jffq.electrocitymarket.ru 295ms
+  - 俄罗斯 VLESS 31.59.210.26 616ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 SS u5c9wb.5tencent.asia 106ms
-  - 其他 TUIC tw3.dexlos.com 118ms
-  - 其他 ANYTLS anytls2.864106.xyz 171ms
-  - 其他 HYSTERIA2 de1.xiaoliyu.cyou 203ms
-  - 其他 HYSTERIA2 us3.xiaoliyu.cyou 343ms
-  - 其他 VMESS 188.114.96.19 403ms
-  - 其他 HYSTERIA2 152.67.115.203 452ms
-  - 其他 TUIC tw1.dexlos.com 488ms
-  - 其他 VLESS 78.159.246.110 805ms
-- name: 📍 美国
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 美国 VMESS silversbgfgov.vip41.wogbcnmnagfwgov.com 296ms
-  - 美国 VMESS sbgfgov.vip22.wogacnmnagfwgov.com 315ms
-  - 美国 VMESS sbgfgov.vip21.wogacnmnagfwgov.com 359ms
+  - 其他 VLESS 163.245.52.91 236ms
+  - 其他 VLESS 216.173.71.43 307ms
 - name: 📍 台湾
   type: select
   proxies:
   - 🚀 自动选择
-  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 200ms
+  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 197ms
+- name: 📍 德国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 德国 HYSTERIA2 162.249.126.39 283ms
+- name: 📍 新加坡
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 新加坡 HYSTERIA2 s3.huhiuh.space 289ms
+- name: 📍 法国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 法国 ANYTLS ip5.934618.xyz 261ms
+- name: 📍 瑞士
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 瑞士 ANYTLS ksfz1g3r.zf-mix.9999231.xyz 323ms
 - name: 📍 韩国
   type: select
   proxies:
   - 🚀 自动选择
-  - 韩国 VMESS goldcnmltyljgfwgov.vip64.wogcnmnnagfwgov.com 164ms
-- name: 📍 香港
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 香港 HYSTERIA2 vpn-hk-004.fastervpn.world 52ms
+  - 韩国 HYSTERIA2 52.78.59.52 94ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 香港 HYSTERIA2 vpn-hk-004.fastervpn.world 52ms
-  - 其他 SS u5c9wb.5tencent.asia 106ms
-  - 其他 TUIC tw3.dexlos.com 118ms
-  - 韩国 VMESS goldcnmltyljgfwgov.vip64.wogcnmnnagfwgov.com 164ms
-  - 其他 ANYTLS anytls2.864106.xyz 171ms
-  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 200ms
-  - 其他 HYSTERIA2 de1.xiaoliyu.cyou 203ms
-  - 美国 VMESS silversbgfgov.vip41.wogbcnmnagfwgov.com 296ms
-  - 美国 VMESS sbgfgov.vip22.wogacnmnagfwgov.com 315ms
-  - 其他 HYSTERIA2 us3.xiaoliyu.cyou 343ms
-  - 美国 VMESS sbgfgov.vip21.wogacnmnagfwgov.com 359ms
-  - 其他 VMESS 188.114.96.19 403ms
-  - 其他 HYSTERIA2 152.67.115.203 452ms
-  - 其他 TUIC tw1.dexlos.com 488ms
-  - 其他 VLESS 78.159.246.110 805ms
+  - 韩国 HYSTERIA2 52.78.59.52 94ms
+  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 197ms
+  - 俄罗斯 VLESS fzjo.fbbv.electrocitymarket.ru 200ms
+  - 其他 VLESS 163.245.52.91 236ms
+  - 法国 ANYTLS ip5.934618.xyz 261ms
+  - 德国 HYSTERIA2 162.249.126.39 283ms
+  - 新加坡 HYSTERIA2 s3.huhiuh.space 289ms
+  - 俄罗斯 VLESS ijug.jffq.electrocitymarket.ru 295ms
+  - 其他 VLESS 216.173.71.43 307ms
+  - 瑞士 ANYTLS ksfz1g3r.zf-mix.9999231.xyz 323ms
+  - 俄罗斯 VLESS 31.59.210.26 616ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

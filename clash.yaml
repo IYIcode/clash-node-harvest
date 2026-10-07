@@ -1,6 +1,6 @@
 # 免费优选节点
 # 生成时间: 2026-10-07 16:38:07 UTC
-# 存活节点: 11 / 存活率见日志
+# 存活节点: 9（手机兼容版：已剔除 2 个 anytls 类型，PC 本地文件仍是全量）
 proxies:
 - name: 韩国 HYSTERIA2 52.78.59.52 94ms
   type: hysteria2
@@ -51,14 +51,6 @@ proxies:
     short-id: ad6e08b22389abd2
   client-fingerprint: edge
   flow: xtls-rprx-vision
-- name: 法国 ANYTLS ip5.934618.xyz 261ms
-  type: anytls
-  server: ip5.934618.xyz
-  port: 30099
-  password: github.com/Alvin9999-newpac/fanqiang
-  udp: true
-  sni: ip5.934618.xyz
-  skip-cert-verify: true
 - name: 德国 HYSTERIA2 162.249.126.39 283ms
   type: hysteria2
   server: '162.249.126.39'
@@ -106,14 +98,6 @@ proxies:
     short-id: 0da7e14db353e7d0
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-- name: 瑞士 ANYTLS ksfz1g3r.zf-mix.9999231.xyz 323ms
-  type: anytls
-  server: ksfz1g3r.zf-mix.9999231.xyz
-  port: 1024
-  password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
-  udp: true
-  sni: ch-wy.9999231.xyz
-  skip-cert-verify: true
 - name: 俄罗斯 VLESS 31.59.210.26 616ms
   type: vless
   server: '31.59.210.26'
@@ -143,12 +127,10 @@ proxy-groups:
   - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 197ms
   - 俄罗斯 VLESS fzjo.fbbv.electrocitymarket.ru 200ms
   - 其他 VLESS 163.245.52.91 236ms
-  - 法国 ANYTLS ip5.934618.xyz 261ms
   - 德国 HYSTERIA2 162.249.126.39 283ms
   - 新加坡 HYSTERIA2 s3.huhiuh.space 289ms
   - 俄罗斯 VLESS ijug.jffq.electrocitymarket.ru 295ms
   - 其他 VLESS 216.173.71.43 307ms
-  - 瑞士 ANYTLS ksfz1g3r.zf-mix.9999231.xyz 323ms
   - 俄罗斯 VLESS 31.59.210.26 616ms
 - name: 📍 俄罗斯
   type: select
@@ -178,16 +160,6 @@ proxy-groups:
   proxies:
   - 🚀 自动选择
   - 新加坡 HYSTERIA2 s3.huhiuh.space 289ms
-- name: 📍 法国
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 法国 ANYTLS ip5.934618.xyz 261ms
-- name: 📍 瑞士
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 瑞士 ANYTLS ksfz1g3r.zf-mix.9999231.xyz 323ms
 - name: 📍 韩国
   type: select
   proxies:
@@ -201,12 +173,10 @@ proxy-groups:
   - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 197ms
   - 俄罗斯 VLESS fzjo.fbbv.electrocitymarket.ru 200ms
   - 其他 VLESS 163.245.52.91 236ms
-  - 法国 ANYTLS ip5.934618.xyz 261ms
   - 德国 HYSTERIA2 162.249.126.39 283ms
   - 新加坡 HYSTERIA2 s3.huhiuh.space 289ms
   - 俄罗斯 VLESS ijug.jffq.electrocitymarket.ru 295ms
   - 其他 VLESS 216.173.71.43 307ms
-  - 瑞士 ANYTLS ksfz1g3r.zf-mix.9999231.xyz 323ms
   - 俄罗斯 VLESS 31.59.210.26 616ms
 - name: 🐟 漏网之鱼
   type: select

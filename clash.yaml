@@ -1,119 +1,17 @@
 # 免费优选节点
-# 生成时间: 2026-10-07 16:38:07 UTC
-# 存活节点: 9（手机兼容版：已剔除 2 个 anytls 类型，PC 本地文件仍是全量）
+# 生成时间: 2026-10-08 17:34:37 UTC
+# 存活节点: 1 / 存活率见日志
 proxies:
-- name: 韩国 HYSTERIA2 52.78.59.52 94ms
-  type: hysteria2
-  server: '52.78.59.52'
-  port: 443
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  tls: false
-  sni: www.bing.com
-  skip-cert-verify: true
-  udp: true
-- name: 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 197ms
+- name: 泰国 VMESS silversbgfgov.vip43.wogbcnmnagfwgov.com 260ms
   type: vmess
-  server: sbgfgov.vip23.wogacnmnagfwgov.com
-  port: 11223
+  server: silversbgfgov.vip43.wogbcnmnagfwgov.com
+  port: 11243
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
   cipher: auto
   alterId: 2
   tls: false
   network: tcp
   udp: true
-- name: 俄罗斯 VLESS fzjo.fbbv.electrocitymarket.ru 200ms
-  type: vless
-  server: fzjo.fbbv.electrocitymarket.ru
-  port: 443
-  uuid: d2519b5e-495e-462e-9703-bbf68011d2f3
-  udp: true
-  tls: true
-  servername: fzjo.fbbv.electrocitymarket.ru
-  alpn:
-  - h2
-  - http/1.1
-  network: xhttp
-  xhttp-opts:
-    mode: stream-up
-  client-fingerprint: chrome
-  skip-cert-verify: false
-- name: 其他 VLESS 163.245.52.91 236ms
-  type: vless
-  server: '163.245.52.91'
-  port: 443
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  udp: true
-  tls: true
-  servername: d3-ee1.cloud-cdn.xyz
-  network: tcp
-  reality-opts:
-    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
-    short-id: ad6e08b22389abd2
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-- name: 德国 HYSTERIA2 162.249.126.39 283ms
-  type: hysteria2
-  server: '162.249.126.39'
-  port: 8443
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  tls: false
-  sni: hop-germany-september.dynuddns.com
-  skip-cert-verify: true
-  udp: true
-- name: 新加坡 HYSTERIA2 s3.huhiuh.space 289ms
-  type: hysteria2
-  server: s3.huhiuh.space
-  port: 18642
-  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-  sni: www.bing.com
-  skip-cert-verify: true
-  udp: true
-- name: 俄罗斯 VLESS ijug.jffq.electrocitymarket.ru 295ms
-  type: vless
-  server: ijug.jffq.electrocitymarket.ru
-  port: 443
-  uuid: d2519b5e-495e-462e-9703-bbf68011d2f3
-  udp: true
-  tls: true
-  servername: ijug.jffq.electrocitymarket.ru
-  alpn:
-  - h2
-  - http/1.1
-  network: xhttp
-  xhttp-opts:
-    mode: stream-up
-  client-fingerprint: firefox
-  skip-cert-verify: false
-- name: 其他 VLESS 216.173.71.43 307ms
-  type: vless
-  server: '216.173.71.43'
-  port: 443
-  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
-  udp: true
-  tls: true
-  servername: lv.nztvpn.com
-  network: tcp
-  reality-opts:
-    public-key: miDhSALrcCvSfc38VjCDYlzNh5M61NMR5IkUli7IN08
-    short-id: 0da7e14db353e7d0
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-- name: 俄罗斯 VLESS 31.59.210.26 616ms
-  type: vless
-  server: '31.59.210.26'
-  port: 2088
-  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-  udp: true
-  tls: true
-  servername: www.yandex.ru
-  network: grpc
-  grpc-opts:
-    grpc-service-name: astracat
-  reality-opts:
-    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
-    short-id: b1ad165f903c62fe
-  client-fingerprint: safari
-  skip-cert-verify: false
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -123,61 +21,17 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 韩国 HYSTERIA2 52.78.59.52 94ms
-  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 197ms
-  - 俄罗斯 VLESS fzjo.fbbv.electrocitymarket.ru 200ms
-  - 其他 VLESS 163.245.52.91 236ms
-  - 德国 HYSTERIA2 162.249.126.39 283ms
-  - 新加坡 HYSTERIA2 s3.huhiuh.space 289ms
-  - 俄罗斯 VLESS ijug.jffq.electrocitymarket.ru 295ms
-  - 其他 VLESS 216.173.71.43 307ms
-  - 俄罗斯 VLESS 31.59.210.26 616ms
-- name: 📍 俄罗斯
+  - 泰国 VMESS silversbgfgov.vip43.wogbcnmnagfwgov.com 260ms
+- name: 📍 泰国
   type: select
   proxies:
   - 🚀 自动选择
-  - 俄罗斯 VLESS fzjo.fbbv.electrocitymarket.ru 200ms
-  - 俄罗斯 VLESS ijug.jffq.electrocitymarket.ru 295ms
-  - 俄罗斯 VLESS 31.59.210.26 616ms
-- name: 📍 其他
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 其他 VLESS 163.245.52.91 236ms
-  - 其他 VLESS 216.173.71.43 307ms
-- name: 📍 台湾
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 197ms
-- name: 📍 德国
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 德国 HYSTERIA2 162.249.126.39 283ms
-- name: 📍 新加坡
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 新加坡 HYSTERIA2 s3.huhiuh.space 289ms
-- name: 📍 韩国
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 韩国 HYSTERIA2 52.78.59.52 94ms
+  - 泰国 VMESS silversbgfgov.vip43.wogbcnmnagfwgov.com 260ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 韩国 HYSTERIA2 52.78.59.52 94ms
-  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 197ms
-  - 俄罗斯 VLESS fzjo.fbbv.electrocitymarket.ru 200ms
-  - 其他 VLESS 163.245.52.91 236ms
-  - 德国 HYSTERIA2 162.249.126.39 283ms
-  - 新加坡 HYSTERIA2 s3.huhiuh.space 289ms
-  - 俄罗斯 VLESS ijug.jffq.electrocitymarket.ru 295ms
-  - 其他 VLESS 216.173.71.43 307ms
-  - 俄罗斯 VLESS 31.59.210.26 616ms
+  - 泰国 VMESS silversbgfgov.vip43.wogbcnmnagfwgov.com 260ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

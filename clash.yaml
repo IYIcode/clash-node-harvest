@@ -1,21 +1,8 @@
 # 免费优选节点
-# 生成时间: 2026-10-10 11:35:05 UTC
-# 存活节点: 7（手机兼容版：已剔除 1 个 anytls 类型，PC 本地文件仍是全量）
+# 生成时间: 2026-10-10 17:34:07 UTC
+# 存活节点: 7 / 存活率见日志
 proxies:
-- name: 其他 VLESS s592.wagahaha.xyz 149ms
-  type: vless
-  server: s592.wagahaha.xyz
-  port: 10829
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  udp: true
-  tls: true
-  servername: u695098u4d99b056s591.csgfw.top
-  alpn:
-  - h2
-  - http/1.1
-  network: tcp
-  flow: xtls-rprx-vision
-- name: 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 209ms
+- name: 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 204ms
   type: vmess
   server: sbgfgov.vip23.wogacnmnagfwgov.com
   port: 11223
@@ -25,7 +12,45 @@ proxies:
   tls: false
   network: tcp
   udp: true
-- name: 俄罗斯 VLESS 31.59.210.24 284ms
+- name: 法国 HYSTERIA2 62.210.147.2 249ms
+  type: hysteria2
+  server: '62.210.147.2'
+  port: 43115
+  password: github.com/Alvin9999-newpac/fanqiang
+  udp: true
+  tls: true
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 美国 VMESS v29.hdacd.com 285ms
+  type: vmess
+  server: v29.hdacd.com
+  port: 30829
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  cipher: auto
+  alterId: 2
+  udp: true
+  tls: false
+  network: tcp
+  skip-cert-verify: false
+- name: 其他 VLESS milo.rubinaz.xyz 326ms
+  type: vless
+  server: milo.rubinaz.xyz
+  port: 8080
+  uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
+  tls: false
+  network: tcp
+  udp: true
+- name: 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 343ms
+  type: vmess
+  server: silversbgfgov.vip45.wogbcnmnagfwgov.com
+  port: 11245
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+  cipher: auto
+  alterId: 2
+  tls: false
+  network: tcp
+  udp: true
+- name: 俄罗斯 VLESS 31.59.210.24 375ms
   type: vless
   server: '31.59.210.24'
   port: 2087
@@ -42,43 +67,15 @@ proxies:
     public-key: W2OLbQ682PLJ9yHQ21Q0nPJk9U8RuL5YnlP-U1fdQzI
     short-id: a11023050f134216
   client-fingerprint: ios
-- name: 荷兰 VLESS 196.240.125.5 352ms
-  type: vless
-  server: '196.240.125.5'
-  port: 8443
-  uuid: 8de76932-518a-4ac8-ac92-be6b1f17ddd8
-  udp: true
-  tls: true
-  servername: api-v1-6ac7858f.vmagnum.win
-  flow: xtls-rprx-vision
-- name: 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 353ms
-  type: vmess
-  server: silversbgfgov.vip45.wogbcnmnagfwgov.com
-  port: 11245
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  cipher: auto
-  alterId: 2
-  tls: false
-  network: tcp
-  udp: true
-- name: 法国 HYSTERIA2 62.210.147.2 780ms
+- name: 美国 HYSTERIA2 starlink-ft.251313.xyz 503ms
   type: hysteria2
-  server: '62.210.147.2'
-  port: 43115
-  password: github.com/Alvin9999-newpac/fanqiang
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.2fa.cat
   udp: true
   tls: true
-  sni: www.microsoft.com
+  sni: www.cloudflare.com
   skip-cert-verify: true
-- name: 荷兰 VLESS nl.alpheratzz.org 860ms
-  type: vless
-  server: nl.alpheratzz.org
-  port: 8443
-  uuid: 8de76932-518a-4ac8-ac92-be6b1f17ddd8
-  udp: true
-  tls: true
-  servername: api-v1-6ac7858f.vmagnum.win
-  flow: xtls-rprx-vision
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -88,55 +85,55 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 其他 VLESS s592.wagahaha.xyz 149ms
-  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 209ms
-  - 俄罗斯 VLESS 31.59.210.24 284ms
-  - 荷兰 VLESS 196.240.125.5 352ms
-  - 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 353ms
-  - 法国 HYSTERIA2 62.210.147.2 780ms
-  - 荷兰 VLESS nl.alpheratzz.org 860ms
-- name: 📍 其他
+  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 204ms
+  - 法国 HYSTERIA2 62.210.147.2 249ms
+  - 美国 VMESS v29.hdacd.com 285ms
+  - 其他 VLESS milo.rubinaz.xyz 326ms
+  - 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 343ms
+  - 俄罗斯 VLESS 31.59.210.24 375ms
+  - 美国 HYSTERIA2 starlink-ft.251313.xyz 503ms
+- name: 📍 美国
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS s592.wagahaha.xyz 149ms
-- name: 📍 荷兰
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 荷兰 VLESS 196.240.125.5 352ms
-  - 荷兰 VLESS nl.alpheratzz.org 860ms
+  - 美国 VMESS v29.hdacd.com 285ms
+  - 美国 HYSTERIA2 starlink-ft.251313.xyz 503ms
 - name: 📍 俄罗斯
   type: select
   proxies:
   - 🚀 自动选择
-  - 俄罗斯 VLESS 31.59.210.24 284ms
+  - 俄罗斯 VLESS 31.59.210.24 375ms
+- name: 📍 其他
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 其他 VLESS milo.rubinaz.xyz 326ms
 - name: 📍 台湾
   type: select
   proxies:
   - 🚀 自动选择
-  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 209ms
+  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 204ms
 - name: 📍 法国
   type: select
   proxies:
   - 🚀 自动选择
-  - 法国 HYSTERIA2 62.210.147.2 780ms
+  - 法国 HYSTERIA2 62.210.147.2 249ms
 - name: 📍 英国
   type: select
   proxies:
   - 🚀 自动选择
-  - 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 353ms
+  - 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 343ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS s592.wagahaha.xyz 149ms
-  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 209ms
-  - 俄罗斯 VLESS 31.59.210.24 284ms
-  - 荷兰 VLESS 196.240.125.5 352ms
-  - 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 353ms
-  - 法国 HYSTERIA2 62.210.147.2 780ms
-  - 荷兰 VLESS nl.alpheratzz.org 860ms
+  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 204ms
+  - 法国 HYSTERIA2 62.210.147.2 249ms
+  - 美国 VMESS v29.hdacd.com 285ms
+  - 其他 VLESS milo.rubinaz.xyz 326ms
+  - 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 343ms
+  - 俄罗斯 VLESS 31.59.210.24 375ms
+  - 美国 HYSTERIA2 starlink-ft.251313.xyz 503ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

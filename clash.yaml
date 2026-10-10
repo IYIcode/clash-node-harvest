@@ -1,22 +1,84 @@
 # 免费优选节点
-# 生成时间: 2026-10-10 05:32:11 UTC
-# 存活节点: 1 / 存活率见日志
+# 生成时间: 2026-10-10 11:35:05 UTC
+# 存活节点: 7（手机兼容版：已剔除 1 个 anytls 类型，PC 本地文件仍是全量）
 proxies:
-- name: 其他 VLESS 185.200.199.75 323ms
+- name: 其他 VLESS s592.wagahaha.xyz 149ms
   type: vless
-  server: '185.200.199.75'
-  port: 8444
-  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
+  server: s592.wagahaha.xyz
+  port: 10829
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
   udp: true
   tls: true
-  servername: github.com
+  servername: u695098u4d99b056s591.csgfw.top
+  alpn:
+  - h2
+  - http/1.1
+  network: tcp
+  flow: xtls-rprx-vision
+- name: 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 209ms
+  type: vmess
+  server: sbgfgov.vip23.wogacnmnagfwgov.com
+  port: 11223
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+  cipher: auto
+  alterId: 2
+  tls: false
+  network: tcp
+  udp: true
+- name: 俄罗斯 VLESS 31.59.210.24 284ms
+  type: vless
+  server: '31.59.210.24'
+  port: 2087
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+  udp: true
+  tls: true
+  servername: www.yandex.ru
+  alpn:
+  - h2
   network: grpc
   grpc-opts:
-    grpc-service-name: GunService
+    grpc-service-name: astracat
   reality-opts:
-    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
-  client-fingerprint: chrome
-  skip-cert-verify: false
+    public-key: W2OLbQ682PLJ9yHQ21Q0nPJk9U8RuL5YnlP-U1fdQzI
+    short-id: a11023050f134216
+  client-fingerprint: ios
+- name: 荷兰 VLESS 196.240.125.5 352ms
+  type: vless
+  server: '196.240.125.5'
+  port: 8443
+  uuid: 8de76932-518a-4ac8-ac92-be6b1f17ddd8
+  udp: true
+  tls: true
+  servername: api-v1-6ac7858f.vmagnum.win
+  flow: xtls-rprx-vision
+- name: 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 353ms
+  type: vmess
+  server: silversbgfgov.vip45.wogbcnmnagfwgov.com
+  port: 11245
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+  cipher: auto
+  alterId: 2
+  tls: false
+  network: tcp
+  udp: true
+- name: 法国 HYSTERIA2 62.210.147.2 780ms
+  type: hysteria2
+  server: '62.210.147.2'
+  port: 43115
+  password: github.com/Alvin9999-newpac/fanqiang
+  udp: true
+  tls: true
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 荷兰 VLESS nl.alpheratzz.org 860ms
+  type: vless
+  server: nl.alpheratzz.org
+  port: 8443
+  uuid: 8de76932-518a-4ac8-ac92-be6b1f17ddd8
+  udp: true
+  tls: true
+  servername: api-v1-6ac7858f.vmagnum.win
+  flow: xtls-rprx-vision
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -26,17 +88,55 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 其他 VLESS 185.200.199.75 323ms
+  - 其他 VLESS s592.wagahaha.xyz 149ms
+  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 209ms
+  - 俄罗斯 VLESS 31.59.210.24 284ms
+  - 荷兰 VLESS 196.240.125.5 352ms
+  - 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 353ms
+  - 法国 HYSTERIA2 62.210.147.2 780ms
+  - 荷兰 VLESS nl.alpheratzz.org 860ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 185.200.199.75 323ms
+  - 其他 VLESS s592.wagahaha.xyz 149ms
+- name: 📍 荷兰
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 荷兰 VLESS 196.240.125.5 352ms
+  - 荷兰 VLESS nl.alpheratzz.org 860ms
+- name: 📍 俄罗斯
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 俄罗斯 VLESS 31.59.210.24 284ms
+- name: 📍 台湾
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 209ms
+- name: 📍 法国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 法国 HYSTERIA2 62.210.147.2 780ms
+- name: 📍 英国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 353ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 185.200.199.75 323ms
+  - 其他 VLESS s592.wagahaha.xyz 149ms
+  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 209ms
+  - 俄罗斯 VLESS 31.59.210.24 284ms
+  - 荷兰 VLESS 196.240.125.5 352ms
+  - 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 353ms
+  - 法国 HYSTERIA2 62.210.147.2 780ms
+  - 荷兰 VLESS nl.alpheratzz.org 860ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

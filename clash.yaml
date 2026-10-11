@@ -1,58 +1,10 @@
 # 免费优选节点
-# 生成时间: 2026-10-10 17:34:07 UTC
-# 存活节点: 7 / 存活率见日志
+# 生成时间: 2026-10-11 17:36:14 UTC
+# 存活节点: 11（手机兼容版：已剔除 2 个 anytls 类型，PC 本地文件仍是全量）
 proxies:
-- name: 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 204ms
-  type: vmess
-  server: sbgfgov.vip23.wogacnmnagfwgov.com
-  port: 11223
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  cipher: auto
-  alterId: 2
-  tls: false
-  network: tcp
-  udp: true
-- name: 法国 HYSTERIA2 62.210.147.2 249ms
-  type: hysteria2
-  server: '62.210.147.2'
-  port: 43115
-  password: github.com/Alvin9999-newpac/fanqiang
-  udp: true
-  tls: true
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: 美国 VMESS v29.hdacd.com 285ms
-  type: vmess
-  server: v29.hdacd.com
-  port: 30829
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  cipher: auto
-  alterId: 2
-  udp: true
-  tls: false
-  network: tcp
-  skip-cert-verify: false
-- name: 其他 VLESS milo.rubinaz.xyz 326ms
+- name: 英国 VLESS 31.59.210.25 263ms
   type: vless
-  server: milo.rubinaz.xyz
-  port: 8080
-  uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
-  tls: false
-  network: tcp
-  udp: true
-- name: 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 343ms
-  type: vmess
-  server: silversbgfgov.vip45.wogbcnmnagfwgov.com
-  port: 11245
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  cipher: auto
-  alterId: 2
-  tls: false
-  network: tcp
-  udp: true
-- name: 俄罗斯 VLESS 31.59.210.24 375ms
-  type: vless
-  server: '31.59.210.24'
+  server: '31.59.210.25'
   port: 2087
   uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
   udp: true
@@ -64,17 +16,142 @@ proxies:
   grpc-opts:
     grpc-service-name: astracat
   reality-opts:
-    public-key: W2OLbQ682PLJ9yHQ21Q0nPJk9U8RuL5YnlP-U1fdQzI
-    short-id: a11023050f134216
-  client-fingerprint: ios
-- name: 美国 HYSTERIA2 starlink-ft.251313.xyz 503ms
+    public-key: KDBhxT2YMtMjDEC9VdoDEISdCwxd6KFrSE8uyUaHcTY
+    short-id: ed435c242097fd05
+  client-fingerprint: firefox
+- name: 其他 VLESS s8748.okgg.top 263ms
+  type: vless
+  server: s8748.okgg.top
+  port: 10829
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  udp: true
+  tls: true
+  servername: u695098u2c5f47d6s8746.gogocs.xyz
+  alpn:
+  - h2
+  - http/1.1
+  network: tcp
+  flow: xtls-rprx-vision
+- name: 俄罗斯 VLESS 31.59.210.37 272ms
+  type: vless
+  server: '31.59.210.37'
+  port: 443
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+  udp: true
+  tls: true
+  servername: www.yandex.ru
+  alpn:
+  - h2
+  network: grpc
+  grpc-opts:
+    grpc-service-name: astracat
+  reality-opts:
+    public-key: 5k0dtOSzmshCubdYeKppsUdHU4i2ghaB9uSJSzGjHW4
+    short-id: 6dbf4931096f9890
+  client-fingerprint: edge
+- name: 美国 VLESS 157.228.160.166 311ms
+  type: vless
+  server: '157.228.160.166'
+  port: 443
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  udp: true
+  tls: true
+  servername: addons.mozilla.org
+  network: tcp
+  reality-opts:
+    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
+    short-id: 3cef317b
+  client-fingerprint: randomized
+  flow: xtls-rprx-vision
+- name: 俄罗斯 VLESS 31.59.210.26 320ms
+  type: vless
+  server: '31.59.210.26'
+  port: 2088
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+  udp: true
+  tls: true
+  servername: www.yandex.ru
+  alpn:
+  - h2
+  network: grpc
+  grpc-opts:
+    grpc-service-name: astracat
+  reality-opts:
+    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
+    short-id: b1ad165f903c62fe
+  client-fingerprint: firefox
+- name: 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 349ms
+  type: vmess
+  server: silversbgfgov.vip45.wogbcnmnagfwgov.com
+  port: 11245
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+  cipher: auto
+  alterId: 2
+  tls: false
+  network: tcp
+  udp: true
+- name: 澳大利亚 HYSTERIA2 140.238.198.229 416ms
+  type: hysteria2
+  server: '140.238.198.229'
+  port: 20000
+  password: a34f3990b69f44bfa0d32385
+  sni: rmgyvpn.rest
+  obfs: salamander
+  obfs-password: a34f3990b69f44bfa0d32385
+  skip-cert-verify: true
+  udp: true
+- name: 美国 VMESS v24.hdacd.com 440ms
+  type: vmess
+  server: v24.hdacd.com
+  port: 30824
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  cipher: auto
+  alterId: 2
+  udp: true
+  tls: false
+  network: tcp
+  skip-cert-verify: false
+- name: 俄罗斯 VLESS fitindoor.net 725ms
+  type: vless
+  server: fitindoor.net
+  port: 2053
+  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
+  udp: true
+  tls: true
+  servername: fitindoor.net
+  alpn:
+  - h2
+  - http/1.1
+  network: xhttp
+  xhttp-opts:
+    host: fitindoor.net
+    mode: auto
+    path: /api/v1/upload
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 30
+    x-padding-bytes: '100-1000'
+  client-fingerprint: chrome
+- name: 美国 VLESS 185.119.19.105 842ms
+  type: vless
+  server: '185.119.19.105'
+  port: 10829
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  udp: true
+  tls: true
+  servername: u695098u2c5f47d6s8746.gogocs.xyz
+  alpn:
+  - h2
+  - http/1.1
+  network: tcp
+  flow: xtls-rprx-vision
+- name: 美国 HYSTERIA2 starlink-ft.251313.xyz 1331ms
   type: hysteria2
   server: starlink-ft.251313.xyz
   port: 443
-  password: https://xship.2fa.cat
+  password: https://xship.top
   udp: true
   tls: true
-  sni: www.cloudflare.com
+  sni: xship.top
   skip-cert-verify: true
 proxy-groups:
 - name: 🚀 自动选择
@@ -85,55 +162,63 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 204ms
-  - 法国 HYSTERIA2 62.210.147.2 249ms
-  - 美国 VMESS v29.hdacd.com 285ms
-  - 其他 VLESS milo.rubinaz.xyz 326ms
-  - 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 343ms
-  - 俄罗斯 VLESS 31.59.210.24 375ms
-  - 美国 HYSTERIA2 starlink-ft.251313.xyz 503ms
+  - 英国 VLESS 31.59.210.25 263ms
+  - 其他 VLESS s8748.okgg.top 263ms
+  - 俄罗斯 VLESS 31.59.210.37 272ms
+  - 美国 VLESS 157.228.160.166 311ms
+  - 俄罗斯 VLESS 31.59.210.26 320ms
+  - 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 349ms
+  - 澳大利亚 HYSTERIA2 140.238.198.229 416ms
+  - 美国 VMESS v24.hdacd.com 440ms
+  - 俄罗斯 VLESS fitindoor.net 725ms
+  - 美国 VLESS 185.119.19.105 842ms
+  - 美国 HYSTERIA2 starlink-ft.251313.xyz 1331ms
 - name: 📍 美国
   type: select
   proxies:
   - 🚀 自动选择
-  - 美国 VMESS v29.hdacd.com 285ms
-  - 美国 HYSTERIA2 starlink-ft.251313.xyz 503ms
+  - 美国 VLESS 157.228.160.166 311ms
+  - 美国 VMESS v24.hdacd.com 440ms
+  - 美国 VLESS 185.119.19.105 842ms
+  - 美国 HYSTERIA2 starlink-ft.251313.xyz 1331ms
 - name: 📍 俄罗斯
   type: select
   proxies:
   - 🚀 自动选择
-  - 俄罗斯 VLESS 31.59.210.24 375ms
-- name: 📍 其他
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 其他 VLESS milo.rubinaz.xyz 326ms
-- name: 📍 台湾
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 204ms
-- name: 📍 法国
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 法国 HYSTERIA2 62.210.147.2 249ms
+  - 俄罗斯 VLESS 31.59.210.37 272ms
+  - 俄罗斯 VLESS 31.59.210.26 320ms
+  - 俄罗斯 VLESS fitindoor.net 725ms
 - name: 📍 英国
   type: select
   proxies:
   - 🚀 自动选择
-  - 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 343ms
+  - 英国 VLESS 31.59.210.25 263ms
+  - 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 349ms
+- name: 📍 其他
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 其他 VLESS s8748.okgg.top 263ms
+- name: 📍 澳大利亚
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 澳大利亚 HYSTERIA2 140.238.198.229 416ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 台湾 VMESS sbgfgov.vip23.wogacnmnagfwgov.com 204ms
-  - 法国 HYSTERIA2 62.210.147.2 249ms
-  - 美国 VMESS v29.hdacd.com 285ms
-  - 其他 VLESS milo.rubinaz.xyz 326ms
-  - 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 343ms
-  - 俄罗斯 VLESS 31.59.210.24 375ms
-  - 美国 HYSTERIA2 starlink-ft.251313.xyz 503ms
+  - 英国 VLESS 31.59.210.25 263ms
+  - 其他 VLESS s8748.okgg.top 263ms
+  - 俄罗斯 VLESS 31.59.210.37 272ms
+  - 美国 VLESS 157.228.160.166 311ms
+  - 俄罗斯 VLESS 31.59.210.26 320ms
+  - 英国 VMESS silversbgfgov.vip45.wogbcnmnagfwgov.com 349ms
+  - 澳大利亚 HYSTERIA2 140.238.198.229 416ms
+  - 美国 VMESS v24.hdacd.com 440ms
+  - 俄罗斯 VLESS fitindoor.net 725ms
+  - 美国 VLESS 185.119.19.105 842ms
+  - 美国 HYSTERIA2 starlink-ft.251313.xyz 1331ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

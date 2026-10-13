@@ -1,163 +1,36 @@
 # 免费优选节点
-# 生成时间: 2026-10-12 17:39:19 UTC
-# 存活节点: 14 / 存活率见日志
+# 生成时间: 2026-10-13 23:31:13 UTC
+# 存活节点: 2 / 存活率见日志
 proxies:
-- name: 香港 HYSTERIA2 vpn-hk-004.fastervpn.world 51ms
-  type: hysteria2
-  server: vpn-hk-004.fastervpn.world
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  udp: true
-  tls: true
-  sni: vpn-hk-004.fastervpn.world
-  skip-cert-verify: true
-- name: 日本 HYSTERIA2 8.209.247.109 74ms
-  type: hysteria2
-  server: '8.209.247.109'
-  port: 443
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  sni: bing.com
-  skip-cert-verify: true
-  udp: true
-- name: 新加坡 VLESS sin-a-02.auuas.com 106ms
+- name: 其他 VLESS 104.18.37.127 164ms
   type: vless
-  server: sin-a-02.auuas.com
-  port: 1891
-  uuid: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
-  udp: true
-  tls: true
-  servername: www.npmjs.com
-  network: tcp
-  reality-opts:
-    public-key: YJLHQBNzHQ7sOeKbj-EkHo1Ym0asUyZKxj4l_thzyGA
-    short-id: 8378f267
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-- name: 日本 VMESS sbgfgov.vip5.wogacnmnagfwgov.com 144ms
-  type: vmess
-  server: sbgfgov.vip5.wogacnmnagfwgov.com
-  port: 11205
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  cipher: auto
-  alterId: 2
-  tls: false
-  network: tcp
-  udp: true
-- name: 日本 HYSTERIA2 open.2ml.bid 195ms
-  type: hysteria2
-  server: open.2ml.bid
+  server: '104.18.37.127'
   port: 443
-  password: my_super_password_123
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
-  sni: open.2ml.bid
-  skip-cert-verify: true
-- name: 美国 VLESS 23.83.224.178 198ms
-  type: vless
-  server: '23.83.224.178'
-  port: 54322
-  uuid: 2b424263-d888-494a-eb6a-79538055d1ad
-  udp: true
+  servername: ccc.010304.xyz
   network: ws
   ws-opts:
     path: /
-- name: 瑞士 HYSTERIA2 152.67.75.161 233ms
-  type: hysteria2
-  server: '152.67.75.161'
-  port: 443
-  password: 3a702d4d1de4949005d8431220e040fb
-  udp: true
-  tls: true
-  sni: www.bing.com
-  obfs: salamander
-  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
-  skip-cert-verify: true
-- name: 德国 VMESS 23.165.200.150 234ms
-  type: vmess
-  server: '23.165.200.150'
-  port: 52080
-  uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
-  cipher: auto
-  alterId: 0
-  tls: false
-  network: http
-  http-opts:
-    path:
-    - /QQqun-737805443
     headers:
-      Host:
-      - down-cdn.dingtalk.com
-  client-fingerprint: ''
-  udp: true
-- name: 日本 VMESS silversbgfgov.vip30.wogbcnmnagfwgov.com 259ms
-  type: vmess
-  server: silversbgfgov.vip30.wogbcnmnagfwgov.com
-  port: 11230
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  cipher: auto
-  alterId: 2
-  udp: true
-  network: tcp
-- name: 俄罗斯 HYSTERIA2 194.87.118.184 296ms
-  type: hysteria2
-  server: '194.87.118.184'
-  port: 2053
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  tls: false
-  sni: match-stream.lovkisport.blog
-  skip-cert-verify: true
-  udp: true
-- name: 俄罗斯 HYSTERIA2 194.87.118.184 317ms
-  type: hysteria2
-  server: '194.87.118.184'
-  port: 2053
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  udp: true
-  tls: true
-  sni: match-stream.lovkisport.blog
-  skip-cert-verify: true
-- name: 其他 VLESS 78.159.246.85 369ms
+      Host: ccc.010304.xyz
+  client-fingerprint: chrome
+- name: 其他 VLESS 104.16.10.197 188ms
   type: vless
-  server: '78.159.246.85'
-  port: 2053
-  uuid: 6a2aff19-ff1f-4a13-96c8-a4d8986a9699
+  server: '104.16.10.197'
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   udp: true
   tls: true
-  servername: fitindoor.net
-  alpn:
-  - http/1.1
-  - h2
-  network: xhttp
-  xhttp-opts:
-    path: /api/v1/upload
-    host: fitindoor.net
-    mode: auto
-- name: 其他 VLESS fitindoor.net 470ms
-  type: vless
-  server: fitindoor.net
-  port: 2053
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  udp: true
-  tls: true
-  servername: fitindoor.net
-  alpn:
-  - h2
-  - http/1.1
-  network: xhttp
-  xhttp-opts:
-    path: /api/v1/upload
-    host: fitindoor.net
-    mode: auto
-- name: 澳大利亚 HYSTERIA2 137.23.2.56 582ms
-  type: hysteria2
-  server: '137.23.2.56'
-  port: 20000
-  password: b42d90fa667942aebc734d60
-  sni: rmgyvpn.rest
-  obfs: salamander
-  obfs-password: b42d90fa667942aebc734d60
-  skip-cert-verify: true
-  udp: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    headers:
+      Host: a.cwvps.eu.org
+    path: /ws
+  client-fingerprint: unsafe
+  skip-cert-verify: false
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -167,88 +40,20 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 香港 HYSTERIA2 vpn-hk-004.fastervpn.world 51ms
-  - 日本 HYSTERIA2 8.209.247.109 74ms
-  - 新加坡 VLESS sin-a-02.auuas.com 106ms
-  - 日本 VMESS sbgfgov.vip5.wogacnmnagfwgov.com 144ms
-  - 日本 HYSTERIA2 open.2ml.bid 195ms
-  - 美国 VLESS 23.83.224.178 198ms
-  - 瑞士 HYSTERIA2 152.67.75.161 233ms
-  - 德国 VMESS 23.165.200.150 234ms
-  - 日本 VMESS silversbgfgov.vip30.wogbcnmnagfwgov.com 259ms
-  - 俄罗斯 HYSTERIA2 194.87.118.184 296ms
-  - 俄罗斯 HYSTERIA2 194.87.118.184 317ms
-  - 其他 VLESS 78.159.246.85 369ms
-  - 其他 VLESS fitindoor.net 470ms
-  - 澳大利亚 HYSTERIA2 137.23.2.56 582ms
-- name: 📍 日本
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 日本 HYSTERIA2 8.209.247.109 74ms
-  - 日本 VMESS sbgfgov.vip5.wogacnmnagfwgov.com 144ms
-  - 日本 HYSTERIA2 open.2ml.bid 195ms
-  - 日本 VMESS silversbgfgov.vip30.wogbcnmnagfwgov.com 259ms
-- name: 📍 俄罗斯
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 俄罗斯 HYSTERIA2 194.87.118.184 296ms
-  - 俄罗斯 HYSTERIA2 194.87.118.184 317ms
+  - 其他 VLESS 104.18.37.127 164ms
+  - 其他 VLESS 104.16.10.197 188ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 78.159.246.85 369ms
-  - 其他 VLESS fitindoor.net 470ms
-- name: 📍 德国
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 德国 VMESS 23.165.200.150 234ms
-- name: 📍 新加坡
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 新加坡 VLESS sin-a-02.auuas.com 106ms
-- name: 📍 澳大利亚
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 澳大利亚 HYSTERIA2 137.23.2.56 582ms
-- name: 📍 瑞士
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 瑞士 HYSTERIA2 152.67.75.161 233ms
-- name: 📍 美国
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 美国 VLESS 23.83.224.178 198ms
-- name: 📍 香港
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 香港 HYSTERIA2 vpn-hk-004.fastervpn.world 51ms
+  - 其他 VLESS 104.18.37.127 164ms
+  - 其他 VLESS 104.16.10.197 188ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 香港 HYSTERIA2 vpn-hk-004.fastervpn.world 51ms
-  - 日本 HYSTERIA2 8.209.247.109 74ms
-  - 新加坡 VLESS sin-a-02.auuas.com 106ms
-  - 日本 VMESS sbgfgov.vip5.wogacnmnagfwgov.com 144ms
-  - 日本 HYSTERIA2 open.2ml.bid 195ms
-  - 美国 VLESS 23.83.224.178 198ms
-  - 瑞士 HYSTERIA2 152.67.75.161 233ms
-  - 德国 VMESS 23.165.200.150 234ms
-  - 日本 VMESS silversbgfgov.vip30.wogbcnmnagfwgov.com 259ms
-  - 俄罗斯 HYSTERIA2 194.87.118.184 296ms
-  - 俄罗斯 HYSTERIA2 194.87.118.184 317ms
-  - 其他 VLESS 78.159.246.85 369ms
-  - 其他 VLESS fitindoor.net 470ms
-  - 澳大利亚 HYSTERIA2 137.23.2.56 582ms
+  - 其他 VLESS 104.18.37.127 164ms
+  - 其他 VLESS 104.16.10.197 188ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

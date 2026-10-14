@@ -1,93 +1,101 @@
 # 免费优选节点
-# 生成时间: 2026-10-14 05:34:58 UTC
-# 存活节点: 6 / 存活率见日志
+# 生成时间: 2026-10-14 23:34:56 UTC
+# 存活节点: 8 / 存活率见日志
 proxies:
-- name: 法国 VLESS 104.18.37.228 174ms
+- name: 法国 VLESS 172.64.150.43 172ms
   type: vless
-  server: '104.18.37.228'
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: '172.64.150.43'
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
+  servername: hhlfy.twiladaphne.ndjp.net
   network: ws
   ws-opts:
-    path: /
+    path: /sg-melbi
     headers:
-      Host: vms.lifetime29.workers.dev
-- name: 其他 HYSTERIA2 qcloudge1.exitvpn.shop 240ms
-  type: hysteria2
-  server: qcloudge1.exitvpn.shop
-  port: 20270
-  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
-  sni: qcloudge1.exitvpn.shop
-  skip-cert-verify: false
-  udp: true
-- name: 其他 VLESS nl1.aiage.work 245ms
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 其他 VLESS dash.mobiza.ir 235ms
   type: vless
-  server: nl1.aiage.work
+  server: dash.mobiza.ir
+  port: 2052
+  uuid: 4da2b397-98db-4aaa-aa24-321f478f5f61
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: dash.mobiza.ir
+    path: /
+  skip-cert-verify: false
+- name: 澳大利亚 HYSTERIA2 vpn-au-001.fastervpn.world 242ms
+  type: hysteria2
+  server: vpn-au-001.fastervpn.world
   port: 443
-  uuid: 6338c01a-310e-42c3-bf4f-2a20e161054b
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-au-001.fastervpn.world
+  skip-cert-verify: true
+  udp: true
+- name: 加拿大 TROJAN ca.tronsg.com 248ms
+  type: trojan
+  server: ca.tronsg.com
+  port: 443
+  password: Trojan@82164024
+  sni: ca.tronsg.com
+  network: tcp
+  udp: true
+- name: 其他 TROJAN 66.23.203.21 252ms
+  type: trojan
+  server: '66.23.203.21'
+  port: 59689
+  password: ae7eb4dwyaz25pxwgq59
+  network: tcp
+  skip-cert-verify: true
+  udp: true
+- name: 其他 VLESS b58e68t.lt1.h1clayd.click 291ms
+  type: vless
+  server: b58e68t.lt1.h1clayd.click
+  port: 443
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
   udp: true
   tls: true
-  servername: nl1.aiage.work
+  servername: b58e68t.lt1.h1clayd.click
   network: tcp
   reality-opts:
-    public-key: vSa3rWZfq5OftXO2RSgggbTOxbHlWGTLpP8bNDki3wk
-    short-id: adcbde41b1cf27ba
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: false
-- name: 其他 VLESS 78.159.246.179 398ms
-  type: vless
-  server: '78.159.246.179'
-  port: 8443
-  uuid: 6a2aff19-ff1f-4a13-96c8-a4d8986a9699
-  udp: true
-  tls: true
-  servername: randomquaint.net
-  network: xhttp
-  xhttp-opts:
-    host: randomquaint.net
-    path: /api/v1/upload
-    x-padding-bytes: '100-1000'
-    session-table: ''
-    uplink-chunk-size: 0
-    sc-max-each-post-bytes: 1000000
-    sc-min-posts-interval-ms: 30
-    reuse-settings:
-      max-connections: '0'
-      max-concurrency: '16-32'
-      c-max-reuse-times: '64-128'
-      h-max-request-times: '0'
-      h-max-reusable-secs: '0'
-      h-keep-alive-period: 0
-  client-fingerprint: firefox
-  skip-cert-verify: false
-- name: 其他 VLESS 199.232.239.239 451ms
-  type: vless
-  server: '199.232.239.239'
-  port: 443
-  uuid: 0617eade-fb92-422f-9b59-c9a4b65b2906
-  udp: true
-  tls: true
-  servername: speedtest.net
-  alpn:
-  - h2
-  network: ws
-  ws-opts:
-    headers:
-      Host: mr_anonoijji.global.ssl.fastly.net
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2056
+    public-key: MbRONgV8ADD5B_aKDBv15LAW2a8QZok5bkkZexRRVAs
+    short-id: 2301ac8aee8bf6d4
+    _spider-x: /
   client-fingerprint: chrome
   skip-cert-verify: false
-  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-- name: 其他 HYSTERIA2 finkawwwbroy5.qcloud.surf 632ms
-  type: hysteria2
-  server: finkawwwbroy5.qcloud.surf
-  port: 20326
-  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
-  sni: finkawwwbroy5.qcloud.surf
-  skip-cert-verify: false
+- name: 其他 VLESS 87.242.127.176 315ms
+  type: vless
+  server: '87.242.127.176'
+  port: 4510
+  uuid: c3db7657-88ce-42a6-b998-1e0364b277ac
   udp: true
+  tls: true
+  servername: 9c99da.usecache.net
+  network: tcp
+  reality-opts:
+    public-key: hkvjyE8WMKHvdGfMta7PAIGz6HAv2WiXvWvAQmsE_DM
+    short-id: 2d0c188798bae174
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS app-ms-72.next-gen-shopping.com 343ms
+  type: vless
+  server: app-ms-72.next-gen-shopping.com
+  port: 443
+  uuid: 090da6a8-69f7-4b49-8af9-a8f8bfb07f17
+  udp: true
+  tls: true
+  servername: assets-ms-72.next-gen-shopping.com
+  network: tcp
+  reality-opts:
+    public-key: yuWkqVdfhtZTbQbgOWXfvukhdwCe2vVy7-GWxVfirnQ
+    short-id: 6f24fe57975cc9b6
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -97,36 +105,50 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 法国 VLESS 104.18.37.228 174ms
-  - 其他 HYSTERIA2 qcloudge1.exitvpn.shop 240ms
-  - 其他 VLESS nl1.aiage.work 245ms
-  - 其他 VLESS 78.159.246.179 398ms
-  - 其他 VLESS 199.232.239.239 451ms
-  - 其他 HYSTERIA2 finkawwwbroy5.qcloud.surf 632ms
+  - 法国 VLESS 172.64.150.43 172ms
+  - 其他 VLESS dash.mobiza.ir 235ms
+  - 澳大利亚 HYSTERIA2 vpn-au-001.fastervpn.world 242ms
+  - 加拿大 TROJAN ca.tronsg.com 248ms
+  - 其他 TROJAN 66.23.203.21 252ms
+  - 其他 VLESS b58e68t.lt1.h1clayd.click 291ms
+  - 其他 VLESS 87.242.127.176 315ms
+  - 其他 VLESS app-ms-72.next-gen-shopping.com 343ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 HYSTERIA2 qcloudge1.exitvpn.shop 240ms
-  - 其他 VLESS nl1.aiage.work 245ms
-  - 其他 VLESS 78.159.246.179 398ms
-  - 其他 VLESS 199.232.239.239 451ms
-  - 其他 HYSTERIA2 finkawwwbroy5.qcloud.surf 632ms
+  - 其他 VLESS dash.mobiza.ir 235ms
+  - 其他 TROJAN 66.23.203.21 252ms
+  - 其他 VLESS b58e68t.lt1.h1clayd.click 291ms
+  - 其他 VLESS 87.242.127.176 315ms
+  - 其他 VLESS app-ms-72.next-gen-shopping.com 343ms
+- name: 📍 加拿大
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 加拿大 TROJAN ca.tronsg.com 248ms
 - name: 📍 法国
   type: select
   proxies:
   - 🚀 自动选择
-  - 法国 VLESS 104.18.37.228 174ms
+  - 法国 VLESS 172.64.150.43 172ms
+- name: 📍 澳大利亚
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 澳大利亚 HYSTERIA2 vpn-au-001.fastervpn.world 242ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 法国 VLESS 104.18.37.228 174ms
-  - 其他 HYSTERIA2 qcloudge1.exitvpn.shop 240ms
-  - 其他 VLESS nl1.aiage.work 245ms
-  - 其他 VLESS 78.159.246.179 398ms
-  - 其他 VLESS 199.232.239.239 451ms
-  - 其他 HYSTERIA2 finkawwwbroy5.qcloud.surf 632ms
+  - 法国 VLESS 172.64.150.43 172ms
+  - 其他 VLESS dash.mobiza.ir 235ms
+  - 澳大利亚 HYSTERIA2 vpn-au-001.fastervpn.world 242ms
+  - 加拿大 TROJAN ca.tronsg.com 248ms
+  - 其他 TROJAN 66.23.203.21 252ms
+  - 其他 VLESS b58e68t.lt1.h1clayd.click 291ms
+  - 其他 VLESS 87.242.127.176 315ms
+  - 其他 VLESS app-ms-72.next-gen-shopping.com 343ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

@@ -1,47 +1,46 @@
 # 免费优选节点
-# 生成时间: 2026-10-16 05:31:26 UTC
-# 存活节点: 3 / 存活率见日志
+# 生成时间: 2026-10-16 11:40:01 UTC
+# 存活节点: 4 / 存活率见日志
 proxies:
-- name: 法国 VLESS cf.130519.xyz 173ms
-  type: vless
-  server: cf.130519.xyz
+- name: 新加坡 HYSTERIA2 vpn-sg-001.fastervpn.world 98ms
+  type: hysteria2
+  server: vpn-sg-001.fastervpn.world
   port: 443
-  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   udp: true
   tls: true
-  servername: 20664.pages.dev
+  sni: vpn-sg-001.fastervpn.world
+  skip-cert-verify: true
+- name: 其他 SS 95.169.3.45 266ms
+  type: ss
+  server: '95.169.3.45'
+  port: 46005
+  password: '123456'
+  cipher: chacha20-ietf-poly1305
+  udp: true
+  skip-cert-verify: false
+- name: 其他 VLESS platform108.golnamakcert.top 368ms
+  type: vless
+  server: platform108.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /platform108
     headers:
-      Host: 20664.pages.dev
-- name: 其他 VLESS 163.245.42.48 219ms
-  type: vless
-  server: '163.245.42.48'
+      Host: platform108.halalkhor.info
+- name: 澳大利亚 HYSTERIA2 152.67.115.203 787ms
+  type: hysteria2
+  server: '152.67.115.203'
   port: 443
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  password: 633bc3be486b646190661ac2387c150a
   udp: true
   tls: true
-  servername: mother-earth.fyi
-  network: tcp
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 日本 VLESS 104.16.10.22 276ms
-  type: vless
-  server: '104.16.10.22'
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
+  sni: www.bing.com
+  obfs: salamander
+  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
+  skip-cert-verify: true
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -51,31 +50,34 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 法国 VLESS cf.130519.xyz 173ms
-  - 其他 VLESS 163.245.42.48 219ms
-  - 日本 VLESS 104.16.10.22 276ms
+  - 新加坡 HYSTERIA2 vpn-sg-001.fastervpn.world 98ms
+  - 其他 SS 95.169.3.45 266ms
+  - 其他 VLESS platform108.golnamakcert.top 368ms
+  - 澳大利亚 HYSTERIA2 152.67.115.203 787ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 163.245.42.48 219ms
-- name: 📍 日本
+  - 其他 SS 95.169.3.45 266ms
+  - 其他 VLESS platform108.golnamakcert.top 368ms
+- name: 📍 新加坡
   type: select
   proxies:
   - 🚀 自动选择
-  - 日本 VLESS 104.16.10.22 276ms
-- name: 📍 法国
+  - 新加坡 HYSTERIA2 vpn-sg-001.fastervpn.world 98ms
+- name: 📍 澳大利亚
   type: select
   proxies:
   - 🚀 自动选择
-  - 法国 VLESS cf.130519.xyz 173ms
+  - 澳大利亚 HYSTERIA2 152.67.115.203 787ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 法国 VLESS cf.130519.xyz 173ms
-  - 其他 VLESS 163.245.42.48 219ms
-  - 日本 VLESS 104.16.10.22 276ms
+  - 新加坡 HYSTERIA2 vpn-sg-001.fastervpn.world 98ms
+  - 其他 SS 95.169.3.45 266ms
+  - 其他 VLESS platform108.golnamakcert.top 368ms
+  - 澳大利亚 HYSTERIA2 152.67.115.203 787ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

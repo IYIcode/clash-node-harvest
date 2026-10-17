@@ -1,68 +1,18 @@
 # 免费优选节点
-# 生成时间: 2026-10-16 23:33:59 UTC
-# 存活节点: 5 / 存活率见日志
+# 生成时间: 2026-10-17 23:36:02 UTC
+# 存活节点: 1 / 存活率见日志
 proxies:
-- name: 香港 VLESS 3696b38bsg.murphyweb.sbs 125ms
+- name: 其他 VLESS 206.1.100.148 264ms
   type: vless
-  server: 3696b38bsg.murphyweb.sbs
-  port: 32134
-  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
-  udp: true
-  tls: true
-  servername: buylite.music.apple.com
-  network: raw
-  reality-opts:
-    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
-    short-id: 6c6c7c97
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-- name: 美国 VLESS 3696b38bsg.murphyweb.sbs 127ms
-  type: vless
-  server: 3696b38bsg.murphyweb.sbs
-  port: 32134
-  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
-  udp: true
-  tls: true
-  servername: buylite.music.apple.com
-  network: tcp
-  reality-opts:
-    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
-    short-id: 6c6c7c97
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 澳大利亚 HYSTERIA2 152.67.115.203 289ms
-  type: hysteria2
-  server: '152.67.115.203'
-  port: 443
-  password: 633bc3be486b646190661ac2387c150a
-  udp: true
-  tls: true
-  sni: www.bing.com
-  obfs: salamander
-  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-  skip-cert-verify: true
-- name: 俄罗斯 VLESS randomquaint.net 343ms
-  type: vless
-  server: randomquaint.net
+  server: '206.1.100.148'
   port: 8443
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  uuid: 53373a04-2dd2-472e-af5d-d55fbffa7dbd
   udp: true
   tls: true
-  servername: randomquaint.net
-  network: xhttp
-  xhttp-opts:
-    host: randomquaint.net
-    mode: auto
-    path: /api/v1/upload
+  servername: game.jafarghasemivip.ir
+  network: tcp
   client-fingerprint: firefox
-- name: 其他 HYSTERIA2 31.57.248.176 356ms
-  type: hysteria2
-  server: '31.57.248.176'
-  port: 50160
-  password: b0917015b656b3dd2286b5633af0c5c1
-  sni: www.bing.com%23%e9%a6%83%e5%9a%9f%e9%a6%83%e5%9a%a2%7chk%7c%40wxgqlfx%7c147
-  skip-cert-verify: true
-  udp: true
+  skip-cert-verify: false
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -72,45 +22,17 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 香港 VLESS 3696b38bsg.murphyweb.sbs 125ms
-  - 美国 VLESS 3696b38bsg.murphyweb.sbs 127ms
-  - 澳大利亚 HYSTERIA2 152.67.115.203 289ms
-  - 俄罗斯 VLESS randomquaint.net 343ms
-  - 其他 HYSTERIA2 31.57.248.176 356ms
-- name: 📍 俄罗斯
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 俄罗斯 VLESS randomquaint.net 343ms
+  - 其他 VLESS 206.1.100.148 264ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 HYSTERIA2 31.57.248.176 356ms
-- name: 📍 澳大利亚
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 澳大利亚 HYSTERIA2 152.67.115.203 289ms
-- name: 📍 美国
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 美国 VLESS 3696b38bsg.murphyweb.sbs 127ms
-- name: 📍 香港
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 香港 VLESS 3696b38bsg.murphyweb.sbs 125ms
+  - 其他 VLESS 206.1.100.148 264ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 香港 VLESS 3696b38bsg.murphyweb.sbs 125ms
-  - 美国 VLESS 3696b38bsg.murphyweb.sbs 127ms
-  - 澳大利亚 HYSTERIA2 152.67.115.203 289ms
-  - 俄罗斯 VLESS randomquaint.net 343ms
-  - 其他 HYSTERIA2 31.57.248.176 356ms
+  - 其他 VLESS 206.1.100.148 264ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

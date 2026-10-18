@@ -1,8 +1,8 @@
 # 免费优选节点
-# 生成时间: 2026-10-18 05:33:49 UTC
+# 生成时间: 2026-10-18 11:30:50 UTC
 # 存活节点: 1 / 存活率见日志
 proxies:
-- name: 其他 VLESS 141.11.138.132 313ms
+- name: 其他 VLESS 141.11.138.132 274ms
   type: vless
   server: '141.11.138.132'
   port: 443
@@ -26,17 +26,17 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 其他 VLESS 141.11.138.132 313ms
+  - 其他 VLESS 141.11.138.132 274ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 141.11.138.132 313ms
+  - 其他 VLESS 141.11.138.132 274ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 141.11.138.132 313ms
+  - 其他 VLESS 141.11.138.132 274ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

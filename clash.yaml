@@ -1,17 +1,21 @@
 # 免费优选节点
-# 生成时间: 2026-10-17 23:36:02 UTC
+# 生成时间: 2026-10-18 05:33:49 UTC
 # 存活节点: 1 / 存活率见日志
 proxies:
-- name: 其他 VLESS 206.1.100.148 264ms
+- name: 其他 VLESS 141.11.138.132 313ms
   type: vless
-  server: '206.1.100.148'
-  port: 8443
-  uuid: 53373a04-2dd2-472e-af5d-d55fbffa7dbd
+  server: '141.11.138.132'
+  port: 443
+  uuid: b47cc98c-54f4-4ab2-acb9-b493a04ccc6b
   udp: true
   tls: true
-  servername: game.jafarghasemivip.ir
+  servername: www.cloudflare.com
   network: tcp
+  reality-opts:
+    public-key: Kb511WMVMJe1nImN8kCi9PdPQSGu3aZCrffMOvzv43A
+    short-id: f9ca9286d0ff8920
   client-fingerprint: firefox
+  flow: xtls-rprx-vision
   skip-cert-verify: false
 proxy-groups:
 - name: 🚀 自动选择
@@ -22,17 +26,17 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 其他 VLESS 206.1.100.148 264ms
+  - 其他 VLESS 141.11.138.132 313ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 206.1.100.148 264ms
+  - 其他 VLESS 141.11.138.132 313ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 206.1.100.148 264ms
+  - 其他 VLESS 141.11.138.132 313ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

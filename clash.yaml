@@ -1,84 +1,112 @@
 # 免费优选节点
-# 生成时间: 2026-10-19 05:33:19 UTC
-# 存活节点: 6（手机兼容版：已剔除 1 个 anytls 类型，PC 本地文件仍是全量）
+# 生成时间: 2026-10-19 11:35:18 UTC
+# 存活节点: 8 / 存活率见日志
 proxies:
-- name: 法国 VLESS 104.19.164.25 174ms
-  type: vless
-  server: '104.19.164.25'
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 其他 VLESS 104.24.54.160 200ms
-  type: vless
-  server: '104.24.54.160'
+- name: 其他 HYSTERIA2 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com 47ms
+  type: hysteria2
+  server: 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+  sni: 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com
+  skip-cert-verify: true
+  udp: true
+- name: 其他 VLESS 104.18.37.127 174ms
+  type: vless
+  server: '104.18.37.127'
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
-  servername: a.cwvps.eu.org
+  servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /ws
     headers:
-      Host: a.cwvps.eu.org
-- name: 德国 VLESS ge-s-1.pythonmakemigreat.wiki 214ms
-  type: vless
-  server: ge-s-1.pythonmakemigreat.wiki
-  port: 443
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  udp: true
-  tls: true
-  servername: ge-s-1.pythonmakemigreat.wiki
-  network: tcp
-  reality-opts:
-    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
-    short-id: 2c9a2790ad5900b2
+      Host: ccc.010304.xyz
+    path: /
   client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 其他 TROJAN 199.232.78.160 265ms
+  skip-cert-verify: false
+- name: 其他 TROJAN 172.66.47.18 176ms
   type: trojan
-  server: '199.232.78.160'
+  server: '172.66.47.18'
   port: 443
-  password: mitivpn
-  sni: firefox.com
+  password: e7TTceggMwUMg+aFN:F4
+  sni: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
   alpn:
   - http/1.1
   network: ws
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    path: /tr/SIeRkg2QvR2Zcpu0SeEMow
     headers:
-      Host: mitivpn-mitivpn-mitivpn.global.ssl.fastly.net
+      Host: apkd964o1oghltghht0l0of.pages.dev
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
   client-fingerprint: chrome
-  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-  udp: true
-- name: 俄罗斯 VLESS 185.91.126.213 376ms
-  type: vless
-  server: '185.91.126.213'
-  port: 443
-  uuid: ad9f922d-1881-474d-94a8-4b06851f6039
-  udp: true
-  tls: true
-  servername: ads.x5.ru
-  network: tcp
-  reality-opts:
-    public-key: qB_eMu3ZO_wGITnyIqJ7Kt39-h9oHFnHlQQEqA-r3VA
-  client-fingerprint: random
-  flow: xtls-rprx-vision
   skip-cert-verify: false
-- name: 美国 HYSTERIA2 starlink-ft.251313.xyz 396ms
-  type: hysteria2
-  server: starlink-ft.251313.xyz
+  udp: true
+- name: 其他 VLESS platform109.golnamakcert.top 183ms
+  type: vless
+  server: platform109.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  servername: platform109.halalkhor.info
+  network: ws
+  ws-opts:
+    path: /platform109
+    headers:
+      Host: platform109.halalkhor.info
+- name: 其他 VLESS platform106.golnamakcert.top 183ms
+  type: vless
+  server: platform106.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  servername: platform106.halalkhor.info
+  network: ws
+  ws-opts:
+    path: /platform106
+    headers:
+      Host: platform106.halalkhor.info
+- name: 其他 VLESS 103.247.28.103 213ms
+  type: vless
+  server: '103.247.28.103'
   port: 443
-  password: https://xship.top
+  uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
   udp: true
   tls: true
-  sni: xship.top
+  servername: nvl-edge-dr-141026.pages.dev
+  network: ws
+  ws-opts:
+    headers:
+      Host: nvl-edge-dr-141026.pages.dev
+    path: /proxyip=ProxyIP.HK.CMLiussss.Net
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 其他 VLESS 134.209.16.44 278ms
+  type: vless
+  server: '134.209.16.44'
+  port: 443
+  uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
+  udp: true
+  tls: true
+  servername: nvl-edge-dr-141026.pages.dev
+  network: ws
+  ws-opts:
+    headers:
+      Host: nvl-edge-dr-141026.pages.dev
+    path: /proxyip=ProxyIP.GB.CMLiussss.Net
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 其他 HYSTERIA2 147.15.108.14 407ms
+  type: hysteria2
+  server: '147.15.108.14'
+  port: 20000
+  password: CyG0RFxMjzs41uQD4OLuHQ==
+  sni: rmgyvpn.rest
+  obfs: salamander
+  obfs-password: CyG0RFxMjzs41uQD4OLuHQ==
   skip-cert-verify: true
+  udp: true
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -88,48 +116,38 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 法国 VLESS 104.19.164.25 174ms
-  - 其他 VLESS 104.24.54.160 200ms
-  - 德国 VLESS ge-s-1.pythonmakemigreat.wiki 214ms
-  - 其他 TROJAN 199.232.78.160 265ms
-  - 俄罗斯 VLESS 185.91.126.213 376ms
-  - 美国 HYSTERIA2 starlink-ft.251313.xyz 396ms
+  - 其他 HYSTERIA2 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com 47ms
+  - 其他 VLESS 104.18.37.127 174ms
+  - 其他 TROJAN 172.66.47.18 176ms
+  - 其他 VLESS platform109.golnamakcert.top 183ms
+  - 其他 VLESS platform106.golnamakcert.top 183ms
+  - 其他 VLESS 103.247.28.103 213ms
+  - 其他 VLESS 134.209.16.44 278ms
+  - 其他 HYSTERIA2 147.15.108.14 407ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 104.24.54.160 200ms
-  - 其他 TROJAN 199.232.78.160 265ms
-- name: 📍 俄罗斯
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 俄罗斯 VLESS 185.91.126.213 376ms
-- name: 📍 德国
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 德国 VLESS ge-s-1.pythonmakemigreat.wiki 214ms
-- name: 📍 法国
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 法国 VLESS 104.19.164.25 174ms
-- name: 📍 美国
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 美国 HYSTERIA2 starlink-ft.251313.xyz 396ms
+  - 其他 HYSTERIA2 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com 47ms
+  - 其他 VLESS 104.18.37.127 174ms
+  - 其他 TROJAN 172.66.47.18 176ms
+  - 其他 VLESS platform109.golnamakcert.top 183ms
+  - 其他 VLESS platform106.golnamakcert.top 183ms
+  - 其他 VLESS 103.247.28.103 213ms
+  - 其他 VLESS 134.209.16.44 278ms
+  - 其他 HYSTERIA2 147.15.108.14 407ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 法国 VLESS 104.19.164.25 174ms
-  - 其他 VLESS 104.24.54.160 200ms
-  - 德国 VLESS ge-s-1.pythonmakemigreat.wiki 214ms
-  - 其他 TROJAN 199.232.78.160 265ms
-  - 俄罗斯 VLESS 185.91.126.213 376ms
-  - 美国 HYSTERIA2 starlink-ft.251313.xyz 396ms
+  - 其他 HYSTERIA2 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com 47ms
+  - 其他 VLESS 104.18.37.127 174ms
+  - 其他 TROJAN 172.66.47.18 176ms
+  - 其他 VLESS platform109.golnamakcert.top 183ms
+  - 其他 VLESS platform106.golnamakcert.top 183ms
+  - 其他 VLESS 103.247.28.103 213ms
+  - 其他 VLESS 134.209.16.44 278ms
+  - 其他 HYSTERIA2 147.15.108.14 407ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

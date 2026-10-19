@@ -1,17 +1,32 @@
 # 免费优选节点
-# 生成时间: 2026-10-18 17:41:23 UTC
-# 存活节点: 5（手机兼容版：已剔除 1 个 anytls 类型，PC 本地文件仍是全量）
+# 生成时间: 2026-10-19 05:33:19 UTC
+# 存活节点: 6（手机兼容版：已剔除 1 个 anytls 类型，PC 本地文件仍是全量）
 proxies:
-- name: 日本 HYSTERIA2 8.209.247.109 88ms
-  type: hysteria2
-  server: '8.209.247.109'
+- name: 法国 VLESS 104.19.164.25 174ms
+  type: vless
+  server: '104.19.164.25'
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 其他 VLESS 104.24.54.160 200ms
+  type: vless
+  server: '104.24.54.160'
   port: 443
-  password: usqmqUKJFIlCmvkCNSY64L3k
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   udp: true
   tls: true
-  sni: bing.com
-  skip-cert-verify: true
-- name: 德国 VLESS ge-s-1.pythonmakemigreat.wiki 267ms
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 德国 VLESS ge-s-1.pythonmakemigreat.wiki 214ms
   type: vless
   server: ge-s-1.pythonmakemigreat.wiki
   port: 443
@@ -25,7 +40,7 @@ proxies:
     short-id: 2c9a2790ad5900b2
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-- name: 其他 TROJAN 199.232.78.160 673ms
+- name: 其他 TROJAN 199.232.78.160 265ms
   type: trojan
   server: '199.232.78.160'
   port: 443
@@ -41,7 +56,21 @@ proxies:
   client-fingerprint: chrome
   fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
   udp: true
-- name: 美国 HYSTERIA2 starlink-ft.251313.xyz 799ms
+- name: 俄罗斯 VLESS 185.91.126.213 376ms
+  type: vless
+  server: '185.91.126.213'
+  port: 443
+  uuid: ad9f922d-1881-474d-94a8-4b06851f6039
+  udp: true
+  tls: true
+  servername: ads.x5.ru
+  network: tcp
+  reality-opts:
+    public-key: qB_eMu3ZO_wGITnyIqJ7Kt39-h9oHFnHlQQEqA-r3VA
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 美国 HYSTERIA2 starlink-ft.251313.xyz 396ms
   type: hysteria2
   server: starlink-ft.251313.xyz
   port: 443
@@ -50,19 +79,6 @@ proxies:
   tls: true
   sni: xship.top
   skip-cert-verify: true
-- name: 德国 VLESS studio.10media.top 1435ms
-  type: vless
-  server: studio.10media.top
-  port: 443
-  uuid: 9cb8d71c-fe06-4402-a591-eaa1f173b890
-  udp: true
-  tls: true
-  servername: studio.10media.top
-  alpn:
-  - h2
-  network: grpc
-  grpc-opts:
-    grpc-service-name: studiofeed
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -72,41 +88,48 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 日本 HYSTERIA2 8.209.247.109 88ms
-  - 德国 VLESS ge-s-1.pythonmakemigreat.wiki 267ms
-  - 其他 TROJAN 199.232.78.160 673ms
-  - 美国 HYSTERIA2 starlink-ft.251313.xyz 799ms
-  - 德国 VLESS studio.10media.top 1435ms
-- name: 📍 德国
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 德国 VLESS ge-s-1.pythonmakemigreat.wiki 267ms
-  - 德国 VLESS studio.10media.top 1435ms
+  - 法国 VLESS 104.19.164.25 174ms
+  - 其他 VLESS 104.24.54.160 200ms
+  - 德国 VLESS ge-s-1.pythonmakemigreat.wiki 214ms
+  - 其他 TROJAN 199.232.78.160 265ms
+  - 俄罗斯 VLESS 185.91.126.213 376ms
+  - 美国 HYSTERIA2 starlink-ft.251313.xyz 396ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 TROJAN 199.232.78.160 673ms
-- name: 📍 日本
+  - 其他 VLESS 104.24.54.160 200ms
+  - 其他 TROJAN 199.232.78.160 265ms
+- name: 📍 俄罗斯
   type: select
   proxies:
   - 🚀 自动选择
-  - 日本 HYSTERIA2 8.209.247.109 88ms
+  - 俄罗斯 VLESS 185.91.126.213 376ms
+- name: 📍 德国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 德国 VLESS ge-s-1.pythonmakemigreat.wiki 214ms
+- name: 📍 法国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 法国 VLESS 104.19.164.25 174ms
 - name: 📍 美国
   type: select
   proxies:
   - 🚀 自动选择
-  - 美国 HYSTERIA2 starlink-ft.251313.xyz 799ms
+  - 美国 HYSTERIA2 starlink-ft.251313.xyz 396ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 日本 HYSTERIA2 8.209.247.109 88ms
-  - 德国 VLESS ge-s-1.pythonmakemigreat.wiki 267ms
-  - 其他 TROJAN 199.232.78.160 673ms
-  - 美国 HYSTERIA2 starlink-ft.251313.xyz 799ms
-  - 德国 VLESS studio.10media.top 1435ms
+  - 法国 VLESS 104.19.164.25 174ms
+  - 其他 VLESS 104.24.54.160 200ms
+  - 德国 VLESS ge-s-1.pythonmakemigreat.wiki 214ms
+  - 其他 TROJAN 199.232.78.160 265ms
+  - 俄罗斯 VLESS 185.91.126.213 376ms
+  - 美国 HYSTERIA2 starlink-ft.251313.xyz 396ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

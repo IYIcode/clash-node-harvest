@@ -1,111 +1,45 @@
 # 免费优选节点
-# 生成时间: 2026-10-19 11:35:18 UTC
-# 存活节点: 8 / 存活率见日志
+# 生成时间: 2026-10-20 17:32:08 UTC
+# 存活节点: 3（手机兼容版：已剔除 1 个 anytls 类型，PC 本地文件仍是全量）
 proxies:
-- name: 其他 HYSTERIA2 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com 47ms
-  type: hysteria2
-  server: 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com
-  port: 443
-  password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-  sni: 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com
-  skip-cert-verify: true
-  udp: true
-- name: 其他 VLESS 104.18.37.127 174ms
+- name: 荷兰 VLESS 50d9ab69755390c8.wgse.info 262ms
   type: vless
-  server: '104.18.37.127'
+  server: 50d9ab69755390c8.wgse.info
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 9f56bdc2-3238-4190-9b83-1c8332a7f3f8
   udp: true
   tls: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /
+  servername: 50d9ab69755390c8.wgse.info
+  network: xhttp
+  xhttp-opts:
+    host: 50d9ab69755390c8.wgse.info
+    mode: auto
+    path: /xh
   client-fingerprint: chrome
-  skip-cert-verify: false
-- name: 其他 TROJAN 172.66.47.18 176ms
+- name: 其他 VLESS link.mrpgd.ir 371ms
+  type: vless
+  server: link.mrpgd.ir
+  port: 6008
+  uuid: e19f406e-0f0f-4abd-9861-a3d2d213b650
+  udp: true
+  servername: cafebazaar.ir
+  network: xhttp
+  xhttp-opts:
+    path: /assets
+    host: cafebazaar.ir
+    mode: stream-up
+- name: 荷兰 TROJAN 92.42.99.143 440ms
   type: trojan
-  server: '172.66.47.18'
+  server: '92.42.99.143'
   port: 443
-  password: e7TTceggMwUMg+aFN:F4
-  sni: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
-  alpn:
-  - http/1.1
+  password: humanity
+  sni: www.volumeroot.com
   network: ws
   ws-opts:
-    path: /tr/SIeRkg2QvR2Zcpu0SeEMow
     headers:
-      Host: apkd964o1oghltghht0l0of.pages.dev
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-  client-fingerprint: chrome
+      Host: www.volumeroot.com
+    path: '%2Fassignment'
   skip-cert-verify: false
-  udp: true
-- name: 其他 VLESS platform109.golnamakcert.top 183ms
-  type: vless
-  server: platform109.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  servername: platform109.halalkhor.info
-  network: ws
-  ws-opts:
-    path: /platform109
-    headers:
-      Host: platform109.halalkhor.info
-- name: 其他 VLESS platform106.golnamakcert.top 183ms
-  type: vless
-  server: platform106.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  servername: platform106.halalkhor.info
-  network: ws
-  ws-opts:
-    path: /platform106
-    headers:
-      Host: platform106.halalkhor.info
-- name: 其他 VLESS 103.247.28.103 213ms
-  type: vless
-  server: '103.247.28.103'
-  port: 443
-  uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
-  udp: true
-  tls: true
-  servername: nvl-edge-dr-141026.pages.dev
-  network: ws
-  ws-opts:
-    headers:
-      Host: nvl-edge-dr-141026.pages.dev
-    path: /proxyip=ProxyIP.HK.CMLiussss.Net
-  client-fingerprint: chrome
-  skip-cert-verify: false
-- name: 其他 VLESS 134.209.16.44 278ms
-  type: vless
-  server: '134.209.16.44'
-  port: 443
-  uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
-  udp: true
-  tls: true
-  servername: nvl-edge-dr-141026.pages.dev
-  network: ws
-  ws-opts:
-    headers:
-      Host: nvl-edge-dr-141026.pages.dev
-    path: /proxyip=ProxyIP.GB.CMLiussss.Net
-  client-fingerprint: chrome
-  skip-cert-verify: false
-- name: 其他 HYSTERIA2 147.15.108.14 407ms
-  type: hysteria2
-  server: '147.15.108.14'
-  port: 20000
-  password: CyG0RFxMjzs41uQD4OLuHQ==
-  sni: rmgyvpn.rest
-  obfs: salamander
-  obfs-password: CyG0RFxMjzs41uQD4OLuHQ==
-  skip-cert-verify: true
   udp: true
 proxy-groups:
 - name: 🚀 自动选择
@@ -116,38 +50,27 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 其他 HYSTERIA2 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com 47ms
-  - 其他 VLESS 104.18.37.127 174ms
-  - 其他 TROJAN 172.66.47.18 176ms
-  - 其他 VLESS platform109.golnamakcert.top 183ms
-  - 其他 VLESS platform106.golnamakcert.top 183ms
-  - 其他 VLESS 103.247.28.103 213ms
-  - 其他 VLESS 134.209.16.44 278ms
-  - 其他 HYSTERIA2 147.15.108.14 407ms
+  - 荷兰 VLESS 50d9ab69755390c8.wgse.info 262ms
+  - 其他 VLESS link.mrpgd.ir 371ms
+  - 荷兰 TROJAN 92.42.99.143 440ms
+- name: 📍 荷兰
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 荷兰 VLESS 50d9ab69755390c8.wgse.info 262ms
+  - 荷兰 TROJAN 92.42.99.143 440ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 HYSTERIA2 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com 47ms
-  - 其他 VLESS 104.18.37.127 174ms
-  - 其他 TROJAN 172.66.47.18 176ms
-  - 其他 VLESS platform109.golnamakcert.top 183ms
-  - 其他 VLESS platform106.golnamakcert.top 183ms
-  - 其他 VLESS 103.247.28.103 213ms
-  - 其他 VLESS 134.209.16.44 278ms
-  - 其他 HYSTERIA2 147.15.108.14 407ms
+  - 其他 VLESS link.mrpgd.ir 371ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 HYSTERIA2 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com 47ms
-  - 其他 VLESS 104.18.37.127 174ms
-  - 其他 TROJAN 172.66.47.18 176ms
-  - 其他 VLESS platform109.golnamakcert.top 183ms
-  - 其他 VLESS platform106.golnamakcert.top 183ms
-  - 其他 VLESS 103.247.28.103 213ms
-  - 其他 VLESS 134.209.16.44 278ms
-  - 其他 HYSTERIA2 147.15.108.14 407ms
+  - 荷兰 VLESS 50d9ab69755390c8.wgse.info 262ms
+  - 其他 VLESS link.mrpgd.ir 371ms
+  - 荷兰 TROJAN 92.42.99.143 440ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

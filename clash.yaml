@@ -1,45 +1,95 @@
 # 免费优选节点
-# 生成时间: 2026-10-20 17:32:08 UTC
-# 存活节点: 3（手机兼容版：已剔除 1 个 anytls 类型，PC 本地文件仍是全量）
+# 生成时间: 2026-10-21 05:34:02 UTC
+# 存活节点: 8（手机兼容版：已剔除 1 个 anytls 类型，PC 本地文件仍是全量）
 proxies:
-- name: 荷兰 VLESS 50d9ab69755390c8.wgse.info 262ms
-  type: vless
-  server: 50d9ab69755390c8.wgse.info
-  port: 443
-  uuid: 9f56bdc2-3238-4190-9b83-1c8332a7f3f8
-  udp: true
-  tls: true
-  servername: 50d9ab69755390c8.wgse.info
-  network: xhttp
-  xhttp-opts:
-    host: 50d9ab69755390c8.wgse.info
-    mode: auto
-    path: /xh
-  client-fingerprint: chrome
-- name: 其他 VLESS link.mrpgd.ir 371ms
-  type: vless
-  server: link.mrpgd.ir
-  port: 6008
-  uuid: e19f406e-0f0f-4abd-9861-a3d2d213b650
-  udp: true
-  servername: cafebazaar.ir
-  network: xhttp
-  xhttp-opts:
-    path: /assets
-    host: cafebazaar.ir
-    mode: stream-up
-- name: 荷兰 TROJAN 92.42.99.143 440ms
+- name: 其他 TROJAN 45.32.52.173 80ms
   type: trojan
-  server: '92.42.99.143'
-  port: 443
-  password: humanity
-  sni: www.volumeroot.com
+  server: '45.32.52.173'
+  port: 8886
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  network: tcp
+  skip-cert-verify: true
+  udp: true
+- name: 法国 VLESS 104.21.70.21 176ms
+  type: vless
+  server: '104.21.70.21'
+  port: 8080
+  uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e
+  udp: true
+  servername: fornewiran.ade-1000.workers.dev
   network: ws
   ws-opts:
+    path: /vl/yLWNcuUuw1jlJpkDhGy?ed=2560
     headers:
-      Host: www.volumeroot.com
-    path: '%2Fassignment'
+      Host: fornewiran.ade-1000.workers.dev
+- name: 美国 VLESS 188.114.98.0 176ms
+  type: vless
+  server: '188.114.98.0'
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  servername: lucasjow.us.ci
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI
+    headers:
+      Host: lucasjow.us.ci
+- name: 其他 TROJAN 139.180.146.200 202ms
+  type: trojan
+  server: '139.180.146.200'
+  port: 8886
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  network: tcp
+  skip-cert-verify: true
+  udp: true
+- name: 印度 TROJAN tttyder.wsone.icu 219ms
+  type: trojan
+  server: tttyder.wsone.icu
+  port: 443
+  password: M7v%w11Se*
+  udp: true
+  servername: tttyder.wsone.icu
+  network: tcp
+- name: 意大利 SS 202.50.253.27 293ms
+  type: ss
+  server: '202.50.253.27'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 波兰 VLESS pl-b1.golangwikito.cfd 418ms
+  type: vless
+  server: pl-b1.golangwikito.cfd
+  port: 61374
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  udp: true
+  tls: true
+  servername: pl-b1.golangwikito.cfd
+  network: xhttp
+  xhttp-opts:
+    host: pl-b1.golangwikito.cfd
+    path: /
+    mode: packet-up
+    x-padding-bytes: '100-500'
+    reuse-settings:
+      max-connections: '3'
+  reality-opts:
+    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
+  client-fingerprint: chrome
   skip-cert-verify: false
+- name: 其他 TROJAN 185.114.72.31 1050ms
+  type: trojan
+  server: '185.114.72.31'
+  port: 2053
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  client-fingerprint: chrome
   udp: true
 proxy-groups:
 - name: 🚀 自动选择
@@ -50,27 +100,58 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 荷兰 VLESS 50d9ab69755390c8.wgse.info 262ms
-  - 其他 VLESS link.mrpgd.ir 371ms
-  - 荷兰 TROJAN 92.42.99.143 440ms
-- name: 📍 荷兰
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 荷兰 VLESS 50d9ab69755390c8.wgse.info 262ms
-  - 荷兰 TROJAN 92.42.99.143 440ms
+  - 其他 TROJAN 45.32.52.173 80ms
+  - 法国 VLESS 104.21.70.21 176ms
+  - 美国 VLESS 188.114.98.0 176ms
+  - 其他 TROJAN 139.180.146.200 202ms
+  - 印度 TROJAN tttyder.wsone.icu 219ms
+  - 意大利 SS 202.50.253.27 293ms
+  - 波兰 VLESS pl-b1.golangwikito.cfd 418ms
+  - 其他 TROJAN 185.114.72.31 1050ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS link.mrpgd.ir 371ms
+  - 其他 TROJAN 45.32.52.173 80ms
+  - 其他 TROJAN 139.180.146.200 202ms
+  - 其他 TROJAN 185.114.72.31 1050ms
+- name: 📍 印度
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 印度 TROJAN tttyder.wsone.icu 219ms
+- name: 📍 意大利
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 意大利 SS 202.50.253.27 293ms
+- name: 📍 法国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 法国 VLESS 104.21.70.21 176ms
+- name: 📍 波兰
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 波兰 VLESS pl-b1.golangwikito.cfd 418ms
+- name: 📍 美国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 美国 VLESS 188.114.98.0 176ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 荷兰 VLESS 50d9ab69755390c8.wgse.info 262ms
-  - 其他 VLESS link.mrpgd.ir 371ms
-  - 荷兰 TROJAN 92.42.99.143 440ms
+  - 其他 TROJAN 45.32.52.173 80ms
+  - 法国 VLESS 104.21.70.21 176ms
+  - 美国 VLESS 188.114.98.0 176ms
+  - 其他 TROJAN 139.180.146.200 202ms
+  - 印度 TROJAN tttyder.wsone.icu 219ms
+  - 意大利 SS 202.50.253.27 293ms
+  - 波兰 VLESS pl-b1.golangwikito.cfd 418ms
+  - 其他 TROJAN 185.114.72.31 1050ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

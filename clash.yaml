@@ -1,147 +1,67 @@
 # 免费优选节点
-# 生成时间: 2026-10-21 17:36:02 UTC
-# 存活节点: 10 / 存活率见日志
+# 生成时间: 2026-10-22 17:41:24 UTC
+# 存活节点: 5（手机兼容版：已剔除 3 个 anytls 类型，PC 本地文件仍是全量）
 proxies:
-- name: 其他 VLESS 54.191.98.142 207ms
+- name: 法国 VLESS 104.17.44.17 271ms
   type: vless
-  server: '54.191.98.142'
-  port: 443
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  server: '104.17.44.17'
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
-  tls: false
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    path:
-    - /
-    method: GET
-  skip-cert-verify: false
-- name: 德国 VLESS 63.178.23.66 239ms
-  type: vless
-  server: '63.178.23.66'
-  port: 443
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  udp: true
-  tls: false
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-- name: 其他 VLESS 3.77.199.28 240ms
-  type: vless
-  server: '3.77.199.28'
-  port: 443
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  udp: true
-  tls: false
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    path:
-    - /
-    method: GET
-  skip-cert-verify: false
-- name: 法国 TROJAN www.calmlunch.com 309ms
-  type: trojan
-  server: www.calmlunch.com
-  port: 443
-  password: humanity
-  udp: true
-  servername: www.calmlunch.com
+  servername: hhlfy.twiladaphne.ndjp.net
   network: ws
   ws-opts:
-    path: /assignment
+    path: /sg-melbi
     headers:
-      Host: www.calmlunch.com
-- name: 其他 VLESS 144.31.0.140 332ms
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 意大利 SS 202.50.253.90 301ms
+  type: ss
+  server: '202.50.253.90'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 荷兰 VLESS netherlands02.azotvpn.xyz 309ms
   type: vless
-  server: '144.31.0.140'
+  server: netherlands02.azotvpn.xyz
   port: 443
-  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
+  uuid: a500be68-4ff6-433b-9968-472be69fab14
   udp: true
   tls: true
-  servername: api.sakhalin.fyi
+  servername: netherlands02.azotvpn.xyz
   network: tcp
   reality-opts:
-    public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
-    short-id: 7271129440ade8fa
+    public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
+    short-id: fc70174007a393b4
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: false
-- name: 意大利 SS 202.50.253.54 347ms
+- name: 意大利 SS 202.50.253.54 331ms
   type: ss
   server: '202.50.253.54'
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   udp: true
-- name: 新加坡 VLESS 45.12.30.7 368ms
+- name: 英国 VLESS api.ferrin.uk 380ms
   type: vless
-  server: '45.12.30.7'
-  port: 8443
-  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  server: api.ferrin.uk
+  port: 443
+  uuid: 7d1a74fd-8a38-4a29-863f-5da53a9e557e
   udp: true
   tls: true
-  servername: speed.dulacloud.store
-  network: ws
-  ws-opts:
-    path: /dula?Telegram-WangCai2
-    headers:
-      Host: speed.dulacloud.store
-- name: 其他 VLESS 37.18.14.43 447ms
-  type: vless
-  server: '37.18.14.43'
-  port: 8443
-  uuid: 6a2aff19-ff1f-4a13-96c8-a4d8986a9699
-  udp: true
-  tls: true
-  servername: summerculture.net
+  servername: 7d1a74fd.ferrin.uk
   alpn:
-  - http/1.1
   - h2
   network: xhttp
   xhttp-opts:
-    host: summerculture.net
-    path: /api/v1/upload
-    mode: auto
-  client-fingerprint: chrome
+    path: /es
+    mode: stream-one
+    reuse-settings:
+      max-connections: '3'
+      h-max-reusable-secs: '1140-1260'
+  client-fingerprint: firefox
   skip-cert-verify: false
-- name: 新加坡 VLESS 104.254.140.7 812ms
-  type: vless
-  server: '104.254.140.7'
-  port: 8443
-  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
-  udp: true
-  tls: true
-  servername: speed.dulacloud.store
-  network: ws
-  ws-opts:
-    path: /dula?Telegram-WangCai2
-    headers:
-      Host: speed.dulacloud.store
-- name: 爱尔兰 VLESS 3.252.104.83 979ms
-  type: vless
-  server: '3.252.104.83'
-  port: 443
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  udp: true
-  tls: false
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -151,64 +71,41 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 其他 VLESS 54.191.98.142 207ms
-  - 德国 VLESS 63.178.23.66 239ms
-  - 其他 VLESS 3.77.199.28 240ms
-  - 法国 TROJAN www.calmlunch.com 309ms
-  - 其他 VLESS 144.31.0.140 332ms
-  - 意大利 SS 202.50.253.54 347ms
-  - 新加坡 VLESS 45.12.30.7 368ms
-  - 其他 VLESS 37.18.14.43 447ms
-  - 新加坡 VLESS 104.254.140.7 812ms
-  - 爱尔兰 VLESS 3.252.104.83 979ms
-- name: 📍 其他
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 其他 VLESS 54.191.98.142 207ms
-  - 其他 VLESS 3.77.199.28 240ms
-  - 其他 VLESS 144.31.0.140 332ms
-  - 其他 VLESS 37.18.14.43 447ms
-- name: 📍 新加坡
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 新加坡 VLESS 45.12.30.7 368ms
-  - 新加坡 VLESS 104.254.140.7 812ms
-- name: 📍 德国
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 德国 VLESS 63.178.23.66 239ms
+  - 法国 VLESS 104.17.44.17 271ms
+  - 意大利 SS 202.50.253.90 301ms
+  - 荷兰 VLESS netherlands02.azotvpn.xyz 309ms
+  - 意大利 SS 202.50.253.54 331ms
+  - 英国 VLESS api.ferrin.uk 380ms
 - name: 📍 意大利
   type: select
   proxies:
   - 🚀 自动选择
-  - 意大利 SS 202.50.253.54 347ms
+  - 意大利 SS 202.50.253.90 301ms
+  - 意大利 SS 202.50.253.54 331ms
 - name: 📍 法国
   type: select
   proxies:
   - 🚀 自动选择
-  - 法国 TROJAN www.calmlunch.com 309ms
-- name: 📍 爱尔兰
+  - 法国 VLESS 104.17.44.17 271ms
+- name: 📍 英国
   type: select
   proxies:
   - 🚀 自动选择
-  - 爱尔兰 VLESS 3.252.104.83 979ms
+  - 英国 VLESS api.ferrin.uk 380ms
+- name: 📍 荷兰
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 荷兰 VLESS netherlands02.azotvpn.xyz 309ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 54.191.98.142 207ms
-  - 德国 VLESS 63.178.23.66 239ms
-  - 其他 VLESS 3.77.199.28 240ms
-  - 法国 TROJAN www.calmlunch.com 309ms
-  - 其他 VLESS 144.31.0.140 332ms
-  - 意大利 SS 202.50.253.54 347ms
-  - 新加坡 VLESS 45.12.30.7 368ms
-  - 其他 VLESS 37.18.14.43 447ms
-  - 新加坡 VLESS 104.254.140.7 812ms
-  - 爱尔兰 VLESS 3.252.104.83 979ms
+  - 法国 VLESS 104.17.44.17 271ms
+  - 意大利 SS 202.50.253.90 301ms
+  - 荷兰 VLESS netherlands02.azotvpn.xyz 309ms
+  - 意大利 SS 202.50.253.54 331ms
+  - 英国 VLESS api.ferrin.uk 380ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

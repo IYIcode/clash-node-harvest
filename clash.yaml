@@ -1,66 +1,51 @@
 # 免费优选节点
-# 生成时间: 2026-10-22 17:41:24 UTC
-# 存活节点: 5（手机兼容版：已剔除 3 个 anytls 类型，PC 本地文件仍是全量）
+# 生成时间: 2026-10-23 23:37:52 UTC
+# 存活节点: 3 / 存活率见日志
 proxies:
-- name: 法国 VLESS 104.17.44.17 271ms
+- name: 其他 VLESS 172.237.88.103 53ms
   type: vless
-  server: '104.17.44.17'
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  servername: hhlfy.twiladaphne.ndjp.net
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 意大利 SS 202.50.253.90 301ms
-  type: ss
-  server: '202.50.253.90'
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-- name: 荷兰 VLESS netherlands02.azotvpn.xyz 309ms
-  type: vless
-  server: netherlands02.azotvpn.xyz
-  port: 443
-  uuid: a500be68-4ff6-433b-9968-472be69fab14
+  server: '172.237.88.103'
+  port: 447
+  uuid: efd11a89-7506-44ce-95b6-6654859f155b
   udp: true
   tls: true
-  servername: netherlands02.azotvpn.xyz
+  servername: netflix.com
   network: tcp
   reality-opts:
-    public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
-    short-id: fc70174007a393b4
+    public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
+    short-id: 5a42dbd7e26a0415
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: false
-- name: 意大利 SS 202.50.253.54 331ms
-  type: ss
-  server: '202.50.253.54'
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-- name: 英国 VLESS api.ferrin.uk 380ms
+- name: 韩国 VLESS 13.209.84.147 85ms
   type: vless
-  server: api.ferrin.uk
+  server: '13.209.84.147'
   port: 443
-  uuid: 7d1a74fd-8a38-4a29-863f-5da53a9e557e
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  udp: true
+  tls: false
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+- name: 其他 VLESS nl2.himoy.space 269ms
+  type: vless
+  server: nl2.himoy.space
+  port: 443
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
   udp: true
   tls: true
-  servername: 7d1a74fd.ferrin.uk
-  alpn:
-  - h2
-  network: xhttp
-  xhttp-opts:
-    path: /es
-    mode: stream-one
-    reuse-settings:
-      max-connections: '3'
-      h-max-reusable-secs: '1140-1260'
+  servername: nl2.himoy.space
+  network: tcp
+  reality-opts:
+    public-key: vWFi5WROH6RUA3U7MiULYSOBc9h1ZbXyYVUjwvvJn0E
+    short-id: 3bf45f37318782a0
   client-fingerprint: firefox
+  flow: xtls-rprx-vision
   skip-cert-verify: false
 proxy-groups:
 - name: 🚀 自动选择
@@ -71,41 +56,27 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 法国 VLESS 104.17.44.17 271ms
-  - 意大利 SS 202.50.253.90 301ms
-  - 荷兰 VLESS netherlands02.azotvpn.xyz 309ms
-  - 意大利 SS 202.50.253.54 331ms
-  - 英国 VLESS api.ferrin.uk 380ms
-- name: 📍 意大利
+  - 其他 VLESS 172.237.88.103 53ms
+  - 韩国 VLESS 13.209.84.147 85ms
+  - 其他 VLESS nl2.himoy.space 269ms
+- name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 意大利 SS 202.50.253.90 301ms
-  - 意大利 SS 202.50.253.54 331ms
-- name: 📍 法国
+  - 其他 VLESS 172.237.88.103 53ms
+  - 其他 VLESS nl2.himoy.space 269ms
+- name: 📍 韩国
   type: select
   proxies:
   - 🚀 自动选择
-  - 法国 VLESS 104.17.44.17 271ms
-- name: 📍 英国
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 英国 VLESS api.ferrin.uk 380ms
-- name: 📍 荷兰
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 荷兰 VLESS netherlands02.azotvpn.xyz 309ms
+  - 韩国 VLESS 13.209.84.147 85ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 法国 VLESS 104.17.44.17 271ms
-  - 意大利 SS 202.50.253.90 301ms
-  - 荷兰 VLESS netherlands02.azotvpn.xyz 309ms
-  - 意大利 SS 202.50.253.54 331ms
-  - 英国 VLESS api.ferrin.uk 380ms
+  - 其他 VLESS 172.237.88.103 53ms
+  - 韩国 VLESS 13.209.84.147 85ms
+  - 其他 VLESS nl2.himoy.space 269ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

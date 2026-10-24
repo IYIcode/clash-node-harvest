@@ -1,0 +1,4284 @@
+# 免费优选节点
+# 生成时间: 2026-10-24 13:02:08 UTC
+# 存活节点: 270 / 存活率见日志
+proxies:
+- name: 其他 HYSTERIA2 129.213.91.185 12ms
+  type: hysteria2
+  server: '129.213.91.185'
+  port: 35013
+  password: 4291c983-c520-46ac-82cc-48f14bef573f
+  sni: www.bing.com
+  skip-cert-verify: true
+  udp: true
+- name: 美国 VMESS 67.220.95.3 12ms
+  type: vmess
+  server: '67.220.95.3'
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  cipher: aes-128-gcm
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+- name: 美国 SS 37.19.198.236 16ms
+  type: ss
+  server: '37.19.198.236'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 美国 SS 37.19.198.243 18ms
+  type: ss
+  server: '37.19.198.243'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 美国 SS 37.19.198.160 18ms
+  type: ss
+  server: '37.19.198.160'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 其他 VLESS 169.40.42.224 18ms
+  type: vless
+  server: '169.40.42.224'
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  udp: true
+  tls: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 以色列 VLESS 185.95.231.156 19ms
+  type: vless
+  server: '185.95.231.156'
+  port: 443
+  uuid: 1f8cf47a-b66a-4916-979f-26edfcf44eea
+  udp: true
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  reality-opts:
+    public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
+    short-id: a3a578ab
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 SS 15.204.247.206 22ms
+  type: ss
+  server: '15.204.247.206'
+  port: 4444
+  password: pKEW8JPByTVTLtM
+  cipher: aes-256-gcm
+  udp: true
+  skip-cert-verify: false
+- name: 加拿大 VMESS 23.162.200.198 29ms
+  type: vmess
+  server: '23.162.200.198'
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+  client-fingerprint: ''
+- name: 美国 VMESS 38.91.107.49 30ms
+  type: vmess
+  server: '38.91.107.49'
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+- name: 其他 VLESS 66.70.179.198 30ms
+  type: vless
+  server: '66.70.179.198'
+  port: 2053
+  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
+    short-id: 83f8317a948bb769
+    _spider-x: /
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 加拿大 VLESS 209.200.246.148 33ms
+  type: vless
+  server: '209.200.246.148'
+  port: 443
+  uuid: ca52e2b6-fb9f-4dac-b6dc-49da9923f251
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk
+    short-id: f98843107912e782
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS xray2-direct-mci1-fs-ce.freesocks.work 36ms
+  type: vless
+  server: xray2-direct-mci1-fs-ce.freesocks.work
+  port: 443
+  uuid: 937cd35b-adf9-4205-962a-b856d551258e
+  udp: true
+  tls: true
+  servername: dl.google.com
+  network: tcp
+  reality-opts:
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS xray2-direct-mci1-fs-ce.freesocks.work 37ms
+  type: vless
+  server: xray2-direct-mci1-fs-ce.freesocks.work
+  port: 443
+  uuid: a2e4b051-3b6d-4d36-a031-ab886833d759
+  udp: true
+  tls: true
+  servername: dl.google.com
+  network: tcp
+  reality-opts:
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 美国 SS 156.146.38.169 42ms
+  type: ss
+  server: '156.146.38.169'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 其他 SS 138.197.141.58 48ms
+  type: ss
+  server: '138.197.141.58'
+  port: 8080
+  password: 14fFPrbezE3HDZzsMOr6
+  cipher: rc4-md5
+  udp: true
+- name: 其他 HYSTERIA2 155.117.19.17 58ms
+  type: hysteria2
+  server: '155.117.19.17'
+  port: 443
+  password: 5fa748137b6d822308eea4611f474ad5
+  tls: false
+  sni: www.bing.com
+  obfs: salamander
+  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
+  skip-cert-verify: true
+  udp: true
+- name: 其他 HYSTERIA2 155.117.19.17 60ms
+  type: hysteria2
+  server: '155.117.19.17'
+  port: 443
+  password: 5fa748137b6d822308eea4611f474ad5
+  udp: true
+  tls: true
+  sni: www.bing.com
+  obfs: salamander
+  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
+  skip-cert-verify: true
+- name: 其他 SS 216.105.168.18 65ms
+  type: ss
+  server: '216.105.168.18'
+  port: 443
+  password: bQZl7HDxSabr1FurTYQHFU
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 其他 SS 23.251.121.242 66ms
+  type: ss
+  server: '23.251.121.242'
+  port: 8080
+  password: 14fFPrbezE3HDZzsMOr6
+  cipher: rc4-md5
+  udp: true
+- name: 美国 VMESS 129.146.77.248 69ms
+  type: vmess
+  server: '129.146.77.248'
+  port: 39495
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: '129.146.77.248'
+- name: 其他 HYSTERIA2 198.46.146.118 70ms
+  type: hysteria2
+  server: '198.46.146.118'
+  port: 36720
+  password: 4fUg3KH31LpMhko6o0Ka9Q
+  tls: false
+  sni: bing.com
+  skip-cert-verify: true
+  udp: true
+- name: 其他 VMESS rib9jxayoqjgn2kw.v.3dns.vip 70ms
+  type: vmess
+  server: rib9jxayoqjgn2kw.v.3dns.vip
+  port: 443
+  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: Rib9JXAYoqjGN2KW.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: Rib9JXAYoqjGN2KW.v.3dns.vip
+  udp: true
+- name: 其他 VMESS guanwang.awsno.com 74ms
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers: {}
+  udp: true
+- name: 其他 TROJAN resources.findlocaljobnetworkandbuildcommunityconnections.com 76ms
+  type: trojan
+  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  port: 443
+  password: f0eb8c92ce8946aaba856569cff1a16b
+  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  network: tcp
+  skip-cert-verify: false
+  udp: true
+- name: 其他 VLESS freev2.cloudflare.182682.xyz 77ms
+  type: vless
+  server: freev2.cloudflare.182682.xyz
+  port: 443
+  uuid: d884354e-17ce-4843-b174-36bca3c1ccc6
+  udp: true
+  tls: true
+  servername: us-lax.862400.xyz
+  network: ws
+  ws-opts:
+    headers:
+      Host: us-lax.862400.xyz
+    path: /announcement
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+  client-fingerprint: random
+  skip-cert-verify: false
+- name: 其他 TROJAN www.findlocaljobnetworkandbuildcommunityconnections.com 78ms
+  type: trojan
+  server: www.findlocaljobnetworkandbuildcommunityconnections.com
+  port: 443
+  password: 242a3d8eee5e4ed1a6bfa4141d549a25
+  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
+  network: tcp
+  udp: true
+- name: 其他 SS 138.199.43.159 81ms
+  type: ss
+  server: '138.199.43.159'
+  port: 8080
+  password: 14fFPrbezE3HDZzsMOr6
+  cipher: rc4-md5
+  udp: true
+- name: 其他 VMESS www.shopify.com 82ms
+  type: vmess
+  server: www.shopify.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
+- name: 其他 ANYTLS es1.xiaoliyu.cyou 84ms
+  type: anytls
+  server: es1.xiaoliyu.cyou
+  port: 18333
+  password: 672445a0-a669-4978-8eb1-cfa5e6cdead4
+  udp: true
+  sni: es1.xiaoliyu.cyou
+  skip-cert-verify: true
+- name: 其他 VLESS 104.18.176.145 84ms
+  type: vless
+  server: '104.18.176.145'
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    headers:
+      Host: a.cwvps.eu.org
+    path: /ws
+  client-fingerprint: unsafe
+  skip-cert-verify: false
+- name: 其他 VLESS 83.147.18.3 92ms
+  type: vless
+  server: '83.147.18.3'
+  port: 443
+  uuid: 9f61cdf4-810d-4052-bbc7-2da0c8e20104
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: raw
+  reality-opts:
+    public-key: 3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA
+    short-id: fd8cf7e1173f0edb
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 23.160.56.99 93ms
+  type: vless
+  server: '23.160.56.99'
+  port: 2087
+  uuid: f1e7eafa-0d6f-441e-8565-29f34171aef2
+  udp: true
+  tls: false
+  network: tcp
+  skip-cert-verify: false
+- name: 其他 VLESS 51.158.206.20 93ms
+  type: vless
+  server: '51.158.206.20'
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  tls: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 57.129.132.223 93ms
+  type: vless
+  server: '57.129.132.223'
+  port: 80
+  uuid: dbb78c94-9f87-4d7d-b945-2000b60352fd
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vless/
+- name: 美国 SS 173.244.56.9 94ms
+  type: ss
+  server: '173.244.56.9'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 其他 VLESS 51.158.206.26 95ms
+  type: vless
+  server: '51.158.206.26'
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  tls: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS xuthnybd.himoy.space 95ms
+  type: vless
+  server: xuthnybd.himoy.space
+  port: 443
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  udp: true
+  tls: true
+  servername: xuthnybd.himoy.space
+  network: xhttp
+  xhttp-opts:
+    host: xuthnybd.himoy.space
+    path: /connect
+    mode: auto
+  reality-opts:
+    public-key: uVqY1zxxrmKblAAEJilzrDK8Ayv7ETSxvNvGipLoX0w
+    short-id: 86f8bb8d537297da
+  client-fingerprint: firefox
+  skip-cert-verify: false
+- name: 德国 SS 185.176.204.18 95ms
+  type: ss
+  server: '185.176.204.18'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 其他 VLESS 66.154.101.36 96ms
+  type: vless
+  server: '66.154.101.36'
+  port: 443
+  uuid: c166ca49-4af0-416d-8411-2100f7bde9fe
+  udp: true
+  tls: true
+  servername: www.tesla.com
+  network: tcp
+  reality-opts:
+    public-key: t_aj99mkcVXDY_7xI9RhWyEY3khupiGiDsGKEJ7EajM
+    short-id: 5590a9bae52e0586
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 其他 VLESS 51.158.206.34 96ms
+  type: vless
+  server: '51.158.206.34'
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  tls: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 45.9.118.177 97ms
+  type: vless
+  server: '45.9.118.177'
+  port: 8443
+  uuid: 88c4ce99-31f1-4329-912d-2a3564b3d58b
+  udp: true
+  tls: true
+  servername: apple.com
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 51.158.206.97 97ms
+  type: vless
+  server: '51.158.206.97'
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  tls: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS server.slavkiti.monster 98ms
+  type: vless
+  server: server.slavkiti.monster
+  port: 443
+  uuid: 6dfc9149-1ff9-41c3-8563-0ef284381731
+  udp: true
+  tls: true
+  servername: www.tradingview.com
+  network: tcp
+  reality-opts:
+    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+    short-id: 1374bddeb25d
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 SS 158.173.20.208 99ms
+  type: ss
+  server: '158.173.20.208'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 法国 VLESS 152.228.162.19 99ms
+  type: vless
+  server: '152.228.162.19'
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vless/
+  skip-cert-verify: false
+- name: 俄罗斯 VLESS 113.30.154.237 100ms
+  type: vless
+  server: '113.30.154.237'
+  port: 443
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  udp: true
+  tls: true
+  servername: ozon.ru
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 HYSTERIA2 62.210.124.146 100ms
+  type: hysteria2
+  server: '62.210.124.146'
+  port: 22000
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  udp: true
+- name: 英国 SS 141.98.101.181 100ms
+  type: ss
+  server: '141.98.101.181'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 其他 TROJAN 172.67.217.240 100ms
+  type: trojan
+  server: '172.67.217.240'
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  client-fingerprint: unsafe
+  udp: true
+- name: 其他 VLESS eu2.998998.best 101ms
+  type: vless
+  server: eu2.998998.best
+  port: 443
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  udp: true
+  tls: true
+  servername: nat9.outsidemyheart.space
+  network: ws
+  ws-opts:
+    path: /saosaosao
+    headers:
+      Host: nat9.outsidemyheart.space
+  client-fingerprint: chrome
+- name: 其他 VLESS 193.124.17.190 103ms
+  type: vless
+  server: '193.124.17.190'
+  port: 443
+  uuid: d84c13b2-c2b9-4a7c-838f-05ac09ee422e
+  udp: true
+  tls: true
+  servername: www.mozilla.org
+  network: tcp
+  reality-opts:
+    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+    short-id: 2a2ce9e42980
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS undef.network 103ms
+  type: vless
+  server: undef.network
+  port: 2053
+  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
+  udp: true
+  tls: true
+  servername: uwu.blueknightnet.qzz.io
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+  client-fingerprint: chrome
+- name: 其他 VMESS 91.107.169.224 103ms
+  type: vmess
+  server: '91.107.169.224'
+  port: 80
+  uuid: d4b69108-f756-48af-a331-e8356bc95eb4
+  cipher: auto
+  alterId: 0
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.dns-look.space.
+    v2ray-http-upgrade: true
+  client-fingerprint: ''
+  udp: true
+- name: 其他 VMESS cf.0sm.com 103ms
+  type: vmess
+  server: cf.0sm.com
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+  client-fingerprint: chrome
+  udp: true
+- name: 其他 VLESS 51.158.206.25 104ms
+  type: vless
+  server: '51.158.206.25'
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  tls: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 SS staging.lastilhame.monster 104ms
+  type: ss
+  server: staging.lastilhame.monster
+  port: 49917
+  password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP
+  cipher: chacha20-ietf-poly1305
+  udp: true
+  skip-cert-verify: false
+- name: 俄罗斯 VLESS 193.223.104.124 104ms
+  type: vless
+  server: '193.223.104.124'
+  port: 443
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  udp: true
+  tls: true
+  servername: ozon.ru
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 172.67.204.153 105ms
+  type: vless
+  server: '172.67.204.153'
+  port: 2053
+  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
+  udp: true
+  tls: true
+  servername: uwu.blueknightnet.qzz.io
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+  client-fingerprint: chrome
+- name: 其他 VLESS 144.31.125.60 105ms
+  type: vless
+  server: '144.31.125.60'
+  port: 443
+  uuid: 9015f0bc-2053-4ca1-9b9b-a018b97b32d2
+  udp: true
+  tls: true
+  servername: www.intel.com
+  network: raw
+  reality-opts:
+    public-key: SVgtyuD9khylgHuB0treGekxVSHPOS-wPZTNHUf6zj8
+    short-id: 85c86a9863
+    _spider-x: /ozks0ksxmyHue4v
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 104.18.57.149 105ms
+  type: vless
+  server: '104.18.57.149'
+  port: 2052
+  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
+  udp: true
+  tls: false
+  servername: uwu.blueknightnet.qzz.io
+  network: ws
+  ws-opts:
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+    path: /@BlueKnight_net--@BlueKnight_net
+  skip-cert-verify: false
+- name: 其他 TROJAN 139.28.240.24 105ms
+  type: trojan
+  server: '139.28.240.24'
+  port: 443
+  password: humanity
+  udp: true
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: 其他 SS 82.38.31.178 105ms
+  type: ss
+  server: '82.38.31.178'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: true
+  skip-cert-verify: false
+- name: 其他 VLESS 172.67.195.79 105ms
+  type: vless
+  server: '172.67.195.79'
+  port: 2053
+  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
+  udp: true
+  tls: true
+  servername: uwu.blueknightnet.qzz.io
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+  client-fingerprint: chrome
+- name: 其他 VLESS wifi10.jzxc.digital 105ms
+  type: vless
+  server: wifi10.jzxc.digital
+  port: 443
+  uuid: 3d87029f-b55b-487d-aea6-6049c8668ff1
+  udp: true
+  tls: true
+  servername: wifi10.jzxc.digital
+  network: tcp
+  reality-opts:
+    public-key: zIhDtqZo--gCOBxMLqpRETmsGUNTzyHQzBDtRov_Qjk
+    short-id: 84249c1249f4b2d5
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 TROJAN 104.19.64.105 105ms
+  type: trojan
+  server: '104.19.64.105'
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  skip-cert-verify: false
+  udp: true
+- name: 其他 VLESS hikvision-plus.com 106ms
+  type: vless
+  server: hikvision-plus.com
+  port: 2052
+  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
+  udp: true
+  tls: false
+  servername: uwu.blueknightnet.qzz.io
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+- name: 其他 TROJAN chat.openai.com 106ms
+  type: trojan
+  server: chat.openai.com
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  alpn:
+  - h2
+  network: ws
+  ws-opts:
+    path: /assignment
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  udp: true
+- name: 荷兰 SS 82.38.31.199 107ms
+  type: ss
+  server: '82.38.31.199'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 193.29.139.151 108ms
+  type: ss
+  server: '193.29.139.151'
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 德国 VLESS 64.188.71.236 108ms
+  type: vless
+  server: '64.188.71.236'
+  port: 2083
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
+        Safari/537.36
+    path: /
+  client-fingerprint: chrome
+- name: 荷兰 SS 82.38.31.3 108ms
+  type: ss
+  server: '82.38.31.3'
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 其他 VLESS 57.131.38.163 108ms
+  type: vless
+  server: '57.131.38.163'
+  port: 2053
+  uuid: d4b08cd6-0903-411a-9dac-45dbdf5c9712
+  udp: true
+  tls: true
+  servername: www.apple.com
+  network: raw
+  reality-opts:
+    public-key: Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc
+    short-id: 5b8a942318178e7b
+  client-fingerprint: firefox
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.216 108ms
+  type: ss
+  server: '82.38.31.216'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.174 109ms
+  type: ss
+  server: '82.38.31.174'
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 其他 VLESS nl3.mycloud1.org 109ms
+  type: vless
+  server: nl3.mycloud1.org
+  port: 2053
+  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
+  udp: true
+  tls: true
+  servername: nl3.mycloud1.org
+  network: grpc
+  grpc-opts:
+    grpc-service-name: api
+  reality-opts:
+    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
+    short-id: afee962d
+  client-fingerprint: edge
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.182 109ms
+  type: ss
+  server: '82.38.31.182'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.214 109ms
+  type: ss
+  server: '82.38.31.214'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 俄罗斯 VLESS 45.151.71.152 109ms
+  type: vless
+  server: '45.151.71.152'
+  port: 443
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  udp: true
+  tls: true
+  servername: abuse.ozon.ru
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: 其他 VLESS test.wecantos.site 109ms
+  type: vless
+  server: test.wecantos.site
+  port: 20000
+  uuid: ca59a503-db23-44af-9879-49747d8da98f
+  udp: true
+  tls: false
+  network: tcp
+  skip-cert-verify: false
+- name: 其他 VLESS 191.44.108.31 109ms
+  type: vless
+  server: '191.44.108.31'
+  port: 443
+  uuid: 558b26f6-061b-4079-9b84-ca13b3e90ae3
+  udp: true
+  tls: true
+  servername: www.google.com
+  network: tcp
+  reality-opts:
+    public-key: QLh2Y5Ig7pncEIvOYpZlLH2rUHZ3CRuyAo1A_emWZQU
+    short-id: 3ba10d9ce34380c9
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 荷兰 SS 193.29.139.132 109ms
+  type: ss
+  server: '193.29.139.132'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 其他 VLESS hikvision-plus.com 109ms
+  type: vless
+  server: hikvision-plus.com
+  port: 2053
+  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
+  udp: true
+  tls: true
+  servername: uwu.blueknightnet.qzz.io
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+  client-fingerprint: chrome
+- name: 荷兰 SS 82.38.31.184 109ms
+  type: ss
+  server: '82.38.31.184'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.34 110ms
+  type: ss
+  server: '82.38.31.34'
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 英国 VLESS server.slavkiti.monster 110ms
+  type: vless
+  server: server.slavkiti.monster
+  port: 443
+  uuid: 13aef2e0-b3fb-4322-a0e9-c10b908ce6b5
+  udp: true
+  tls: true
+  servername: www.techradar.com
+  network: tcp
+  reality-opts:
+    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+    short-id: 87f895f23064
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 179.255.190.43 110ms
+  type: vless
+  server: '179.255.190.43'
+  port: 8443
+  uuid: 78559873-84ef-4cab-a0b2-46d4cd20de4a
+  udp: true
+  tls: true
+  servername: itly.yandex-api.store
+  network: ws
+  ws-opts:
+    path: /assets
+  client-fingerprint: firefox
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.155 110ms
+  type: ss
+  server: '82.38.31.155'
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 德国 HYSTERIA2 de.1.23.h2corp.org 110ms
+  type: hysteria2
+  server: de.1.23.h2corp.org
+  port: 443
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  sni: germany3.h2corp.local
+  skip-cert-verify: true
+  udp: true
+- name: 其他 TROJAN 104.18.8.83 110ms
+  type: trojan
+  server: '104.18.8.83'
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  client-fingerprint: chrome
+  udp: true
+- name: 其他 SS 193.29.139.212 111ms
+  type: ss
+  server: '193.29.139.212'
+  port: 8080
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.205 111ms
+  type: ss
+  server: '82.38.31.205'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 意大利 SS 202.50.253.99 111ms
+  type: ss
+  server: '202.50.253.99'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 荷兰 SS 82.38.31.46 112ms
+  type: ss
+  server: '82.38.31.46'
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 俄罗斯 VLESS 45.151.71.164 113ms
+  type: vless
+  server: '45.151.71.164'
+  port: 443
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  udp: true
+  tls: true
+  servername: abuse.ozon.ru
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: 其他 SS 193.29.139.197 113ms
+  type: ss
+  server: '193.29.139.197'
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+  skip-cert-verify: false
+- name: 意大利 SS 202.50.253.54 113ms
+  type: ss
+  server: '202.50.253.54'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 其他 SS 82.38.31.62 114ms
+  type: ss
+  server: '82.38.31.62'
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+  skip-cert-verify: false
+- name: 法国 VLESS 145.223.68.58 115ms
+  type: vless
+  server: '145.223.68.58'
+  port: 443
+  uuid: edb50d20-2d3e-4c1e-8a75-a17168a89aa5
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: qc2DcqT9zPPZr6ePZ7ukxACWrYhRNIBjDIjCK7veyQg
+    short-id: a44ff7d2e80213c2
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 45.151.183.12 115ms
+  type: vless
+  server: '45.151.183.12'
+  port: 443
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  udp: true
+  tls: true
+  servername: cz3.himoy.space
+  network: tcp
+  reality-opts:
+    public-key: ki5O-S3b7weajhs0o9Rf0Bat3Mj7Fu0qtczxuR2fG1U
+    short-id: a09b2da5a2c7b69e
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS cz3.himoy.space 115ms
+  type: vless
+  server: cz3.himoy.space
+  port: 443
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  udp: true
+  tls: true
+  servername: cz3.himoy.space
+  network: tcp
+  reality-opts:
+    public-key: ki5O-S3b7weajhs0o9Rf0Bat3Mj7Fu0qtczxuR2fG1U
+    short-id: a09b2da5a2c7b69e
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.18 115ms
+  type: ss
+  server: '82.38.31.18'
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 193.29.139.147 115ms
+  type: ss
+  server: '193.29.139.147'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 其他 VLESS 193.124.17.190 116ms
+  type: vless
+  server: '193.124.17.190'
+  port: 443
+  uuid: 68cf8d29-5aa0-44b3-88a9-f1a576b6e84c
+  udp: true
+  tls: true
+  servername: www.microsoft.com
+  network: tcp
+  reality-opts:
+    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+    short-id: 73a9e631a09b
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 俄罗斯 VLESS 144.31.215.196 116ms
+  type: vless
+  server: '144.31.215.196'
+  port: 443
+  uuid: 558b26f6-061b-4079-9b84-ca13b3e90ae3
+  udp: true
+  tls: true
+  servername: c2.qwyak.ru
+  network: tcp
+  reality-opts:
+    public-key: jwLEnDwGROadL1ax-SrVC50sE5slaP7TbGQtBxkcTws
+    short-id: 8c9ab0f7b293f9ef
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 其他 VLESS 51.158.206.80 116ms
+  type: vless
+  server: '51.158.206.80'
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  tls: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 SS 82.38.31.69 117ms
+  type: ss
+  server: '82.38.31.69'
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+  skip-cert-verify: false
+- name: 其他 SS 193.29.139.234 117ms
+  type: ss
+  server: '193.29.139.234'
+  port: 8080
+  password: 4a2rfixophdjffa8KVA4Aa
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 法国 TROJAN 185.114.72.31 118ms
+  type: trojan
+  server: '185.114.72.31'
+  port: 2053
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+  skip-cert-verify: false
+  udp: true
+- name: 俄罗斯 VLESS 45.151.71.147 119ms
+  type: vless
+  server: '45.151.71.147'
+  port: 443
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  udp: true
+  tls: true
+  servername: abuse.ozon.ru
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: 捷克 SS 67.159.18.34 119ms
+  type: ss
+  server: '67.159.18.34'
+  port: 17001
+  password: I6o9NnialYLMEjVt28RF4dpjmr9wMvNL
+  cipher: aes-256-gcm
+  udp: true
+- name: 其他 SS 185.135.86.175 120ms
+  type: ss
+  server: '185.135.86.175'
+  port: 9034
+  password: Yg4MbdXFQ9HFFVY6
+  cipher: aes-256-cfb
+  udp: true
+  skip-cert-verify: false
+- name: 其他 VLESS 94.156.79.93 120ms
+  type: vless
+  server: '94.156.79.93'
+  port: 443
+  uuid: d6752c6b-80ae-4a91-b446-bb330f7f8177
+  udp: true
+  tls: true
+  servername: www.foxsports.com
+  network: tcp
+  reality-opts:
+    public-key: _0fpFqEEuCso3B8K7AAcMjctwG_xfCxO2PdKzGd_-hg
+    short-id: 88a13cf2655c
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: '其他 SS 185.135.86.175 120ms #2'
+  type: ss
+  server: '185.135.86.175'
+  port: 9036
+  password: hbtvgUz5uNYyB3Rf
+  cipher: aes-256-cfb
+  udp: true
+  skip-cert-verify: false
+- name: 其他 VLESS 157.90.175.178 120ms
+  type: vless
+  server: '157.90.175.178'
+  port: 1222
+  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
+  udp: true
+  tls: true
+  servername: play.google.com
+  network: tcp
+  reality-opts:
+    public-key: zpLKK8HuwXJDH9D0O3t5Z_tO3ajkj7VRtXdr6UGy1zE
+    short-id: a25d0f
+  client-fingerprint: firefox
+  skip-cert-verify: false
+- name: 其他 VLESS 172.64.229.129 121ms
+  type: vless
+  server: '172.64.229.129'
+  port: 2052
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+  udp: true
+  tls: false
+  servername: eu02.123450908.xyz
+  network: ws
+  ws-opts:
+    headers:
+      Host: eu02.123450908.xyz
+    path: /rain1226
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.2 121ms
+  type: ss
+  server: '82.38.31.2'
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 其他 TROJAN 104.17.121.71 121ms
+  type: trojan
+  server: '104.17.121.71'
+  port: 443
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 其他 SS 213.183.63.60 121ms
+  type: ss
+  server: '213.183.63.60'
+  port: 9054
+  password: VcFuyXvND2yQWSFY
+  cipher: aes-256-cfb
+  udp: true
+  skip-cert-verify: false
+- name: 其他 VLESS eu02.123450908.xyz 121ms
+  type: vless
+  server: eu02.123450908.xyz
+  port: 2052
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+  udp: true
+  tls: false
+  servername: eu02.123450908.xyz
+  network: ws
+  ws-opts:
+    path: /rain1226
+    headers:
+      Host: eu02.123450908.xyz
+- name: 德国 VLESS hw3.divarkhaghazi.com 122ms
+  type: vless
+  server: hw3.divarkhaghazi.com
+  port: 465
+  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
+  udp: true
+  tls: true
+  servername: hw3.divarkhaghazi.com.
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    headers:
+      Host: hw3.divarkhaghazi.com.
+    path: /
+  client-fingerprint: chrome
+- name: 其他 VLESS 82.118.16.187 122ms
+  type: vless
+  server: '82.118.16.187'
+  port: 443
+  uuid: dc2259c4-388e-4285-ba18-df619b6672b6
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: R5ycsjJ-v024902dMSqTsSdqxUwCFEXMebdBEWFt9VU
+    short-id: cd6065902eea7a02
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 SS 49.12.249.167 123ms
+  type: ss
+  server: '49.12.249.167'
+  port: 147
+  password: 5uDrCF_iLoxCiRkKku6f7A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+  skip-cert-verify: false
+- name: 其他 VLESS 138.124.63.34 123ms
+  type: vless
+  server: '138.124.63.34'
+  port: 443
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  udp: true
+  tls: true
+  servername: lv6.himoy.space
+  network: tcp
+  reality-opts:
+    public-key: t8XaUJANWO5ig79J71WnrpMWJYJ4IuAg3lL49vmSljA
+    short-id: ebe425d08df5cb7b
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 193.238.154.78 123ms
+  type: vless
+  server: '193.238.154.78'
+  port: 443
+  uuid: 897d47f8-4dd5-42a1-bcd0-bef19caff55a
+  udp: true
+  tls: true
+  servername: gateway.icloud.com
+  network: tcp
+  reality-opts:
+    public-key: 4eE3K8Eac-ELze-LwRyJolqmhPqgCVqwQM1DKu6i0Ts
+    short-id: e93d46ee3735069e
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 SS 213.183.63.60 125ms
+  type: ss
+  server: '213.183.63.60'
+  port: 9066
+  password: 2KUaE2a8NWTvuCZ3
+  cipher: aes-256-cfb
+  udp: true
+  skip-cert-verify: false
+- name: 意大利 VLESS 204.216.216.23 125ms
+  type: vless
+  server: '204.216.216.23'
+  port: 10086
+  uuid: 9f0285ee-20ca-4953-bcdb-86a920652923
+  tls: false
+  servername: /?v2rayNplus
+  network: tcp
+  udp: true
+- name: 其他 VLESS 177.3.220.124 126ms
+  type: vless
+  server: '177.3.220.124'
+  port: 443
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  udp: true
+  tls: true
+  servername: gcach6lm.himoy.space
+  network: tcp
+  reality-opts:
+    public-key: 4tMWqgTFL_uavocMXmgIWvB0rZvFQCOYQQIDZlJmaVQ
+    short-id: fe5a2e4bb97c5331
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 俄罗斯 VLESS 54.37.5.203 127ms
+  type: vless
+  server: '54.37.5.203'
+  port: 8443
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  udp: true
+  tls: true
+  servername: ozon.ru
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 SS 195.238.126.20 127ms
+  type: ss
+  server: '195.238.126.20'
+  port: 9002
+  password: b8KkNDjEd5QqFyRm
+  cipher: aes-256-cfb
+  udp: true
+  skip-cert-verify: false
+- name: 其他 VLESS 77.91.69.169 128ms
+  type: vless
+  server: '77.91.69.169'
+  port: 19226
+  uuid: f0b144bd-4c44-440d-b630-d79ec82cad3a
+  udp: true
+  tls: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: PQjgf7GxBd2tDXf0zl9Z5rTZo7LdsWj0hGZLH-lJ-Uk
+    short-id: 7c
+    _spider-x: /
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 TROJAN 45.130.125.126 129ms
+  type: trojan
+  server: '45.130.125.126'
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  udp: true
+- name: 其他 SS 185.135.86.175 129ms
+  type: ss
+  server: '185.135.86.175'
+  port: 9068
+  password: mwgRg9hRq3b4Qnwb
+  cipher: aes-256-cfb
+  udp: true
+  skip-cert-verify: false
+- name: 其他 VMESS 172.64.229.21 129ms
+  type: vmess
+  server: '172.64.229.21'
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  alpn:
+  - 'null'
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+  client-fingerprint: ''
+  udp: true
+- name: 其他 TROJAN 165.215.250.14 131ms
+  type: trojan
+  server: '165.215.250.14'
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  skip-cert-verify: true
+  udp: true
+- name: 其他 SS 195.238.126.20 132ms
+  type: ss
+  server: '195.238.126.20'
+  port: 9068
+  password: mwgRg9hRq3b4Qnwb
+  cipher: aes-256-cfb
+  udp: true
+  skip-cert-verify: false
+- name: 其他 VLESS wifi12.jzxc.digital 132ms
+  type: vless
+  server: wifi12.jzxc.digital
+  port: 443
+  uuid: 3d87029f-b55b-487d-aea6-6049c8668ff1
+  udp: true
+  tls: true
+  servername: wifi12.jzxc.digital
+  network: tcp
+  reality-opts:
+    public-key: 90gg8QRDqwmrelQBiQ159MlmdUreo4h1-yBgRmp7U2c
+    short-id: 082e4d45beed1487
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS lists.soloramtin.cyou 133ms
+  type: vless
+  server: lists.soloramtin.cyou
+  port: 443
+  uuid: 67eb6b17-7797-4ded-bf52-423c4c5f6cbd
+  udp: true
+  tls: true
+  servername: www.foxsports.com
+  network: raw
+  reality-opts:
+    public-key: G7bpUPFSW28-oE6ff8qZac1_apU6PiJ-GHmi7tAPDSY
+    short-id: 91af08b1ce1f
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 SS 185.226.172.8 133ms
+  type: ss
+  server: '185.226.172.8'
+  port: 8008
+  password: XKFKl2rULjIp74
+  cipher: aes-256-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 其他 TROJAN 188.114.96.3 134ms
+  type: trojan
+  server: '188.114.96.3'
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  udp: true
+- name: 其他 VLESS staging.lastilhame.monster 136ms
+  type: vless
+  server: staging.lastilhame.monster
+  port: 443
+  uuid: 455cfdc6-9abf-4e40-863f-5ff6cc63457c
+  udp: true
+  tls: true
+  servername: www.microsoft.com
+  network: raw
+  reality-opts:
+    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
+    short-id: 18e4d2d21241
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 104.253.216.227 136ms
+  type: vless
+  server: '104.253.216.227'
+  port: 443
+  uuid: 106d20f6-d70a-40e2-b69b-8e82baf8d117
+  udp: true
+  tls: true
+  servername: www.microsoft.com
+  network: tcp
+  reality-opts:
+    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
+    short-id: 60500a63ad12
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 TROJAN 191.96.94.226 136ms
+  type: trojan
+  server: '191.96.94.226'
+  port: 443
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  client-fingerprint: chrome
+- name: 其他 TROJAN 91.245.225.79 137ms
+  type: trojan
+  server: '91.245.225.79'
+  port: 2053
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  client-fingerprint: chrome
+  udp: true
+- name: 其他 TROJAN 172.67.231.254 139ms
+  type: trojan
+  server: '172.67.231.254'
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  udp: true
+- name: 荷兰 SS 82.38.31.189 139ms
+  type: ss
+  server: '82.38.31.189'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 其他 VLESS sw.golangwikito.cfd 139ms
+  type: vless
+  server: sw.golangwikito.cfd
+  port: 443
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  udp: true
+  tls: true
+  servername: sw.golangwikito.cfd
+  network: tcp
+  reality-opts:
+    public-key: Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg
+    short-id: a1037b25dcef6aa7
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS ge-s-1.pythonmakemigreat.wiki 140ms
+  type: vless
+  server: ge-s-1.pythonmakemigreat.wiki
+  port: 443
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  udp: true
+  tls: true
+  servername: ge-s-1.pythonmakemigreat.wiki
+  network: tcp
+  reality-opts:
+    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
+    short-id: 2c9a2790ad5900b2
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 85.90.197.220 141ms
+  type: vless
+  server: '85.90.197.220'
+  port: 443
+  uuid: 8f704ed6-9a1a-4d04-94dd-1bff501716de
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4
+    short-id: 94acb54627612d43
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+- name: 德国 VLESS de.cvpn.su 141ms
+  type: vless
+  server: de.cvpn.su
+  port: 8443
+  uuid: 67b2803e-3945-47ec-b1e6-bd4ef35cdd7c
+  udp: true
+  tls: true
+  servername: www.github.com
+  network: xhttp
+  xhttp-opts:
+    path: /assets/api
+    mode: packet-up
+  reality-opts:
+    public-key: EKCbS2l8wfoCvrHFGEIyrp68jnywal-yyacg16bnrAg
+    short-id: 0f6bd4aa2e550464
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 其他 TROJAN 166.1.36.83 142ms
+  type: trojan
+  server: '166.1.36.83'
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  client-fingerprint: chrome
+  udp: true
+- name: 其他 TROJAN 164.92.200.68 142ms
+  type: trojan
+  server: '164.92.200.68'
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /assignment
+  client-fingerprint: unsafe
+  udp: true
+- name: 其他 TROJAN 193.23.202.65 142ms
+  type: trojan
+  server: '193.23.202.65'
+  port: 443
+  password: humanity
+  udp: true
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: 俄罗斯 VLESS 45.151.71.158 146ms
+  type: vless
+  server: '45.151.71.158'
+  port: 443
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  udp: true
+  tls: true
+  servername: ai.ozon.ru
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: 其他 VLESS 45.85.117.174 149ms
+  type: vless
+  server: '45.85.117.174'
+  port: 443
+  uuid: 92a4056a-38d6-49d0-8bd2-600e55af1e9f
+  udp: true
+  tls: true
+  servername: addons.mozilla.org
+  network: tcp
+  reality-opts:
+    public-key: rF4J_igTFQRUXEaY351LiZG0Ea4OuNpOakuAbqT0bAw
+    short-id: 088faf47
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 其他 VLESS netx.smrtai.top 150ms
+  type: vless
+  server: netx.smrtai.top
+  port: 443
+  uuid: d8b58872-cc25-4bb2-badb-b86399c075fa
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk
+    short-id: d8b58872
+  client-fingerprint: chrome
+- name: 德国 VLESS 45.150.33.33 151ms
+  type: vless
+  server: '45.150.33.33'
+  port: 443
+  uuid: eec2f6a7-c10f-43b0-b133-61f9bf9bbc27
+  udp: true
+  tls: true
+  servername: amazon.de
+  network: tcp
+  reality-opts:
+    public-key: G8SING6Ibc_igZ5vI5578fXCT_mBMRuq_o8_Ymnj2SQ
+    short-id: eba1498e012ef580
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 捷克 VLESS cz.pythonmakemigreat.wiki 151ms
+  type: vless
+  server: cz.pythonmakemigreat.wiki
+  port: 61374
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  udp: true
+  tls: true
+  servername: cz.pythonmakemigreat.wiki
+  network: xhttp
+  xhttp-opts:
+    host: cz.pythonmakemigreat.wiki
+    path: /
+    mode: packet-up
+    x-padding-bytes: '100-500'
+    reuse-settings:
+      max-connections: '3'
+  reality-opts:
+    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 其他 TROJAN 45.130.125.190 157ms
+  type: trojan
+  server: '45.130.125.190'
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  skip-cert-verify: false
+  udp: true
+- name: 荷兰 SS 82.38.31.187 160ms
+  type: ss
+  server: '82.38.31.187'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 法国 TROJAN 185.225.68.232 166ms
+  type: trojan
+  server: '185.225.68.232'
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+  skip-cert-verify: false
+  udp: true
+- name: 俄罗斯 VLESS 193.188.21.253 167ms
+  type: vless
+  server: '193.188.21.253'
+  port: 10444
+  uuid: 57f7772d-f5d6-4d8f-992d-5fa5e0d6da55
+  udp: true
+  tls: true
+  servername: video.yandex.ru
+  network: tcp
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS pl1.himoy.space 168ms
+  type: vless
+  server: pl1.himoy.space
+  port: 443
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  udp: true
+  tls: true
+  servername: pl1.himoy.space
+  network: tcp
+  reality-opts:
+    public-key: 1D_oMYRytcccH8J2SiM9o0bjmWlDND9CXWLL8LwDvE8
+    short-id: e2201d4d8b942ccc
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 TROJAN 104.17.121.9 169ms
+  type: trojan
+  server: '104.17.121.9'
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  udp: true
+- name: 其他 VLESS i3m2o0cf.himoy.space 173ms
+  type: vless
+  server: i3m2o0cf.himoy.space
+  port: 443
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  udp: true
+  tls: true
+  servername: i3m2o0cf.himoy.space
+  network: tcp
+  reality-opts:
+    public-key: A9rT--Kugc8WElZSjNmq6K3oOD9BC7vTrIKK7E3scj4
+    short-id: a40f97141bda09f0
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS fin4.himoy.space 174ms
+  type: vless
+  server: fin4.himoy.space
+  port: 443
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  udp: true
+  tls: true
+  servername: fin4.himoy.space
+  network: tcp
+  reality-opts:
+    public-key: 36MwbI8-ScG1RGaNp7jGe-NMOm9HfvmdMP5vfY4_P3k
+    short-id: 0c3c7a686e566de2
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 俄罗斯 VLESS 213.176.92.168 175ms
+  type: vless
+  server: '213.176.92.168'
+  port: 10444
+  uuid: ba52cc43-700d-4040-9444-29214c98e6e0
+  udp: true
+  tls: true
+  servername: video.yandex.ru
+  network: tcp
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VMESS 43.108.103.167 180ms
+  type: vmess
+  server: '43.108.103.167'
+  port: 123
+  uuid: 35aa0fda-175a-4aec-c468-0231dee1a121
+  cipher: auto
+  alterId: 0
+  tls: false
+  network: http
+  http-opts:
+    path:
+    - /
+    headers: {}
+  udp: true
+- name: 阿联酋 VLESS 95.174.68.188 182ms
+  type: vless
+  server: '95.174.68.188'
+  port: 14430
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  udp: true
+  servername: '95.174.68.188'
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: '95.174.68.188'
+- name: 其他 TROJAN 8.47.69.60 182ms
+  type: trojan
+  server: '8.47.69.60'
+  port: 443
+  password: humanity
+  udp: true
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: 其他 VLESS nl3.himoy.space 182ms
+  type: vless
+  server: nl3.himoy.space
+  port: 443
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  udp: true
+  tls: true
+  servername: nl3.himoy.space
+  network: tcp
+  reality-opts:
+    public-key: DvPeuTyyvkarTBt9JFt_ejTP1xRgpYKM9SZnFNRV0kg
+    short-id: 802007e8b774f343
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 其他 HYSTERIA2 132.226.226.189 183ms
+  type: hysteria2
+  server: '132.226.226.189'
+  port: 50160
+  password: 1671a252e2a97dc2bda4e515475931da
+  skip-cert-verify: true
+  udp: true
+- name: 其他 VLESS milo.rubinaz.xyz 185ms
+  type: vless
+  server: milo.rubinaz.xyz
+  port: 8080
+  uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
+  udp: true
+  tls: false
+  servername: milo.rubinaz.xyz
+  network: tcp
+  skip-cert-verify: false
+- name: 其他 VLESS 104.21.0.87 187ms
+  type: vless
+  server: '104.21.0.87'
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+  skip-cert-verify: false
+- name: 其他 TROJAN www.speedtest.net 188ms
+  type: trojan
+  server: www.speedtest.net
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  skip-cert-verify: false
+  udp: true
+- name: 俄罗斯 VLESS 188.225.27.229 189ms
+  type: vless
+  server: '188.225.27.229'
+  port: 443
+  uuid: 66dc1927-8528-4f1e-bb74-5a9c7aa8ea8c
+  udp: true
+  tls: true
+  servername: bridge.rkitman.ru
+  network: raw
+  reality-opts:
+    public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
+    short-id: 88d9dc52ef39c8bd
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 加拿大 VLESS 51.161.204.242 193ms
+  type: vless
+  server: '51.161.204.242'
+  port: 443
+  uuid: a14b736b-a92a-48d6-a596-5d31f7378ded
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: a2qGjvUPq6Nz5FTbn_MSHp-055q2h8YXqIL5VIJ5zwE
+    short-id: d15c17cef9b2e456
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 英国 VMESS 162.159.130.234 195ms
+  type: vmess
+  server: '162.159.130.234'
+  port: 2083
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: true
+  servername: or3.sfacg.uk
+  network: ws
+  ws-opts:
+    path: /or3
+    headers:
+      Host: or3.sfacg.uk
+- name: 其他 TROJAN 155.103.71.142 195ms
+  type: trojan
+  server: '155.103.71.142'
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  skip-cert-verify: false
+  udp: true
+- name: 其他 VLESS 151.241.138.22 197ms
+  type: vless
+  server: '151.241.138.22'
+  port: 443
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  udp: true
+  tls: true
+  servername: pl1.himoy.space
+  network: tcp
+  reality-opts:
+    public-key: 1D_oMYRytcccH8J2SiM9o0bjmWlDND9CXWLL8LwDvE8
+    short-id: e2201d4d8b942ccc
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 50.7.245.204 198ms
+  type: vless
+  server: '50.7.245.204'
+  port: 2093
+  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
+  udp: true
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 5.253.29.254 199ms
+  type: vless
+  server: '5.253.29.254'
+  port: 14430
+  uuid: c7c27192-60a5-4ce1-b613-95270d82309d
+  udp: true
+  tls: false
+  servername: '5.253.29.254'
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: '5.253.29.254'
+  client-fingerprint: chrome
+- name: 其他 HYSTERIA2 160.187.100.109 204ms
+  type: hysteria2
+  server: '160.187.100.109'
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  udp: true
+  tls: true
+  sni: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+- name: 其他 VLESS 151.242.85.236 206ms
+  type: vless
+  server: '151.242.85.236'
+  port: 443
+  uuid: 7aec627e-a258-4ded-9fd9-fbd7c024f950
+  udp: true
+  tls: true
+  servername: addons.mozilla.org
+  network: tcp
+  reality-opts:
+    public-key: gUu1n11Ef_GEoatNQzJJucvIjGTt4qxOWdxMzjoHwDM
+    short-id: 9b6fa4047c24629f
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS hinet1.2yly.com 208ms
+  type: vless
+  server: hinet1.2yly.com
+  port: 24215
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  udp: true
+  tls: true
+  servername: addons.mozilla.org
+  network: tcp
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  client-fingerprint: safari
+  skip-cert-verify: false
+- name: 其他 VLESS 45.39.198.205 209ms
+  type: vless
+  server: '45.39.198.205'
+  port: 8443
+  uuid: 4a3d18d7-dfbe-4077-986a-6b145e417568
+  udp: true
+  tls: true
+  servername: gateway.icloud.com
+  network: tcp
+  reality-opts:
+    public-key: pOOWxG69IvNxQyZUtd4QDK0KEtFHVsjC-m5-zcsi5Do
+    short-id: c5b8bed4faee8363
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 台湾 HYSTERIA2 vpn-tw-002.fastervpn.world 209ms
+  type: hysteria2
+  server: vpn-tw-002.fastervpn.world
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  tls: false
+  sni: '127.0.0.1'
+  skip-cert-verify: true
+  udp: true
+- name: 其他 HYSTERIA2 137.23.3.91 209ms
+  type: hysteria2
+  server: '137.23.3.91'
+  port: 20000
+  password: a34f3990b69f44bfa0d32385
+  sni: rmgyvpn.rest
+  obfs: salamander
+  obfs-password: a34f3990b69f44bfa0d32385
+  udp: true
+- name: 其他 VMESS 47.244.120.197 211ms
+  type: vmess
+  server: '47.244.120.197'
+  port: 23026
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  servername: '47.244.120.197'
+  network: ws
+  ws-opts:
+    path: /arki
+    headers:
+      Host: '47.244.120.197'
+- name: 其他 VLESS 47.238.210.5 211ms
+  type: vless
+  server: '47.238.210.5'
+  port: 13779
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+  udp: true
+  tls: true
+  servername: tesla.com
+  network: tcp
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 其他 VMESS 47.243.65.243 214ms
+  type: vmess
+  server: '47.243.65.243'
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: true
+  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+- name: 其他 VLESS 109.248.170.119 216ms
+  type: vless
+  server: '109.248.170.119'
+  port: 13447
+  uuid: b573cefb-7bc7-4a42-b407-b8b534e66773
+  udp: true
+  tls: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: _0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE
+    short-id: '83'
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 其他 VMESS lcv8v9l7oyamxxfz.v.3dns.vip 216ms
+  type: vmess
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: lcv8v9l7oyamxxfz.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: lcv8v9l7oyamxxfz.v.3dns.vip
+  udp: true
+- name: 其他 VLESS kz-central.v8x2b.lol 218ms
+  type: vless
+  server: kz-central.v8x2b.lol
+  port: 443
+  uuid: 846cedee-2a52-4a62-a0b9-11850ead6a8b
+  udp: true
+  tls: true
+  servername: kz-central.v8x2b.lol
+  network: tcp
+  reality-opts:
+    public-key: ER-T5En54-sn6IXy7jU8vQVcBbOiWvznnezf3qZ273w
+  client-fingerprint: firefox
+  skip-cert-verify: false
+- name: 其他 VLESS de166.mech-pro.online 219ms
+  type: vless
+  server: de166.mech-pro.online
+  port: 443
+  uuid: 976f82d9-0e6b-40ed-9c09-cafd06c4bc98
+  udp: true
+  tls: true
+  servername: de166.mech-pro.online
+  network: tcp
+  reality-opts:
+    public-key: jbiddtGRgeBvlkjbuA3aU-WPjKgEX87tOVh1mFfvOUI
+    short-id: 16e0f049
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 104.16.10.48 219ms
+  type: vless
+  server: '104.16.10.48'
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  client-fingerprint: chrome
+- name: 其他 VLESS 50.7.44.28 223ms
+  type: vless
+  server: '50.7.44.28'
+  port: 2091
+  uuid: 76b6a658-ce80-4500-b24d-404c94639ac6
+  udp: true
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 新加坡 TROJAN www.visa.com.sg 224ms
+  type: trojan
+  server: www.visa.com.sg
+  port: 2087
+  password: 5b670b35-e96d-44d1-8bd8-6582f48e1c42
+  udp: true
+  sni: au3.yang-1989.xyz
+  network: ws
+  ws-opts:
+    path: /wqd3
+    headers:
+      Host: au3.yang-1989.xyz
+- name: 其他 VLESS 526.150333.xyz 227ms
+  type: vless
+  server: 526.150333.xyz
+  port: 21002
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+    short-id: f0e6a8bb98db3efd
+  client-fingerprint: safari
+  skip-cert-verify: false
+- name: 新加坡 VLESS 139.162.27.96 228ms
+  type: vless
+  server: '139.162.27.96'
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  tls: true
+  servername: free-server.techsonic.dev
+  network: ws
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+    path: /free-server.techsonic.dev
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  udp: true
+- name: 其他 VMESS 129.226.157.220 230ms
+  type: vmess
+  server: '129.226.157.220'
+  port: 59121
+  uuid: d9865d63-d95c-454b-ba07-8e88b838a801
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: http
+  http-opts:
+    path:
+    - /
+    headers: {}
+  client-fingerprint: ''
+- name: 美国 VLESS 172.237.88.103 232ms
+  type: vless
+  server: '172.237.88.103'
+  port: 443
+  uuid: efd11a89-7506-44ce-95b6-6654859f155b
+  udp: true
+  tls: true
+  servername: zoom.us
+  network: tcp
+  reality-opts:
+    public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
+    short-id: 5a42dbd7e26a0415
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 SS 68.183.235.122 232ms
+  type: ss
+  server: '68.183.235.122'
+  port: 8080
+  password: 14fFPrbezE3HDZzsMOr6
+  cipher: rc4-md5
+  udp: true
+- name: 其他 SS 128.1.186.73 233ms
+  type: ss
+  server: '128.1.186.73'
+  port: 8080
+  password: 14fFPrbezE3HDZzsMOr6
+  cipher: rc4-md5
+  udp: true
+- name: 其他 VMESS 146.56.112.110 233ms
+  type: vmess
+  server: '146.56.112.110'
+  port: 8888
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+  client-fingerprint: ''
+- name: 其他 VLESS 526.150333.xyz 233ms
+  type: vless
+  server: 526.150333.xyz
+  port: 21004
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+    short-id: 2f34703f16523c80
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 其他 VLESS hydra.yokkastars.com 237ms
+  type: vless
+  server: hydra.yokkastars.com
+  port: 40443
+  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+  udp: true
+  tls: true
+  servername: deepl.com
+  network: tcp
+  reality-opts:
+    public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
+    short-id: 88b6
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 213.152.165.203 237ms
+  type: vless
+  server: '213.152.165.203'
+  port: 2093
+  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
+  udp: true
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 新加坡 VMESS 8.219.97.17 241ms
+  type: vmess
+  server: '8.219.97.17'
+  port: 443
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: wjofHsQtEuEywxEq.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: wjofHsQtEuEywxEq.v.3dns.vip
+  udp: true
+- name: 印度 VLESS 13.140.56.100 246ms
+  type: vless
+  server: '13.140.56.100'
+  port: 14430
+  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: '13.140.56.100'
+- name: 其他 SS 191.223.221.53 255ms
+  type: ss
+  server: '191.223.221.53'
+  port: 8388
+  password: JuD6MNgtX3nVpCzFzXYVYjDTZ7nsmaTv
+  cipher: aes-256-gcm
+  udp: true
+- name: 其他 VLESS 511.150333.xyz 256ms
+  type: vless
+  server: 511.150333.xyz
+  port: 21001
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+    short-id: ab39fc68ab3dee81
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 其他 VLESS 142.91.108.25 268ms
+  type: vless
+  server: '142.91.108.25'
+  port: 443
+  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+  udp: true
+  tls: true
+  servername: jp3.nztvpn.com
+  network: tcp
+  reality-opts:
+    public-key: 9ZCYjybxMQ7JpE39B8u_Bo-alI1LIbt5ER0E-4yMjiM
+    short-id: ea36c03d86f91287
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 HYSTERIA2 138.3.208.26 269ms
+  type: hysteria2
+  server: '138.3.208.26'
+  port: 50160
+  password: 184cdec28da5a09450803c8debcd2cc9
+  skip-cert-verify: true
+  udp: true
+- name: 瑞典 ANYTLS svip.skycon808.com 270ms
+  type: anytls
+  server: svip.skycon808.com
+  port: 60005
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  udp: true
+  skip-cert-verify: true
+- name: 其他 VLESS 198.16.113.219 270ms
+  type: vless
+  server: '198.16.113.219'
+  port: 8443
+  uuid: e3e0e1c3-599e-4ae1-8ad4-d9e90effacc4
+  udp: true
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  reality-opts:
+    public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
+    short-id: 69984b9e02545831
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 HYSTERIA2 138.2.73.238 273ms
+  type: hysteria2
+  server: '138.2.73.238'
+  port: 50160
+  password: f87376e17da040ed04c9665ce8972930
+  skip-cert-verify: true
+  udp: true
+- name: 美国 VLESS 77.91.68.70 277ms
+  type: vless
+  server: '77.91.68.70'
+  port: 55983
+  uuid: f667a096-5231-4cfb-8759-92bb32473139
+  udp: true
+  tls: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
+    short-id: '0e'
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 其他 VLESS 67.159.49.36 279ms
+  type: vless
+  server: '67.159.49.36'
+  port: 2091
+  uuid: 76b6a658-ce80-4500-b24d-404c94639ac6
+  udp: true
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 TROJAN 144.31.195.61 287ms
+  type: trojan
+  server: '144.31.195.61'
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /assignment
+  client-fingerprint: unsafe
+  udp: true
+- name: 其他 VLESS 67.159.49.34 288ms
+  type: vless
+  server: '67.159.49.34'
+  port: 2091
+  uuid: 76b6a658-ce80-4500-b24d-404c94639ac6
+  udp: true
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 156.229.161.107 293ms
+  type: vless
+  server: '156.229.161.107'
+  port: 10001
+  uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
+  udp: true
+  tls: true
+  servername: www.icloud.com
+  network: tcp
+  reality-opts:
+    public-key: 4jNz4Bw-FZlaX-WtfAdwK0hegY28W_k8AttGd-7hZn4
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS support.zoom.us 296ms
+  type: vless
+  server: support.zoom.us
+  port: 443
+  uuid: b054e267-e2d8-4ca2-b95e-79ca5cb7cf9a
+  udp: true
+  tls: true
+  servername: cloud.ghostdev.lk
+  network: ws
+  ws-opts:
+    headers:
+      Host: cloud.ghostdev.lk
+    path: /
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 其他 VLESS 104.16.10.251 296ms
+  type: vless
+  server: '104.16.10.251'
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    headers:
+      Host: a.cwvps.eu.org
+    path: /ws
+  client-fingerprint: unsafe
+  skip-cert-verify: false
+- name: 其他 VLESS 78.159.246.85 300ms
+  type: vless
+  server: '78.159.246.85'
+  port: 2053
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  udp: true
+  tls: true
+  servername: fitindoor.net
+  alpn:
+  - h2
+  - http/1.1
+  network: xhttp
+  xhttp-opts:
+    host: fitindoor.net
+    path: /api/v1/upload
+    mode: auto
+  client-fingerprint: firefox
+  skip-cert-verify: false
+- name: 其他 VLESS 104.21.6.186 303ms
+  type: vless
+  server: '104.21.6.186'
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    headers:
+      Host: a.cwvps.eu.org
+    path: /ws
+  client-fingerprint: unsafe
+  skip-cert-verify: false
+- name: 其他 VLESS 104.19.95.153 308ms
+  type: vless
+  server: '104.19.95.153'
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws#/?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+    headers:
+      Host: a.cwvps.eu.org
+- name: 其他 VLESS 188.114.98.0 314ms
+  type: vless
+  server: '188.114.98.0'
+  port: 443
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  udp: true
+  tls: true
+  servername: v2ray.simspeedup.com
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: v2ray.simspeedup.com
+- name: 其他 TROJAN 2.27.109.179 314ms
+  type: trojan
+  server: '2.27.109.179'
+  port: 45464
+  password: XuMweB2PWs
+  sni: 2.27.109.179.sslip.io
+  network: tcp
+  udp: true
+- name: 其他 VLESS 18.183.215.124 319ms
+  type: vless
+  server: '18.183.215.124'
+  port: 28573
+  uuid: 871bfce7-8440-4394-8d82-56b51f20fdad
+  udp: true
+  tls: true
+  servername: www.sony.com
+  network: tcp
+  reality-opts:
+    public-key: 1DJr9toke7FRuSXjibBVuNvRnLnJnN5kXwUBG6Romzg
+    short-id: 03653bc03be10c97
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 67.159.46.134 321ms
+  type: vless
+  server: '67.159.46.134'
+  port: 2091
+  uuid: 76b6a658-ce80-4500-b24d-404c94639ac6
+  udp: true
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 151.245.106.49 331ms
+  type: vless
+  server: '151.245.106.49'
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+    short-id: 429499c03d4cc8a0
+  client-fingerprint: random
+  skip-cert-verify: false
+- name: 其他 VLESS 150.251.113.34 332ms
+  type: vless
+  server: '150.251.113.34'
+  port: 443
+  uuid: d7d724b5-17ce-4f3c-877d-dfbf0f07afa1
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: 8yMLSTbkpJFfbgTjNzotzz7U8OT6AERrclgKdKrXXW8
+    short-id: 150a627d15154cf2
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 SS 172.105.39.124 343ms
+  type: ss
+  server: '172.105.39.124'
+  port: 7002
+  password: RexnBgU7EV5ADxG
+  cipher: aes-256-gcm
+  udp: true
+  skip-cert-verify: false
+- name: 其他 VLESS 104.16.10.22 347ms
+  type: vless
+  server: '104.16.10.22'
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 其他 VMESS 54.37.131.126 355ms
+  type: vmess
+  server: '54.37.131.126'
+  port: 80
+  uuid: 6deef9ad-1357-443d-f95c-cb18952c20b3
+  cipher: auto
+  alterId: 0
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+  udp: true
+- name: 其他 VLESS 104.16.111.195 371ms
+  type: vless
+  server: '104.16.111.195'
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+  skip-cert-verify: false
+- name: 其他 VLESS 104.17.210.74 398ms
+  type: vless
+  server: '104.17.210.74'
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 其他 VLESS 216.167.126.97 416ms
+  type: vless
+  server: '216.167.126.97'
+  port: 443
+  uuid: e5c3d067-7a15-4977-90c0-7e0f6e896a09
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: yFvOpugh65xKQNAwKrhitv4d2pflD8QwNFMj-jDOmT8
+    short-id: 0123456789abcdef
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VMESS jp4.998998.best 418ms
+  type: vmess
+  server: jp4.998998.best
+  port: 443
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: nat12.9966338.xyz
+  network: ws
+  ws-opts:
+    path: /vvvvvvvvv
+    headers:
+      Host: nat12.9966338.xyz
+  udp: true
+- name: 其他 VLESS wifi13.jzxc.digital 421ms
+  type: vless
+  server: wifi13.jzxc.digital
+  port: 443
+  uuid: 3d87029f-b55b-487d-aea6-6049c8668ff1
+  udp: true
+  tls: true
+  servername: wifi13.jzxc.digital
+  network: tcp
+  reality-opts:
+    public-key: UdBGJ1I5lzeteEjn5sLZfVTUcUidtjTx3cF92rPzgGk
+    short-id: 3eed9b237e5e5baf
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 5.175.161.228 422ms
+  type: vless
+  server: '5.175.161.228'
+  port: 443
+  uuid: 3d87029f-b55b-487d-aea6-6049c8668ff1
+  udp: true
+  tls: true
+  servername: www.bmw.com
+  network: tcp
+  reality-opts:
+    public-key: UZc4OlyX-cYmQh5FJtjzoSuVqtbiGJCNQGF_MN8CxA4
+    short-id: 748e4f563dd9bd02
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 3.114.220.22 459ms
+  type: vless
+  server: '3.114.220.22'
+  port: 19645
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  udp: true
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 日本 VLESS 137.220.221.179 476ms
+  type: vless
+  server: '137.220.221.179'
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  network: tcp
+  skip-cert-verify: false
+- name: 其他 VLESS 67.159.49.34 491ms
+  type: vless
+  server: '67.159.49.34'
+  port: 2093
+  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
+  udp: true
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VMESS 104.17.136.198 513ms
+  type: vmess
+  server: '104.17.136.198'
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+  client-fingerprint: chrome
+  udp: true
+- name: 其他 VLESS 31.77.131.246 519ms
+  type: vless
+  server: '31.77.131.246'
+  port: 443
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  udp: true
+  tls: true
+  servername: nl5.himoy.space
+  network: tcp
+  reality-opts:
+    public-key: 1cnb_l4zv5exEEuv_cYoglyW_Tk4yGl9mjzHoHzvUXA
+    short-id: 15f39a6a8150126e
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 其他 HYSTERIA2 nas.aizhzo.com 523ms
+  type: hysteria2
+  server: nas.aizhzo.com
+  port: 5010
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  tls: false
+  sni: nas.aizhzo.com
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  skip-cert-verify: false
+  udp: true
+- name: 其他 VLESS 149.104.30.138 551ms
+  type: vless
+  server: '149.104.30.138'
+  port: 443
+  uuid: a33cfdfd-90af-4e5b-a42e-047293c528e6
+  udp: true
+  tls: true
+  servername: www.bing.com
+  network: tcp
+  reality-opts:
+    public-key: za53zkNAm5tPgC6ZTU1oM90ofHaI9ODk-6msB-M3cWU
+    short-id: 0f65424c53d491e6
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 其他 TROJAN 104.18.45.38 556ms
+  type: trojan
+  server: '104.18.45.38'
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+  client-fingerprint: unsafe
+  skip-cert-verify: false
+  udp: true
+- name: 其他 VMESS 172.66.0.1 591ms
+  type: vmess
+  server: '172.66.0.1'
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+  udp: true
+- name: 其他 VLESS 104.16.10.234 620ms
+  type: vless
+  server: '104.16.10.234'
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+  skip-cert-verify: false
+- name: 其他 HYSTERIA2 208.69.78.217 624ms
+  type: hysteria2
+  server: '208.69.78.217'
+  port: 21021
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+  skip-cert-verify: true
+  udp: true
+- name: 其他 TROJAN 104.21.33.59 633ms
+  type: trojan
+  server: '104.21.33.59'
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /assignment
+  client-fingerprint: unsafe
+  udp: true
+- name: 其他 SS 57.129.113.16 634ms
+  type: ss
+  server: '57.129.113.16'
+  port: 8388
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 其他 VLESS s171.wagahaha.xyz 650ms
+  type: vless
+  server: s171.wagahaha.xyz
+  port: 443
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  udp: true
+  tls: true
+  servername: u695098u7dae9c0cs220.gogocs.xyz
+  alpn:
+  - h2
+  - http/1.1
+  network: raw
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 104.19.12.94 680ms
+  type: vless
+  server: '104.19.12.94'
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+  skip-cert-verify: false
+- name: 其他 VLESS 93.89.220.37 692ms
+  type: vless
+  server: '93.89.220.37'
+  port: 443
+  uuid: 185e2bb3-2934-48d0-bbd5-dd20d16e83ee
+  udp: true
+  tls: true
+  servername: ibm.com
+  network: tcp
+  reality-opts:
+    public-key: lwKaUQ81wJUJRsqAPsfTPj5V_f9N50UYEwzRI_nuq2g
+    short-id: e88cb983f3c97528
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 其他 TUIC sg2-8sb.6121999.dpdns.org 718ms
+  type: tuic
+  server: sg2-8sb.6121999.dpdns.org
+  port: 33738
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+  password: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+  sni: sg2-8sb.6121999.dpdns.org
+  alpn:
+  - h3
+  udp: true
+- name: 其他 VLESS 138.124.79.6 721ms
+  type: vless
+  server: '138.124.79.6'
+  port: 443
+  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+  udp: true
+  tls: true
+  servername: node-nl-1.nztpro.com
+  network: tcp
+  reality-opts:
+    public-key: ydN3DRKjNC6q7JI_Zegj3hhvdHussmralsnSQGQVdws
+    short-id: 25f4a40b9fdd9780
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS uk1.connectsuite.org 761ms
+  type: vless
+  server: uk1.connectsuite.org
+  port: 443
+  uuid: fda89998-7e9a-4494-857a-cd0d00661b58
+  udp: true
+  tls: true
+  servername: uk1.connectsuite.org
+  network: ws
+  ws-opts:
+    path: /cdn-cgi/ws
+    headers:
+      Host: uk1.connectsuite.org
+  client-fingerprint: chrome
+- name: 其他 VLESS 104.16.111.193 767ms
+  type: vless
+  server: '104.16.111.193'
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    headers:
+      Host: a.cwvps.eu.org
+    path: /ws
+  skip-cert-verify: false
+- name: 其他 HYSTERIA2 208.69.78.217 808ms
+  type: hysteria2
+  server: '208.69.78.217'
+  port: 21147
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+  skip-cert-verify: true
+  udp: true
+- name: 日本 VLESS 172.67.156.147 861ms
+  type: vless
+  server: '172.67.156.147'
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 其他 VLESS 188.114.98.0 896ms
+  type: vless
+  server: '188.114.98.0'
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    headers:
+      Host: a.cwvps.eu.org
+    path: /ws
+  skip-cert-verify: false
+- name: 其他 HYSTERIA2 208.69.78.217 900ms
+  type: hysteria2
+  server: '208.69.78.217'
+  port: 21161
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+  skip-cert-verify: true
+  udp: true
+- name: 其他 TROJAN 188.114.97.4 934ms
+  type: trojan
+  server: '188.114.97.4'
+  port: 443
+  password: humanity
+  udp: true
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: 其他 VLESS 43.170.8.95 1088ms
+  type: vless
+  server: '43.170.8.95'
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+  client-fingerprint: firefox
+- name: 其他 VLESS 5.253.28.240 1442ms
+  type: vless
+  server: '5.253.28.240'
+  port: 2443
+  uuid: 5e679ccd-1586-4d5f-b87b-48251046cad8
+  udp: true
+  tls: true
+  servername: deepl.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: rex-eb0bf76b710ce763
+  reality-opts:
+    public-key: h85e28MxBgNyT9d9cNeOLVtWfHq6cT_1_oxZOTajtTg
+    short-id: 92c32de179e5d908
+  client-fingerprint: firefox
+- name: 其他 VLESS 162.159.254.3 2243ms
+  type: vless
+  server: '162.159.254.3'
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+  client-fingerprint: chrome
+  skip-cert-verify: false
+proxy-groups:
+- name: 🚀 自动选择
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 30
+  lazy: false
+  max-failed-times: 3
+  proxies:
+  - 其他 HYSTERIA2 129.213.91.185 12ms
+  - 美国 VMESS 67.220.95.3 12ms
+  - 美国 SS 37.19.198.236 16ms
+  - 美国 SS 37.19.198.243 18ms
+  - 美国 SS 37.19.198.160 18ms
+  - 其他 VLESS 169.40.42.224 18ms
+  - 以色列 VLESS 185.95.231.156 19ms
+  - 其他 SS 15.204.247.206 22ms
+  - 加拿大 VMESS 23.162.200.198 29ms
+  - 美国 VMESS 38.91.107.49 30ms
+  - 其他 VLESS 66.70.179.198 30ms
+  - 加拿大 VLESS 209.200.246.148 33ms
+  - 其他 VLESS xray2-direct-mci1-fs-ce.freesocks.work 36ms
+  - 其他 VLESS xray2-direct-mci1-fs-ce.freesocks.work 37ms
+  - 美国 SS 156.146.38.169 42ms
+  - 其他 SS 138.197.141.58 48ms
+  - 其他 HYSTERIA2 155.117.19.17 58ms
+  - 其他 HYSTERIA2 155.117.19.17 60ms
+  - 其他 SS 216.105.168.18 65ms
+  - 其他 SS 23.251.121.242 66ms
+  - 美国 VMESS 129.146.77.248 69ms
+  - 其他 HYSTERIA2 198.46.146.118 70ms
+  - 其他 VMESS rib9jxayoqjgn2kw.v.3dns.vip 70ms
+  - 其他 VMESS guanwang.awsno.com 74ms
+  - 其他 TROJAN resources.findlocaljobnetworkandbuildcommunityconnections.com 76ms
+  - 其他 VLESS freev2.cloudflare.182682.xyz 77ms
+  - 其他 TROJAN www.findlocaljobnetworkandbuildcommunityconnections.com 78ms
+  - 其他 SS 138.199.43.159 81ms
+  - 其他 VMESS www.shopify.com 82ms
+  - 其他 ANYTLS es1.xiaoliyu.cyou 84ms
+  - 其他 VLESS 104.18.176.145 84ms
+  - 其他 VLESS 83.147.18.3 92ms
+  - 其他 VLESS 23.160.56.99 93ms
+  - 其他 VLESS 51.158.206.20 93ms
+  - 其他 VLESS 57.129.132.223 93ms
+  - 美国 SS 173.244.56.9 94ms
+  - 其他 VLESS 51.158.206.26 95ms
+  - 其他 VLESS xuthnybd.himoy.space 95ms
+  - 德国 SS 185.176.204.18 95ms
+  - 其他 VLESS 66.154.101.36 96ms
+  - 其他 VLESS 51.158.206.34 96ms
+  - 其他 VLESS 45.9.118.177 97ms
+  - 其他 VLESS 51.158.206.97 97ms
+  - 其他 VLESS server.slavkiti.monster 98ms
+  - 其他 SS 158.173.20.208 99ms
+  - 法国 VLESS 152.228.162.19 99ms
+  - 俄罗斯 VLESS 113.30.154.237 100ms
+  - 其他 HYSTERIA2 62.210.124.146 100ms
+  - 英国 SS 141.98.101.181 100ms
+  - 其他 TROJAN 172.67.217.240 100ms
+  - 其他 VLESS eu2.998998.best 101ms
+  - 其他 VLESS 193.124.17.190 103ms
+  - 其他 VLESS undef.network 103ms
+  - 其他 VMESS 91.107.169.224 103ms
+  - 其他 VMESS cf.0sm.com 103ms
+  - 其他 VLESS 51.158.206.25 104ms
+  - 其他 SS staging.lastilhame.monster 104ms
+  - 俄罗斯 VLESS 193.223.104.124 104ms
+  - 其他 VLESS 172.67.204.153 105ms
+  - 其他 VLESS 144.31.125.60 105ms
+  - 其他 VLESS 104.18.57.149 105ms
+  - 其他 TROJAN 139.28.240.24 105ms
+  - 其他 SS 82.38.31.178 105ms
+  - 其他 VLESS 172.67.195.79 105ms
+  - 其他 VLESS wifi10.jzxc.digital 105ms
+  - 其他 TROJAN 104.19.64.105 105ms
+  - 其他 VLESS hikvision-plus.com 106ms
+  - 其他 TROJAN chat.openai.com 106ms
+  - 荷兰 SS 82.38.31.199 107ms
+  - 荷兰 SS 193.29.139.151 108ms
+  - 德国 VLESS 64.188.71.236 108ms
+  - 荷兰 SS 82.38.31.3 108ms
+  - 其他 VLESS 57.131.38.163 108ms
+  - 荷兰 SS 82.38.31.216 108ms
+  - 荷兰 SS 82.38.31.174 109ms
+  - 其他 VLESS nl3.mycloud1.org 109ms
+  - 荷兰 SS 82.38.31.182 109ms
+  - 荷兰 SS 82.38.31.214 109ms
+  - 俄罗斯 VLESS 45.151.71.152 109ms
+  - 其他 VLESS test.wecantos.site 109ms
+  - 其他 VLESS 191.44.108.31 109ms
+  - 荷兰 SS 193.29.139.132 109ms
+  - 其他 VLESS hikvision-plus.com 109ms
+  - 荷兰 SS 82.38.31.184 109ms
+  - 荷兰 SS 82.38.31.34 110ms
+  - 英国 VLESS server.slavkiti.monster 110ms
+  - 其他 VLESS 179.255.190.43 110ms
+  - 荷兰 SS 82.38.31.155 110ms
+  - 德国 HYSTERIA2 de.1.23.h2corp.org 110ms
+  - 其他 TROJAN 104.18.8.83 110ms
+  - 其他 SS 193.29.139.212 111ms
+  - 荷兰 SS 82.38.31.205 111ms
+  - 意大利 SS 202.50.253.99 111ms
+  - 荷兰 SS 82.38.31.46 112ms
+  - 俄罗斯 VLESS 45.151.71.164 113ms
+  - 其他 SS 193.29.139.197 113ms
+  - 意大利 SS 202.50.253.54 113ms
+  - 其他 SS 82.38.31.62 114ms
+  - 法国 VLESS 145.223.68.58 115ms
+  - 其他 VLESS 45.151.183.12 115ms
+  - 其他 VLESS cz3.himoy.space 115ms
+  - 荷兰 SS 82.38.31.18 115ms
+  - 荷兰 SS 193.29.139.147 115ms
+  - 其他 VLESS 193.124.17.190 116ms
+  - 俄罗斯 VLESS 144.31.215.196 116ms
+  - 其他 VLESS 51.158.206.80 116ms
+  - 其他 SS 82.38.31.69 117ms
+  - 其他 SS 193.29.139.234 117ms
+  - 法国 TROJAN 185.114.72.31 118ms
+  - 俄罗斯 VLESS 45.151.71.147 119ms
+  - 捷克 SS 67.159.18.34 119ms
+  - 其他 SS 185.135.86.175 120ms
+  - 其他 VLESS 94.156.79.93 120ms
+  - '其他 SS 185.135.86.175 120ms #2'
+  - 其他 VLESS 157.90.175.178 120ms
+  - 其他 VLESS 172.64.229.129 121ms
+  - 荷兰 SS 82.38.31.2 121ms
+  - 其他 TROJAN 104.17.121.71 121ms
+  - 其他 SS 213.183.63.60 121ms
+  - 其他 VLESS eu02.123450908.xyz 121ms
+  - 德国 VLESS hw3.divarkhaghazi.com 122ms
+  - 其他 VLESS 82.118.16.187 122ms
+  - 其他 SS 49.12.249.167 123ms
+  - 其他 VLESS 138.124.63.34 123ms
+  - 其他 VLESS 193.238.154.78 123ms
+  - 其他 SS 213.183.63.60 125ms
+  - 意大利 VLESS 204.216.216.23 125ms
+  - 其他 VLESS 177.3.220.124 126ms
+  - 俄罗斯 VLESS 54.37.5.203 127ms
+  - 其他 SS 195.238.126.20 127ms
+  - 其他 VLESS 77.91.69.169 128ms
+  - 其他 TROJAN 45.130.125.126 129ms
+  - 其他 SS 185.135.86.175 129ms
+  - 其他 VMESS 172.64.229.21 129ms
+  - 其他 TROJAN 165.215.250.14 131ms
+  - 其他 SS 195.238.126.20 132ms
+  - 其他 VLESS wifi12.jzxc.digital 132ms
+  - 其他 VLESS lists.soloramtin.cyou 133ms
+  - 其他 SS 185.226.172.8 133ms
+  - 其他 TROJAN 188.114.96.3 134ms
+  - 其他 VLESS staging.lastilhame.monster 136ms
+  - 其他 VLESS 104.253.216.227 136ms
+  - 其他 TROJAN 191.96.94.226 136ms
+  - 其他 TROJAN 91.245.225.79 137ms
+  - 其他 TROJAN 172.67.231.254 139ms
+  - 荷兰 SS 82.38.31.189 139ms
+  - 其他 VLESS sw.golangwikito.cfd 139ms
+  - 其他 VLESS ge-s-1.pythonmakemigreat.wiki 140ms
+  - 其他 VLESS 85.90.197.220 141ms
+  - 德国 VLESS de.cvpn.su 141ms
+  - 其他 TROJAN 166.1.36.83 142ms
+  - 其他 TROJAN 164.92.200.68 142ms
+  - 其他 TROJAN 193.23.202.65 142ms
+  - 俄罗斯 VLESS 45.151.71.158 146ms
+  - 其他 VLESS 45.85.117.174 149ms
+  - 其他 VLESS netx.smrtai.top 150ms
+  - 德国 VLESS 45.150.33.33 151ms
+  - 捷克 VLESS cz.pythonmakemigreat.wiki 151ms
+  - 其他 TROJAN 45.130.125.190 157ms
+  - 荷兰 SS 82.38.31.187 160ms
+  - 法国 TROJAN 185.225.68.232 166ms
+  - 俄罗斯 VLESS 193.188.21.253 167ms
+  - 其他 VLESS pl1.himoy.space 168ms
+  - 其他 TROJAN 104.17.121.9 169ms
+  - 其他 VLESS i3m2o0cf.himoy.space 173ms
+  - 其他 VLESS fin4.himoy.space 174ms
+  - 俄罗斯 VLESS 213.176.92.168 175ms
+  - 其他 VMESS 43.108.103.167 180ms
+  - 阿联酋 VLESS 95.174.68.188 182ms
+  - 其他 TROJAN 8.47.69.60 182ms
+  - 其他 VLESS nl3.himoy.space 182ms
+  - 其他 HYSTERIA2 132.226.226.189 183ms
+  - 其他 VLESS milo.rubinaz.xyz 185ms
+  - 其他 VLESS 104.21.0.87 187ms
+  - 其他 TROJAN www.speedtest.net 188ms
+  - 俄罗斯 VLESS 188.225.27.229 189ms
+  - 加拿大 VLESS 51.161.204.242 193ms
+  - 英国 VMESS 162.159.130.234 195ms
+  - 其他 TROJAN 155.103.71.142 195ms
+  - 其他 VLESS 151.241.138.22 197ms
+  - 其他 VLESS 50.7.245.204 198ms
+  - 其他 VLESS 5.253.29.254 199ms
+  - 其他 HYSTERIA2 160.187.100.109 204ms
+  - 其他 VLESS 151.242.85.236 206ms
+  - 其他 VLESS hinet1.2yly.com 208ms
+  - 其他 VLESS 45.39.198.205 209ms
+  - 台湾 HYSTERIA2 vpn-tw-002.fastervpn.world 209ms
+  - 其他 HYSTERIA2 137.23.3.91 209ms
+  - 其他 VMESS 47.244.120.197 211ms
+  - 其他 VLESS 47.238.210.5 211ms
+  - 其他 VMESS 47.243.65.243 214ms
+  - 其他 VLESS 109.248.170.119 216ms
+  - 其他 VMESS lcv8v9l7oyamxxfz.v.3dns.vip 216ms
+  - 其他 VLESS kz-central.v8x2b.lol 218ms
+  - 其他 VLESS de166.mech-pro.online 219ms
+  - 其他 VLESS 104.16.10.48 219ms
+  - 其他 VLESS 50.7.44.28 223ms
+  - 新加坡 TROJAN www.visa.com.sg 224ms
+  - 其他 VLESS 526.150333.xyz 227ms
+  - 新加坡 VLESS 139.162.27.96 228ms
+  - 其他 VMESS 129.226.157.220 230ms
+  - 美国 VLESS 172.237.88.103 232ms
+  - 其他 SS 68.183.235.122 232ms
+  - 其他 SS 128.1.186.73 233ms
+  - 其他 VMESS 146.56.112.110 233ms
+  - 其他 VLESS 526.150333.xyz 233ms
+  - 其他 VLESS hydra.yokkastars.com 237ms
+  - 其他 VLESS 213.152.165.203 237ms
+  - 新加坡 VMESS 8.219.97.17 241ms
+  - 印度 VLESS 13.140.56.100 246ms
+  - 其他 SS 191.223.221.53 255ms
+  - 其他 VLESS 511.150333.xyz 256ms
+  - 其他 VLESS 142.91.108.25 268ms
+  - 其他 HYSTERIA2 138.3.208.26 269ms
+  - 瑞典 ANYTLS svip.skycon808.com 270ms
+  - 其他 VLESS 198.16.113.219 270ms
+  - 其他 HYSTERIA2 138.2.73.238 273ms
+  - 美国 VLESS 77.91.68.70 277ms
+  - 其他 VLESS 67.159.49.36 279ms
+  - 其他 TROJAN 144.31.195.61 287ms
+  - 其他 VLESS 67.159.49.34 288ms
+  - 其他 VLESS 156.229.161.107 293ms
+  - 其他 VLESS support.zoom.us 296ms
+  - 其他 VLESS 104.16.10.251 296ms
+  - 其他 VLESS 78.159.246.85 300ms
+  - 其他 VLESS 104.21.6.186 303ms
+  - 其他 VLESS 104.19.95.153 308ms
+  - 其他 VLESS 188.114.98.0 314ms
+  - 其他 TROJAN 2.27.109.179 314ms
+  - 其他 VLESS 18.183.215.124 319ms
+  - 其他 VLESS 67.159.46.134 321ms
+  - 其他 VLESS 151.245.106.49 331ms
+  - 其他 VLESS 150.251.113.34 332ms
+  - 其他 SS 172.105.39.124 343ms
+  - 其他 VLESS 104.16.10.22 347ms
+  - 其他 VMESS 54.37.131.126 355ms
+  - 其他 VLESS 104.16.111.195 371ms
+  - 其他 VLESS 104.17.210.74 398ms
+  - 其他 VLESS 216.167.126.97 416ms
+  - 其他 VMESS jp4.998998.best 418ms
+  - 其他 VLESS wifi13.jzxc.digital 421ms
+  - 其他 VLESS 5.175.161.228 422ms
+  - 其他 VLESS 3.114.220.22 459ms
+  - 日本 VLESS 137.220.221.179 476ms
+  - 其他 VLESS 67.159.49.34 491ms
+  - 其他 VMESS 104.17.136.198 513ms
+  - 其他 VLESS 31.77.131.246 519ms
+  - 其他 HYSTERIA2 nas.aizhzo.com 523ms
+  - 其他 VLESS 149.104.30.138 551ms
+  - 其他 TROJAN 104.18.45.38 556ms
+  - 其他 VMESS 172.66.0.1 591ms
+  - 其他 VLESS 104.16.10.234 620ms
+  - 其他 HYSTERIA2 208.69.78.217 624ms
+  - 其他 TROJAN 104.21.33.59 633ms
+  - 其他 SS 57.129.113.16 634ms
+  - 其他 VLESS s171.wagahaha.xyz 650ms
+  - 其他 VLESS 104.19.12.94 680ms
+  - 其他 VLESS 93.89.220.37 692ms
+  - 其他 TUIC sg2-8sb.6121999.dpdns.org 718ms
+  - 其他 VLESS 138.124.79.6 721ms
+  - 其他 VLESS uk1.connectsuite.org 761ms
+  - 其他 VLESS 104.16.111.193 767ms
+  - 其他 HYSTERIA2 208.69.78.217 808ms
+  - 日本 VLESS 172.67.156.147 861ms
+  - 其他 VLESS 188.114.98.0 896ms
+  - 其他 HYSTERIA2 208.69.78.217 900ms
+  - 其他 TROJAN 188.114.97.4 934ms
+  - 其他 VLESS 43.170.8.95 1088ms
+  - 其他 VLESS 5.253.28.240 1442ms
+  - 其他 VLESS 162.159.254.3 2243ms
+- name: 📍 其他
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 其他 HYSTERIA2 129.213.91.185 12ms
+  - 其他 VLESS 169.40.42.224 18ms
+  - 其他 SS 15.204.247.206 22ms
+  - 其他 VLESS 66.70.179.198 30ms
+  - 其他 VLESS xray2-direct-mci1-fs-ce.freesocks.work 36ms
+  - 其他 VLESS xray2-direct-mci1-fs-ce.freesocks.work 37ms
+  - 其他 SS 138.197.141.58 48ms
+  - 其他 HYSTERIA2 155.117.19.17 58ms
+  - 其他 HYSTERIA2 155.117.19.17 60ms
+  - 其他 SS 216.105.168.18 65ms
+  - 其他 SS 23.251.121.242 66ms
+  - 其他 HYSTERIA2 198.46.146.118 70ms
+  - 其他 VMESS rib9jxayoqjgn2kw.v.3dns.vip 70ms
+  - 其他 VMESS guanwang.awsno.com 74ms
+  - 其他 TROJAN resources.findlocaljobnetworkandbuildcommunityconnections.com 76ms
+  - 其他 VLESS freev2.cloudflare.182682.xyz 77ms
+  - 其他 TROJAN www.findlocaljobnetworkandbuildcommunityconnections.com 78ms
+  - 其他 SS 138.199.43.159 81ms
+  - 其他 VMESS www.shopify.com 82ms
+  - 其他 ANYTLS es1.xiaoliyu.cyou 84ms
+  - 其他 VLESS 104.18.176.145 84ms
+  - 其他 VLESS 83.147.18.3 92ms
+  - 其他 VLESS 23.160.56.99 93ms
+  - 其他 VLESS 51.158.206.20 93ms
+  - 其他 VLESS 57.129.132.223 93ms
+  - 其他 VLESS 51.158.206.26 95ms
+  - 其他 VLESS xuthnybd.himoy.space 95ms
+  - 其他 VLESS 66.154.101.36 96ms
+  - 其他 VLESS 51.158.206.34 96ms
+  - 其他 VLESS 45.9.118.177 97ms
+  - 其他 VLESS 51.158.206.97 97ms
+  - 其他 VLESS server.slavkiti.monster 98ms
+  - 其他 SS 158.173.20.208 99ms
+  - 其他 HYSTERIA2 62.210.124.146 100ms
+  - 其他 TROJAN 172.67.217.240 100ms
+  - 其他 VLESS eu2.998998.best 101ms
+  - 其他 VLESS 193.124.17.190 103ms
+  - 其他 VLESS undef.network 103ms
+  - 其他 VMESS 91.107.169.224 103ms
+  - 其他 VMESS cf.0sm.com 103ms
+  - 其他 VLESS 51.158.206.25 104ms
+  - 其他 SS staging.lastilhame.monster 104ms
+  - 其他 VLESS 172.67.204.153 105ms
+  - 其他 VLESS 144.31.125.60 105ms
+  - 其他 VLESS 104.18.57.149 105ms
+  - 其他 TROJAN 139.28.240.24 105ms
+  - 其他 SS 82.38.31.178 105ms
+  - 其他 VLESS 172.67.195.79 105ms
+  - 其他 VLESS wifi10.jzxc.digital 105ms
+  - 其他 TROJAN 104.19.64.105 105ms
+  - 其他 VLESS hikvision-plus.com 106ms
+  - 其他 TROJAN chat.openai.com 106ms
+  - 其他 VLESS 57.131.38.163 108ms
+  - 其他 VLESS nl3.mycloud1.org 109ms
+  - 其他 VLESS test.wecantos.site 109ms
+  - 其他 VLESS 191.44.108.31 109ms
+  - 其他 VLESS hikvision-plus.com 109ms
+  - 其他 VLESS 179.255.190.43 110ms
+  - 其他 TROJAN 104.18.8.83 110ms
+  - 其他 SS 193.29.139.212 111ms
+  - 其他 SS 193.29.139.197 113ms
+  - 其他 SS 82.38.31.62 114ms
+  - 其他 VLESS 45.151.183.12 115ms
+  - 其他 VLESS cz3.himoy.space 115ms
+  - 其他 VLESS 193.124.17.190 116ms
+  - 其他 VLESS 51.158.206.80 116ms
+  - 其他 SS 82.38.31.69 117ms
+  - 其他 SS 193.29.139.234 117ms
+  - 其他 SS 185.135.86.175 120ms
+  - 其他 VLESS 94.156.79.93 120ms
+  - '其他 SS 185.135.86.175 120ms #2'
+  - 其他 VLESS 157.90.175.178 120ms
+  - 其他 VLESS 172.64.229.129 121ms
+  - 其他 TROJAN 104.17.121.71 121ms
+  - 其他 SS 213.183.63.60 121ms
+  - 其他 VLESS eu02.123450908.xyz 121ms
+  - 其他 VLESS 82.118.16.187 122ms
+  - 其他 SS 49.12.249.167 123ms
+  - 其他 VLESS 138.124.63.34 123ms
+  - 其他 VLESS 193.238.154.78 123ms
+  - 其他 SS 213.183.63.60 125ms
+  - 其他 VLESS 177.3.220.124 126ms
+  - 其他 SS 195.238.126.20 127ms
+  - 其他 VLESS 77.91.69.169 128ms
+  - 其他 TROJAN 45.130.125.126 129ms
+  - 其他 SS 185.135.86.175 129ms
+  - 其他 VMESS 172.64.229.21 129ms
+  - 其他 TROJAN 165.215.250.14 131ms
+  - 其他 SS 195.238.126.20 132ms
+  - 其他 VLESS wifi12.jzxc.digital 132ms
+  - 其他 VLESS lists.soloramtin.cyou 133ms
+  - 其他 SS 185.226.172.8 133ms
+  - 其他 TROJAN 188.114.96.3 134ms
+  - 其他 VLESS staging.lastilhame.monster 136ms
+  - 其他 VLESS 104.253.216.227 136ms
+  - 其他 TROJAN 191.96.94.226 136ms
+  - 其他 TROJAN 91.245.225.79 137ms
+  - 其他 TROJAN 172.67.231.254 139ms
+  - 其他 VLESS sw.golangwikito.cfd 139ms
+  - 其他 VLESS ge-s-1.pythonmakemigreat.wiki 140ms
+  - 其他 VLESS 85.90.197.220 141ms
+  - 其他 TROJAN 166.1.36.83 142ms
+  - 其他 TROJAN 164.92.200.68 142ms
+  - 其他 TROJAN 193.23.202.65 142ms
+  - 其他 VLESS 45.85.117.174 149ms
+  - 其他 VLESS netx.smrtai.top 150ms
+  - 其他 TROJAN 45.130.125.190 157ms
+  - 其他 VLESS pl1.himoy.space 168ms
+  - 其他 TROJAN 104.17.121.9 169ms
+  - 其他 VLESS i3m2o0cf.himoy.space 173ms
+  - 其他 VLESS fin4.himoy.space 174ms
+  - 其他 VMESS 43.108.103.167 180ms
+  - 其他 TROJAN 8.47.69.60 182ms
+  - 其他 VLESS nl3.himoy.space 182ms
+  - 其他 HYSTERIA2 132.226.226.189 183ms
+  - 其他 VLESS milo.rubinaz.xyz 185ms
+  - 其他 VLESS 104.21.0.87 187ms
+  - 其他 TROJAN www.speedtest.net 188ms
+  - 其他 TROJAN 155.103.71.142 195ms
+  - 其他 VLESS 151.241.138.22 197ms
+  - 其他 VLESS 50.7.245.204 198ms
+  - 其他 VLESS 5.253.29.254 199ms
+  - 其他 HYSTERIA2 160.187.100.109 204ms
+  - 其他 VLESS 151.242.85.236 206ms
+  - 其他 VLESS hinet1.2yly.com 208ms
+  - 其他 VLESS 45.39.198.205 209ms
+  - 其他 HYSTERIA2 137.23.3.91 209ms
+  - 其他 VMESS 47.244.120.197 211ms
+  - 其他 VLESS 47.238.210.5 211ms
+  - 其他 VMESS 47.243.65.243 214ms
+  - 其他 VLESS 109.248.170.119 216ms
+  - 其他 VMESS lcv8v9l7oyamxxfz.v.3dns.vip 216ms
+  - 其他 VLESS kz-central.v8x2b.lol 218ms
+  - 其他 VLESS de166.mech-pro.online 219ms
+  - 其他 VLESS 104.16.10.48 219ms
+  - 其他 VLESS 50.7.44.28 223ms
+  - 其他 VLESS 526.150333.xyz 227ms
+  - 其他 VMESS 129.226.157.220 230ms
+  - 其他 SS 68.183.235.122 232ms
+  - 其他 SS 128.1.186.73 233ms
+  - 其他 VMESS 146.56.112.110 233ms
+  - 其他 VLESS 526.150333.xyz 233ms
+  - 其他 VLESS hydra.yokkastars.com 237ms
+  - 其他 VLESS 213.152.165.203 237ms
+  - 其他 SS 191.223.221.53 255ms
+  - 其他 VLESS 511.150333.xyz 256ms
+  - 其他 VLESS 142.91.108.25 268ms
+  - 其他 HYSTERIA2 138.3.208.26 269ms
+  - 其他 VLESS 198.16.113.219 270ms
+  - 其他 HYSTERIA2 138.2.73.238 273ms
+  - 其他 VLESS 67.159.49.36 279ms
+  - 其他 TROJAN 144.31.195.61 287ms
+  - 其他 VLESS 67.159.49.34 288ms
+  - 其他 VLESS 156.229.161.107 293ms
+  - 其他 VLESS support.zoom.us 296ms
+  - 其他 VLESS 104.16.10.251 296ms
+  - 其他 VLESS 78.159.246.85 300ms
+  - 其他 VLESS 104.21.6.186 303ms
+  - 其他 VLESS 104.19.95.153 308ms
+  - 其他 VLESS 188.114.98.0 314ms
+  - 其他 TROJAN 2.27.109.179 314ms
+  - 其他 VLESS 18.183.215.124 319ms
+  - 其他 VLESS 67.159.46.134 321ms
+  - 其他 VLESS 151.245.106.49 331ms
+  - 其他 VLESS 150.251.113.34 332ms
+  - 其他 SS 172.105.39.124 343ms
+  - 其他 VLESS 104.16.10.22 347ms
+  - 其他 VMESS 54.37.131.126 355ms
+  - 其他 VLESS 104.16.111.195 371ms
+  - 其他 VLESS 104.17.210.74 398ms
+  - 其他 VLESS 216.167.126.97 416ms
+  - 其他 VMESS jp4.998998.best 418ms
+  - 其他 VLESS wifi13.jzxc.digital 421ms
+  - 其他 VLESS 5.175.161.228 422ms
+  - 其他 VLESS 3.114.220.22 459ms
+  - 其他 VLESS 67.159.49.34 491ms
+  - 其他 VMESS 104.17.136.198 513ms
+  - 其他 VLESS 31.77.131.246 519ms
+  - 其他 HYSTERIA2 nas.aizhzo.com 523ms
+  - 其他 VLESS 149.104.30.138 551ms
+  - 其他 TROJAN 104.18.45.38 556ms
+  - 其他 VMESS 172.66.0.1 591ms
+  - 其他 VLESS 104.16.10.234 620ms
+  - 其他 HYSTERIA2 208.69.78.217 624ms
+  - 其他 TROJAN 104.21.33.59 633ms
+  - 其他 SS 57.129.113.16 634ms
+  - 其他 VLESS s171.wagahaha.xyz 650ms
+  - 其他 VLESS 104.19.12.94 680ms
+  - 其他 VLESS 93.89.220.37 692ms
+  - 其他 TUIC sg2-8sb.6121999.dpdns.org 718ms
+  - 其他 VLESS 138.124.79.6 721ms
+  - 其他 VLESS uk1.connectsuite.org 761ms
+  - 其他 VLESS 104.16.111.193 767ms
+  - 其他 HYSTERIA2 208.69.78.217 808ms
+  - 其他 VLESS 188.114.98.0 896ms
+  - 其他 HYSTERIA2 208.69.78.217 900ms
+  - 其他 TROJAN 188.114.97.4 934ms
+  - 其他 VLESS 43.170.8.95 1088ms
+  - 其他 VLESS 5.253.28.240 1442ms
+  - 其他 VLESS 162.159.254.3 2243ms
+- name: 📍 荷兰
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 荷兰 SS 82.38.31.199 107ms
+  - 荷兰 SS 193.29.139.151 108ms
+  - 荷兰 SS 82.38.31.3 108ms
+  - 荷兰 SS 82.38.31.216 108ms
+  - 荷兰 SS 82.38.31.174 109ms
+  - 荷兰 SS 82.38.31.182 109ms
+  - 荷兰 SS 82.38.31.214 109ms
+  - 荷兰 SS 193.29.139.132 109ms
+  - 荷兰 SS 82.38.31.184 109ms
+  - 荷兰 SS 82.38.31.34 110ms
+  - 荷兰 SS 82.38.31.155 110ms
+  - 荷兰 SS 82.38.31.205 111ms
+  - 荷兰 SS 82.38.31.46 112ms
+  - 荷兰 SS 82.38.31.18 115ms
+  - 荷兰 SS 193.29.139.147 115ms
+  - 荷兰 SS 82.38.31.2 121ms
+  - 荷兰 SS 82.38.31.189 139ms
+  - 荷兰 SS 82.38.31.187 160ms
+- name: 📍 俄罗斯
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 俄罗斯 VLESS 113.30.154.237 100ms
+  - 俄罗斯 VLESS 193.223.104.124 104ms
+  - 俄罗斯 VLESS 45.151.71.152 109ms
+  - 俄罗斯 VLESS 45.151.71.164 113ms
+  - 俄罗斯 VLESS 144.31.215.196 116ms
+  - 俄罗斯 VLESS 45.151.71.147 119ms
+  - 俄罗斯 VLESS 54.37.5.203 127ms
+  - 俄罗斯 VLESS 45.151.71.158 146ms
+  - 俄罗斯 VLESS 193.188.21.253 167ms
+  - 俄罗斯 VLESS 213.176.92.168 175ms
+  - 俄罗斯 VLESS 188.225.27.229 189ms
+- name: 📍 美国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 美国 VMESS 67.220.95.3 12ms
+  - 美国 SS 37.19.198.236 16ms
+  - 美国 SS 37.19.198.243 18ms
+  - 美国 SS 37.19.198.160 18ms
+  - 美国 VMESS 38.91.107.49 30ms
+  - 美国 SS 156.146.38.169 42ms
+  - 美国 VMESS 129.146.77.248 69ms
+  - 美国 SS 173.244.56.9 94ms
+  - 美国 VLESS 172.237.88.103 232ms
+  - 美国 VLESS 77.91.68.70 277ms
+- name: 📍 德国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 德国 SS 185.176.204.18 95ms
+  - 德国 VLESS 64.188.71.236 108ms
+  - 德国 HYSTERIA2 de.1.23.h2corp.org 110ms
+  - 德国 VLESS hw3.divarkhaghazi.com 122ms
+  - 德国 VLESS de.cvpn.su 141ms
+  - 德国 VLESS 45.150.33.33 151ms
+- name: 📍 法国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 法国 VLESS 152.228.162.19 99ms
+  - 法国 VLESS 145.223.68.58 115ms
+  - 法国 TROJAN 185.114.72.31 118ms
+  - 法国 TROJAN 185.225.68.232 166ms
+- name: 📍 加拿大
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 加拿大 VMESS 23.162.200.198 29ms
+  - 加拿大 VLESS 209.200.246.148 33ms
+  - 加拿大 VLESS 51.161.204.242 193ms
+- name: 📍 意大利
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 意大利 SS 202.50.253.99 111ms
+  - 意大利 SS 202.50.253.54 113ms
+  - 意大利 VLESS 204.216.216.23 125ms
+- name: 📍 新加坡
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 新加坡 TROJAN www.visa.com.sg 224ms
+  - 新加坡 VLESS 139.162.27.96 228ms
+  - 新加坡 VMESS 8.219.97.17 241ms
+- name: 📍 英国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 英国 SS 141.98.101.181 100ms
+  - 英国 VLESS server.slavkiti.monster 110ms
+  - 英国 VMESS 162.159.130.234 195ms
+- name: 📍 捷克
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 捷克 SS 67.159.18.34 119ms
+  - 捷克 VLESS cz.pythonmakemigreat.wiki 151ms
+- name: 📍 日本
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 日本 VLESS 137.220.221.179 476ms
+  - 日本 VLESS 172.67.156.147 861ms
+- name: 📍 以色列
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 以色列 VLESS 185.95.231.156 19ms
+- name: 📍 印度
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 印度 VLESS 13.140.56.100 246ms
+- name: 📍 台湾
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 台湾 HYSTERIA2 vpn-tw-002.fastervpn.world 209ms
+- name: 📍 瑞典
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 瑞典 ANYTLS svip.skycon808.com 270ms
+- name: 📍 阿联酋
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 阿联酋 VLESS 95.174.68.188 182ms
+- name: 🎯 全节点
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 其他 HYSTERIA2 129.213.91.185 12ms
+  - 美国 VMESS 67.220.95.3 12ms
+  - 美国 SS 37.19.198.236 16ms
+  - 美国 SS 37.19.198.243 18ms
+  - 美国 SS 37.19.198.160 18ms
+  - 其他 VLESS 169.40.42.224 18ms
+  - 以色列 VLESS 185.95.231.156 19ms
+  - 其他 SS 15.204.247.206 22ms
+  - 加拿大 VMESS 23.162.200.198 29ms
+  - 美国 VMESS 38.91.107.49 30ms
+  - 其他 VLESS 66.70.179.198 30ms
+  - 加拿大 VLESS 209.200.246.148 33ms
+  - 其他 VLESS xray2-direct-mci1-fs-ce.freesocks.work 36ms
+  - 其他 VLESS xray2-direct-mci1-fs-ce.freesocks.work 37ms
+  - 美国 SS 156.146.38.169 42ms
+  - 其他 SS 138.197.141.58 48ms
+  - 其他 HYSTERIA2 155.117.19.17 58ms
+  - 其他 HYSTERIA2 155.117.19.17 60ms
+  - 其他 SS 216.105.168.18 65ms
+  - 其他 SS 23.251.121.242 66ms
+  - 美国 VMESS 129.146.77.248 69ms
+  - 其他 HYSTERIA2 198.46.146.118 70ms
+  - 其他 VMESS rib9jxayoqjgn2kw.v.3dns.vip 70ms
+  - 其他 VMESS guanwang.awsno.com 74ms
+  - 其他 TROJAN resources.findlocaljobnetworkandbuildcommunityconnections.com 76ms
+  - 其他 VLESS freev2.cloudflare.182682.xyz 77ms
+  - 其他 TROJAN www.findlocaljobnetworkandbuildcommunityconnections.com 78ms
+  - 其他 SS 138.199.43.159 81ms
+  - 其他 VMESS www.shopify.com 82ms
+  - 其他 ANYTLS es1.xiaoliyu.cyou 84ms
+  - 其他 VLESS 104.18.176.145 84ms
+  - 其他 VLESS 83.147.18.3 92ms
+  - 其他 VLESS 23.160.56.99 93ms
+  - 其他 VLESS 51.158.206.20 93ms
+  - 其他 VLESS 57.129.132.223 93ms
+  - 美国 SS 173.244.56.9 94ms
+  - 其他 VLESS 51.158.206.26 95ms
+  - 其他 VLESS xuthnybd.himoy.space 95ms
+  - 德国 SS 185.176.204.18 95ms
+  - 其他 VLESS 66.154.101.36 96ms
+  - 其他 VLESS 51.158.206.34 96ms
+  - 其他 VLESS 45.9.118.177 97ms
+  - 其他 VLESS 51.158.206.97 97ms
+  - 其他 VLESS server.slavkiti.monster 98ms
+  - 其他 SS 158.173.20.208 99ms
+  - 法国 VLESS 152.228.162.19 99ms
+  - 俄罗斯 VLESS 113.30.154.237 100ms
+  - 其他 HYSTERIA2 62.210.124.146 100ms
+  - 英国 SS 141.98.101.181 100ms
+  - 其他 TROJAN 172.67.217.240 100ms
+  - 其他 VLESS eu2.998998.best 101ms
+  - 其他 VLESS 193.124.17.190 103ms
+  - 其他 VLESS undef.network 103ms
+  - 其他 VMESS 91.107.169.224 103ms
+  - 其他 VMESS cf.0sm.com 103ms
+  - 其他 VLESS 51.158.206.25 104ms
+  - 其他 SS staging.lastilhame.monster 104ms
+  - 俄罗斯 VLESS 193.223.104.124 104ms
+  - 其他 VLESS 172.67.204.153 105ms
+  - 其他 VLESS 144.31.125.60 105ms
+  - 其他 VLESS 104.18.57.149 105ms
+  - 其他 TROJAN 139.28.240.24 105ms
+  - 其他 SS 82.38.31.178 105ms
+  - 其他 VLESS 172.67.195.79 105ms
+  - 其他 VLESS wifi10.jzxc.digital 105ms
+  - 其他 TROJAN 104.19.64.105 105ms
+  - 其他 VLESS hikvision-plus.com 106ms
+  - 其他 TROJAN chat.openai.com 106ms
+  - 荷兰 SS 82.38.31.199 107ms
+  - 荷兰 SS 193.29.139.151 108ms
+  - 德国 VLESS 64.188.71.236 108ms
+  - 荷兰 SS 82.38.31.3 108ms
+  - 其他 VLESS 57.131.38.163 108ms
+  - 荷兰 SS 82.38.31.216 108ms
+  - 荷兰 SS 82.38.31.174 109ms
+  - 其他 VLESS nl3.mycloud1.org 109ms
+  - 荷兰 SS 82.38.31.182 109ms
+  - 荷兰 SS 82.38.31.214 109ms
+  - 俄罗斯 VLESS 45.151.71.152 109ms
+  - 其他 VLESS test.wecantos.site 109ms
+  - 其他 VLESS 191.44.108.31 109ms
+  - 荷兰 SS 193.29.139.132 109ms
+  - 其他 VLESS hikvision-plus.com 109ms
+  - 荷兰 SS 82.38.31.184 109ms
+  - 荷兰 SS 82.38.31.34 110ms
+  - 英国 VLESS server.slavkiti.monster 110ms
+  - 其他 VLESS 179.255.190.43 110ms
+  - 荷兰 SS 82.38.31.155 110ms
+  - 德国 HYSTERIA2 de.1.23.h2corp.org 110ms
+  - 其他 TROJAN 104.18.8.83 110ms
+  - 其他 SS 193.29.139.212 111ms
+  - 荷兰 SS 82.38.31.205 111ms
+  - 意大利 SS 202.50.253.99 111ms
+  - 荷兰 SS 82.38.31.46 112ms
+  - 俄罗斯 VLESS 45.151.71.164 113ms
+  - 其他 SS 193.29.139.197 113ms
+  - 意大利 SS 202.50.253.54 113ms
+  - 其他 SS 82.38.31.62 114ms
+  - 法国 VLESS 145.223.68.58 115ms
+  - 其他 VLESS 45.151.183.12 115ms
+  - 其他 VLESS cz3.himoy.space 115ms
+  - 荷兰 SS 82.38.31.18 115ms
+  - 荷兰 SS 193.29.139.147 115ms
+  - 其他 VLESS 193.124.17.190 116ms
+  - 俄罗斯 VLESS 144.31.215.196 116ms
+  - 其他 VLESS 51.158.206.80 116ms
+  - 其他 SS 82.38.31.69 117ms
+  - 其他 SS 193.29.139.234 117ms
+  - 法国 TROJAN 185.114.72.31 118ms
+  - 俄罗斯 VLESS 45.151.71.147 119ms
+  - 捷克 SS 67.159.18.34 119ms
+  - 其他 SS 185.135.86.175 120ms
+  - 其他 VLESS 94.156.79.93 120ms
+  - '其他 SS 185.135.86.175 120ms #2'
+  - 其他 VLESS 157.90.175.178 120ms
+  - 其他 VLESS 172.64.229.129 121ms
+  - 荷兰 SS 82.38.31.2 121ms
+  - 其他 TROJAN 104.17.121.71 121ms
+  - 其他 SS 213.183.63.60 121ms
+  - 其他 VLESS eu02.123450908.xyz 121ms
+  - 德国 VLESS hw3.divarkhaghazi.com 122ms
+  - 其他 VLESS 82.118.16.187 122ms
+  - 其他 SS 49.12.249.167 123ms
+  - 其他 VLESS 138.124.63.34 123ms
+  - 其他 VLESS 193.238.154.78 123ms
+  - 其他 SS 213.183.63.60 125ms
+  - 意大利 VLESS 204.216.216.23 125ms
+  - 其他 VLESS 177.3.220.124 126ms
+  - 俄罗斯 VLESS 54.37.5.203 127ms
+  - 其他 SS 195.238.126.20 127ms
+  - 其他 VLESS 77.91.69.169 128ms
+  - 其他 TROJAN 45.130.125.126 129ms
+  - 其他 SS 185.135.86.175 129ms
+  - 其他 VMESS 172.64.229.21 129ms
+  - 其他 TROJAN 165.215.250.14 131ms
+  - 其他 SS 195.238.126.20 132ms
+  - 其他 VLESS wifi12.jzxc.digital 132ms
+  - 其他 VLESS lists.soloramtin.cyou 133ms
+  - 其他 SS 185.226.172.8 133ms
+  - 其他 TROJAN 188.114.96.3 134ms
+  - 其他 VLESS staging.lastilhame.monster 136ms
+  - 其他 VLESS 104.253.216.227 136ms
+  - 其他 TROJAN 191.96.94.226 136ms
+  - 其他 TROJAN 91.245.225.79 137ms
+  - 其他 TROJAN 172.67.231.254 139ms
+  - 荷兰 SS 82.38.31.189 139ms
+  - 其他 VLESS sw.golangwikito.cfd 139ms
+  - 其他 VLESS ge-s-1.pythonmakemigreat.wiki 140ms
+  - 其他 VLESS 85.90.197.220 141ms
+  - 德国 VLESS de.cvpn.su 141ms
+  - 其他 TROJAN 166.1.36.83 142ms
+  - 其他 TROJAN 164.92.200.68 142ms
+  - 其他 TROJAN 193.23.202.65 142ms
+  - 俄罗斯 VLESS 45.151.71.158 146ms
+  - 其他 VLESS 45.85.117.174 149ms
+  - 其他 VLESS netx.smrtai.top 150ms
+  - 德国 VLESS 45.150.33.33 151ms
+  - 捷克 VLESS cz.pythonmakemigreat.wiki 151ms
+  - 其他 TROJAN 45.130.125.190 157ms
+  - 荷兰 SS 82.38.31.187 160ms
+  - 法国 TROJAN 185.225.68.232 166ms
+  - 俄罗斯 VLESS 193.188.21.253 167ms
+  - 其他 VLESS pl1.himoy.space 168ms
+  - 其他 TROJAN 104.17.121.9 169ms
+  - 其他 VLESS i3m2o0cf.himoy.space 173ms
+  - 其他 VLESS fin4.himoy.space 174ms
+  - 俄罗斯 VLESS 213.176.92.168 175ms
+  - 其他 VMESS 43.108.103.167 180ms
+  - 阿联酋 VLESS 95.174.68.188 182ms
+  - 其他 TROJAN 8.47.69.60 182ms
+  - 其他 VLESS nl3.himoy.space 182ms
+  - 其他 HYSTERIA2 132.226.226.189 183ms
+  - 其他 VLESS milo.rubinaz.xyz 185ms
+  - 其他 VLESS 104.21.0.87 187ms
+  - 其他 TROJAN www.speedtest.net 188ms
+  - 俄罗斯 VLESS 188.225.27.229 189ms
+  - 加拿大 VLESS 51.161.204.242 193ms
+  - 英国 VMESS 162.159.130.234 195ms
+  - 其他 TROJAN 155.103.71.142 195ms
+  - 其他 VLESS 151.241.138.22 197ms
+  - 其他 VLESS 50.7.245.204 198ms
+  - 其他 VLESS 5.253.29.254 199ms
+  - 其他 HYSTERIA2 160.187.100.109 204ms
+  - 其他 VLESS 151.242.85.236 206ms
+  - 其他 VLESS hinet1.2yly.com 208ms
+  - 其他 VLESS 45.39.198.205 209ms
+  - 台湾 HYSTERIA2 vpn-tw-002.fastervpn.world 209ms
+  - 其他 HYSTERIA2 137.23.3.91 209ms
+  - 其他 VMESS 47.244.120.197 211ms
+  - 其他 VLESS 47.238.210.5 211ms
+  - 其他 VMESS 47.243.65.243 214ms
+  - 其他 VLESS 109.248.170.119 216ms
+  - 其他 VMESS lcv8v9l7oyamxxfz.v.3dns.vip 216ms
+  - 其他 VLESS kz-central.v8x2b.lol 218ms
+  - 其他 VLESS de166.mech-pro.online 219ms
+  - 其他 VLESS 104.16.10.48 219ms
+  - 其他 VLESS 50.7.44.28 223ms
+  - 新加坡 TROJAN www.visa.com.sg 224ms
+  - 其他 VLESS 526.150333.xyz 227ms
+  - 新加坡 VLESS 139.162.27.96 228ms
+  - 其他 VMESS 129.226.157.220 230ms
+  - 美国 VLESS 172.237.88.103 232ms
+  - 其他 SS 68.183.235.122 232ms
+  - 其他 SS 128.1.186.73 233ms
+  - 其他 VMESS 146.56.112.110 233ms
+  - 其他 VLESS 526.150333.xyz 233ms
+  - 其他 VLESS hydra.yokkastars.com 237ms
+  - 其他 VLESS 213.152.165.203 237ms
+  - 新加坡 VMESS 8.219.97.17 241ms
+  - 印度 VLESS 13.140.56.100 246ms
+  - 其他 SS 191.223.221.53 255ms
+  - 其他 VLESS 511.150333.xyz 256ms
+  - 其他 VLESS 142.91.108.25 268ms
+  - 其他 HYSTERIA2 138.3.208.26 269ms
+  - 瑞典 ANYTLS svip.skycon808.com 270ms
+  - 其他 VLESS 198.16.113.219 270ms
+  - 其他 HYSTERIA2 138.2.73.238 273ms
+  - 美国 VLESS 77.91.68.70 277ms
+  - 其他 VLESS 67.159.49.36 279ms
+  - 其他 TROJAN 144.31.195.61 287ms
+  - 其他 VLESS 67.159.49.34 288ms
+  - 其他 VLESS 156.229.161.107 293ms
+  - 其他 VLESS support.zoom.us 296ms
+  - 其他 VLESS 104.16.10.251 296ms
+  - 其他 VLESS 78.159.246.85 300ms
+  - 其他 VLESS 104.21.6.186 303ms
+  - 其他 VLESS 104.19.95.153 308ms
+  - 其他 VLESS 188.114.98.0 314ms
+  - 其他 TROJAN 2.27.109.179 314ms
+  - 其他 VLESS 18.183.215.124 319ms
+  - 其他 VLESS 67.159.46.134 321ms
+  - 其他 VLESS 151.245.106.49 331ms
+  - 其他 VLESS 150.251.113.34 332ms
+  - 其他 SS 172.105.39.124 343ms
+  - 其他 VLESS 104.16.10.22 347ms
+  - 其他 VMESS 54.37.131.126 355ms
+  - 其他 VLESS 104.16.111.195 371ms
+  - 其他 VLESS 104.17.210.74 398ms
+  - 其他 VLESS 216.167.126.97 416ms
+  - 其他 VMESS jp4.998998.best 418ms
+  - 其他 VLESS wifi13.jzxc.digital 421ms
+  - 其他 VLESS 5.175.161.228 422ms
+  - 其他 VLESS 3.114.220.22 459ms
+  - 日本 VLESS 137.220.221.179 476ms
+  - 其他 VLESS 67.159.49.34 491ms
+  - 其他 VMESS 104.17.136.198 513ms
+  - 其他 VLESS 31.77.131.246 519ms
+  - 其他 HYSTERIA2 nas.aizhzo.com 523ms
+  - 其他 VLESS 149.104.30.138 551ms
+  - 其他 TROJAN 104.18.45.38 556ms
+  - 其他 VMESS 172.66.0.1 591ms
+  - 其他 VLESS 104.16.10.234 620ms
+  - 其他 HYSTERIA2 208.69.78.217 624ms
+  - 其他 TROJAN 104.21.33.59 633ms
+  - 其他 SS 57.129.113.16 634ms
+  - 其他 VLESS s171.wagahaha.xyz 650ms
+  - 其他 VLESS 104.19.12.94 680ms
+  - 其他 VLESS 93.89.220.37 692ms
+  - 其他 TUIC sg2-8sb.6121999.dpdns.org 718ms
+  - 其他 VLESS 138.124.79.6 721ms
+  - 其他 VLESS uk1.connectsuite.org 761ms
+  - 其他 VLESS 104.16.111.193 767ms
+  - 其他 HYSTERIA2 208.69.78.217 808ms
+  - 日本 VLESS 172.67.156.147 861ms
+  - 其他 VLESS 188.114.98.0 896ms
+  - 其他 HYSTERIA2 208.69.78.217 900ms
+  - 其他 TROJAN 188.114.97.4 934ms
+  - 其他 VLESS 43.170.8.95 1088ms
+  - 其他 VLESS 5.253.28.240 1442ms
+  - 其他 VLESS 162.159.254.3 2243ms
+- name: 🐟 漏网之鱼
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - DIRECT
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - '*.lan'
+  - +.local
+  - dns.alidns.com
+  - '*.googlevideo.com'
+  default-nameserver:
+  - '223.5.5.5'
+  - '119.29.29.29'
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  fallback:
+  - https://dns.google/dns-query
+  - tls://8.8.8.8:853
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+  geodata-mode: false
+  unified-delay: true
+rules:
+- GEOIP,CN,DIRECT
+- MATCH,🐟 漏网之鱼

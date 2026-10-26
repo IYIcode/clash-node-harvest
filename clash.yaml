@@ -1,26 +1,8 @@
 # 免费优选节点
-# 生成时间: 2026-10-25 23:33:54 UTC
-# 存活节点: 4（手机兼容版：已剔除 1 个 anytls 类型，PC 本地文件仍是全量）
+# 生成时间: 2026-10-26 05:37:04 UTC
+# 存活节点: 6（手机兼容版：已剔除 1 个 anytls 类型，PC 本地文件仍是全量）
 proxies:
-- name: 其他 VLESS 104.164.55.40 254ms
-  type: vless
-  server: '104.164.55.40'
-  port: 443
-  uuid: b1fdf506-c8da-4853-b209-9e3ca20fcfc0
-  udp: true
-  tls: true
-  servername: d1.awsstatic.com
-  network: xhttp
-  xhttp-opts:
-    host: d1.awsstatic.com
-    path: /7ViD8D4zQr3cxOUJs9Rm2
-    mode: auto
-  reality-opts:
-    public-key: Fv_l-a_avt80dp_HHBZJdXasboMODcTiGu60K5OjNS4
-    short-id: 66fd576b785547
-  client-fingerprint: firefox
-  skip-cert-verify: false
-- name: 其他 VLESS funagfrdfs.alixxplay.com 261ms
+- name: 其他 VLESS funagfrdfs.alixxplay.com 196ms
   type: vless
   server: funagfrdfs.alixxplay.com
   port: 54528
@@ -35,22 +17,39 @@ proxies:
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: false
-- name: 其他 VLESS 213.152.165.203 369ms
-  type: vless
-  server: '213.152.165.203'
-  port: 2093
-  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
-  udp: true
-  tls: true
-  servername: www.apple.com
-  network: tcp
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- name: 其他 TROJAN us003.421421.xyz 205ms
+  type: trojan
+  server: us003.421421.xyz
+  port: 20230
+  password: e20fd145-65f1-4aa3-96be-da0524bbb16e
+  sni: www.alibaba.com
+  network: ws
+  ws-opts:
+    path: /
   skip-cert-verify: true
-- name: 其他 TROJAN tjrb.m2k699.com 369ms
+  udp: true
+- name: 意大利 SS 202.50.253.63 286ms
+  type: ss
+  server: '202.50.253.63'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 意大利 SS 202.50.253.90 286ms
+  type: ss
+  server: '202.50.253.90'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 意大利 SS 202.50.253.72 288ms
+  type: ss
+  server: '202.50.253.72'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 其他 TROJAN tjrb.m2k699.com 681ms
   type: trojan
   server: tjrb.m2k699.com
   port: 24999
@@ -69,26 +68,36 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 其他 VLESS 104.164.55.40 254ms
-  - 其他 VLESS funagfrdfs.alixxplay.com 261ms
-  - 其他 VLESS 213.152.165.203 369ms
-  - 其他 TROJAN tjrb.m2k699.com 369ms
+  - 其他 VLESS funagfrdfs.alixxplay.com 196ms
+  - 其他 TROJAN us003.421421.xyz 205ms
+  - 意大利 SS 202.50.253.63 286ms
+  - 意大利 SS 202.50.253.90 286ms
+  - 意大利 SS 202.50.253.72 288ms
+  - 其他 TROJAN tjrb.m2k699.com 681ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 104.164.55.40 254ms
-  - 其他 VLESS funagfrdfs.alixxplay.com 261ms
-  - 其他 VLESS 213.152.165.203 369ms
-  - 其他 TROJAN tjrb.m2k699.com 369ms
+  - 其他 VLESS funagfrdfs.alixxplay.com 196ms
+  - 其他 TROJAN us003.421421.xyz 205ms
+  - 其他 TROJAN tjrb.m2k699.com 681ms
+- name: 📍 意大利
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 意大利 SS 202.50.253.63 286ms
+  - 意大利 SS 202.50.253.90 286ms
+  - 意大利 SS 202.50.253.72 288ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 104.164.55.40 254ms
-  - 其他 VLESS funagfrdfs.alixxplay.com 261ms
-  - 其他 VLESS 213.152.165.203 369ms
-  - 其他 TROJAN tjrb.m2k699.com 369ms
+  - 其他 VLESS funagfrdfs.alixxplay.com 196ms
+  - 其他 TROJAN us003.421421.xyz 205ms
+  - 意大利 SS 202.50.253.63 286ms
+  - 意大利 SS 202.50.253.90 286ms
+  - 意大利 SS 202.50.253.72 288ms
+  - 其他 TROJAN tjrb.m2k699.com 681ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

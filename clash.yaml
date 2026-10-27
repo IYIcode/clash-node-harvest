@@ -1,59 +1,68 @@
 # 免费优选节点
-# 生成时间: 2026-10-27 05:44:19 UTC
-# 存活节点: 4 / 存活率见日志
+# 生成时间: 2026-10-27 17:32:54 UTC
+# 存活节点: 4（手机兼容版：已剔除 1 个 anytls 类型，PC 本地文件仍是全量）
 proxies:
-- name: 其他 VLESS 8fc752g.fi3.h1clayd.click 250ms
+- name: 其他 VLESS 172.66.1.65 73ms
   type: vless
-  server: 8fc752g.fi3.h1clayd.click
+  server: '172.66.1.65'
   port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
   udp: true
   tls: true
-  servername: 8fc752g.fi3.h1clayd.click
-  network: grpc
-  grpc-opts:
-    grpc-service-name: f345a414c040
-  reality-opts:
-    public-key: GJzag9Wrvz_bO9AQaA-Oq0P1kV9btmxxAdzPV-uQB18
-    short-id: 09d0a94a1c6fc9d5
-    _spider-x: /
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    headers:
+      Host: tamoai.ccwu.cc
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
   client-fingerprint: chrome
   skip-cert-verify: false
-- name: 美国 HYSTERIA2 201.58.181.179 256ms
-  type: hysteria2
-  server: '201.58.181.179'
-  port: 4443
-  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
-  tls: false
-  sni: pl1.shvpn.ru
-  skip-cert-verify: true
-  udp: true
-- name: 其他 VLESS 45.133.73.112 329ms
+- name: 其他 VLESS 13.143.172.34 256ms
   type: vless
-  server: '45.133.73.112'
+  server: '13.143.172.34'
   port: 443
-  uuid: ef328563-cda1-4530-9b0a-988cc5a74d78
+  uuid: fafc7c16-f890-45ee-a856-02df225172dd
   udp: true
   tls: true
-  servername: loudarch.net
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
+  servername: yastatic.net
+  network: xhttp
+  xhttp-opts:
+    path: /api/v1/stream
+    mode: stream-up
+  reality-opts:
+    public-key: cHJfClQkyUnSxMCi9kmfC8j5OpMrUpyvrjVboO50YXM
+    short-id: 4f135b9a6e5da9c5
+  client-fingerprint: chrome
   skip-cert-verify: false
-- name: 其他 VLESS 94.228.167.12 376ms
+- name: 其他 VLESS 36a466g.fi1.h1clayd.click 337ms
   type: vless
-  server: '94.228.167.12'
+  server: 36a466g.fi1.h1clayd.click
   port: 443
-  uuid: 37ca5f34-2531-4fda-a781-20f3845fea88
+  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
   udp: true
   tls: true
-  servername: washingphonicseatable.solsticedigest.me
+  servername: 36a466g.fi1.h1clayd.click
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 0adb9638509b
+  reality-opts:
+    public-key: pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg
+    short-id: b3c9d0c6bdd114a6
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 其他 VLESS p11real2.greewebservices.ir 360ms
+  type: vless
+  server: p11real2.greewebservices.ir
+  port: 1040
+  uuid: f234330e-f9df-46e3-8f60-b2af5173c147
+  udp: true
+  tls: true
+  servername: play.googleapis.com
   network: tcp
   reality-opts:
-    public-key: dCaQHVtwEPBeiH3ivVU9ycGJZ8uCO2JaIVjYBnfaTWY
-    short-id: c13c9bd7bd45847d
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
+    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
+    short-id: e3085d4fc679ba12
+  client-fingerprint: chrome
   skip-cert-verify: false
 proxy-groups:
 - name: 🚀 自动选择
@@ -64,30 +73,26 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 其他 VLESS 8fc752g.fi3.h1clayd.click 250ms
-  - 美国 HYSTERIA2 201.58.181.179 256ms
-  - 其他 VLESS 45.133.73.112 329ms
-  - 其他 VLESS 94.228.167.12 376ms
+  - 其他 VLESS 172.66.1.65 73ms
+  - 其他 VLESS 13.143.172.34 256ms
+  - 其他 VLESS 36a466g.fi1.h1clayd.click 337ms
+  - 其他 VLESS p11real2.greewebservices.ir 360ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 8fc752g.fi3.h1clayd.click 250ms
-  - 其他 VLESS 45.133.73.112 329ms
-  - 其他 VLESS 94.228.167.12 376ms
-- name: 📍 美国
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 美国 HYSTERIA2 201.58.181.179 256ms
+  - 其他 VLESS 172.66.1.65 73ms
+  - 其他 VLESS 13.143.172.34 256ms
+  - 其他 VLESS 36a466g.fi1.h1clayd.click 337ms
+  - 其他 VLESS p11real2.greewebservices.ir 360ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 8fc752g.fi3.h1clayd.click 250ms
-  - 美国 HYSTERIA2 201.58.181.179 256ms
-  - 其他 VLESS 45.133.73.112 329ms
-  - 其他 VLESS 94.228.167.12 376ms
+  - 其他 VLESS 172.66.1.65 73ms
+  - 其他 VLESS 13.143.172.34 256ms
+  - 其他 VLESS 36a466g.fi1.h1clayd.click 337ms
+  - 其他 VLESS p11real2.greewebservices.ir 360ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

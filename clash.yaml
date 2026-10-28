@@ -1,105 +1,224 @@
 # 免费优选节点
-# 生成时间: 2026-10-27 23:37:40 UTC
-# 存活节点: 11 / 存活率见日志
+# 生成时间: 2026-10-28 17:44:47 UTC
+# 存活节点: 22（手机兼容版：已剔除 1 个 anytls 类型，PC 本地文件仍是全量）
 proxies:
-- name: 其他 VLESS edge.bookmai.com 221ms
+- name: 其他 VLESS ca001.zestapp778.com 223ms
   type: vless
-  server: edge.bookmai.com
-  port: 443
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  server: ca001.zestapp778.com
+  port: 32355
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
   tls: true
-  servername: mother-earth.fyi
+  servername: ca001.zestapp778.com
+  network: tcp
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 其他 VLESS ge-s-1.pythonmakemigreat.wiki 225ms
+  type: vless
+  server: ge-s-1.pythonmakemigreat.wiki
+  port: 443
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  udp: true
+  tls: true
+  servername: ge-s-1.pythonmakemigreat.wiki
+  network: tcp
+  reality-opts:
+    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
+    short-id: 2c9a2790ad5900b2
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS d0dc94t.fi7.h1clayd.click 267ms
+  type: vless
+  server: d0dc94t.fi7.h1clayd.click
+  port: 443
+  uuid: fafc7c16-f890-45ee-a856-02df225172dd
+  udp: true
+  tls: true
+  servername: d0dc94t.fi7.h1clayd.click
+  network: tcp
+  reality-opts:
+    public-key: x9MHoriLB8T-vHaoM5LQTbSzaaWlNpZg6rEdM75QgRg
+    short-id: 3688e172d5b59457
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 TROJAN 167.82.64.120 282ms
+  type: trojan
+  server: '167.82.64.120'
+  port: 443
+  password: MiTiVPN
+  sni: firefox.com
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: mitivpn--mitivpn.ac.ir
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
+  udp: true
+- name: 其他 VLESS 213.152.180.55 288ms
+  type: vless
+  server: '213.152.180.55'
+  port: 2092
+  uuid: 4d8cc1c2-2605-43c4-8e17-dcafa86d9757
+  udp: true
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  reality-opts:
+    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
+    short-id: 716b7eba38125f3a
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 VLESS 217.216.218.162 294ms
+  type: vless
+  server: '217.216.218.162'
+  port: 443
+  uuid: eaa34d9f-662d-4378-8210-3508b5eee727
+  udp: true
+  tls: true
+  servername: savesafe.top
+  network: xhttp
+  xhttp-opts:
+    mode: auto
+  reality-opts:
+    public-key: B4gdMxfjdXtFuqg-Ek9CDKiJT6QQiKb-tV2VODt_ik0
+    short-id: def9b800fb6a3ddb
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 其他 VLESS 193.160.141.138 302ms
+  type: vless
+  server: '193.160.141.138'
+  port: 8443
+  uuid: b4a1200a-9765-4649-94f2-c26e0a37dffb
+  udp: true
+  tls: true
+  servername: apple.com
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: false
-- name: 其他 VLESS 171.22.119.74 222ms
+- name: 其他 VLESS 217.216.218.97 305ms
   type: vless
-  server: '171.22.119.74'
-  port: 8447
-  uuid: 6aed42ba-cd2d-4671-87d9-c949b6876888
-  udp: true
-  tls: false
-  network: tcp
-  skip-cert-verify: false
-- name: 其他 VLESS 195.123.213.28 252ms
-  type: vless
-  server: '195.123.213.28'
+  server: '217.216.218.97'
   port: 443
-  uuid: 02fcc1a4-ee90-4970-8bbb-4ffaa8109d24
+  uuid: eaa34d9f-662d-4378-8210-3508b5eee727
   udp: true
   tls: true
-  servername: www.cloudflare.com
-  network: raw
+  servername: savesafe.top
+  network: xhttp
   reality-opts:
-    public-key: NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo
-    short-id: 5c256336e3b673fa
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
+    public-key: B4gdMxfjdXtFuqg-Ek9CDKiJT6QQiKb-tV2VODt_ik0
+    short-id: def9b800fb6a3ddb
+  client-fingerprint: firefox
   skip-cert-verify: false
-- name: 法国 HYSTERIA2 fr2-cl3.happy-glonaris.top 256ms
-  type: hysteria2
-  server: fr2-cl3.happy-glonaris.top
-  port: 443
-  password: 4b1be712-774c-4b65-8491-a3339e124a70
-  tls: false
-  sni: fr2-cl3.happy-glonaris.top
-  skip-cert-verify: true
-  udp: true
-- name: 俄罗斯 VLESS xsru1.ddnsfree.com 269ms
+- name: 其他 VLESS p2real33.greewebservices.ir 308ms
   type: vless
-  server: xsru1.ddnsfree.com
-  port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  server: p2real33.greewebservices.ir
+  port: 1330
+  uuid: a7e9fc98-25a2-4801-961c-7a6ed9d69328
   udp: true
   tls: true
-  servername: xsru1.ddnsfree.com
-  alpn:
-  - h2
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-ru
-- name: 其他 HYSTERIA2 bl2.nexfile.net 284ms
-  type: hysteria2
-  server: bl2.nexfile.net
-  port: 4444
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  sni: bl2.nexfile.net
+  servername: play.googleapis.com
+  network: tcp
+  reality-opts:
+    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
+    short-id: 9b60d3
+  client-fingerprint: ios
   skip-cert-verify: false
+- name: 其他 VLESS 6d160a52.con.fernarchive.online 331ms
+  type: vless
+  server: 6d160a52.con.fernarchive.online
+  port: 443
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
   udp: true
-- name: 意大利 SS 202.50.253.18 285ms
+  tls: true
+  servername: 6d160a52.con.fernarchive.online
+  network: xhttp
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+    mode: auto
+  client-fingerprint: firefox
+  skip-cert-verify: false
+- name: 美国 SS 202.50.253.54 337ms
   type: ss
-  server: '202.50.253.18'
+  server: '202.50.253.54'
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   udp: true
-- name: 荷兰 VLESS nl-s-2.pythonmakemigreat.wiki 300ms
+- name: 其他 VLESS 144.31.213.229 339ms
   type: vless
-  server: nl-s-2.pythonmakemigreat.wiki
-  port: 61374
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  server: '144.31.213.229'
+  port: 443
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
   udp: true
   tls: true
-  servername: nl-s-2.pythonmakemigreat.wiki
+  servername: 6d160a52.con.fernarchive.online
   network: xhttp
   xhttp-opts:
-    host: nl-s-1.pythonmakemigreat.wiki
-    path: /
-    mode: packet-up
-    x-padding-bytes: '100-500'
-    sc-max-each-post-bytes: '500000-1000000'
-    sc-min-posts-interval-ms: '20-40'
-    reuse-settings:
-      max-connections: '3'
-  reality-opts:
-    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-  client-fingerprint: chrome
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+  client-fingerprint: firefox
   skip-cert-verify: false
-- name: 德国 TROJAN de-bots4.h1cloud.net 300ms
+- name: 意大利 SS 202.50.253.36 340ms
+  type: ss
+  server: '202.50.253.36'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 其他 VLESS wwww.qarvian.ir 359ms
+  type: vless
+  server: wwww.qarvian.ir
+  port: 443
+  uuid: 46cb8a26-0712-4e85-89bf-2538a2788652
+  udp: true
+  tls: true
+  servername: cdn.akamai.steamstatic.com
+  network: ws
+  ws-opts:
+    headers:
+      Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
+    path: /
+  skip-cert-verify: false
+  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+- name: 其他 VLESS 213.152.180.55 370ms
+  type: vless
+  server: '213.152.180.55'
+  port: 2093
+  uuid: 7e5c47fb-69a5-4d9e-af57-1d80db594e88
+  udp: true
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 德国 VLESS 823bcb90.con.fernarchive.online 394ms
+  type: vless
+  server: 823bcb90.con.fernarchive.online
+  port: 443
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  udp: true
+  tls: true
+  servername: 823bcb90.con.fernarchive.online
+  network: xhttp
+  xhttp-opts:
+    host: 823bcb90.con.fernarchive.online
+    mode: auto
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+  client-fingerprint: chrome
+- name: 德国 TROJAN de-bots4.h1cloud.net 397ms
   type: trojan
   server: de-bots4.h1cloud.net
   port: 25267
@@ -108,27 +227,73 @@ proxies:
   network: tcp
   skip-cert-verify: true
   udp: true
-- name: 其他 HYSTERIA2 pl3.nexfile.net 303ms
-  type: hysteria2
-  server: pl3.nexfile.net
-  port: 4444
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  sni: pl3.nexfile.net
-  skip-cert-verify: false
-  udp: true
-- name: 其他 VLESS 46.8.43.125 348ms
+- name: 其他 VLESS 213.152.180.104 452ms
   type: vless
-  server: '46.8.43.125'
-  port: 443
-  uuid: 846cedee-2a52-4a62-a0b9-11850ead6a8b
+  server: '213.152.180.104'
+  port: 2091
+  uuid: ce17d29c-3587-4d8c-b09d-e03437df8bbd
   udp: true
   tls: true
-  servername: kz-central.v8x2b.lol
+  servername: www.apple.com
   network: tcp
   reality-opts:
-    public-key: ER-T5En54-sn6IXy7jU8vQVcBbOiWvznnezf3qZ273w
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
   client-fingerprint: chrome
+  flow: xtls-rprx-vision
   skip-cert-verify: false
+- name: 其他 VLESS 104.18.47.73 556ms
+  type: vless
+  server: '104.18.47.73'
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /
+  client-fingerprint: chrome
+- name: 其他 VLESS 883f1393.con.rasterparcel.tech 736ms
+  type: vless
+  server: 883f1393.con.rasterparcel.tech
+  port: 443
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  udp: true
+  tls: true
+  servername: 883f1393.con.rasterparcel.tech
+  network: xhttp
+  xhttp-opts:
+    path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
+    mode: auto
+  client-fingerprint: firefox
+  skip-cert-verify: false
+- name: 其他 VLESS 52.58.238.82 866ms
+  type: vless
+  server: '52.58.238.82'
+  port: 443
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  udp: true
+  tls: false
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    path:
+    - /
+  skip-cert-verify: false
+- name: 意大利 SS 202.50.253.99 1077ms
+  type: ss
+  server: '202.50.253.99'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -138,67 +303,92 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 其他 VLESS edge.bookmai.com 221ms
-  - 其他 VLESS 171.22.119.74 222ms
-  - 其他 VLESS 195.123.213.28 252ms
-  - 法国 HYSTERIA2 fr2-cl3.happy-glonaris.top 256ms
-  - 俄罗斯 VLESS xsru1.ddnsfree.com 269ms
-  - 其他 HYSTERIA2 bl2.nexfile.net 284ms
-  - 意大利 SS 202.50.253.18 285ms
-  - 荷兰 VLESS nl-s-2.pythonmakemigreat.wiki 300ms
-  - 德国 TROJAN de-bots4.h1cloud.net 300ms
-  - 其他 HYSTERIA2 pl3.nexfile.net 303ms
-  - 其他 VLESS 46.8.43.125 348ms
+  - 其他 VLESS ca001.zestapp778.com 223ms
+  - 其他 VLESS ge-s-1.pythonmakemigreat.wiki 225ms
+  - 其他 VLESS d0dc94t.fi7.h1clayd.click 267ms
+  - 其他 TROJAN 167.82.64.120 282ms
+  - 其他 VLESS 213.152.180.55 288ms
+  - 其他 VLESS 217.216.218.162 294ms
+  - 其他 VLESS 193.160.141.138 302ms
+  - 其他 VLESS 217.216.218.97 305ms
+  - 其他 VLESS p2real33.greewebservices.ir 308ms
+  - 其他 VLESS 6d160a52.con.fernarchive.online 331ms
+  - 美国 SS 202.50.253.54 337ms
+  - 其他 VLESS 144.31.213.229 339ms
+  - 意大利 SS 202.50.253.36 340ms
+  - 其他 VLESS wwww.qarvian.ir 359ms
+  - 其他 VLESS 213.152.180.55 370ms
+  - 德国 VLESS 823bcb90.con.fernarchive.online 394ms
+  - 德国 TROJAN de-bots4.h1cloud.net 397ms
+  - 其他 VLESS 213.152.180.104 452ms
+  - 其他 VLESS 104.18.47.73 556ms
+  - 其他 VLESS 883f1393.con.rasterparcel.tech 736ms
+  - 其他 VLESS 52.58.238.82 866ms
+  - 意大利 SS 202.50.253.99 1077ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS edge.bookmai.com 221ms
-  - 其他 VLESS 171.22.119.74 222ms
-  - 其他 VLESS 195.123.213.28 252ms
-  - 其他 HYSTERIA2 bl2.nexfile.net 284ms
-  - 其他 HYSTERIA2 pl3.nexfile.net 303ms
-  - 其他 VLESS 46.8.43.125 348ms
-- name: 📍 俄罗斯
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 俄罗斯 VLESS xsru1.ddnsfree.com 269ms
+  - 其他 VLESS ca001.zestapp778.com 223ms
+  - 其他 VLESS ge-s-1.pythonmakemigreat.wiki 225ms
+  - 其他 VLESS d0dc94t.fi7.h1clayd.click 267ms
+  - 其他 TROJAN 167.82.64.120 282ms
+  - 其他 VLESS 213.152.180.55 288ms
+  - 其他 VLESS 217.216.218.162 294ms
+  - 其他 VLESS 193.160.141.138 302ms
+  - 其他 VLESS 217.216.218.97 305ms
+  - 其他 VLESS p2real33.greewebservices.ir 308ms
+  - 其他 VLESS 6d160a52.con.fernarchive.online 331ms
+  - 其他 VLESS 144.31.213.229 339ms
+  - 其他 VLESS wwww.qarvian.ir 359ms
+  - 其他 VLESS 213.152.180.55 370ms
+  - 其他 VLESS 213.152.180.104 452ms
+  - 其他 VLESS 104.18.47.73 556ms
+  - 其他 VLESS 883f1393.con.rasterparcel.tech 736ms
+  - 其他 VLESS 52.58.238.82 866ms
 - name: 📍 德国
   type: select
   proxies:
   - 🚀 自动选择
-  - 德国 TROJAN de-bots4.h1cloud.net 300ms
+  - 德国 VLESS 823bcb90.con.fernarchive.online 394ms
+  - 德国 TROJAN de-bots4.h1cloud.net 397ms
 - name: 📍 意大利
   type: select
   proxies:
   - 🚀 自动选择
-  - 意大利 SS 202.50.253.18 285ms
-- name: 📍 法国
+  - 意大利 SS 202.50.253.36 340ms
+  - 意大利 SS 202.50.253.99 1077ms
+- name: 📍 美国
   type: select
   proxies:
   - 🚀 自动选择
-  - 法国 HYSTERIA2 fr2-cl3.happy-glonaris.top 256ms
-- name: 📍 荷兰
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 荷兰 VLESS nl-s-2.pythonmakemigreat.wiki 300ms
+  - 美国 SS 202.50.253.54 337ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS edge.bookmai.com 221ms
-  - 其他 VLESS 171.22.119.74 222ms
-  - 其他 VLESS 195.123.213.28 252ms
-  - 法国 HYSTERIA2 fr2-cl3.happy-glonaris.top 256ms
-  - 俄罗斯 VLESS xsru1.ddnsfree.com 269ms
-  - 其他 HYSTERIA2 bl2.nexfile.net 284ms
-  - 意大利 SS 202.50.253.18 285ms
-  - 荷兰 VLESS nl-s-2.pythonmakemigreat.wiki 300ms
-  - 德国 TROJAN de-bots4.h1cloud.net 300ms
-  - 其他 HYSTERIA2 pl3.nexfile.net 303ms
-  - 其他 VLESS 46.8.43.125 348ms
+  - 其他 VLESS ca001.zestapp778.com 223ms
+  - 其他 VLESS ge-s-1.pythonmakemigreat.wiki 225ms
+  - 其他 VLESS d0dc94t.fi7.h1clayd.click 267ms
+  - 其他 TROJAN 167.82.64.120 282ms
+  - 其他 VLESS 213.152.180.55 288ms
+  - 其他 VLESS 217.216.218.162 294ms
+  - 其他 VLESS 193.160.141.138 302ms
+  - 其他 VLESS 217.216.218.97 305ms
+  - 其他 VLESS p2real33.greewebservices.ir 308ms
+  - 其他 VLESS 6d160a52.con.fernarchive.online 331ms
+  - 美国 SS 202.50.253.54 337ms
+  - 其他 VLESS 144.31.213.229 339ms
+  - 意大利 SS 202.50.253.36 340ms
+  - 其他 VLESS wwww.qarvian.ir 359ms
+  - 其他 VLESS 213.152.180.55 370ms
+  - 德国 VLESS 823bcb90.con.fernarchive.online 394ms
+  - 德国 TROJAN de-bots4.h1cloud.net 397ms
+  - 其他 VLESS 213.152.180.104 452ms
+  - 其他 VLESS 104.18.47.73 556ms
+  - 其他 VLESS 883f1393.con.rasterparcel.tech 736ms
+  - 其他 VLESS 52.58.238.82 866ms
+  - 意大利 SS 202.50.253.99 1077ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

@@ -1,201 +1,57 @@
 # 免费优选节点
-# 生成时间: 2026-10-31 05:40:53 UTC
-# 存活节点: 15 / 存活率见日志
+# 生成时间: 2026-11-01 05:45:13 UTC
+# 存活节点: 3 / 存活率见日志
 proxies:
-- name: 其他 VLESS 104.16.215.234 185ms
+- name: 其他 VLESS grimness-backlogs.cdn-content.com 302ms
   type: vless
-  server: '104.16.215.234'
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  servername: hhlfy.twiladaphne.ndjp.net
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 其他 VLESS 172.67.151.38 186ms
-  type: vless
-  server: '172.67.151.38'
+  server: grimness-backlogs.cdn-content.com
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: da546ae1-49ee-4d95-9727-49708192125b
   udp: true
   tls: true
-  servername: ccc.010304.xyz
+  servername: grimness-backlogs.cdn-content.com
+  alpn:
+  - http/1.1
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     headers:
-      Host: ccc.010304.xyz
+      Host: grimness-backlogs.cdn-content.com
+    path: /ws
   client-fingerprint: chrome
-- name: 意大利 SS 202.50.253.72 287ms
-  type: ss
-  server: '202.50.253.72'
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-- name: 意大利 SS 202.50.253.27 287ms
-  type: ss
-  server: '202.50.253.27'
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-- name: 其他 VLESS 130.49.162.137 291ms
-  type: vless
-  server: '130.49.162.137'
-  port: 443
-  uuid: 689a62e4-37e7-41de-9e6a-f2a56368c9e2
-  udp: true
-  tls: true
-  servername: sk3.speedtestinternet.link
-  network: tcp
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-- name: 其他 VLESS 883f1393.con.rasterparcel.tech 332ms
-  type: vless
-  server: 883f1393.con.rasterparcel.tech
-  port: 443
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
-  udp: true
-  tls: true
-  servername: 883f1393.con.rasterparcel.tech
-  network: xhttp
-  xhttp-opts:
-    path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
-    host: 883f1393.con.rasterparcel.tech
-    mode: auto
-  client-fingerprint: chrome
-- name: 其他 TROJAN 162.159.253.41 335ms
-  type: trojan
-  server: '162.159.253.41'
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
   skip-cert-verify: false
-  udp: true
-- name: 其他 VLESS 144.31.213.229 336ms
+- name: 其他 VLESS adheres-scruple.quick-cdn.net 335ms
   type: vless
-  server: '144.31.213.229'
+  server: adheres-scruple.quick-cdn.net
   port: 443
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  uuid: 72a258a9-281d-41ae-a9d9-2247064923e0
   udp: true
   tls: true
-  servername: 6d160a52.con.fernarchive.online
-  network: xhttp
-  xhttp-opts:
-    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
-    host: 6d160a52.con.fernarchive.online
+  servername: adheres-scruple.quick-cdn.net
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
   client-fingerprint: chrome
-- name: 其他 VLESS 5.181.158.100 358ms
+  skip-cert-verify: false
+- name: 其他 VLESS 5.253.28.240 393ms
   type: vless
-  server: '5.181.158.100'
-  port: 8470
-  uuid: 1c8f7130-8c1a-4949-831d-1d45b39c795b
+  server: '5.253.28.240'
+  port: 2443
+  uuid: 5e679ccd-1586-4d5f-b87b-48251046cad8
   udp: true
   tls: true
-  servername: svoboda14.bystriynet.online
-  network: tcp
+  servername: deepl.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: rex-eb0bf76b710ce763
   reality-opts:
-    public-key: VaMT-IAVkmjdrf4OS0Mnqg0YhQc35O9wZo2TW2LrmjU
-    short-id: 21e829b360d15daf
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: false
-- name: 香港 VLESS www.visa.com.hk 369ms
-  type: vless
-  server: www.visa.com.hk
-  port: 443
-  uuid: 4f735420-0179-45d7-ba4e-ed66d1bf3a89
-  udp: true
-  tls: true
-  servername: it-mil.862400.xyz
-  network: ws
-  ws-opts:
-    path: /announcement
-    headers:
-      Host: it-mil.862400.xyz
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-  client-fingerprint: random
-- name: 其他 VLESS 5.181.158.195 417ms
-  type: vless
-  server: '5.181.158.195'
-  port: 8466
-  uuid: 1c8f7130-8c1a-4949-831d-1d45b39c795b
-  udp: true
-  tls: true
-  servername: svoboda20.bystriynet.online
-  network: tcp
-  reality-opts:
-    public-key: k2jSuvKPXyN0fCJiGpl1NMzzN7kzo64vsbbLD4gdKQ4
-    short-id: f017b721750fd683
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: false
-- name: 其他 VLESS 178.72.185.235 467ms
-  type: vless
-  server: '178.72.185.235'
-  port: 40447
-  uuid: 572b3d30-3ced-4b88-9e06-4241f124cc88
-  udp: true
-  tls: true
-  servername: www.booking.com
-  network: tcp
-  reality-opts:
-    public-key: EbXSjwJKAI1cmU2TK3af62qS2k58x8Rnct1525c0m1I
-    short-id: 30fc443cf34a1471
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  skip-cert-verify: false
-- name: 其他 VLESS 172.64.229.129 594ms
-  type: vless
-  server: '172.64.229.129'
-  port: 2052
-  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
-  udp: true
-  tls: false
-  servername: eu02.123450908.xyz
-  network: ws
-  ws-opts:
-    path: /rain1226
-    headers:
-      Host: eu02.123450908.xyz
-- name: 芬兰 VLESS 823bcb90.con.fernarchive.online 632ms
-  type: vless
-  server: 823bcb90.con.fernarchive.online
-  port: 443
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
-  udp: true
-  tls: true
-  servername: 823bcb90.con.fernarchive.online
-  network: xhttp
-  xhttp-opts:
-    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
-    mode: auto
+    public-key: h85e28MxBgNyT9d9cNeOLVtWfHq6cT_1_oxZOTajtTg
+    short-id: 92c32de179e5d908
   client-fingerprint: chrome
   skip-cert-verify: false
-- name: 其他 VLESS 6d160a52.con.fernarchive.online 673ms
-  type: vless
-  server: 6d160a52.con.fernarchive.online
-  port: 443
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
-  udp: true
-  tls: true
-  servername: 6d160a52.con.fernarchive.online
-  network: xhttp
-  xhttp-opts:
-    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
-    host: 6d160a52.con.fernarchive.online
-    mode: auto
-  client-fingerprint: chrome
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -205,71 +61,23 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 其他 VLESS 104.16.215.234 185ms
-  - 其他 VLESS 172.67.151.38 186ms
-  - 意大利 SS 202.50.253.72 287ms
-  - 意大利 SS 202.50.253.27 287ms
-  - 其他 VLESS 130.49.162.137 291ms
-  - 其他 VLESS 883f1393.con.rasterparcel.tech 332ms
-  - 其他 TROJAN 162.159.253.41 335ms
-  - 其他 VLESS 144.31.213.229 336ms
-  - 其他 VLESS 5.181.158.100 358ms
-  - 香港 VLESS www.visa.com.hk 369ms
-  - 其他 VLESS 5.181.158.195 417ms
-  - 其他 VLESS 178.72.185.235 467ms
-  - 其他 VLESS 172.64.229.129 594ms
-  - 芬兰 VLESS 823bcb90.con.fernarchive.online 632ms
-  - 其他 VLESS 6d160a52.con.fernarchive.online 673ms
+  - 其他 VLESS grimness-backlogs.cdn-content.com 302ms
+  - 其他 VLESS adheres-scruple.quick-cdn.net 335ms
+  - 其他 VLESS 5.253.28.240 393ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 104.16.215.234 185ms
-  - 其他 VLESS 172.67.151.38 186ms
-  - 其他 VLESS 130.49.162.137 291ms
-  - 其他 VLESS 883f1393.con.rasterparcel.tech 332ms
-  - 其他 TROJAN 162.159.253.41 335ms
-  - 其他 VLESS 144.31.213.229 336ms
-  - 其他 VLESS 5.181.158.100 358ms
-  - 其他 VLESS 5.181.158.195 417ms
-  - 其他 VLESS 178.72.185.235 467ms
-  - 其他 VLESS 172.64.229.129 594ms
-  - 其他 VLESS 6d160a52.con.fernarchive.online 673ms
-- name: 📍 意大利
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 意大利 SS 202.50.253.72 287ms
-  - 意大利 SS 202.50.253.27 287ms
-- name: 📍 芬兰
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 芬兰 VLESS 823bcb90.con.fernarchive.online 632ms
-- name: 📍 香港
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 香港 VLESS www.visa.com.hk 369ms
+  - 其他 VLESS grimness-backlogs.cdn-content.com 302ms
+  - 其他 VLESS adheres-scruple.quick-cdn.net 335ms
+  - 其他 VLESS 5.253.28.240 393ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 104.16.215.234 185ms
-  - 其他 VLESS 172.67.151.38 186ms
-  - 意大利 SS 202.50.253.72 287ms
-  - 意大利 SS 202.50.253.27 287ms
-  - 其他 VLESS 130.49.162.137 291ms
-  - 其他 VLESS 883f1393.con.rasterparcel.tech 332ms
-  - 其他 TROJAN 162.159.253.41 335ms
-  - 其他 VLESS 144.31.213.229 336ms
-  - 其他 VLESS 5.181.158.100 358ms
-  - 香港 VLESS www.visa.com.hk 369ms
-  - 其他 VLESS 5.181.158.195 417ms
-  - 其他 VLESS 178.72.185.235 467ms
-  - 其他 VLESS 172.64.229.129 594ms
-  - 芬兰 VLESS 823bcb90.con.fernarchive.online 632ms
-  - 其他 VLESS 6d160a52.con.fernarchive.online 673ms
+  - 其他 VLESS grimness-backlogs.cdn-content.com 302ms
+  - 其他 VLESS adheres-scruple.quick-cdn.net 335ms
+  - 其他 VLESS 5.253.28.240 393ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

@@ -1,48 +1,79 @@
 # 免费优选节点
-# 生成时间: 2026-11-03 11:34:11 UTC
+# 生成时间: 2026-11-04 05:35:29 UTC
 # 存活节点: 3 / 存活率见日志
 proxies:
-- name: 其他 VLESS 72.56.38.83 261ms
+- name: 其他 VLESS 172.66.47.45 172ms
   type: vless
-  server: '72.56.38.83'
+  server: '172.66.47.45'
   port: 443
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  uuid: e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f
+  cipher: none
+  tls: true
+  servername: EZAcCESS-pROjECt-F62c30.PAGES.dEv
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: ezaccess-project-f62c30.pages.dev
+  skip-cert-verify: false
+  udp: true
+- name: 荷兰 VLESS cdn-ya.shamanapp.online 351ms
+  type: vless
+  server: cdn-ya.shamanapp.online
+  port: 443
+  uuid: 40c8a202-4b7f-45a6-b0aa-37db0fac4df8
   udp: true
   tls: true
-  servername: absolute-disaster.org
-  network: tcp
-  reality-opts:
-    public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  servername: cdn-ya.shamanapp.online
+  alpn:
+  - h2
+  - http/1.1
+  network: xhttp
+  xhttp-opts:
+    host: cdn-ya.shamanapp.online
+    path: /media/hls/720p/
+    mode: packet-up
+    no-grpc-header: true
+    x-padding-bytes: '100-1000'
+    x-padding-obfs-mode: true
+    x-padding-key: _dc
+    x-padding-header: X-Cache
+    x-padding-placement: header
+    x-padding-method: tokenish
+    uplink-http-method: GET
+    session-placement: path
+    session-key: token
+    session-table: Base62
+    session-length: '16-32'
+    seq-placement: query
+    seq-key: page
+    uplink-data-placement: header
+    uplink-data-key: X-Request-Id
+    uplink-chunk-size: 20000
+    sc-max-each-post-bytes: 20000
+    sc-min-posts-interval-ms: 5
+    reuse-settings:
+      max-connections: '0'
+      max-concurrency: '16-32'
+      c-max-reuse-times: '0'
+      h-max-request-times: '600-900'
+      h-max-reusable-secs: '600-900'
+      h-keep-alive-period: 0
+  client-fingerprint: firefox
   skip-cert-verify: false
-- name: 其他 VLESS 193.188.21.253 270ms
+- name: 其他 VLESS 104.16.3.98 622ms
   type: vless
-  server: '193.188.21.253'
-  port: 14430
-  uuid: 57f7772d-f5d6-4d8f-992d-5fa5e0d6da55
+  server: '104.16.3.98'
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
-  servername: '193.188.21.253'
+  tls: true
+  servername: u.srilankangrill.online
   network: ws
   ws-opts:
     headers:
-      Host: '193.188.21.253'
-    path: /vless
-  skip-cert-verify: false
-- name: 其他 VLESS 186.246.9.62 323ms
-  type: vless
-  server: '186.246.9.62'
-  port: 443
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-  udp: true
-  tls: true
-  servername: media-27.topp-con.xyz
-  network: tcp
-  reality-opts:
-    public-key: LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU
-    short-id: b9120cd53ffd7bba
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
+      Host: u.srilankangrill.online
+    path: /
   skip-cert-verify: false
 proxy-groups:
 - name: 🚀 自动选择
@@ -53,23 +84,27 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 其他 VLESS 72.56.38.83 261ms
-  - 其他 VLESS 193.188.21.253 270ms
-  - 其他 VLESS 186.246.9.62 323ms
+  - 其他 VLESS 172.66.47.45 172ms
+  - 荷兰 VLESS cdn-ya.shamanapp.online 351ms
+  - 其他 VLESS 104.16.3.98 622ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 72.56.38.83 261ms
-  - 其他 VLESS 193.188.21.253 270ms
-  - 其他 VLESS 186.246.9.62 323ms
+  - 其他 VLESS 172.66.47.45 172ms
+  - 其他 VLESS 104.16.3.98 622ms
+- name: 📍 荷兰
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 荷兰 VLESS cdn-ya.shamanapp.online 351ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 72.56.38.83 261ms
-  - 其他 VLESS 193.188.21.253 270ms
-  - 其他 VLESS 186.246.9.62 323ms
+  - 其他 VLESS 172.66.47.45 172ms
+  - 荷兰 VLESS cdn-ya.shamanapp.online 351ms
+  - 其他 VLESS 104.16.3.98 622ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

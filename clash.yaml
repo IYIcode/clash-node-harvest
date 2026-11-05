@@ -1,23 +1,51 @@
 # 免费优选节点
-# 生成时间: 2026-11-04 05:35:29 UTC
-# 存活节点: 3 / 存活率见日志
+# 生成时间: 2026-11-04 17:34:26 UTC
+# 存活节点: 4 / 存活率见日志
 proxies:
-- name: 其他 VLESS 172.66.47.45 172ms
+- name: 其他 VLESS 152.175.6.229 45ms
   type: vless
-  server: '172.66.47.45'
-  port: 443
-  uuid: e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f
-  cipher: none
+  server: '152.175.6.229'
+  port: 31884
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
   tls: true
-  servername: EZAcCESS-pROjECt-F62c30.PAGES.dEv
+  servername: hk010.zestapp778.com
+  network: tcp
+  client-fingerprint: chrome
+  skip-cert-verify: false
+- name: 其他 TROJAN 172.66.47.18 158ms
+  type: trojan
+  server: '172.66.47.18'
+  port: 443
+  password: e7TTceggMwUMg+aFN:F4
+  sni: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
+  alpn:
+  - http/1.1
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    path: /tr/SIeRkg2QvR2Zcpu0SeEMow
     headers:
-      Host: ezaccess-project-f62c30.pages.dev
+      Host: apkd964o1oghltghht0l0of.pages.dev
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+  client-fingerprint: chrome
   skip-cert-verify: false
   udp: true
-- name: 荷兰 VLESS cdn-ya.shamanapp.online 351ms
+- name: 其他 VLESS 789156.xyz 248ms
+  type: vless
+  server: 789156.xyz
+  port: 443
+  uuid: 5f11c240-89df-494c-9c81-8b619023bb58
+  udp: true
+  tls: true
+  servername: 789156.xyz
+  network: ws
+  ws-opts:
+    headers:
+      Host: 789156.xyz
+    path: /?ed=2048fp=randomized
+  skip-cert-verify: false
+- name: 荷兰 VLESS cdn-ya.shamanapp.online 369ms
   type: vless
   server: cdn-ya.shamanapp.online
   port: 443
@@ -61,20 +89,6 @@ proxies:
       h-keep-alive-period: 0
   client-fingerprint: firefox
   skip-cert-verify: false
-- name: 其他 VLESS 104.16.3.98 622ms
-  type: vless
-  server: '104.16.3.98'
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  udp: true
-  tls: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    headers:
-      Host: u.srilankangrill.online
-    path: /
-  skip-cert-verify: false
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -84,27 +98,30 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 其他 VLESS 172.66.47.45 172ms
-  - 荷兰 VLESS cdn-ya.shamanapp.online 351ms
-  - 其他 VLESS 104.16.3.98 622ms
+  - 其他 VLESS 152.175.6.229 45ms
+  - 其他 TROJAN 172.66.47.18 158ms
+  - 其他 VLESS 789156.xyz 248ms
+  - 荷兰 VLESS cdn-ya.shamanapp.online 369ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 172.66.47.45 172ms
-  - 其他 VLESS 104.16.3.98 622ms
+  - 其他 VLESS 152.175.6.229 45ms
+  - 其他 TROJAN 172.66.47.18 158ms
+  - 其他 VLESS 789156.xyz 248ms
 - name: 📍 荷兰
   type: select
   proxies:
   - 🚀 自动选择
-  - 荷兰 VLESS cdn-ya.shamanapp.online 351ms
+  - 荷兰 VLESS cdn-ya.shamanapp.online 369ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 172.66.47.45 172ms
-  - 荷兰 VLESS cdn-ya.shamanapp.online 351ms
-  - 其他 VLESS 104.16.3.98 622ms
+  - 其他 VLESS 152.175.6.229 45ms
+  - 其他 TROJAN 172.66.47.18 158ms
+  - 其他 VLESS 789156.xyz 248ms
+  - 荷兰 VLESS cdn-ya.shamanapp.online 369ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

@@ -1,40 +1,23 @@
 # 免费优选节点
-# 生成时间: 2026-11-05 17:39:34 UTC
-# 存活节点: 4 / 存活率见日志
+# 生成时间: 2026-11-08 07:55:37 UTC
+# 存活节点: 3 / 存活率见日志
 proxies:
-- name: 其他 VLESS 152.175.6.229 172ms
+- name: 其他 VLESS 31.77.129.151 216ms
   type: vless
-  server: '152.175.6.229'
-  port: 31884
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  tls: true
-  servername: hk010.zestapp778.com
-  network: tcp
-  client-fingerprint: chrome
-  skip-cert-verify: false
-- name: 意大利 SS 202.50.253.72 292ms
-  type: ss
-  server: '202.50.253.72'
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-- name: 其他 VLESS 72.56.38.83 305ms
-  type: vless
-  server: '72.56.38.83'
+  server: '31.77.129.151'
   port: 443
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
   udp: true
   tls: true
-  servername: absolute-disaster.org
+  servername: ge-s-1.pythonmakemigreat.wiki
   network: tcp
   reality-opts:
-    public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
+    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
+    short-id: 2c9a2790ad5900b2
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: false
-- name: 荷兰 VLESS cdn-ya.shamanapp.online 412ms
+- name: 荷兰 VLESS cdn-ya.shamanapp.online 398ms
   type: vless
   server: cdn-ya.shamanapp.online
   port: 443
@@ -78,6 +61,13 @@ proxies:
       h-keep-alive-period: 0
   client-fingerprint: firefox
   skip-cert-verify: false
+- name: 意大利 SS 202.50.253.72 1174ms
+  type: ss
+  server: '202.50.253.72'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -87,34 +77,31 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 其他 VLESS 152.175.6.229 172ms
-  - 意大利 SS 202.50.253.72 292ms
-  - 其他 VLESS 72.56.38.83 305ms
-  - 荷兰 VLESS cdn-ya.shamanapp.online 412ms
+  - 其他 VLESS 31.77.129.151 216ms
+  - 荷兰 VLESS cdn-ya.shamanapp.online 398ms
+  - 意大利 SS 202.50.253.72 1174ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 152.175.6.229 172ms
-  - 其他 VLESS 72.56.38.83 305ms
+  - 其他 VLESS 31.77.129.151 216ms
 - name: 📍 意大利
   type: select
   proxies:
   - 🚀 自动选择
-  - 意大利 SS 202.50.253.72 292ms
+  - 意大利 SS 202.50.253.72 1174ms
 - name: 📍 荷兰
   type: select
   proxies:
   - 🚀 自动选择
-  - 荷兰 VLESS cdn-ya.shamanapp.online 412ms
+  - 荷兰 VLESS cdn-ya.shamanapp.online 398ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 152.175.6.229 172ms
-  - 意大利 SS 202.50.253.72 292ms
-  - 其他 VLESS 72.56.38.83 305ms
-  - 荷兰 VLESS cdn-ya.shamanapp.online 412ms
+  - 其他 VLESS 31.77.129.151 216ms
+  - 荷兰 VLESS cdn-ya.shamanapp.online 398ms
+  - 意大利 SS 202.50.253.72 1174ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

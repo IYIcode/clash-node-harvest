@@ -1,17 +1,14 @@
 # 免费优选节点
-# 生成时间: 2026-11-09 11:34:27 UTC
+# 生成时间: 2026-11-09 17:35:13 UTC
 # 存活节点: 1 / 存活率见日志
 proxies:
-- name: 其他 VMESS 38.60.224.173 1215ms
-  type: vmess
-  server: '38.60.224.173'
-  port: 32153
-  uuid: 5cf1f470-3f70-4589-a2a4-4657ea3a1edf
-  cipher: auto
-  alterId: 0
-  tls: false
-  network: tcp
-  client-fingerprint: ''
+- name: 其他 HYSTERIA2 8.209.247.109 83ms
+  type: hysteria2
+  server: '8.209.247.109'
+  port: 443
+  password: usqmqUKJFIlCmvkCNSY64L3k
+  sni: bing.com
+  skip-cert-verify: true
   udp: true
 proxy-groups:
 - name: 🚀 自动选择
@@ -22,17 +19,17 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 其他 VMESS 38.60.224.173 1215ms
+  - 其他 HYSTERIA2 8.209.247.109 83ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VMESS 38.60.224.173 1215ms
+  - 其他 HYSTERIA2 8.209.247.109 83ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VMESS 38.60.224.173 1215ms
+  - 其他 HYSTERIA2 8.209.247.109 83ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

@@ -1,91 +1,14 @@
 # 免费优选节点
-# 生成时间: 2026-11-10 11:35:12 UTC
-# 存活节点: 5 / 存活率见日志
+# 生成时间: 2026-11-11 11:35:53 UTC
+# 存活节点: 1 / 存活率见日志
 proxies:
-- name: 印尼 VLESS 130.94.95.198 85ms
-  type: vless
-  server: '130.94.95.198'
-  port: 57353
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  tls: true
-  servername: in001.zestapp778.com
-- name: 其他 VLESS 72.56.38.83 301ms
-  type: vless
-  server: '72.56.38.83'
-  port: 443
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
-  udp: true
-  tls: true
-  servername: absolute-disaster.org
-  network: tcp
-  reality-opts:
-    public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: false
-- name: 意大利 SS 202.50.253.72 317ms
+- name: 意大利 SS 202.50.253.72 302ms
   type: ss
   server: '202.50.253.72'
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   udp: true
-- name: 其他 VLESS 45.77.243.143 404ms
-  type: vless
-  server: '45.77.243.143'
-  port: 443
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  tls: true
-  servername: sg003.zestapp778.com
-  network: tcp
-  client-fingerprint: firefox
-  skip-cert-verify: false
-- name: 荷兰 VLESS cdn-ya.shamanapp.online 410ms
-  type: vless
-  server: cdn-ya.shamanapp.online
-  port: 443
-  uuid: 40c8a202-4b7f-45a6-b0aa-37db0fac4df8
-  udp: true
-  tls: true
-  servername: cdn-ya.shamanapp.online
-  alpn:
-  - h2
-  - http/1.1
-  network: xhttp
-  xhttp-opts:
-    host: cdn-ya.shamanapp.online
-    path: /media/hls/720p/
-    mode: packet-up
-    no-grpc-header: true
-    x-padding-bytes: '100-1000'
-    x-padding-obfs-mode: true
-    x-padding-key: _dc
-    x-padding-header: X-Cache
-    x-padding-placement: header
-    x-padding-method: tokenish
-    uplink-http-method: GET
-    session-placement: path
-    session-key: token
-    session-table: Base62
-    session-length: '16-32'
-    seq-placement: query
-    seq-key: page
-    uplink-data-placement: header
-    uplink-data-key: X-Request-Id
-    uplink-chunk-size: 20000
-    sc-max-each-post-bytes: 20000
-    sc-min-posts-interval-ms: 5
-    reuse-settings:
-      max-connections: '0'
-      max-concurrency: '16-32'
-      c-max-reuse-times: '0'
-      h-max-request-times: '600-900'
-      h-max-reusable-secs: '600-900'
-      h-keep-alive-period: 0
-  client-fingerprint: firefox
-  skip-cert-verify: false
 proxy-groups:
 - name: 🚀 自动选择
   type: url-test
@@ -95,41 +18,17 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 印尼 VLESS 130.94.95.198 85ms
-  - 其他 VLESS 72.56.38.83 301ms
-  - 意大利 SS 202.50.253.72 317ms
-  - 其他 VLESS 45.77.243.143 404ms
-  - 荷兰 VLESS cdn-ya.shamanapp.online 410ms
-- name: 📍 其他
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 其他 VLESS 72.56.38.83 301ms
-  - 其他 VLESS 45.77.243.143 404ms
-- name: 📍 印尼
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 印尼 VLESS 130.94.95.198 85ms
+  - 意大利 SS 202.50.253.72 302ms
 - name: 📍 意大利
   type: select
   proxies:
   - 🚀 自动选择
-  - 意大利 SS 202.50.253.72 317ms
-- name: 📍 荷兰
-  type: select
-  proxies:
-  - 🚀 自动选择
-  - 荷兰 VLESS cdn-ya.shamanapp.online 410ms
+  - 意大利 SS 202.50.253.72 302ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 印尼 VLESS 130.94.95.198 85ms
-  - 其他 VLESS 72.56.38.83 301ms
-  - 意大利 SS 202.50.253.72 317ms
-  - 其他 VLESS 45.77.243.143 404ms
-  - 荷兰 VLESS cdn-ya.shamanapp.online 410ms
+  - 意大利 SS 202.50.253.72 302ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

@@ -1,8 +1,8 @@
 # 免费优选节点
-# 生成时间: 2026-11-11 11:35:53 UTC
+# 生成时间: 2026-11-12 17:37:16 UTC
 # 存活节点: 1 / 存活率见日志
 proxies:
-- name: 意大利 SS 202.50.253.72 302ms
+- name: 意大利 SS 202.50.253.72 928ms
   type: ss
   server: '202.50.253.72'
   port: 19999
@@ -18,17 +18,17 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 意大利 SS 202.50.253.72 302ms
+  - 意大利 SS 202.50.253.72 928ms
 - name: 📍 意大利
   type: select
   proxies:
   - 🚀 自动选择
-  - 意大利 SS 202.50.253.72 302ms
+  - 意大利 SS 202.50.253.72 928ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 意大利 SS 202.50.253.72 302ms
+  - 意大利 SS 202.50.253.72 928ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

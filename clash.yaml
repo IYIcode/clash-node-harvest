@@ -1,15 +1,15 @@
 # 免费优选节点
-# 生成时间: 2026-11-13 05:33:16 UTC
+# 生成时间: 2026-11-13 11:33:19 UTC
 # 存活节点: 2 / 存活率见日志
 proxies:
-- name: 意大利 SS 202.50.253.72 293ms
+- name: 意大利 SS 202.50.253.72 306ms
   type: ss
   server: '202.50.253.72'
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   udp: true
-- name: 其他 VLESS 72.56.38.83 314ms
+- name: 其他 VLESS 72.56.38.83 323ms
   type: vless
   server: '72.56.38.83'
   port: 443
@@ -32,24 +32,24 @@ proxy-groups:
   lazy: false
   max-failed-times: 3
   proxies:
-  - 意大利 SS 202.50.253.72 293ms
-  - 其他 VLESS 72.56.38.83 314ms
+  - 意大利 SS 202.50.253.72 306ms
+  - 其他 VLESS 72.56.38.83 323ms
 - name: 📍 其他
   type: select
   proxies:
   - 🚀 自动选择
-  - 其他 VLESS 72.56.38.83 314ms
+  - 其他 VLESS 72.56.38.83 323ms
 - name: 📍 意大利
   type: select
   proxies:
   - 🚀 自动选择
-  - 意大利 SS 202.50.253.72 293ms
+  - 意大利 SS 202.50.253.72 306ms
 - name: 🎯 全节点
   type: select
   proxies:
   - 🚀 自动选择
-  - 意大利 SS 202.50.253.72 293ms
-  - 其他 VLESS 72.56.38.83 314ms
+  - 意大利 SS 202.50.253.72 306ms
+  - 其他 VLESS 72.56.38.83 323ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:

@@ -1,0 +1,3168 @@
+# 免费优选节点
+# 生成时间: 2026-11-28 11:08:32 UTC
+# 存活节点: 247 / 存活率见日志
+proxies:
+- name: 加拿大 SS 149.22.95.183 12ms
+  type: ss
+  server: '149.22.95.183'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 美国 VMESS 84.17.41.2 13ms
+  type: vmess
+  server: '84.17.41.2'
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+- name: 其他 SS 216.105.168.18 34ms
+  type: ss
+  server: '216.105.168.18'
+  port: 443
+  password: hCCWOcIsK5wrFz4OX70rWf
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 美国 VMESS 169.197.142.22 37ms
+  type: vmess
+  server: '169.197.142.22'
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+- name: 美国 SS 173.244.56.6 53ms
+  type: ss
+  server: '173.244.56.6'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 美国 VMESS 129.146.77.248 53ms
+  type: vmess
+  server: '129.146.77.248'
+  port: 39495
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: '129.146.77.248'
+- name: 其他 VMESS 129.146.77.248 53ms
+  type: vmess
+  server: '129.146.77.248'
+  port: 39495
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers: {}
+- name: 美国 SS 173.244.56.9 56ms
+  type: ss
+  server: '173.244.56.9'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 美国 SS 156.146.38.168 57ms
+  type: ss
+  server: '156.146.38.168'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 美国 SS 156.146.38.169 57ms
+  type: ss
+  server: '156.146.38.169'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 美国 SS 156.146.38.170 57ms
+  type: ss
+  server: '156.146.38.170'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 加拿大 VMESS 23.162.200.198 60ms
+  type: vmess
+  server: '23.162.200.198'
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+  client-fingerprint: ''
+- name: 加拿大 VMESS 134.195.196.211 61ms
+  type: vmess
+  server: '134.195.196.211'
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+  client-fingerprint: ''
+- name: 美国 VMESS 129.146.143.80 61ms
+  type: vmess
+  server: '129.146.143.80'
+  port: 48111
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+- name: 美国 VMESS 67.220.95.3 65ms
+  type: vmess
+  server: '67.220.95.3'
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  cipher: aes-128-gcm
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+- name: 美国 SS 37.19.198.236 66ms
+  type: ss
+  server: '37.19.198.236'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 美国 SS 15.204.246.132 66ms
+  type: ss
+  server: '15.204.246.132'
+  port: 7307
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 其他 SS 15.204.246.108 66ms
+  type: ss
+  server: '15.204.246.108'
+  port: 8881
+  password: kDWvXYZoTBcGkC4
+  cipher: aes-256-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 美国 SS 37.19.198.243 67ms
+  type: ss
+  server: '37.19.198.243'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 美国 SS 37.19.198.160 67ms
+  type: ss
+  server: '37.19.198.160'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 以色列 VLESS 185.95.231.156 68ms
+  type: vless
+  server: '185.95.231.156'
+  port: 443
+  uuid: 1f8cf47a-b66a-4916-979f-26edfcf44eea
+  udp: true
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  reality-opts:
+    public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
+    short-id: a3a578ab
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 美国 SS 15.204.246.111 68ms
+  type: ss
+  server: '15.204.246.111'
+  port: 5498
+  password: lGqs95QkFHo2NV
+  cipher: aes-256-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 其他 VLESS 172.64.154.113 69ms
+  type: vless
+  server: '172.64.154.113'
+  port: 8443
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  udp: true
+  tls: true
+  servername: freeceshi6.frii.site
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
+    headers:
+      Host: freeceshi6.frii.site
+- name: 美国 SS 37.19.198.244 71ms
+  type: ss
+  server: '37.19.198.244'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 美国 SS 198.98.53.130 73ms
+  type: ss
+  server: '198.98.53.130'
+  port: 443
+  password: eDfN7SODQceIOmIAbtJJtK
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 加拿大 SS 51.222.12.127 77ms
+  type: ss
+  server: '51.222.12.127'
+  port: 445
+  password: zDNVedRFPQexG9v
+  cipher: aes-256-gcm
+  udp: false
+  network: tcp
+  skip-cert-verify: false
+- name: 加拿大 SS 51.222.141.125 78ms
+  type: ss
+  server: '51.222.141.125'
+  port: 445
+  password: zDNVedRFPQexG9v
+  cipher: aes-256-gcm
+  udp: true
+- name: 加拿大 SS 51.222.12.127 78ms
+  type: ss
+  server: '51.222.12.127'
+  port: 445
+  password: zDNVedRFPQexG9v
+  cipher: aes-256-gcm
+  udp: true
+- name: 美国 VMESS 67.220.85.46 78ms
+  type: vmess
+  server: '67.220.85.46'
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+- name: 美国 VMESS 38.91.107.49 81ms
+  type: vmess
+  server: '38.91.107.49'
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+- name: 美国 VMESS 38.110.1.246 82ms
+  type: vmess
+  server: '38.110.1.246'
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+- name: 其他 SS 137.184.174.93 84ms
+  type: ss
+  server: '137.184.174.93'
+  port: 8080
+  password: 14fFPrbezE3HDZzsMOr6
+  cipher: rc4-md5
+  udp: false
+  skip-cert-verify: false
+- name: 加拿大 VLESS 209.200.246.148 89ms
+  type: vless
+  server: '209.200.246.148'
+  port: 443
+  uuid: ca52e2b6-fb9f-4dac-b6dc-49da9923f251
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk
+    short-id: f98843107912e782
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 美国 VLESS 188.114.98.0 97ms
+  type: vless
+  server: '188.114.98.0'
+  port: 443
+  uuid: eee8ae65-bc48-438f-a606-a96f10bfb3b8
+  tls: true
+  servername: x.m-90.xyz
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    headers:
+      Host: x.m-90.xyz
+    path: t.me/TEAMNETGRATISCOL
+  client-fingerprint: unsafe
+  udp: true
+- name: 日本 SS 149.22.87.241 102ms
+  type: ss
+  server: '149.22.87.241'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: true
+- name: 日本 SS 149.22.87.240 105ms
+  type: ss
+  server: '149.22.87.240'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: true
+- name: 其他 VMESS 168.138.43.75 110ms
+  type: vmess
+  server: '168.138.43.75'
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: None
+  client-fingerprint: ''
+- name: 韩国 SS 211.233.33.228 124ms
+  type: ss
+  server: '211.233.33.228'
+  port: 8388
+  password: qpowi_vip_tunnel_2026_secure
+  cipher: aes-256-gcm
+  udp: true
+- name: 韩国 VMESS 217.142.138.61 124ms
+  type: vmess
+  server: '217.142.138.61'
+  port: 80
+  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: http
+  http-opts:
+    path:
+    - /
+    headers: {}
+- name: 日本 VLESS 50.7.159.242 125ms
+  type: vless
+  server: '50.7.159.242'
+  port: 443
+  uuid: 8840fac2-5361-4cb6-b887-cd1b95092394
+  udp: true
+  tls: true
+  servername: jp.reddotcorp.org
+- name: 韩国 VMESS 140.238.2.250 125ms
+  type: vmess
+  server: '140.238.2.250'
+  port: 443
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+- name: 其他 VLESS 172.64.154.113 128ms
+  type: vless
+  server: '172.64.154.113'
+  port: 8443
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  tls: true
+  servername: freeceshi6.frii.site
+  network: ws
+  ws-opts:
+    headers:
+      Host: freeceshi6.frii.site
+    path: /proxyip=ProxyIP.JP.CMLiussss.net
+  client-fingerprint: chrome
+  udp: true
+- name: 韩国 VLESS krd.80782636.xyz 129ms
+  type: vless
+  server: krd.80782636.xyz
+  port: 443
+  uuid: db906786-8c49-4b17-9182-cea680ef954d
+  tls: true
+  servername: krd.80782636.xyz
+  network: ws
+  ws-opts:
+    headers:
+      Host: krd.80782636.xyz
+    path: /kw7x2mq9
+  client-fingerprint: chrome
+  udp: true
+- name: 日本 SS 149.22.87.204 133ms
+  type: ss
+  server: '149.22.87.204'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: true
+- name: 荷兰 VLESS 51.194.118.38 143ms
+  type: vless
+  server: '51.194.118.38'
+  port: 443
+  uuid: 7ff1e7e1-2b5a-4e53-ae77-1516f9eb7754
+  udp: true
+  tls: true
+  servername: a1259.ve8nzuk.com
+  alpn:
+  - h2
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 50a5f706c8ea4433838a207d435fbf031b008a9a
+- name: 荷兰 VLESS 163.172.213.174 143ms
+  type: vless
+  server: '163.172.213.174'
+  port: 80
+  uuid: e73df646-1f62-41bf-8c50-653497d603d0
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: SC-TheNetherlands2.09vpn.com
+- name: 俄罗斯 HYSTERIA2 212.34.137.105 144ms
+  type: hysteria2
+  server: '212.34.137.105'
+  port: 443
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  udp: true
+  tls: true
+  sni: shorts.blog-forme.ru
+- name: 英国 SS 198.244.202.215 144ms
+  type: ss
+  server: '198.244.202.215'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 荷兰 SS 151.241.19.36 145ms
+  type: ss
+  server: '151.241.19.36'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 英国 SS 198.244.201.129 146ms
+  type: ss
+  server: '198.244.201.129'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 荷兰 SS 151.241.19.29 146ms
+  type: ss
+  server: '151.241.19.29'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 台湾 ANYTLS er8u54dh.df6h451rh.xin 146ms
+  type: anytls
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  password: 2902c46c8493
+  udp: true
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: 英国 SS 185.176.206.9 147ms
+  type: ss
+  server: '185.176.206.9'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 其他 SS 158.173.24.73 147ms
+  type: ss
+  server: '158.173.24.73'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: true
+- name: 英国 SS 38.114.120.221 148ms
+  type: ss
+  server: '38.114.120.221'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 香港 HYSTERIA2 152.32.254.68 148ms
+  type: hysteria2
+  server: '152.32.254.68'
+  port: 5010
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  tls: false
+  sni: nas.aizhzo.com
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  skip-cert-verify: false
+  udp: true
+- name: 其他 SS 51.79.64.198 148ms
+  type: ss
+  server: '51.79.64.198'
+  port: 8119
+  password: cdBIDV42DCwnfIN
+  cipher: aes-256-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 俄罗斯 HYSTERIA2 212.34.137.105 149ms
+  type: hysteria2
+  server: '212.34.137.105'
+  port: 443
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  tls: false
+  sni: shorts.blog-forme.ru
+  skip-cert-verify: false
+  udp: true
+- name: 其他 VMESS 146.56.112.110 149ms
+  type: vmess
+  server: '146.56.112.110'
+  port: 8888
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+  client-fingerprint: ''
+- name: 法国 SS 167.17.64.27 150ms
+  type: ss
+  server: '167.17.64.27'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 法国 SS 38.109.228.110 151ms
+  type: ss
+  server: '38.109.228.110'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 英国 SS 142.202.51.22 151ms
+  type: ss
+  server: '142.202.51.22'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 其他 SS 141.98.101.181 151ms
+  type: ss
+  server: '141.98.101.181'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: true
+- name: 美国 SS 23.230.52.119 151ms
+  type: ss
+  server: '23.230.52.119'
+  port: 42878
+  password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 法国 VLESS 62.210.24.143 151ms
+  type: vless
+  server: '62.210.24.143'
+  port: 32202
+  uuid: 28148be2-61a7-4f36-8adb-030cc9f82bd0
+  udp: true
+  tls: true
+  servername: www.amazon.com
+  network: xhttp
+  xhttp-opts:
+    path: /G3EEoH63
+  reality-opts:
+    public-key: bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc
+    short-id: f57d8f26
+  client-fingerprint: firefox
+  skip-cert-verify: false
+- name: 其他 SS 109.201.152.181 151ms
+  type: ss
+  server: '109.201.152.181'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-cfb
+  udp: false
+  skip-cert-verify: false
+- name: 其他 SS 5.188.181.201 151ms
+  type: ss
+  server: '5.188.181.201'
+  port: 9025
+  password: XPtzA9sCug3SPR4c
+  cipher: aes-256-cfb
+  udp: false
+  skip-cert-verify: false
+- name: 法国 VLESS ov-france1.09vpn.com 152ms
+  type: vless
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  udp: true
+  servername: ov-france1.09vpn.com
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-france1.09vpn.com
+- name: 法国 VLESS 152.228.162.19 152ms
+  type: vless
+  server: '152.228.162.19'
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vless/
+  skip-cert-verify: false
+- name: 其他 SS 146.70.61.37 152ms
+  type: ss
+  server: '146.70.61.37'
+  port: 8080
+  password: 14fFPrbezE3HDZzsMOr6
+  cipher: rc4-md5
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 HYSTERIA2 50.7.38.243 153ms
+  type: hysteria2
+  server: '50.7.38.243'
+  port: 443
+  password: d4ca9415f0eac7897472e1e5b86d2e96
+  udp: true
+  tls: true
+  sni: promo.betust.net
+  skip-cert-verify: true
+- name: 法国 VLESS ov-france1.09vpn.com 153ms
+  type: vless
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-france1.09vpn.com
+  skip-cert-verify: false
+- name: 英国 SS 141.98.101.178 154ms
+  type: ss
+  server: '141.98.101.178'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: true
+- name: 荷兰 HYSTERIA2 50.7.38.243 154ms
+  type: hysteria2
+  server: '50.7.38.243'
+  port: 443
+  password: d4ca9415f0eac7897472e1e5b86d2e96
+  tls: false
+  sni: promo.betust.net
+  skip-cert-verify: true
+  udp: true
+- name: 荷兰 SS 193.29.139.235 154ms
+  type: ss
+  server: '193.29.139.235'
+  port: 443
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 法国 HYSTERIA2 13.36.234.11 155ms
+  type: hysteria2
+  server: '13.36.234.11'
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  udp: true
+  tls: true
+  sni: vpn-fr-001.fastervpn.world
+  skip-cert-verify: true
+- name: 荷兰 SS 82.38.31.46 155ms
+  type: ss
+  server: '82.38.31.46'
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: '法国 HYSTERIA2 13.36.234.11 155ms #2'
+  type: hysteria2
+  server: '13.36.234.11'
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  tls: false
+  sni: vpn-fr-001.fastervpn.world
+  skip-cert-verify: true
+  udp: true
+- name: 德国 VLESS ov-germany1.09vpn.com 155ms
+  type: vless
+  server: ov-germany1.09vpn.com
+  port: 80
+  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: OV-Germany1.09vpn.com
+    path: /vless/
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.214 155ms
+  type: ss
+  server: '82.38.31.214'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.201 155ms
+  type: ss
+  server: '82.38.31.201'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.204 155ms
+  type: ss
+  server: '82.38.31.204'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 俄罗斯 HYSTERIA2 135.126.21.107 156ms
+  type: hysteria2
+  server: '135.126.21.107'
+  port: 443
+  password: 6ac6d17d-040c-4fab-940e-8f5d72c3fed6
+  udp: true
+  tls: true
+  sni: de2-balance.rezproffx.ru
+- name: 法国 SS 23.162.152.22 156ms
+  type: ss
+  server: '23.162.152.22'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 荷兰 SS 82.38.31.49 156ms
+  type: ss
+  server: '82.38.31.49'
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 荷兰 SS 82.38.31.202 156ms
+  type: ss
+  server: '82.38.31.202'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 其他 SS 193.29.139.168 156ms
+  type: ss
+  server: '193.29.139.168'
+  port: 8080
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.205 157ms
+  type: ss
+  server: '82.38.31.205'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 VLESS 163.172.214.188 157ms
+  type: vless
+  server: '163.172.214.188'
+  port: 80
+  uuid: 40cc9b52-25b8-4cd5-8b45-715ae26e6baf
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vless/
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.162 158ms
+  type: ss
+  server: '82.38.31.162'
+  port: 443
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 美国 HYSTERIA2 135.126.21.106 158ms
+  type: hysteria2
+  server: '135.126.21.106'
+  port: 443
+  password: 6ac6d17d-040c-4fab-940e-8f5d72c3fed6
+  tls: false
+  sni: de1-balance.rezproffx.ru
+  udp: true
+- name: 荷兰 SS 82.38.31.48 158ms
+  type: ss
+  server: '82.38.31.48'
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.193 158ms
+  type: ss
+  server: '82.38.31.193'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 俄罗斯 HYSTERIA2 94.183.164.119 159ms
+  type: hysteria2
+  server: '94.183.164.119'
+  port: 24403
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  udp: true
+  tls: true
+  sni: docs.blog-forme.ru
+- name: 其他 SS 167.17.64.22 159ms
+  type: ss
+  server: '167.17.64.22'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 台湾 ANYTLS rtifgjdr.df6h451rh.xin 159ms
+  type: anytls
+  server: rtifgjdr.df6h451rh.xin
+  port: 443
+  password: 2902c46c8493
+  udp: true
+  sni: docs.microsoft.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+- name: 荷兰 SS 82.38.31.199 159ms
+  type: ss
+  server: '82.38.31.199'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.181 159ms
+  type: ss
+  server: '82.38.31.181'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.185 159ms
+  type: ss
+  server: '82.38.31.185'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.213 159ms
+  type: ss
+  server: '82.38.31.213'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 法国 VLESS 138.124.70.41 160ms
+  type: vless
+  server: '138.124.70.41'
+  port: 14430
+  uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
+  udp: true
+  servername: '138.124.70.41'
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: '138.124.70.41'
+- name: 法国 SS 172.99.189.142 160ms
+  type: ss
+  server: '172.99.189.142'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 其他 SS 82.38.31.207 160ms
+  type: ss
+  server: '82.38.31.207'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 荷兰 SS 82.38.31.198 160ms
+  type: ss
+  server: '82.38.31.198'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.200 160ms
+  type: ss
+  server: '82.38.31.200'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.195 160ms
+  type: ss
+  server: '82.38.31.195'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.206 160ms
+  type: ss
+  server: '82.38.31.206'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.211 160ms
+  type: ss
+  server: '82.38.31.211'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 其他 SS 185.226.172.8 160ms
+  type: ss
+  server: '185.226.172.8'
+  port: 8008
+  password: XKFKl2rULjIp74
+  cipher: aes-256-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 德国 SS 47.254.167.157 161ms
+  type: ss
+  server: '47.254.167.157'
+  port: 443
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  cipher: 2022-blake3-chacha20-poly1305
+  udp: true
+- name: 荷兰 SS 82.38.31.208 161ms
+  type: ss
+  server: '82.38.31.208'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.219 161ms
+  type: ss
+  server: '82.38.31.219'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.215 161ms
+  type: ss
+  server: '82.38.31.215'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.47 161ms
+  type: ss
+  server: '82.38.31.47'
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 意大利 SS 185.164.175.81 162ms
+  type: ss
+  server: '185.164.175.81'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 荷兰 SS 82.38.31.180 162ms
+  type: ss
+  server: '82.38.31.180'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.186 162ms
+  type: ss
+  server: '82.38.31.186'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.192 162ms
+  type: ss
+  server: '82.38.31.192'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.156 162ms
+  type: ss
+  server: '82.38.31.156'
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 法国 SS 167.17.64.175 163ms
+  type: ss
+  server: '167.17.64.175'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 荷兰 SS 82.38.31.216 163ms
+  type: ss
+  server: '82.38.31.216'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 荷兰 SS 82.38.31.35 163ms
+  type: ss
+  server: '82.38.31.35'
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.194 163ms
+  type: ss
+  server: '82.38.31.194'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.179 163ms
+  type: ss
+  server: '82.38.31.179'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.217 163ms
+  type: ss
+  server: '82.38.31.217'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.212 163ms
+  type: ss
+  server: '82.38.31.212'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.218 163ms
+  type: ss
+  server: '82.38.31.218'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 193.29.139.234 163ms
+  type: ss
+  server: '193.29.139.234'
+  port: 8080
+  password: 4a2rfixophdjffa8KVA4Aa
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  network: tcp
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.203 163ms
+  type: ss
+  server: '82.38.31.203'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.39 163ms
+  type: ss
+  server: '82.38.31.39'
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 奥地利 SS 82.110.60.9 164ms
+  type: ss
+  server: '82.110.60.9'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 瑞士 SS 186.190.215.251 164ms
+  type: ss
+  server: '186.190.215.251'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 意大利 SS 202.50.253.99 164ms
+  type: ss
+  server: '202.50.253.99'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 荷兰 SS 82.38.31.187 164ms
+  type: ss
+  server: '82.38.31.187'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 其他 SS 193.29.139.234 164ms
+  type: ss
+  server: '193.29.139.234'
+  port: 8080
+  password: 4a2rfixophdjffa8KVA4Aa
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 意大利 SS 202.50.253.54 166ms
+  type: ss
+  server: '202.50.253.54'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 其他 SS 193.29.139.198 166ms
+  type: ss
+  server: '193.29.139.198'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 新加坡 SS 149.88.107.47 166ms
+  type: ss
+  server: '149.88.107.47'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 俄罗斯 HYSTERIA2 135.126.21.107 166ms
+  type: hysteria2
+  server: '135.126.21.107'
+  port: 443
+  password: 6ac6d17d-040c-4fab-940e-8f5d72c3fed6
+  tls: false
+  sni: de2-balance.rezproffx.ru
+  udp: true
+- name: 荷兰 SS 82.38.31.184 166ms
+  type: ss
+  server: '82.38.31.184'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.191 166ms
+  type: ss
+  server: '82.38.31.191'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 193.29.139.132 166ms
+  type: ss
+  server: '193.29.139.132'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 瑞士 SS 23.166.88.127 167ms
+  type: ss
+  server: '23.166.88.127'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 意大利 SS 202.50.253.18 167ms
+  type: ss
+  server: '202.50.253.18'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 荷兰 SS 82.38.31.183 167ms
+  type: ss
+  server: '82.38.31.183'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 其他 HYSTERIA2 185.200.199.179 168ms
+  type: hysteria2
+  server: '185.200.199.179'
+  port: 54706
+  password: Cqx5aT9Zux
+  udp: true
+  tls: true
+  sni: '185.200.199.179'
+- name: 瑞典 VLESS 138.124.86.230 168ms
+  type: vless
+  server: '138.124.86.230'
+  port: 48115
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
+  udp: true
+  tls: true
+  servername: 138-124-86-230.sslip.io
+  alpn:
+  - h2
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 138-124-86-230-sslip-io
+- name: 俄罗斯 HYSTERIA2 94.183.164.119 168ms
+  type: hysteria2
+  server: '94.183.164.119'
+  port: 24403
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  tls: false
+  sni: docs.blog-forme.ru
+  client-fingerprint: chrome
+  udp: true
+- name: 新加坡 VLESS 206.206.78.36 168ms
+  type: vless
+  server: '206.206.78.36'
+  port: 443
+  uuid: e3f0c894-0f76-4683-a751-6a93da8fd14d
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ
+    short-id: 133a3f10a1581047
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 新加坡 VMESS 149.88.23.202 168ms
+  type: vmess
+  server: '149.88.23.202'
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+  client-fingerprint: ''
+- name: 其他 SS 158.173.20.208 168ms
+  type: ss
+  server: '158.173.20.208'
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 意大利 SS 202.50.253.27 169ms
+  type: ss
+  server: '202.50.253.27'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 挪威 SS 185.213.23.63 169ms
+  type: ss
+  server: '185.213.23.63'
+  port: 990
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 新加坡 SS 149.88.106.74 169ms
+  type: ss
+  server: '149.88.106.74'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 荷兰 SS 193.29.139.147 169ms
+  type: ss
+  server: '193.29.139.147'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 82.38.31.210 169ms
+  type: ss
+  server: '82.38.31.210'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 新加坡 VMESS 149.88.23.207 169ms
+  type: vmess
+  server: '149.88.23.207'
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+- name: 其他 VMESS ww11.levikogjgfdd.ir 169ms
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+  client-fingerprint: ''
+- name: 意大利 SS 202.50.253.63 170ms
+  type: ss
+  server: '202.50.253.63'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 其他 SS 138.199.55.243 170ms
+  type: ss
+  server: '138.199.55.243'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 其他 SS 149.88.107.74 170ms
+  type: ss
+  server: '149.88.107.74'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 意大利 SS 202.50.253.81 171ms
+  type: ss
+  server: '202.50.253.81'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 意大利 SS 202.50.253.45 171ms
+  type: ss
+  server: '202.50.253.45'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 意大利 SS 202.50.253.72 173ms
+  type: ss
+  server: '202.50.253.72'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 其他 HYSTERIA2 185.200.199.179 173ms
+  type: hysteria2
+  server: '185.200.199.179'
+  port: 54706
+  password: Cqx5aT9Zux
+  tls: false
+  sni: '185.200.199.179'
+  udp: true
+- name: 意大利 SS 202.50.253.90 177ms
+  type: ss
+  server: '202.50.253.90'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 荷兰 SS 82.38.31.182 178ms
+  type: ss
+  server: '82.38.31.182'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 意大利 SS 202.50.253.36 179ms
+  type: ss
+  server: '202.50.253.36'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 其他 HYSTERIA2 128.254.186.190 179ms
+  type: hysteria2
+  server: '128.254.186.190'
+  port: 13337
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  tls: false
+  sni: mother-earth.fyi
+  udp: true
+- name: 英国 HYSTERIA2 uk-tube-01.stre4m.net 179ms
+  type: hysteria2
+  server: uk-tube-01.stre4m.net
+  port: 13337
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  sni: mother-earth.fyi
+  alpn:
+  - h3
+  skip-cert-verify: true
+  udp: true
+- name: 荷兰 SS 82.38.31.189 180ms
+  type: ss
+  server: '82.38.31.189'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 美国 VLESS 47.253.226.114 180ms
+  type: vless
+  server: '47.253.226.114'
+  port: 443
+  uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 英国 HYSTERIA2 uk-tube-01.stre4m.net 182ms
+  type: hysteria2
+  server: uk-tube-01.stre4m.net
+  port: 13337
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  tls: false
+  servername: mother-earth.fyi
+  sni: mother-earth.fyi
+  skip-cert-verify: true
+  udp: true
+- name: 西班牙 SS 108.181.121.170 183ms
+  type: ss
+  server: '108.181.121.170'
+  port: 443
+  password: qItG8SueYQcP
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 其他 HYSTERIA2 128.254.186.190 184ms
+  type: hysteria2
+  server: '128.254.186.190'
+  port: 13337
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  udp: true
+  tls: true
+  sni: mother-earth.fyi
+- name: 其他 HYSTERIA2 128.254.186.163 185ms
+  type: hysteria2
+  server: '128.254.186.163'
+  port: 13337
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  udp: true
+  tls: true
+  sni: mother-earth.fyi
+- name: 香港 ANYTLS ibsdsf.df6h451rh.xin 188ms
+  type: anytls
+  server: ibsdsf.df6h451rh.xin
+  port: 443
+  password: 2902c46c8493
+  udp: true
+  sni: docs.microsoft.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+- name: 其他 VLESS 150.251.113.34 188ms
+  type: vless
+  server: '150.251.113.34'
+  port: 443
+  uuid: d7d724b5-17ce-4f3c-877d-dfbf0f07afa1
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: 8yMLSTbkpJFfbgTjNzotzz7U8OT6AERrclgKdKrXXW8
+    short-id: 150a627d15154cf2
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 美国 VLESS 2.24.124.64 190ms
+  type: vless
+  server: '2.24.124.64'
+  port: 443
+  uuid: 719b9354-45e2-4718-8709-d965b64554db
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: zpXR6Y36C8qUCIVk2p_j8C9KGeBk5xisLw66j3WFOls
+    short-id: 9f1fc5a631ef3126
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 意大利 SS 57.131.27.21 191ms
+  type: ss
+  server: '57.131.27.21'
+  port: 8388
+  password: itzvpn@321
+  cipher: aes-256-gcm
+  udp: true
+- name: 俄罗斯 SS 194.87.69.12 191ms
+  type: ss
+  server: '194.87.69.12'
+  port: 18443
+  password: 5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe
+  cipher: aes-256-gcm
+  udp: true
+- name: 其他 HYSTERIA2 128.254.186.213 192ms
+  type: hysteria2
+  server: '128.254.186.213'
+  port: 13337
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  udp: true
+  tls: true
+  sni: mother-earth.fyi
+- name: 英国 VMESS 57.129.132.223 192ms
+  type: vmess
+  server: '57.129.132.223'
+  port: 80
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: google.com
+  client-fingerprint: ''
+- name: 其他 VMESS 119.46.51.45 192ms
+  type: vmess
+  server: '119.46.51.45'
+  port: 37515
+  uuid: 9b76bc31-17a5-4454-934a-8d5fb602cd70
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+  client-fingerprint: ''
+- name: 英国 HYSTERIA2 uk-tube-01.stre4m.net 193ms
+  type: hysteria2
+  server: uk-tube-01.stre4m.net
+  port: 13337
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  udp: true
+  tls: true
+  sni: mother-earth.fyi
+  skip-cert-verify: true
+- name: 荷兰 VLESS 86.54.28.75 198ms
+  type: vless
+  server: '86.54.28.75'
+  port: 443
+  uuid: 44ae52b9-76fc-444d-8e43-186b4384b80a
+  udp: true
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  reality-opts:
+    public-key: PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU
+    short-id: 1d86d17709852910
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 加拿大 SS 51.222.136.236 199ms
+  type: ss
+  server: '51.222.136.236'
+  port: 8882
+  password: kDWvXYZoTBcGkC4
+  cipher: aes-256-gcm
+  udp: true
+- name: 其他 HYSTERIA2 128.254.186.57 203ms
+  type: hysteria2
+  server: '128.254.186.57'
+  port: 13337
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  tls: false
+  sni: mother-earth.fyi
+  skip-cert-verify: true
+  udp: true
+- name: 荷兰 VLESS 152.70.58.201 203ms
+  type: vless
+  server: '152.70.58.201'
+  port: 443
+  uuid: 8892e34a-339b-4526-b88d-cf68c516231c
+  udp: true
+  tls: true
+  servername: www.nvidia.com
+  network: tcp
+  reality-opts:
+    public-key: Hg_ivwbClYmR-SEHdoGgq4yEk6ltbjS5c4yiQRa4_28
+    short-id: 52c723e0fad49689
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 其他 SS 130.49.189.158 208ms
+  type: ss
+  server: '130.49.189.158'
+  port: 43558
+  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 荷兰 VLESS 185.16.110.62 209ms
+  type: vless
+  server: '185.16.110.62'
+  port: 2052
+  uuid: 85432578-96fd-4613-a255-e235a81cc94b
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?ed=2052
+    headers:
+      Host: cd90.u8o.lol
+- name: 越南 VLESS 150.95.109.109 218ms
+  type: vless
+  server: '150.95.109.109'
+  port: 2086
+  uuid: b83faafc-cbb7-4655-99d4-2c4c39a49d1b
+  udp: true
+- name: 荷兰 VLESS 85.8.201.186 219ms
+  type: vless
+  server: '85.8.201.186'
+  port: 443
+  uuid: 7aa77858-f235-000c-9434-7ab060848b17
+  udp: true
+  tls: true
+  servername: cdn.mornismp.ru
+  flow: xtls-rprx-vision
+- name: 俄罗斯 VLESS leviko-ru0640.shopingggg.ir 224ms
+  type: vless
+  server: leviko-ru0640.shopingggg.ir
+  port: 443
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  udp: true
+  tls: true
+  servername: vps3.nemnogogo.com
+  alpn:
+  - h2
+  network: grpc
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+- name: 荷兰 SS 193.29.139.223 224ms
+  type: ss
+  server: '193.29.139.223'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 俄罗斯 VLESS vps3.nemnogogo.com 232ms
+  type: vless
+  server: vps3.nemnogogo.com
+  port: 443
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  udp: true
+  tls: true
+  servername: vps3.nemnogogo.com
+  alpn:
+  - h2
+  network: grpc
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+- name: 其他 HYSTERIA2 136.148.83.69 233ms
+  type: hysteria2
+  server: '136.148.83.69'
+  port: 443
+  password: 87bb2ac4-b7a1-0001-b11d-2107709ea6cb
+  tls: false
+  sni: szqbx-ru-77dc.my-fade.cloud
+  skip-cert-verify: true
+  udp: true
+- name: 其他 HYSTERIA2 136.148.83.69 238ms
+  type: hysteria2
+  server: '136.148.83.69'
+  port: 443
+  password: 87bb2ac4-b7a1-0001-b11d-2107709ea6cb
+  udp: true
+  tls: true
+  sni: szqbx-ru-77dc.my-fade.cloud
+  skip-cert-verify: true
+- name: 阿联酋 VLESS 84.235.244.108 238ms
+  type: vless
+  server: '84.235.244.108'
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  servername: uae.unixzone.us
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 瑞典 VLESS ws.dhafhdtjdti.site 242ms
+  type: vless
+  server: ws.dhafhdtjdti.site
+  port: 2053
+  uuid: 9f749472-c636-4c5a-af51-7f8feefaac81
+  tls: true
+  servername: ws.dhafhdtjdti.site
+  network: ws
+  ws-opts:
+    headers:
+      Host: ws.dhafhdtjdti.site
+    path: /
+  client-fingerprint: chrome
+  udp: true
+- name: 美国 VLESS 47.251.25.74 242ms
+  type: vless
+  server: '47.251.25.74'
+  port: 443
+  uuid: 18805ff3-b420-45de-af18-93be14024ae8
+  udp: true
+  tls: true
+  servername: www.amazon.com
+  network: tcp
+  reality-opts:
+    public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 阿联酋 VLESS uae.unixzone.us 244ms
+  type: vless
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: uae.unixzone.us
+    path: /
+  skip-cert-verify: false
+- name: 瑞士 SS 79.127.184.104 247ms
+  type: ss
+  server: '79.127.184.104'
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 德国 VLESS bookend.filnex.baby 248ms
+  type: vless
+  server: bookend.filnex.baby
+  port: 443
+  uuid: 749b1c56-e658-4bf5-94bd-5c3286a4aed1
+  udp: true
+  tls: true
+  servername: ferncrest.gerqix.online
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    headers:
+      Host: bookend.filnex.baby
+    path: /api/de1/stream
+  client-fingerprint: firefox
+- name: 俄罗斯 VLESS leviko-ru0640.shopingggg.ir 253ms
+  type: vless
+  server: leviko-ru0640.shopingggg.ir
+  port: 443
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  udp: true
+  tls: true
+  servername: vps3.nemnogogo.com
+  alpn:
+  - h2
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: mobile.api.Event
+  client-fingerprint: firefox
+- name: 荷兰 SS 82.38.31.190 253ms
+  type: ss
+  server: '82.38.31.190'
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: false
+  skip-cert-verify: false
+- name: 其他 HYSTERIA2 179.61.138.145 254ms
+  type: hysteria2
+  server: '179.61.138.145'
+  port: 36264
+  password: vpNJEy
+  udp: true
+  tls: true
+  sni: de2.jey.cc.cd
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  skip-cert-verify: true
+- name: 法国 VLESS 188.114.99.137 255ms
+  type: vless
+  server: '188.114.99.137'
+  port: 80
+  uuid: c762af05-2e92-4133-bc30-8cf45dd40a28
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: suh.cryptofront.uk
+- name: 其他 HYSTERIA2 179.61.138.145 257ms
+  type: hysteria2
+  server: '179.61.138.145'
+  port: 36264
+  password: vpNJEy
+  tls: false
+  sni: de2.jey.cc.cd#
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  skip-cert-verify: true
+  udp: true
+- name: 俄罗斯 VLESS vps3.nemnogogo.com 262ms
+  type: vless
+  server: vps3.nemnogogo.com
+  port: 443
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  udp: true
+  tls: true
+  servername: vps3.nemnogogo.com
+  alpn:
+  - h2
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: mobile.api.Event
+  client-fingerprint: firefox
+- name: 日本 HYSTERIA2 43.130.234.128 272ms
+  type: hysteria2
+  server: '43.130.234.128'
+  port: 8443
+  password: Yuike2026cat
+  tls: false
+  sni: 43-130-234-128.sslip.io
+  skip-cert-verify: true
+  udp: true
+- name: 南非 SS 102.37.156.224 286ms
+  type: ss
+  server: '102.37.156.224'
+  port: 443
+  password: aduB9HGxQHjA2SBMRjkHX6
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 德国 VLESS sunfield.moltex.click 286ms
+  type: vless
+  server: sunfield.moltex.click
+  port: 443
+  uuid: 749b1c56-e658-4bf5-94bd-5c3286a4aed1
+  udp: true
+  tls: true
+  servername: fennel.moltex.click
+  alpn:
+  - h2
+  - http/1.1
+  network: xhttp
+  xhttp-opts:
+    host: sunfield.moltex.click
+    mode: auto
+    path: /api/de1/sync
+  client-fingerprint: firefox
+- name: 南非 SS 102.133.165.160 287ms
+  type: ss
+  server: '102.133.165.160'
+  port: 16233
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 印度 VLESS 147.93.171.8 294ms
+  type: vless
+  server: '147.93.171.8'
+  port: 8443
+  uuid: 591e7de6-f2dd-4ff9-ae21-8e00d5affa2a
+  tls: true
+  servername: 147-93-171-8.sslip.io
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    headers:
+      Host: 147-93-171-8.sslip.io
+    path: /vpn-live
+  client-fingerprint: firefox
+  udp: true
+- name: 加拿大 VLESS 130.12.242.106 296ms
+  type: vless
+  server: '130.12.242.106'
+  port: 443
+  uuid: bc058e69-0444-4c7b-98da-bd67f0b143da
+  udp: true
+  tls: true
+  servername: deepl.com
+  network: tcp
+  reality-opts:
+    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
+    short-id: 15affa0af66dfc79
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 加拿大 SS 51.222.155.113 298ms
+  type: ss
+  server: '51.222.155.113'
+  port: 5601
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+  udp: true
+- name: 阿联酋 VLESS 95.174.68.188 306ms
+  type: vless
+  server: '95.174.68.188'
+  port: 14430
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  udp: true
+  servername: '95.174.68.188'
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: '95.174.68.188'
+- name: 台湾 ANYTLS a54ge.df6h451rh.xin 317ms
+  type: anytls
+  server: a54ge.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  udp: true
+  sni: docs.microsoft.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+- name: 香港 HYSTERIA2 152.32.254.68 319ms
+  type: hysteria2
+  server: '152.32.254.68'
+  port: 5010
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  udp: true
+  tls: true
+  sni: nas.aizhzo.com
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+- name: 美国 VMESS fctwi.xiaoyan.io 326ms
+  type: vmess
+  server: fctwi.xiaoyan.io
+  port: 16648
+  uuid: 967fbc94-fccd-46c2-9241-be92d4906186
+  cipher: auto
+  alterId: 0
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 86714acc4cc5924e812db1c117db832f.mobgslb.tbcache.com
+- name: 德国 SS 57.129.113.16 330ms
+  type: ss
+  server: '57.129.113.16'
+  port: 8388
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 其他 HYSTERIA2 hysteria.udpgw.com 356ms
+  type: hysteria2
+  server: hysteria.udpgw.com
+  port: 8443
+  password: HowdyHysteria2023w0W
+  tls: false
+  sni: sni-here.com#
+  obfs: salamander
+  obfs-password: HysteriaHowdy
+  skip-cert-verify: true
+  udp: true
+- name: 美国 VLESS 167.17.69.171 359ms
+  type: vless
+  server: '167.17.69.171'
+  port: 443
+  uuid: 00144519-7e0d-476b-8d28-435576af9262
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk
+    short-id: 0990d22f
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 法国 VLESS 145.223.68.58 374ms
+  type: vless
+  server: '145.223.68.58'
+  port: 443
+  uuid: edb50d20-2d3e-4c1e-8a75-a17168a89aa5
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: qc2DcqT9zPPZr6ePZ7ukxACWrYhRNIBjDIjCK7veyQg
+    short-id: a44ff7d2e80213c2
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+- name: 奥地利 SS 152.53.1.57 391ms
+  type: ss
+  server: '152.53.1.57'
+  port: 8388
+  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 其他 VMESS 47.250.135.244 393ms
+  type: vmess
+  server: '47.250.135.244'
+  port: 10000
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: tcp
+  client-fingerprint: ''
+- name: 其他 VMESS 154.37.223.56 393ms
+  type: vmess
+  server: '154.37.223.56'
+  port: 52080
+  uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: http
+  http-opts:
+    path:
+    - /QQqun-737805443
+    headers: {}
+  client-fingerprint: ''
+- name: 其他 HYSTERIA2 128.254.186.57 398ms
+  type: hysteria2
+  server: '128.254.186.57'
+  port: 13337
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  udp: true
+  tls: true
+  sni: mother-earth.fyi
+  skip-cert-verify: true
+- name: 其他 VLESS 178.172.227.228 406ms
+  type: vless
+  server: '178.172.227.228'
+  port: 14430
+  uuid: b6e5dc56-836f-48c1-9163-b0b0b43b647d
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: '178.172.227.228'
+- name: 其他 VLESS 13.140.56.100 407ms
+  type: vless
+  server: '13.140.56.100'
+  port: 14430
+  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: '13.140.56.100'
+- name: 德国 ANYTLS signal.frnhk.xyz 419ms
+  type: anytls
+  server: signal.frnhk.xyz
+  port: 443
+  password: 69c9d0af-5370-4175-8cef-aa7e3b1a6381
+  udp: true
+  sni: signal.frnhk.xyz
+  skip-cert-verify: true
+- name: 其他 VLESS 95.128.71.79 443ms
+  type: vless
+  server: '95.128.71.79'
+  port: 14430
+  uuid: 8cef7621-c6f0-486e-b51d-59c30c5b0b25
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: '95.128.71.79'
+- name: 其他 VMESS 156.245.232.239 443ms
+  type: vmess
+  server: '156.245.232.239'
+  port: 35043
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers: {}
+- name: 德国 VLESS copperplate.gerqix.online 513ms
+  type: vless
+  server: copperplate.gerqix.online
+  port: 443
+  uuid: 749b1c56-e658-4bf5-94bd-5c3286a4aed1
+  udp: true
+  tls: true
+  servername: copperplate.gerqix.online
+  alpn:
+  - h2
+  - http/1.1
+  network: xhttp
+  xhttp-opts:
+    host: copperplate.gerqix.online
+    mode: auto
+    path: /api/de6/sync
+  client-fingerprint: firefox
+- name: 其他 SS 211.178.105.134 542ms
+  type: ss
+  server: '211.178.105.134'
+  port: 6123
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+  udp: false
+  skip-cert-verify: false
+- name: 美国 SS 15.204.247.244 555ms
+  type: ss
+  server: '15.204.247.244'
+  port: 4444
+  password: pKEW8JPByTVTLtM
+  cipher: aes-256-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 香港 SS 143.20.71.68 595ms
+  type: ss
+  server: '143.20.71.68'
+  port: 28014
+  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 其他 VMESS 129.226.157.220 620ms
+  type: vmess
+  server: '129.226.157.220'
+  port: 59121
+  uuid: d9865d63-d95c-454b-ba07-8e88b838a801
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  network: http
+  http-opts:
+    path:
+    - /
+    headers: {}
+  client-fingerprint: ''
+- name: 美国 ANYTLS signal.lovehk.xyz 804ms
+  type: anytls
+  server: signal.lovehk.xyz
+  port: 443
+  password: 934f37d8-efdc-4bb2-9cd3-d55ae5de6213
+  udp: true
+  sni: signal.lovehk.xyz
+  skip-cert-verify: true
+- name: 加拿大 SS 51.79.85.185 861ms
+  type: ss
+  server: '51.79.85.185'
+  port: 8118
+  password: cdBIDV42DCwnfIN
+  cipher: aes-256-gcm
+  udp: true
+- name: 芬兰 SS 213.176.92.148 1008ms
+  type: ss
+  server: '213.176.92.148'
+  port: 40647
+  password: DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY=
+  cipher: aes-256-gcm
+  udp: true
+- name: 英国 SS 94.156.250.148 1236ms
+  type: ss
+  server: '94.156.250.148'
+  port: 7001
+  password: RexnBgU7EV5ADxG
+  cipher: aes-256-gcm
+  udp: true
+- name: 其他 VLESS 178.172.227.124 1284ms
+  type: vless
+  server: '178.172.227.124'
+  port: 10443
+  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
+  udp: true
+- name: 加拿大 SS 51.222.200.165 1347ms
+  type: ss
+  server: '51.222.200.165'
+  port: 5000
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+  udp: true
+- name: 美国 SS 15.204.247.124 2144ms
+  type: ss
+  server: '15.204.247.124'
+  port: 2375
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+  udp: false
+  skip-cert-verify: false
+- name: 荷兰 SS 156.67.120.205 2193ms
+  type: ss
+  server: '156.67.120.205'
+  port: 51628
+  password: 29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF
+  cipher: chacha20-ietf-poly1305
+  udp: true
+proxy-groups:
+- name: 🚀 自动选择
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 30
+  lazy: false
+  max-failed-times: 3
+  proxies:
+  - 加拿大 SS 149.22.95.183 12ms
+  - 美国 VMESS 84.17.41.2 13ms
+  - 其他 SS 216.105.168.18 34ms
+  - 美国 VMESS 169.197.142.22 37ms
+  - 美国 SS 173.244.56.6 53ms
+  - 美国 VMESS 129.146.77.248 53ms
+  - 其他 VMESS 129.146.77.248 53ms
+  - 美国 SS 173.244.56.9 56ms
+  - 美国 SS 156.146.38.168 57ms
+  - 美国 SS 156.146.38.169 57ms
+  - 美国 SS 156.146.38.170 57ms
+  - 加拿大 VMESS 23.162.200.198 60ms
+  - 加拿大 VMESS 134.195.196.211 61ms
+  - 美国 VMESS 129.146.143.80 61ms
+  - 美国 VMESS 67.220.95.3 65ms
+  - 美国 SS 37.19.198.236 66ms
+  - 美国 SS 15.204.246.132 66ms
+  - 其他 SS 15.204.246.108 66ms
+  - 美国 SS 37.19.198.243 67ms
+  - 美国 SS 37.19.198.160 67ms
+  - 以色列 VLESS 185.95.231.156 68ms
+  - 美国 SS 15.204.246.111 68ms
+  - 其他 VLESS 172.64.154.113 69ms
+  - 美国 SS 37.19.198.244 71ms
+  - 美国 SS 198.98.53.130 73ms
+  - 加拿大 SS 51.222.12.127 77ms
+  - 加拿大 SS 51.222.141.125 78ms
+  - 加拿大 SS 51.222.12.127 78ms
+  - 美国 VMESS 67.220.85.46 78ms
+  - 美国 VMESS 38.91.107.49 81ms
+  - 美国 VMESS 38.110.1.246 82ms
+  - 其他 SS 137.184.174.93 84ms
+  - 加拿大 VLESS 209.200.246.148 89ms
+  - 美国 VLESS 188.114.98.0 97ms
+  - 日本 SS 149.22.87.241 102ms
+  - 日本 SS 149.22.87.240 105ms
+  - 其他 VMESS 168.138.43.75 110ms
+  - 韩国 SS 211.233.33.228 124ms
+  - 韩国 VMESS 217.142.138.61 124ms
+  - 日本 VLESS 50.7.159.242 125ms
+  - 韩国 VMESS 140.238.2.250 125ms
+  - 其他 VLESS 172.64.154.113 128ms
+  - 韩国 VLESS krd.80782636.xyz 129ms
+  - 日本 SS 149.22.87.204 133ms
+  - 荷兰 VLESS 51.194.118.38 143ms
+  - 荷兰 VLESS 163.172.213.174 143ms
+  - 俄罗斯 HYSTERIA2 212.34.137.105 144ms
+  - 英国 SS 198.244.202.215 144ms
+  - 荷兰 SS 151.241.19.36 145ms
+  - 英国 SS 198.244.201.129 146ms
+  - 荷兰 SS 151.241.19.29 146ms
+  - 台湾 ANYTLS er8u54dh.df6h451rh.xin 146ms
+  - 英国 SS 185.176.206.9 147ms
+  - 其他 SS 158.173.24.73 147ms
+  - 英国 SS 38.114.120.221 148ms
+  - 香港 HYSTERIA2 152.32.254.68 148ms
+  - 其他 SS 51.79.64.198 148ms
+  - 俄罗斯 HYSTERIA2 212.34.137.105 149ms
+  - 其他 VMESS 146.56.112.110 149ms
+  - 法国 SS 167.17.64.27 150ms
+  - 法国 SS 38.109.228.110 151ms
+  - 英国 SS 142.202.51.22 151ms
+  - 其他 SS 141.98.101.181 151ms
+  - 美国 SS 23.230.52.119 151ms
+  - 法国 VLESS 62.210.24.143 151ms
+  - 其他 SS 109.201.152.181 151ms
+  - 其他 SS 5.188.181.201 151ms
+  - 法国 VLESS ov-france1.09vpn.com 152ms
+  - 法国 VLESS 152.228.162.19 152ms
+  - 其他 SS 146.70.61.37 152ms
+  - 荷兰 HYSTERIA2 50.7.38.243 153ms
+  - 法国 VLESS ov-france1.09vpn.com 153ms
+  - 英国 SS 141.98.101.178 154ms
+  - 荷兰 HYSTERIA2 50.7.38.243 154ms
+  - 荷兰 SS 193.29.139.235 154ms
+  - 法国 HYSTERIA2 13.36.234.11 155ms
+  - 荷兰 SS 82.38.31.46 155ms
+  - '法国 HYSTERIA2 13.36.234.11 155ms #2'
+  - 德国 VLESS ov-germany1.09vpn.com 155ms
+  - 荷兰 SS 82.38.31.214 155ms
+  - 荷兰 SS 82.38.31.201 155ms
+  - 荷兰 SS 82.38.31.204 155ms
+  - 俄罗斯 HYSTERIA2 135.126.21.107 156ms
+  - 法国 SS 23.162.152.22 156ms
+  - 荷兰 SS 82.38.31.49 156ms
+  - 荷兰 SS 82.38.31.202 156ms
+  - 其他 SS 193.29.139.168 156ms
+  - 荷兰 SS 82.38.31.205 157ms
+  - 荷兰 VLESS 163.172.214.188 157ms
+  - 荷兰 SS 82.38.31.162 158ms
+  - 美国 HYSTERIA2 135.126.21.106 158ms
+  - 荷兰 SS 82.38.31.48 158ms
+  - 荷兰 SS 82.38.31.193 158ms
+  - 俄罗斯 HYSTERIA2 94.183.164.119 159ms
+  - 其他 SS 167.17.64.22 159ms
+  - 台湾 ANYTLS rtifgjdr.df6h451rh.xin 159ms
+  - 荷兰 SS 82.38.31.199 159ms
+  - 荷兰 SS 82.38.31.181 159ms
+  - 荷兰 SS 82.38.31.185 159ms
+  - 荷兰 SS 82.38.31.213 159ms
+  - 法国 VLESS 138.124.70.41 160ms
+  - 法国 SS 172.99.189.142 160ms
+  - 其他 SS 82.38.31.207 160ms
+  - 荷兰 SS 82.38.31.198 160ms
+  - 荷兰 SS 82.38.31.200 160ms
+  - 荷兰 SS 82.38.31.195 160ms
+  - 荷兰 SS 82.38.31.206 160ms
+  - 荷兰 SS 82.38.31.211 160ms
+  - 其他 SS 185.226.172.8 160ms
+  - 德国 SS 47.254.167.157 161ms
+  - 荷兰 SS 82.38.31.208 161ms
+  - 荷兰 SS 82.38.31.219 161ms
+  - 荷兰 SS 82.38.31.215 161ms
+  - 荷兰 SS 82.38.31.47 161ms
+  - 意大利 SS 185.164.175.81 162ms
+  - 荷兰 SS 82.38.31.180 162ms
+  - 荷兰 SS 82.38.31.186 162ms
+  - 荷兰 SS 82.38.31.192 162ms
+  - 荷兰 SS 82.38.31.156 162ms
+  - 法国 SS 167.17.64.175 163ms
+  - 荷兰 SS 82.38.31.216 163ms
+  - 荷兰 SS 82.38.31.35 163ms
+  - 荷兰 SS 82.38.31.194 163ms
+  - 荷兰 SS 82.38.31.179 163ms
+  - 荷兰 SS 82.38.31.217 163ms
+  - 荷兰 SS 82.38.31.212 163ms
+  - 荷兰 SS 82.38.31.218 163ms
+  - 荷兰 SS 193.29.139.234 163ms
+  - 荷兰 SS 82.38.31.203 163ms
+  - 荷兰 SS 82.38.31.39 163ms
+  - 奥地利 SS 82.110.60.9 164ms
+  - 瑞士 SS 186.190.215.251 164ms
+  - 意大利 SS 202.50.253.99 164ms
+  - 荷兰 SS 82.38.31.187 164ms
+  - 其他 SS 193.29.139.234 164ms
+  - 意大利 SS 202.50.253.54 166ms
+  - 其他 SS 193.29.139.198 166ms
+  - 新加坡 SS 149.88.107.47 166ms
+  - 俄罗斯 HYSTERIA2 135.126.21.107 166ms
+  - 荷兰 SS 82.38.31.184 166ms
+  - 荷兰 SS 82.38.31.191 166ms
+  - 荷兰 SS 193.29.139.132 166ms
+  - 瑞士 SS 23.166.88.127 167ms
+  - 意大利 SS 202.50.253.18 167ms
+  - 荷兰 SS 82.38.31.183 167ms
+  - 其他 HYSTERIA2 185.200.199.179 168ms
+  - 瑞典 VLESS 138.124.86.230 168ms
+  - 俄罗斯 HYSTERIA2 94.183.164.119 168ms
+  - 新加坡 VLESS 206.206.78.36 168ms
+  - 新加坡 VMESS 149.88.23.202 168ms
+  - 其他 SS 158.173.20.208 168ms
+  - 意大利 SS 202.50.253.27 169ms
+  - 挪威 SS 185.213.23.63 169ms
+  - 新加坡 SS 149.88.106.74 169ms
+  - 荷兰 SS 193.29.139.147 169ms
+  - 荷兰 SS 82.38.31.210 169ms
+  - 新加坡 VMESS 149.88.23.207 169ms
+  - 其他 VMESS ww11.levikogjgfdd.ir 169ms
+  - 意大利 SS 202.50.253.63 170ms
+  - 其他 SS 138.199.55.243 170ms
+  - 其他 SS 149.88.107.74 170ms
+  - 意大利 SS 202.50.253.81 171ms
+  - 意大利 SS 202.50.253.45 171ms
+  - 意大利 SS 202.50.253.72 173ms
+  - 其他 HYSTERIA2 185.200.199.179 173ms
+  - 意大利 SS 202.50.253.90 177ms
+  - 荷兰 SS 82.38.31.182 178ms
+  - 意大利 SS 202.50.253.36 179ms
+  - 其他 HYSTERIA2 128.254.186.190 179ms
+  - 英国 HYSTERIA2 uk-tube-01.stre4m.net 179ms
+  - 荷兰 SS 82.38.31.189 180ms
+  - 美国 VLESS 47.253.226.114 180ms
+  - 英国 HYSTERIA2 uk-tube-01.stre4m.net 182ms
+  - 西班牙 SS 108.181.121.170 183ms
+  - 其他 HYSTERIA2 128.254.186.190 184ms
+  - 其他 HYSTERIA2 128.254.186.163 185ms
+  - 香港 ANYTLS ibsdsf.df6h451rh.xin 188ms
+  - 其他 VLESS 150.251.113.34 188ms
+  - 美国 VLESS 2.24.124.64 190ms
+  - 意大利 SS 57.131.27.21 191ms
+  - 俄罗斯 SS 194.87.69.12 191ms
+  - 其他 HYSTERIA2 128.254.186.213 192ms
+  - 英国 VMESS 57.129.132.223 192ms
+  - 其他 VMESS 119.46.51.45 192ms
+  - 英国 HYSTERIA2 uk-tube-01.stre4m.net 193ms
+  - 荷兰 VLESS 86.54.28.75 198ms
+  - 加拿大 SS 51.222.136.236 199ms
+  - 其他 HYSTERIA2 128.254.186.57 203ms
+  - 荷兰 VLESS 152.70.58.201 203ms
+  - 其他 SS 130.49.189.158 208ms
+  - 荷兰 VLESS 185.16.110.62 209ms
+  - 越南 VLESS 150.95.109.109 218ms
+  - 荷兰 VLESS 85.8.201.186 219ms
+  - 俄罗斯 VLESS leviko-ru0640.shopingggg.ir 224ms
+  - 荷兰 SS 193.29.139.223 224ms
+  - 俄罗斯 VLESS vps3.nemnogogo.com 232ms
+  - 其他 HYSTERIA2 136.148.83.69 233ms
+  - 其他 HYSTERIA2 136.148.83.69 238ms
+  - 阿联酋 VLESS 84.235.244.108 238ms
+  - 瑞典 VLESS ws.dhafhdtjdti.site 242ms
+  - 美国 VLESS 47.251.25.74 242ms
+  - 阿联酋 VLESS uae.unixzone.us 244ms
+  - 瑞士 SS 79.127.184.104 247ms
+  - 德国 VLESS bookend.filnex.baby 248ms
+  - 俄罗斯 VLESS leviko-ru0640.shopingggg.ir 253ms
+  - 荷兰 SS 82.38.31.190 253ms
+  - 其他 HYSTERIA2 179.61.138.145 254ms
+  - 法国 VLESS 188.114.99.137 255ms
+  - 其他 HYSTERIA2 179.61.138.145 257ms
+  - 俄罗斯 VLESS vps3.nemnogogo.com 262ms
+  - 日本 HYSTERIA2 43.130.234.128 272ms
+  - 南非 SS 102.37.156.224 286ms
+  - 德国 VLESS sunfield.moltex.click 286ms
+  - 南非 SS 102.133.165.160 287ms
+  - 印度 VLESS 147.93.171.8 294ms
+  - 加拿大 VLESS 130.12.242.106 296ms
+  - 加拿大 SS 51.222.155.113 298ms
+  - 阿联酋 VLESS 95.174.68.188 306ms
+  - 台湾 ANYTLS a54ge.df6h451rh.xin 317ms
+  - 香港 HYSTERIA2 152.32.254.68 319ms
+  - 美国 VMESS fctwi.xiaoyan.io 326ms
+  - 德国 SS 57.129.113.16 330ms
+  - 其他 HYSTERIA2 hysteria.udpgw.com 356ms
+  - 美国 VLESS 167.17.69.171 359ms
+  - 法国 VLESS 145.223.68.58 374ms
+  - 奥地利 SS 152.53.1.57 391ms
+  - 其他 VMESS 47.250.135.244 393ms
+  - 其他 VMESS 154.37.223.56 393ms
+  - 其他 HYSTERIA2 128.254.186.57 398ms
+  - 其他 VLESS 178.172.227.228 406ms
+  - 其他 VLESS 13.140.56.100 407ms
+  - 德国 ANYTLS signal.frnhk.xyz 419ms
+  - 其他 VLESS 95.128.71.79 443ms
+  - 其他 VMESS 156.245.232.239 443ms
+  - 德国 VLESS copperplate.gerqix.online 513ms
+  - 其他 SS 211.178.105.134 542ms
+  - 美国 SS 15.204.247.244 555ms
+  - 香港 SS 143.20.71.68 595ms
+  - 其他 VMESS 129.226.157.220 620ms
+  - 美国 ANYTLS signal.lovehk.xyz 804ms
+  - 加拿大 SS 51.79.85.185 861ms
+  - 芬兰 SS 213.176.92.148 1008ms
+  - 英国 SS 94.156.250.148 1236ms
+  - 其他 VLESS 178.172.227.124 1284ms
+  - 加拿大 SS 51.222.200.165 1347ms
+  - 美国 SS 15.204.247.124 2144ms
+  - 荷兰 SS 156.67.120.205 2193ms
+- name: 📍 荷兰
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 荷兰 VLESS 51.194.118.38 143ms
+  - 荷兰 VLESS 163.172.213.174 143ms
+  - 荷兰 SS 151.241.19.36 145ms
+  - 荷兰 SS 151.241.19.29 146ms
+  - 荷兰 HYSTERIA2 50.7.38.243 153ms
+  - 荷兰 HYSTERIA2 50.7.38.243 154ms
+  - 荷兰 SS 193.29.139.235 154ms
+  - 荷兰 SS 82.38.31.46 155ms
+  - 荷兰 SS 82.38.31.214 155ms
+  - 荷兰 SS 82.38.31.201 155ms
+  - 荷兰 SS 82.38.31.204 155ms
+  - 荷兰 SS 82.38.31.49 156ms
+  - 荷兰 SS 82.38.31.202 156ms
+  - 荷兰 SS 82.38.31.205 157ms
+  - 荷兰 VLESS 163.172.214.188 157ms
+  - 荷兰 SS 82.38.31.162 158ms
+  - 荷兰 SS 82.38.31.48 158ms
+  - 荷兰 SS 82.38.31.193 158ms
+  - 荷兰 SS 82.38.31.199 159ms
+  - 荷兰 SS 82.38.31.181 159ms
+  - 荷兰 SS 82.38.31.185 159ms
+  - 荷兰 SS 82.38.31.213 159ms
+  - 荷兰 SS 82.38.31.198 160ms
+  - 荷兰 SS 82.38.31.200 160ms
+  - 荷兰 SS 82.38.31.195 160ms
+  - 荷兰 SS 82.38.31.206 160ms
+  - 荷兰 SS 82.38.31.211 160ms
+  - 荷兰 SS 82.38.31.208 161ms
+  - 荷兰 SS 82.38.31.219 161ms
+  - 荷兰 SS 82.38.31.215 161ms
+  - 荷兰 SS 82.38.31.47 161ms
+  - 荷兰 SS 82.38.31.180 162ms
+  - 荷兰 SS 82.38.31.186 162ms
+  - 荷兰 SS 82.38.31.192 162ms
+  - 荷兰 SS 82.38.31.156 162ms
+  - 荷兰 SS 82.38.31.216 163ms
+  - 荷兰 SS 82.38.31.35 163ms
+  - 荷兰 SS 82.38.31.194 163ms
+  - 荷兰 SS 82.38.31.179 163ms
+  - 荷兰 SS 82.38.31.217 163ms
+  - 荷兰 SS 82.38.31.212 163ms
+  - 荷兰 SS 82.38.31.218 163ms
+  - 荷兰 SS 193.29.139.234 163ms
+  - 荷兰 SS 82.38.31.203 163ms
+  - 荷兰 SS 82.38.31.39 163ms
+  - 荷兰 SS 82.38.31.187 164ms
+  - 荷兰 SS 82.38.31.184 166ms
+  - 荷兰 SS 82.38.31.191 166ms
+  - 荷兰 SS 193.29.139.132 166ms
+  - 荷兰 SS 82.38.31.183 167ms
+  - 荷兰 SS 193.29.139.147 169ms
+  - 荷兰 SS 82.38.31.210 169ms
+  - 荷兰 SS 82.38.31.182 178ms
+  - 荷兰 SS 82.38.31.189 180ms
+  - 荷兰 VLESS 86.54.28.75 198ms
+  - 荷兰 VLESS 152.70.58.201 203ms
+  - 荷兰 VLESS 185.16.110.62 209ms
+  - 荷兰 VLESS 85.8.201.186 219ms
+  - 荷兰 SS 193.29.139.223 224ms
+  - 荷兰 SS 82.38.31.190 253ms
+  - 荷兰 SS 156.67.120.205 2193ms
+- name: 📍 其他
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 其他 SS 216.105.168.18 34ms
+  - 其他 VMESS 129.146.77.248 53ms
+  - 其他 SS 15.204.246.108 66ms
+  - 其他 VLESS 172.64.154.113 69ms
+  - 其他 SS 137.184.174.93 84ms
+  - 其他 VMESS 168.138.43.75 110ms
+  - 其他 VLESS 172.64.154.113 128ms
+  - 其他 SS 158.173.24.73 147ms
+  - 其他 SS 51.79.64.198 148ms
+  - 其他 VMESS 146.56.112.110 149ms
+  - 其他 SS 141.98.101.181 151ms
+  - 其他 SS 109.201.152.181 151ms
+  - 其他 SS 5.188.181.201 151ms
+  - 其他 SS 146.70.61.37 152ms
+  - 其他 SS 193.29.139.168 156ms
+  - 其他 SS 167.17.64.22 159ms
+  - 其他 SS 82.38.31.207 160ms
+  - 其他 SS 185.226.172.8 160ms
+  - 其他 SS 193.29.139.234 164ms
+  - 其他 SS 193.29.139.198 166ms
+  - 其他 HYSTERIA2 185.200.199.179 168ms
+  - 其他 SS 158.173.20.208 168ms
+  - 其他 VMESS ww11.levikogjgfdd.ir 169ms
+  - 其他 SS 138.199.55.243 170ms
+  - 其他 SS 149.88.107.74 170ms
+  - 其他 HYSTERIA2 185.200.199.179 173ms
+  - 其他 HYSTERIA2 128.254.186.190 179ms
+  - 其他 HYSTERIA2 128.254.186.190 184ms
+  - 其他 HYSTERIA2 128.254.186.163 185ms
+  - 其他 VLESS 150.251.113.34 188ms
+  - 其他 HYSTERIA2 128.254.186.213 192ms
+  - 其他 VMESS 119.46.51.45 192ms
+  - 其他 HYSTERIA2 128.254.186.57 203ms
+  - 其他 SS 130.49.189.158 208ms
+  - 其他 HYSTERIA2 136.148.83.69 233ms
+  - 其他 HYSTERIA2 136.148.83.69 238ms
+  - 其他 HYSTERIA2 179.61.138.145 254ms
+  - 其他 HYSTERIA2 179.61.138.145 257ms
+  - 其他 HYSTERIA2 hysteria.udpgw.com 356ms
+  - 其他 VMESS 47.250.135.244 393ms
+  - 其他 VMESS 154.37.223.56 393ms
+  - 其他 HYSTERIA2 128.254.186.57 398ms
+  - 其他 VLESS 178.172.227.228 406ms
+  - 其他 VLESS 13.140.56.100 407ms
+  - 其他 VLESS 95.128.71.79 443ms
+  - 其他 VMESS 156.245.232.239 443ms
+  - 其他 SS 211.178.105.134 542ms
+  - 其他 VMESS 129.226.157.220 620ms
+  - 其他 VLESS 178.172.227.124 1284ms
+- name: 📍 美国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 美国 VMESS 84.17.41.2 13ms
+  - 美国 VMESS 169.197.142.22 37ms
+  - 美国 SS 173.244.56.6 53ms
+  - 美国 VMESS 129.146.77.248 53ms
+  - 美国 SS 173.244.56.9 56ms
+  - 美国 SS 156.146.38.168 57ms
+  - 美国 SS 156.146.38.169 57ms
+  - 美国 SS 156.146.38.170 57ms
+  - 美国 VMESS 129.146.143.80 61ms
+  - 美国 VMESS 67.220.95.3 65ms
+  - 美国 SS 37.19.198.236 66ms
+  - 美国 SS 15.204.246.132 66ms
+  - 美国 SS 37.19.198.243 67ms
+  - 美国 SS 37.19.198.160 67ms
+  - 美国 SS 15.204.246.111 68ms
+  - 美国 SS 37.19.198.244 71ms
+  - 美国 SS 198.98.53.130 73ms
+  - 美国 VMESS 67.220.85.46 78ms
+  - 美国 VMESS 38.91.107.49 81ms
+  - 美国 VMESS 38.110.1.246 82ms
+  - 美国 VLESS 188.114.98.0 97ms
+  - 美国 SS 23.230.52.119 151ms
+  - 美国 HYSTERIA2 135.126.21.106 158ms
+  - 美国 VLESS 47.253.226.114 180ms
+  - 美国 VLESS 2.24.124.64 190ms
+  - 美国 VLESS 47.251.25.74 242ms
+  - 美国 VMESS fctwi.xiaoyan.io 326ms
+  - 美国 VLESS 167.17.69.171 359ms
+  - 美国 SS 15.204.247.244 555ms
+  - 美国 ANYTLS signal.lovehk.xyz 804ms
+  - 美国 SS 15.204.247.124 2144ms
+- name: 📍 法国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 法国 SS 167.17.64.27 150ms
+  - 法国 SS 38.109.228.110 151ms
+  - 法国 VLESS 62.210.24.143 151ms
+  - 法国 VLESS ov-france1.09vpn.com 152ms
+  - 法国 VLESS 152.228.162.19 152ms
+  - 法国 VLESS ov-france1.09vpn.com 153ms
+  - 法国 HYSTERIA2 13.36.234.11 155ms
+  - '法国 HYSTERIA2 13.36.234.11 155ms #2'
+  - 法国 SS 23.162.152.22 156ms
+  - 法国 VLESS 138.124.70.41 160ms
+  - 法国 SS 172.99.189.142 160ms
+  - 法国 SS 167.17.64.175 163ms
+  - 法国 VLESS 188.114.99.137 255ms
+  - 法国 VLESS 145.223.68.58 374ms
+- name: 📍 加拿大
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 加拿大 SS 149.22.95.183 12ms
+  - 加拿大 VMESS 23.162.200.198 60ms
+  - 加拿大 VMESS 134.195.196.211 61ms
+  - 加拿大 SS 51.222.12.127 77ms
+  - 加拿大 SS 51.222.141.125 78ms
+  - 加拿大 SS 51.222.12.127 78ms
+  - 加拿大 VLESS 209.200.246.148 89ms
+  - 加拿大 SS 51.222.136.236 199ms
+  - 加拿大 VLESS 130.12.242.106 296ms
+  - 加拿大 SS 51.222.155.113 298ms
+  - 加拿大 SS 51.79.85.185 861ms
+  - 加拿大 SS 51.222.200.165 1347ms
+- name: 📍 意大利
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 意大利 SS 185.164.175.81 162ms
+  - 意大利 SS 202.50.253.99 164ms
+  - 意大利 SS 202.50.253.54 166ms
+  - 意大利 SS 202.50.253.18 167ms
+  - 意大利 SS 202.50.253.27 169ms
+  - 意大利 SS 202.50.253.63 170ms
+  - 意大利 SS 202.50.253.81 171ms
+  - 意大利 SS 202.50.253.45 171ms
+  - 意大利 SS 202.50.253.72 173ms
+  - 意大利 SS 202.50.253.90 177ms
+  - 意大利 SS 202.50.253.36 179ms
+  - 意大利 SS 57.131.27.21 191ms
+- name: 📍 俄罗斯
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 俄罗斯 HYSTERIA2 212.34.137.105 144ms
+  - 俄罗斯 HYSTERIA2 212.34.137.105 149ms
+  - 俄罗斯 HYSTERIA2 135.126.21.107 156ms
+  - 俄罗斯 HYSTERIA2 94.183.164.119 159ms
+  - 俄罗斯 HYSTERIA2 135.126.21.107 166ms
+  - 俄罗斯 HYSTERIA2 94.183.164.119 168ms
+  - 俄罗斯 SS 194.87.69.12 191ms
+  - 俄罗斯 VLESS leviko-ru0640.shopingggg.ir 224ms
+  - 俄罗斯 VLESS vps3.nemnogogo.com 232ms
+  - 俄罗斯 VLESS leviko-ru0640.shopingggg.ir 253ms
+  - 俄罗斯 VLESS vps3.nemnogogo.com 262ms
+- name: 📍 英国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 英国 SS 198.244.202.215 144ms
+  - 英国 SS 198.244.201.129 146ms
+  - 英国 SS 185.176.206.9 147ms
+  - 英国 SS 38.114.120.221 148ms
+  - 英国 SS 142.202.51.22 151ms
+  - 英国 SS 141.98.101.178 154ms
+  - 英国 HYSTERIA2 uk-tube-01.stre4m.net 179ms
+  - 英国 HYSTERIA2 uk-tube-01.stre4m.net 182ms
+  - 英国 VMESS 57.129.132.223 192ms
+  - 英国 HYSTERIA2 uk-tube-01.stre4m.net 193ms
+  - 英国 SS 94.156.250.148 1236ms
+- name: 📍 德国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 德国 VLESS ov-germany1.09vpn.com 155ms
+  - 德国 SS 47.254.167.157 161ms
+  - 德国 VLESS bookend.filnex.baby 248ms
+  - 德国 VLESS sunfield.moltex.click 286ms
+  - 德国 SS 57.129.113.16 330ms
+  - 德国 ANYTLS signal.frnhk.xyz 419ms
+  - 德国 VLESS copperplate.gerqix.online 513ms
+- name: 📍 新加坡
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 新加坡 SS 149.88.107.47 166ms
+  - 新加坡 VLESS 206.206.78.36 168ms
+  - 新加坡 VMESS 149.88.23.202 168ms
+  - 新加坡 SS 149.88.106.74 169ms
+  - 新加坡 VMESS 149.88.23.207 169ms
+- name: 📍 日本
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 日本 SS 149.22.87.241 102ms
+  - 日本 SS 149.22.87.240 105ms
+  - 日本 VLESS 50.7.159.242 125ms
+  - 日本 SS 149.22.87.204 133ms
+  - 日本 HYSTERIA2 43.130.234.128 272ms
+- name: 📍 韩国
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 韩国 SS 211.233.33.228 124ms
+  - 韩国 VMESS 217.142.138.61 124ms
+  - 韩国 VMESS 140.238.2.250 125ms
+  - 韩国 VLESS krd.80782636.xyz 129ms
+- name: 📍 香港
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 香港 HYSTERIA2 152.32.254.68 148ms
+  - 香港 ANYTLS ibsdsf.df6h451rh.xin 188ms
+  - 香港 HYSTERIA2 152.32.254.68 319ms
+  - 香港 SS 143.20.71.68 595ms
+- name: 📍 台湾
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 台湾 ANYTLS er8u54dh.df6h451rh.xin 146ms
+  - 台湾 ANYTLS rtifgjdr.df6h451rh.xin 159ms
+  - 台湾 ANYTLS a54ge.df6h451rh.xin 317ms
+- name: 📍 瑞士
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 瑞士 SS 186.190.215.251 164ms
+  - 瑞士 SS 23.166.88.127 167ms
+  - 瑞士 SS 79.127.184.104 247ms
+- name: 📍 阿联酋
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 阿联酋 VLESS 84.235.244.108 238ms
+  - 阿联酋 VLESS uae.unixzone.us 244ms
+  - 阿联酋 VLESS 95.174.68.188 306ms
+- name: 📍 南非
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 南非 SS 102.37.156.224 286ms
+  - 南非 SS 102.133.165.160 287ms
+- name: 📍 奥地利
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 奥地利 SS 82.110.60.9 164ms
+  - 奥地利 SS 152.53.1.57 391ms
+- name: 📍 瑞典
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 瑞典 VLESS 138.124.86.230 168ms
+  - 瑞典 VLESS ws.dhafhdtjdti.site 242ms
+- name: 📍 以色列
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 以色列 VLESS 185.95.231.156 68ms
+- name: 📍 印度
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 印度 VLESS 147.93.171.8 294ms
+- name: 📍 挪威
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 挪威 SS 185.213.23.63 169ms
+- name: 📍 芬兰
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 芬兰 SS 213.176.92.148 1008ms
+- name: 📍 西班牙
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 西班牙 SS 108.181.121.170 183ms
+- name: 📍 越南
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 越南 VLESS 150.95.109.109 218ms
+- name: 🎯 全节点
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - 加拿大 SS 149.22.95.183 12ms
+  - 美国 VMESS 84.17.41.2 13ms
+  - 其他 SS 216.105.168.18 34ms
+  - 美国 VMESS 169.197.142.22 37ms
+  - 美国 SS 173.244.56.6 53ms
+  - 美国 VMESS 129.146.77.248 53ms
+  - 其他 VMESS 129.146.77.248 53ms
+  - 美国 SS 173.244.56.9 56ms
+  - 美国 SS 156.146.38.168 57ms
+  - 美国 SS 156.146.38.169 57ms
+  - 美国 SS 156.146.38.170 57ms
+  - 加拿大 VMESS 23.162.200.198 60ms
+  - 加拿大 VMESS 134.195.196.211 61ms
+  - 美国 VMESS 129.146.143.80 61ms
+  - 美国 VMESS 67.220.95.3 65ms
+  - 美国 SS 37.19.198.236 66ms
+  - 美国 SS 15.204.246.132 66ms
+  - 其他 SS 15.204.246.108 66ms
+  - 美国 SS 37.19.198.243 67ms
+  - 美国 SS 37.19.198.160 67ms
+  - 以色列 VLESS 185.95.231.156 68ms
+  - 美国 SS 15.204.246.111 68ms
+  - 其他 VLESS 172.64.154.113 69ms
+  - 美国 SS 37.19.198.244 71ms
+  - 美国 SS 198.98.53.130 73ms
+  - 加拿大 SS 51.222.12.127 77ms
+  - 加拿大 SS 51.222.141.125 78ms
+  - 加拿大 SS 51.222.12.127 78ms
+  - 美国 VMESS 67.220.85.46 78ms
+  - 美国 VMESS 38.91.107.49 81ms
+  - 美国 VMESS 38.110.1.246 82ms
+  - 其他 SS 137.184.174.93 84ms
+  - 加拿大 VLESS 209.200.246.148 89ms
+  - 美国 VLESS 188.114.98.0 97ms
+  - 日本 SS 149.22.87.241 102ms
+  - 日本 SS 149.22.87.240 105ms
+  - 其他 VMESS 168.138.43.75 110ms
+  - 韩国 SS 211.233.33.228 124ms
+  - 韩国 VMESS 217.142.138.61 124ms
+  - 日本 VLESS 50.7.159.242 125ms
+  - 韩国 VMESS 140.238.2.250 125ms
+  - 其他 VLESS 172.64.154.113 128ms
+  - 韩国 VLESS krd.80782636.xyz 129ms
+  - 日本 SS 149.22.87.204 133ms
+  - 荷兰 VLESS 51.194.118.38 143ms
+  - 荷兰 VLESS 163.172.213.174 143ms
+  - 俄罗斯 HYSTERIA2 212.34.137.105 144ms
+  - 英国 SS 198.244.202.215 144ms
+  - 荷兰 SS 151.241.19.36 145ms
+  - 英国 SS 198.244.201.129 146ms
+  - 荷兰 SS 151.241.19.29 146ms
+  - 台湾 ANYTLS er8u54dh.df6h451rh.xin 146ms
+  - 英国 SS 185.176.206.9 147ms
+  - 其他 SS 158.173.24.73 147ms
+  - 英国 SS 38.114.120.221 148ms
+  - 香港 HYSTERIA2 152.32.254.68 148ms
+  - 其他 SS 51.79.64.198 148ms
+  - 俄罗斯 HYSTERIA2 212.34.137.105 149ms
+  - 其他 VMESS 146.56.112.110 149ms
+  - 法国 SS 167.17.64.27 150ms
+  - 法国 SS 38.109.228.110 151ms
+  - 英国 SS 142.202.51.22 151ms
+  - 其他 SS 141.98.101.181 151ms
+  - 美国 SS 23.230.52.119 151ms
+  - 法国 VLESS 62.210.24.143 151ms
+  - 其他 SS 109.201.152.181 151ms
+  - 其他 SS 5.188.181.201 151ms
+  - 法国 VLESS ov-france1.09vpn.com 152ms
+  - 法国 VLESS 152.228.162.19 152ms
+  - 其他 SS 146.70.61.37 152ms
+  - 荷兰 HYSTERIA2 50.7.38.243 153ms
+  - 法国 VLESS ov-france1.09vpn.com 153ms
+  - 英国 SS 141.98.101.178 154ms
+  - 荷兰 HYSTERIA2 50.7.38.243 154ms
+  - 荷兰 SS 193.29.139.235 154ms
+  - 法国 HYSTERIA2 13.36.234.11 155ms
+  - 荷兰 SS 82.38.31.46 155ms
+  - '法国 HYSTERIA2 13.36.234.11 155ms #2'
+  - 德国 VLESS ov-germany1.09vpn.com 155ms
+  - 荷兰 SS 82.38.31.214 155ms
+  - 荷兰 SS 82.38.31.201 155ms
+  - 荷兰 SS 82.38.31.204 155ms
+  - 俄罗斯 HYSTERIA2 135.126.21.107 156ms
+  - 法国 SS 23.162.152.22 156ms
+  - 荷兰 SS 82.38.31.49 156ms
+  - 荷兰 SS 82.38.31.202 156ms
+  - 其他 SS 193.29.139.168 156ms
+  - 荷兰 SS 82.38.31.205 157ms
+  - 荷兰 VLESS 163.172.214.188 157ms
+  - 荷兰 SS 82.38.31.162 158ms
+  - 美国 HYSTERIA2 135.126.21.106 158ms
+  - 荷兰 SS 82.38.31.48 158ms
+  - 荷兰 SS 82.38.31.193 158ms
+  - 俄罗斯 HYSTERIA2 94.183.164.119 159ms
+  - 其他 SS 167.17.64.22 159ms
+  - 台湾 ANYTLS rtifgjdr.df6h451rh.xin 159ms
+  - 荷兰 SS 82.38.31.199 159ms
+  - 荷兰 SS 82.38.31.181 159ms
+  - 荷兰 SS 82.38.31.185 159ms
+  - 荷兰 SS 82.38.31.213 159ms
+  - 法国 VLESS 138.124.70.41 160ms
+  - 法国 SS 172.99.189.142 160ms
+  - 其他 SS 82.38.31.207 160ms
+  - 荷兰 SS 82.38.31.198 160ms
+  - 荷兰 SS 82.38.31.200 160ms
+  - 荷兰 SS 82.38.31.195 160ms
+  - 荷兰 SS 82.38.31.206 160ms
+  - 荷兰 SS 82.38.31.211 160ms
+  - 其他 SS 185.226.172.8 160ms
+  - 德国 SS 47.254.167.157 161ms
+  - 荷兰 SS 82.38.31.208 161ms
+  - 荷兰 SS 82.38.31.219 161ms
+  - 荷兰 SS 82.38.31.215 161ms
+  - 荷兰 SS 82.38.31.47 161ms
+  - 意大利 SS 185.164.175.81 162ms
+  - 荷兰 SS 82.38.31.180 162ms
+  - 荷兰 SS 82.38.31.186 162ms
+  - 荷兰 SS 82.38.31.192 162ms
+  - 荷兰 SS 82.38.31.156 162ms
+  - 法国 SS 167.17.64.175 163ms
+  - 荷兰 SS 82.38.31.216 163ms
+  - 荷兰 SS 82.38.31.35 163ms
+  - 荷兰 SS 82.38.31.194 163ms
+  - 荷兰 SS 82.38.31.179 163ms
+  - 荷兰 SS 82.38.31.217 163ms
+  - 荷兰 SS 82.38.31.212 163ms
+  - 荷兰 SS 82.38.31.218 163ms
+  - 荷兰 SS 193.29.139.234 163ms
+  - 荷兰 SS 82.38.31.203 163ms
+  - 荷兰 SS 82.38.31.39 163ms
+  - 奥地利 SS 82.110.60.9 164ms
+  - 瑞士 SS 186.190.215.251 164ms
+  - 意大利 SS 202.50.253.99 164ms
+  - 荷兰 SS 82.38.31.187 164ms
+  - 其他 SS 193.29.139.234 164ms
+  - 意大利 SS 202.50.253.54 166ms
+  - 其他 SS 193.29.139.198 166ms
+  - 新加坡 SS 149.88.107.47 166ms
+  - 俄罗斯 HYSTERIA2 135.126.21.107 166ms
+  - 荷兰 SS 82.38.31.184 166ms
+  - 荷兰 SS 82.38.31.191 166ms
+  - 荷兰 SS 193.29.139.132 166ms
+  - 瑞士 SS 23.166.88.127 167ms
+  - 意大利 SS 202.50.253.18 167ms
+  - 荷兰 SS 82.38.31.183 167ms
+  - 其他 HYSTERIA2 185.200.199.179 168ms
+  - 瑞典 VLESS 138.124.86.230 168ms
+  - 俄罗斯 HYSTERIA2 94.183.164.119 168ms
+  - 新加坡 VLESS 206.206.78.36 168ms
+  - 新加坡 VMESS 149.88.23.202 168ms
+  - 其他 SS 158.173.20.208 168ms
+  - 意大利 SS 202.50.253.27 169ms
+  - 挪威 SS 185.213.23.63 169ms
+  - 新加坡 SS 149.88.106.74 169ms
+  - 荷兰 SS 193.29.139.147 169ms
+  - 荷兰 SS 82.38.31.210 169ms
+  - 新加坡 VMESS 149.88.23.207 169ms
+  - 其他 VMESS ww11.levikogjgfdd.ir 169ms
+  - 意大利 SS 202.50.253.63 170ms
+  - 其他 SS 138.199.55.243 170ms
+  - 其他 SS 149.88.107.74 170ms
+  - 意大利 SS 202.50.253.81 171ms
+  - 意大利 SS 202.50.253.45 171ms
+  - 意大利 SS 202.50.253.72 173ms
+  - 其他 HYSTERIA2 185.200.199.179 173ms
+  - 意大利 SS 202.50.253.90 177ms
+  - 荷兰 SS 82.38.31.182 178ms
+  - 意大利 SS 202.50.253.36 179ms
+  - 其他 HYSTERIA2 128.254.186.190 179ms
+  - 英国 HYSTERIA2 uk-tube-01.stre4m.net 179ms
+  - 荷兰 SS 82.38.31.189 180ms
+  - 美国 VLESS 47.253.226.114 180ms
+  - 英国 HYSTERIA2 uk-tube-01.stre4m.net 182ms
+  - 西班牙 SS 108.181.121.170 183ms
+  - 其他 HYSTERIA2 128.254.186.190 184ms
+  - 其他 HYSTERIA2 128.254.186.163 185ms
+  - 香港 ANYTLS ibsdsf.df6h451rh.xin 188ms
+  - 其他 VLESS 150.251.113.34 188ms
+  - 美国 VLESS 2.24.124.64 190ms
+  - 意大利 SS 57.131.27.21 191ms
+  - 俄罗斯 SS 194.87.69.12 191ms
+  - 其他 HYSTERIA2 128.254.186.213 192ms
+  - 英国 VMESS 57.129.132.223 192ms
+  - 其他 VMESS 119.46.51.45 192ms
+  - 英国 HYSTERIA2 uk-tube-01.stre4m.net 193ms
+  - 荷兰 VLESS 86.54.28.75 198ms
+  - 加拿大 SS 51.222.136.236 199ms
+  - 其他 HYSTERIA2 128.254.186.57 203ms
+  - 荷兰 VLESS 152.70.58.201 203ms
+  - 其他 SS 130.49.189.158 208ms
+  - 荷兰 VLESS 185.16.110.62 209ms
+  - 越南 VLESS 150.95.109.109 218ms
+  - 荷兰 VLESS 85.8.201.186 219ms
+  - 俄罗斯 VLESS leviko-ru0640.shopingggg.ir 224ms
+  - 荷兰 SS 193.29.139.223 224ms
+  - 俄罗斯 VLESS vps3.nemnogogo.com 232ms
+  - 其他 HYSTERIA2 136.148.83.69 233ms
+  - 其他 HYSTERIA2 136.148.83.69 238ms
+  - 阿联酋 VLESS 84.235.244.108 238ms
+  - 瑞典 VLESS ws.dhafhdtjdti.site 242ms
+  - 美国 VLESS 47.251.25.74 242ms
+  - 阿联酋 VLESS uae.unixzone.us 244ms
+  - 瑞士 SS 79.127.184.104 247ms
+  - 德国 VLESS bookend.filnex.baby 248ms
+  - 俄罗斯 VLESS leviko-ru0640.shopingggg.ir 253ms
+  - 荷兰 SS 82.38.31.190 253ms
+  - 其他 HYSTERIA2 179.61.138.145 254ms
+  - 法国 VLESS 188.114.99.137 255ms
+  - 其他 HYSTERIA2 179.61.138.145 257ms
+  - 俄罗斯 VLESS vps3.nemnogogo.com 262ms
+  - 日本 HYSTERIA2 43.130.234.128 272ms
+  - 南非 SS 102.37.156.224 286ms
+  - 德国 VLESS sunfield.moltex.click 286ms
+  - 南非 SS 102.133.165.160 287ms
+  - 印度 VLESS 147.93.171.8 294ms
+  - 加拿大 VLESS 130.12.242.106 296ms
+  - 加拿大 SS 51.222.155.113 298ms
+  - 阿联酋 VLESS 95.174.68.188 306ms
+  - 台湾 ANYTLS a54ge.df6h451rh.xin 317ms
+  - 香港 HYSTERIA2 152.32.254.68 319ms
+  - 美国 VMESS fctwi.xiaoyan.io 326ms
+  - 德国 SS 57.129.113.16 330ms
+  - 其他 HYSTERIA2 hysteria.udpgw.com 356ms
+  - 美国 VLESS 167.17.69.171 359ms
+  - 法国 VLESS 145.223.68.58 374ms
+  - 奥地利 SS 152.53.1.57 391ms
+  - 其他 VMESS 47.250.135.244 393ms
+  - 其他 VMESS 154.37.223.56 393ms
+  - 其他 HYSTERIA2 128.254.186.57 398ms
+  - 其他 VLESS 178.172.227.228 406ms
+  - 其他 VLESS 13.140.56.100 407ms
+  - 德国 ANYTLS signal.frnhk.xyz 419ms
+  - 其他 VLESS 95.128.71.79 443ms
+  - 其他 VMESS 156.245.232.239 443ms
+  - 德国 VLESS copperplate.gerqix.online 513ms
+  - 其他 SS 211.178.105.134 542ms
+  - 美国 SS 15.204.247.244 555ms
+  - 香港 SS 143.20.71.68 595ms
+  - 其他 VMESS 129.226.157.220 620ms
+  - 美国 ANYTLS signal.lovehk.xyz 804ms
+  - 加拿大 SS 51.79.85.185 861ms
+  - 芬兰 SS 213.176.92.148 1008ms
+  - 英国 SS 94.156.250.148 1236ms
+  - 其他 VLESS 178.172.227.124 1284ms
+  - 加拿大 SS 51.222.200.165 1347ms
+  - 美国 SS 15.204.247.124 2144ms
+  - 荷兰 SS 156.67.120.205 2193ms
+- name: 🐟 漏网之鱼
+  type: select
+  proxies:
+  - 🚀 自动选择
+  - DIRECT
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - '*.lan'
+  - +.local
+  - dns.alidns.com
+  - '*.googlevideo.com'
+  default-nameserver:
+  - '223.5.5.5'
+  - '119.29.29.29'
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  fallback:
+  - https://dns.google/dns-query
+  - tls://8.8.8.8:853
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+  geodata-mode: false
+  unified-delay: true
+rules:
+- GEOIP,CN,DIRECT
+- MATCH,🐟 漏网之鱼
